@@ -22,7 +22,7 @@
 	<scm>
 		<url>https://github.com/thinkingstone/dsa-documents</url>
 		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
-		<developerConnection>scm:git:https://github.com/thinkingstone/dsa-documents.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
