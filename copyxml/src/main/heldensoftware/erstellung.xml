@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<seiten debug="false" style="xslt">
+	<input file="copy.xml.xsl" charset="UTF-8" />
+	<output file="daten.xml" charset="UTF-8" />
+</seiten>
