@@ -1,0 +1,2903 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" ?>
+<daten>
+	<config>
+		<rsmodell>zone</rsmodell>
+		<datum>15.06.2013</datum>
+		<uhrzeit>14:46</uhrzeit>
+		<geldkreise>false</geldkreise>
+		<metatalente>true</metatalente>
+		<zauberquellen>true</zauberquellen>
+		<namenaufseiten>false</namenaufseiten>
+	</config>
+	<angaben>
+		<augenfarbe>dunkelbraun</augenfarbe>
+		<geburtstag>24. Praios 1003 BF</geburtstag>
+		<alter>20</alter>
+		<geschlecht>weiblich</geschlecht>
+		<groesse>188</groesse>
+		<gewicht>83</gewicht>
+		<haarfarbe>schwarz</haarfarbe>
+		<stand />
+		<titel />
+		<name>Geweiht</name>
+		<bildPfad>/home/mb/workspaces/heldendokument/GIT/testdata/src/main/resources/geweiht.jpg</bildPfad>
+		<aussehen>
+			<a0 />
+			<a1 />
+			<a2 />
+			<a3 />
+			<text />
+		</aussehen>
+		<familie>
+			<f0 />
+			<f1 />
+			<f2 />
+			<f3 />
+			<f4 />
+			<f5 />
+			<text />
+		</familie>
+		<notizen>
+			<n0>Notizen</n0>
+			<n1 />
+			<n2 />
+			<n3 />
+			<n4 />
+			<n5 />
+			<n6 />
+			<n7 />
+			<n8 />
+			<n9 />
+			<n10 />
+			<n11 />
+			<text>Notizen</text>
+		</notizen>
+		<profession>
+			<text>Geweihte: Hesinde, Satori</text>
+			<textkurz>Geweihte</textkurz>
+		</profession>
+		<ap>
+			<gesamt>5540</gesamt>
+			<frei>2544</frei>
+			<genutzt>2996</genutzt>
+		</ap>
+		<gp>
+			<start>110</start>
+			<rest>0</rest>
+		</gp>
+		<stufe40>
+			<akt>8</akt>
+			<max>11</max>
+			<lang>8 [11]</lang>
+		</stufe40>
+		<stufe41>
+			<akt>2</akt>
+			<max>5</max>
+			<lang>2 [5]</lang>
+		</stufe41>
+		<stufe deprecated="true">
+			<akt>2</akt>
+			<max>5</max>
+			<lang>2 [5]</lang>
+		</stufe>
+		<gilde />
+		<magisch>false</magisch>
+		<geweiht>true</geweiht>
+		<rasse>Tulamidin</rasse>
+		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
+		<aspregeneration />
+		<leregeneration>1W6</leregeneration>
+		<heldenversion>050207</heldenversion>
+		<wundschwelle>6</wundschwelle>
+		<rsgesamt deprecated="true">0</rsgesamt>
+		<rsbe deprecated="true">0</rsbe>
+		<zonenruestung deprecated="true">
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+	</angaben>
+	<eigenschaften>
+		<geschwindigkeit>
+			<akt>8</akt>
+			<start>8</start>
+			<modi>0</modi>
+			<name>Geschwindigkeit</name>
+			<bereich>sonst</bereich>
+		</geschwindigkeit>
+		<mut>
+			<akt>11</akt>
+			<start>10</start>
+			<modi>0</modi>
+			<name>Mut</name>
+			<bereich>guteeigenschaft</bereich>
+		</mut>
+		<klugheit>
+			<akt>14</akt>
+			<start>13</start>
+			<modi>0</modi>
+			<name>Klugheit</name>
+			<bereich>guteeigenschaft</bereich>
+		</klugheit>
+		<intuition>
+			<akt>15</akt>
+			<start>14</start>
+			<modi>0</modi>
+			<name>Intuition</name>
+			<bereich>guteeigenschaft</bereich>
+		</intuition>
+		<charisma>
+			<akt>14</akt>
+			<start>13</start>
+			<modi>0</modi>
+			<name>Charisma</name>
+			<bereich>guteeigenschaft</bereich>
+		</charisma>
+		<fingerfertigkeit>
+			<akt>11</akt>
+			<start>10</start>
+			<modi>0</modi>
+			<name>Fingerfertigkeit</name>
+			<bereich>guteeigenschaft</bereich>
+		</fingerfertigkeit>
+		<gewandtheit>
+			<akt>11</akt>
+			<start>10</start>
+			<modi>0</modi>
+			<name>Gewandtheit</name>
+			<bereich>guteeigenschaft</bereich>
+		</gewandtheit>
+		<konstitution>
+			<akt>11</akt>
+			<start>10</start>
+			<modi>0</modi>
+			<name>Konstitution</name>
+			<bereich>guteeigenschaft</bereich>
+		</konstitution>
+		<koerperkraft>
+			<akt>10</akt>
+			<start>9</start>
+			<modi>0</modi>
+			<name>Körperkraft</name>
+			<bereich>guteeigenschaft</bereich>
+		</koerperkraft>
+		<sozialstatus>
+			<akt>8</akt>
+			<start>8</start>
+			<modi>0</modi>
+			<name>Sozialstatus</name>
+			<bereich>guteeigenschaft</bereich>
+		</sozialstatus>
+		<astralenergie>
+			<akt>0</akt>
+			<start>0</start>
+			<modi>0</modi>
+			<name>Astralenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>0</kaufbar>
+			<gekauft>0</gekauft>
+		</astralenergie>
+		<attacke>
+			<akt>6</akt>
+			<start>6</start>
+			<modi>0</modi>
+			<name>Attacke</name>
+			<bereich>sonst</bereich>
+		</attacke>
+		<ausdauer>
+			<akt>28</akt>
+			<start>15</start>
+			<modi>10</modi>
+			<name>Ausdauer</name>
+			<bereich>sonst</bereich>
+			<kaufbar>10</kaufbar>
+			<gekauft>1</gekauft>
+			<akt50>14</akt50>
+			<akt33>9</akt33>
+			<akt25>7</akt25>
+		</ausdauer>
+		<fernkampf-basis>
+			<akt>7</akt>
+			<start>7</start>
+			<modi>0</modi>
+			<name>Fernkampf-Basis</name>
+			<bereich>sonst</bereich>
+		</fernkampf-basis>
+		<initiative>
+			<akt>10</akt>
+			<start>9</start>
+			<modi>0</modi>
+			<name>Initiative</name>
+			<bereich>sonst</bereich>
+		</initiative>
+		<karmaenergie>
+			<akt>28</akt>
+			<start>0</start>
+			<modi>28</modi>
+			<name>Karmaenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>15</kaufbar>
+			<gekauft>0</gekauft>
+		</karmaenergie>
+		<lebensenergie>
+			<akt>27</akt>
+			<start>15</start>
+			<modi>10</modi>
+			<name>Lebensenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>5</kaufbar>
+			<gekauft>1</gekauft>
+			<akt50>14</akt50>
+			<akt33>9</akt33>
+			<akt25>7</akt25>
+		</lebensenergie>
+		<magieresistenz>
+			<akt>6</akt>
+			<start>7</start>
+			<modi>-2</modi>
+			<name>Magieresistenz</name>
+			<bereich>sonst</bereich>
+			<kaufbar>5</kaufbar>
+			<gekauft>1</gekauft>
+		</magieresistenz>
+		<parade>
+			<akt>7</akt>
+			<start>7</start>
+			<modi>0</modi>
+			<name>Parade</name>
+			<bereich>sonst</bereich>
+		</parade>
+	</eigenschaften>
+	<geld />
+	<vorteile>
+		<vorteil>
+			<bezeichner>Akademische Ausbildung (Gelehrter)</bezeichner>
+			<name>Akademische Ausbildung (Gelehrter)</name>
+			<kommentar />
+			<namemitkommentar>Akademische Ausbildung (Gelehrter)</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Geweiht [zwölfgöttliche Kirche]</bezeichner>
+			<name>Geweiht [zwölfgöttliche Kirche]</name>
+			<kommentar />
+			<namemitkommentar>Geweiht [zwölfgöttliche Kirche]</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Geweiht</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Gutes Gedächtnis</bezeichner>
+			<name>Gutes Gedächtnis</name>
+			<kommentar />
+			<namemitkommentar>Gutes Gedächtnis</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Meeresangst</bezeichner>
+			<name>Meeresangst: 5</name>
+			<kommentar />
+			<namemitkommentar>Meeresangst: 5</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
+			<wert>5</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Moralkodex [Hesinde-Kirche]</bezeichner>
+			<name>Moralkodex [Hesinde-Kirche]</name>
+			<kommentar />
+			<namemitkommentar>Moralkodex [Hesinde-Kirche]</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<bereich>Geweiht</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Neugier</bezeichner>
+			<name>Neugier: 7</name>
+			<kommentar />
+			<namemitkommentar>Neugier: 7</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
+			<wert>7</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Verpflichtungen</bezeichner>
+			<name>Verpflichtungen</name>
+			<kommentar />
+			<namemitkommentar>Verpflichtungen</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<bereich>Sonst</bereich>
+		</vorteil>
+	</vorteile>
+	<sonderfertigkeiten>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Karmalqueste</nameausfuehrlich>
+			<name>Karmalqueste</name>
+			<bezeichner>Karmalqueste</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Karmalqueste</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>SonstGeweiht</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Kulturkunde (Tulamidenlande)</nameausfuehrlich>
+			<name>Kulturkunde (Tulamidenlande)</name>
+			<bezeichner>Kulturkunde</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<auswahlen>
+				<auswahl>
+					<name>Tulamidenlande</name>
+					<feld feldname="1" nr="1">Tulamidenlande</feld>
+				</auswahl>
+			</auswahlen>
+			<kommentar />
+			<namemitkommentar>Kulturkunde (Tulamidenlande)</namemitkommentar>
+			<bereich>Sonst</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Blick an den klaren Himmel (Sterne funkeln immerfort)</nameausfuehrlich>
+			<name>Blick an den klaren Himmel (Sterne funkeln immerfort)</name>
+			<bezeichner>Liturgie: Blick an den klaren Himmel (Sterne funkeln immerfort)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Blick an den klaren Himmel (Sterne funkeln immerfort)</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Eidsegen</nameausfuehrlich>
+			<name>Eidsegen</name>
+			<bezeichner>Liturgie: Eidsegen</bezeichner>
+			<wirkung />
+			<dauer>1 SR</dauer>
+			<kosten>5</kosten>
+			<probe>MU/IN/CH+0</probe>
+			<kommentar>Eidschwur mit Strafe</kommentar>
+			<namemitkommentar>Eidsegen (Eidschwur mit Strafe)</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Feuersegen</nameausfuehrlich>
+			<name>Feuersegen</name>
+			<bezeichner>Liturgie: Feuersegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Feuersegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Geburtssegen</nameausfuehrlich>
+			<name>Geburtssegen</name>
+			<bezeichner>Liturgie: Geburtssegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Geburtssegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Glückssegen</nameausfuehrlich>
+			<name>Glückssegen</name>
+			<bezeichner>Liturgie: Glückssegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Glückssegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Grabsegen</nameausfuehrlich>
+			<name>Grabsegen</name>
+			<bezeichner>Liturgie: Grabsegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Grabsegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Harmoniesegen</nameausfuehrlich>
+			<name>Harmoniesegen</name>
+			<bezeichner>Liturgie: Harmoniesegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Harmoniesegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Heilungssegen</nameausfuehrlich>
+			<name>Heilungssegen</name>
+			<bezeichner>Liturgie: Heilungssegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Heilungssegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Initiation</nameausfuehrlich>
+			<name>Initiation</name>
+			<bezeichner>Liturgie: Initiation</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Initiation</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>2</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Märtyrersegen</nameausfuehrlich>
+			<name>Märtyrersegen</name>
+			<bezeichner>Liturgie: Märtyrersegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Märtyrersegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Schutzsegen</nameausfuehrlich>
+			<name>Schutzsegen</name>
+			<bezeichner>Liturgie: Schutzsegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Schutzsegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Sicht auf Madas Welt</nameausfuehrlich>
+			<name>Sicht auf Madas Welt</name>
+			<bezeichner>Liturgie: Sicht auf Madas Welt</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Sicht auf Madas Welt</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>2</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Speisesegen</nameausfuehrlich>
+			<name>Speisesegen</name>
+			<bezeichner>Liturgie: Speisesegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Speisesegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Sprechende Symbole</nameausfuehrlich>
+			<name>Sprechende Symbole</name>
+			<bezeichner>Liturgie: Sprechende Symbole</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Sprechende Symbole</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Tranksegen</nameausfuehrlich>
+			<name>Tranksegen</name>
+			<bezeichner>Liturgie: Tranksegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Tranksegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Unverstellter Blick</nameausfuehrlich>
+			<name>Unverstellter Blick</name>
+			<bezeichner>Liturgie: Unverstellter Blick</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Unverstellter Blick</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>3</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgie: Weisheitssegen</nameausfuehrlich>
+			<name>Weisheitssegen</name>
+			<bezeichner>Liturgie: Weisheitssegen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Weisheitssegen</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgie</bereich>
+			<grad>1</grad>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Liturgiekenntnis (Hesinde)</nameausfuehrlich>
+			<name>Liturgiekenntnis (Hesinde)</name>
+			<bezeichner>Liturgiekenntnis (Hesinde)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Liturgiekenntnis (Hesinde)</namemitkommentar>
+			<bereich>Geweiht</bereich>
+			<bereich>Liturgiekenntnis</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Nandusgefälliges Wissen</nameausfuehrlich>
+			<name>Nandusgefälliges Wissen</name>
+			<bezeichner>Nandusgefälliges Wissen</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Nandusgefälliges Wissen</namemitkommentar>
+			<bereich>Sonst</bereich>
+		</sonderfertigkeit>
+	</sonderfertigkeiten>
+	<verbilligtesonderfertigkeiten />
+	<talente>
+		<talent>
+			<name>Dolche</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Dolche (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Dolche (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>8</pa>
+			<behinderung>BE-1</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Hiebwaffen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Hiebwaffen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Hiebwaffen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>8</pa>
+			<behinderung>BE-4</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Raufen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Raufen (B)</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Raufen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>9</pa>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Ringen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Ringen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Ringen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>8</pa>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Stäbe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Stäbe</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Stäbe (GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>8</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Säbel</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Säbel (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Säbel (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>7</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wurfmesser</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Wurfmesser (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/FF/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Wurfmesser (B)(GE/FF/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa />
+			<behinderung>BE-3</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Athletik</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Athletik (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/KO/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Athletik (B)(GE/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Klettern</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Klettern (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Klettern (B)(MU/GE/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Körperbeherrschung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Körperbeherrschung (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>11/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Körperbeherrschung (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schleichen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schleichen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>11/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Schleichen (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schwimmen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schwimmen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/KO/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Schwimmen (B)(GE/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Selbstbeherrschung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Selbstbeherrschung (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/KO/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Selbstbeherrschung (B)(MU/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sich verstecken</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sich verstecken (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>11/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Sich verstecken (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Singen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Singen (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>IN/CH/CH</probe>
+			<probenwerte>15/14/14</probenwerte>
+			<nameausfuehrlichmitprobe>Singen (B)(IN/CH/CH)</nameausfuehrlichmitprobe>
+			<behinderung>BE-3</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sinnenschärfe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sinnenschärfe (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/15/15</probenwerte>
+			<nameausfuehrlichmitprobe>Sinnenschärfe (B)(KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung>0-&gt;BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Tanzen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Tanzen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>CH/GE/GE</probe>
+			<probenwerte>14/11/11</probenwerte>
+			<nameausfuehrlichmitprobe>Tanzen (B)(CH/GE/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Zechen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Zechen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>IN/KO/KK</probe>
+			<probenwerte>15/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Zechen (B)(IN/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Etikette</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Etikette</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Etikette (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Lehren</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Lehren</nameausfuehrlich>
+			<wert>7</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Lehren (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Menschenkenntnis</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Menschenkenntnis (B)</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Menschenkenntnis (B)(KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schriftlicher Ausdruck</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Schriftlicher Ausdruck</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/15/15</probenwerte>
+			<nameausfuehrlichmitprobe>Schriftlicher Ausdruck (KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Überreden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Überreden (B)</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>MU/IN/CH</probe>
+			<probenwerte>11/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Überreden (B)(MU/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Überzeugen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Überzeugen</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Überzeugen (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Fährtensuchen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Fährtensuchen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/IN/KO</probe>
+			<probenwerte>14/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Fährtensuchen (B)(KL/IN/KO)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Orientierung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Orientierung (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/15/15</probenwerte>
+			<nameausfuehrlichmitprobe>Orientierung (B)(KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wettervorhersage</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Wettervorhersage</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/15/15</probenwerte>
+			<nameausfuehrlichmitprobe>Wettervorhersage (KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wildnisleben</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Wildnisleben (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>IN/GE/KO</probe>
+			<probenwerte>15/11/11</probenwerte>
+			<nameausfuehrlichmitprobe>Wildnisleben (B)(IN/GE/KO)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Anatomie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Anatomie</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>MU/KL/FF</probe>
+			<probenwerte>11/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Anatomie (MU/KL/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Baukunst</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Baukunst</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Baukunst (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Brett-/Kartenspiel</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Brett-/Kartenspiel</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Brett-/Kartenspiel (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Geografie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Geografie</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Geografie (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Geschichtswissen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Geschichtswissen</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Geschichtswissen (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Gesteinskunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Gesteinskunde</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Gesteinskunde (KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Götter und Kulte</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Götter und Kulte (B)</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Götter und Kulte (B)(KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Magiekunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Magiekunde</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Magiekunde (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Philosophie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Philosophie</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Philosophie (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Rechnen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Rechnen (B)</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Rechnen (B)(KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Rechtskunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Rechtskunde</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/15</probenwerte>
+			<nameausfuehrlichmitprobe>Rechtskunde (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sagen und Legenden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sagen und Legenden (B)</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Sagen und Legenden (B)(KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schätzen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Schätzen</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/15/15</probenwerte>
+			<nameausfuehrlichmitprobe>Schätzen (KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Alt-Imperial/Aureliani</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Alt-Imperial/Aureliani</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Alt-Imperial/Aureliani (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>21</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Bosparano</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Bosparano</nameausfuehrlich>
+			<wert>7</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Bosparano (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>21</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Garethi</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Garethi</nameausfuehrlich>
+			<wert>17</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Garethi (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>18</sprachkomplexität>
+			<zweitlehrsprache>true</zweitlehrsprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Tulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Tulamidya</nameausfuehrlich>
+			<wert>13</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Tulamidya (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>18</sprachkomplexität>
+			<muttersprache>true</muttersprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Urtulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Urtulamidya</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Urtulamidya (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>21</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Altes Alaani</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Altes Alaani</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Altes Alaani (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>18</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Altes Amulashtra</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Altes Amulashtra</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Altes Amulashtra (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>17</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Kusliker Zeichen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Kusliker Zeichen</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Kusliker Zeichen (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>10</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Tulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Tulamidya</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Tulamidya (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>14</sprachkomplexität>
+			<schriftmuttersprache>true</schriftmuttersprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Ackerbau</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Ackerbau</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>IN/FF/KO</probe>
+			<probenwerte>15/11/11</probenwerte>
+			<nameausfuehrlichmitprobe>Ackerbau (IN/FF/KO)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Alchimie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Alchimie</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>MU/KL/FF</probe>
+			<probenwerte>11/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Alchimie (MU/KL/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Hauswirtschaft</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Hauswirtschaft</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>IN/CH/FF</probe>
+			<probenwerte>15/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Hauswirtschaft (IN/CH/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Heilkunde: Wunden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Heilkunde: Wunden (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/CH/FF</probe>
+			<probenwerte>14/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Heilkunde: Wunden (B)(KL/CH/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Holzbearbeitung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Holzbearbeitung (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/FF/KK</probe>
+			<probenwerte>14/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Holzbearbeitung (B)(KL/FF/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Kochen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Kochen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Kochen (B)(KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Lederarbeiten</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Lederarbeiten (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/FF/FF</probe>
+			<probenwerte>14/11/11</probenwerte>
+			<nameausfuehrlichmitprobe>Lederarbeiten (B)(KL/FF/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Malen/Zeichnen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Malen/Zeichnen (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Malen/Zeichnen (B)(KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Musizieren</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Musizieren</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>IN/CH/FF</probe>
+			<probenwerte>15/14/11</probenwerte>
+			<nameausfuehrlichmitprobe>Musizieren (IN/CH/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schneidern</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schneidern (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/FF/FF</probe>
+			<probenwerte>14/11/11</probenwerte>
+			<nameausfuehrlichmitprobe>Schneidern (B)(KL/FF/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Viehzucht</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Viehzucht</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/IN/KK</probe>
+			<probenwerte>14/15/10</probenwerte>
+			<nameausfuehrlichmitprobe>Viehzucht (KL/IN/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Hesinde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Hesinde</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>MU/IN/CH</probe>
+			<probenwerte>11/15/14</probenwerte>
+			<nameausfuehrlichmitprobe>Hesinde (MU/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Liturgiekenntnis</bereich>
+			<komplexität>F</komplexität>
+			<lernkomplexität>F</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+	</talente>
+	<zauber />
+	<gegenstaende>
+		<gegenstand>
+			<name>Dolch</name>
+			<anzahl>1</anzahl>
+			<grundlage>Dolch</grundlage>
+			<gewicht>20.0</gewicht>
+			<gesamtgewicht>20.0</gesamtgewicht>
+			<angelegt>true</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>2000</einzelpreis>
+			<gesamtpreis>2000</gesamtpreis>
+			<quelle buch="AA" seite="12">AA: 12</quelle>
+			<details />
+			<arten>Nahkampfwaffe, Fernkampfwaffe</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Katze</name>
+			<anzahl>1</anzahl>
+			<grundlage>Katze: Al'Anfaner</grundlage>
+			<gewicht>200.0</gewicht>
+			<gesamtgewicht>200.0</gesamtgewicht>
+			<angelegt>false</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>0</einzelpreis>
+			<gesamtpreis>0</gesamtpreis>
+			<quelle buch="ZooBot" seite="118">ZooBot: 118</quelle>
+			<details>
+				<tier>
+					<eigenschaften>
+						<ausdauer>45</ausdauer>
+						<charisma>9</charisma>
+						<fingerfertigkeit>4</fingerfertigkeit>
+						<gefahrenwert>3</gefahrenwert>
+						<geschwindigkeit>11.0</geschwindigkeit>
+						<geschwindigkeit2>0.1</geschwindigkeit2>
+						<geschwindigkeit3>0.2</geschwindigkeit3>
+						<gewandtheit>14</gewandtheit>
+						<intuition>7</intuition>
+						<klugheit>5</klugheit>
+						<konstitution>7</konstitution>
+						<koerperkraft>3</koerperkraft>
+						<lebensenergie>10</lebensenergie>
+						<loyalitaet>6</loyalitaet>
+						<magieresistenz>1</magieresistenz>
+						<magieresistenz2>1</magieresistenz2>
+						<mut>7</mut>
+						<ruestungsschutz>2</ruestungsschutz>
+					</eigenschaften>
+					<vorteile>
+						<vorteil>
+							<bezeichner>Elegante Erscheinung</bezeichner>
+							<name>Elegante Erscheinung</name>
+							<kommentar />
+							<namemitkommentar>Elegante Erscheinung</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Flinkheit</bezeichner>
+							<name>Flinkheit</name>
+							<kommentar />
+							<namemitkommentar>Flinkheit</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Geduldig</bezeichner>
+							<name>Geduldig</name>
+							<kommentar />
+							<namemitkommentar>Geduldig</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Guter Orientierungssinn</bezeichner>
+							<name>Guter Orientierungssinn</name>
+							<kommentar />
+							<namemitkommentar>Guter Orientierungssinn</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Intelligent</bezeichner>
+							<name>Intelligent</name>
+							<kommentar />
+							<namemitkommentar>Intelligent</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Lernfähig</bezeichner>
+							<name>Lernfähig</name>
+							<kommentar />
+							<namemitkommentar>Lernfähig</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Magiegespür</bezeichner>
+							<name>Magiegespür</name>
+							<kommentar />
+							<namemitkommentar>Magiegespür</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<istgabe>true</istgabe>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Nachtsicht</bezeichner>
+							<name>Nachtsicht</name>
+							<kommentar />
+							<namemitkommentar>Nachtsicht</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Schnell</bezeichner>
+							<name>Schnell</name>
+							<kommentar />
+							<namemitkommentar>Schnell</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Tragkraft</bezeichner>
+							<name>Tragkraft </name>
+							<kommentar />
+							<namemitkommentar>Tragkraft </namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+							<auswahlen />
+						</vorteil>
+						<vorteil>
+							<bezeichner>Wasserliebend</bezeichner>
+							<name>Wasserliebend</name>
+							<kommentar />
+							<namemitkommentar>Wasserliebend</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Spieltrieb</bezeichner>
+							<name>Spieltrieb: 4</name>
+							<kommentar />
+							<namemitkommentar>Spieltrieb: 4</namemitkommentar>
+							<istvorteil>false</istvorteil>
+							<istnachteil>true</istnachteil>
+							<istschlechteeigenschaft>true</istschlechteeigenschaft>
+							<wert>4</wert>
+							<bereich>Sonst</bereich>
+						</vorteil>
+					</vorteile>
+					<sonderfertigkeiten>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Anspringen (Tier) (0)</nameausfuehrlich>
+							<name>Anspringen (Tier) (0)</name>
+							<bezeichner>Anspringen (Tier)</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>0</name>
+									<feld feldname="1" nr="1">0</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Anspringen (Tier) (0)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Anzeige</nameausfuehrlich>
+							<name>Anzeige</name>
+							<bezeichner>Anzeige</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Anzeige</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Apport (Tier)</nameausfuehrlich>
+							<name>Apport (Tier)</name>
+							<bezeichner>Apport (Tier)</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Apport (Tier)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Ausbildung (Geschult)</nameausfuehrlich>
+							<name>Ausbildung (Geschult)</name>
+							<bezeichner>Ausbildung</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Geschult</name>
+									<feld feldname="1" nr="1">Geschult</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Ausbildung (Geschult)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Fass I</nameausfuehrlich>
+							<name>Fass I</name>
+							<bezeichner>Fass I</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Fass I</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Fass II</nameausfuehrlich>
+							<name>Fass II</name>
+							<bezeichner>Fass II</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Fass II</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Gelände (Baum, Dschungel)</nameausfuehrlich>
+							<name>Gelände (Baum, Dschungel)</name>
+							<bezeichner>Gelände</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Baum</name>
+									<feld feldname="1" nr="1">Baum</feld>
+								</auswahl>
+								<auswahl>
+									<name>Dschungel</name>
+									<feld feldname="1" nr="1">Dschungel</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Gelände (Baum, Dschungel)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Gezielter Angriff</nameausfuehrlich>
+							<name>Gezielter Angriff</name>
+							<bezeichner>Gezielter Angriff</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Gezielter Angriff</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Gezielter Biss</nameausfuehrlich>
+							<name>Gezielter Biss</name>
+							<bezeichner>Gezielter Biss</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Gezielter Biss</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Hinlegen</nameausfuehrlich>
+							<name>Hinlegen</name>
+							<bezeichner>Hinlegen</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Hinlegen</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Hinterhalt (0, 12)</nameausfuehrlich>
+							<name>Hinterhalt (0, 12)</name>
+							<bezeichner>Hinterhalt</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>0</name>
+									<feld feldname="1" nr="1">0</feld>
+								</auswahl>
+								<auswahl>
+									<name>12</name>
+									<feld feldname="1" nr="1">12</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Hinterhalt (0, 12)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Kommen auf Signal</nameausfuehrlich>
+							<name>Kommen auf Signal</name>
+							<bezeichner>Kommen auf Signal</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Kommen auf Signal</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Laut</nameausfuehrlich>
+							<name>Laut</name>
+							<bezeichner>Laut</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Laut</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Sehr kleiner Gegner (AT+2 / PA+4)</nameausfuehrlich>
+							<name>Sehr kleiner Gegner (AT+2 / PA+4)</name>
+							<bezeichner>Sehr kleiner Gegner</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>AT+2 / PA+4</name>
+									<feld feldname="1" nr="1">AT+2 / PA+4</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Sehr kleiner Gegner (AT+2 / PA+4)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Sprungsicherheit</nameausfuehrlich>
+							<name>Sprungsicherheit</name>
+							<bezeichner>Sprungsicherheit</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Sprungsicherheit</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Stille Wacht</nameausfuehrlich>
+							<name>Stille Wacht</name>
+							<bezeichner>Stille Wacht</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Stille Wacht</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Such</nameausfuehrlich>
+							<name>Such</name>
+							<bezeichner>Such</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Such</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Trick (Unwiederstehlicher Blick)</nameausfuehrlich>
+							<name>Trick (Unwiederstehlicher Blick)</name>
+							<bezeichner>Trick</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Unwiederstehlicher Blick</name>
+									<feld feldname="" nr="1">Unwiederstehlicher Blick</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Trick (Unwiederstehlicher Blick)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Unarten (Knabbern)</nameausfuehrlich>
+							<name>Unarten (Knabbern)</name>
+							<bezeichner>Unarten</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Knabbern</name>
+									<feld feldname="1" nr="1">Knabbern</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Unarten (Knabbern)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Verbeißen</nameausfuehrlich>
+							<name>Verbeißen</name>
+							<bezeichner>Verbeißen</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Verbeißen</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+					</sonderfertigkeiten>
+					<gattung>Al'Anfaner</gattung>
+					<familie>Katze</familie>
+					<groesse>50</groesse>
+					<ini mul="1" sum="13" w="6" />
+					<angriffe>
+						<angriff at="11" dk="H" name="Krallen" pa="11" tp="1W-1" />
+						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W20+4" />
+						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W+4" />
+						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W3+4" />
+						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W2+4" />
+					</angriffe>
+				</tier>
+			</details>
+			<arten>Tier</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Pferd</name>
+			<anzahl>1</anzahl>
+			<grundlage>Pferd: Shadif</grundlage>
+			<gewicht>18000.0</gewicht>
+			<gesamtgewicht>18000.0</gesamtgewicht>
+			<angelegt>false</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>0</einzelpreis>
+			<gesamtpreis>0</gesamtpreis>
+			<quelle buch="ZooBot" seite="151">ZooBot: 151</quelle>
+			<details>
+				<tier>
+					<eigenschaften>
+						<astralenergie>4</astralenergie>
+						<ausdauer>4</ausdauer>
+						<charisma>4</charisma>
+						<fingerfertigkeit>5</fingerfertigkeit>
+						<gefahrenwert>8</gefahrenwert>
+						<geschwindigkeit>2.0</geschwindigkeit>
+						<geschwindigkeit2>12.0</geschwindigkeit2>
+						<geschwindigkeit3>15.0</geschwindigkeit3>
+						<gewandtheit>6</gewandtheit>
+						<intuition>3</intuition>
+						<klugheit>2</klugheit>
+						<konstitution>18</konstitution>
+						<koerperkraft>21</koerperkraft>
+						<lebensenergie>57</lebensenergie>
+						<loyalitaet>10</loyalitaet>
+						<magieresistenz>0</magieresistenz>
+						<magieresistenz2>8</magieresistenz2>
+						<mut>1</mut>
+						<ruestungsschutz>1</ruestungsschutz>
+					</eigenschaften>
+					<vorteile>
+						<vorteil>
+							<bezeichner>Ausdauernd (Tier)</bezeichner>
+							<name>Ausdauernd (Tier) </name>
+							<kommentar />
+							<namemitkommentar>Ausdauernd (Tier) </namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+							<auswahlen />
+						</vorteil>
+						<vorteil>
+							<bezeichner>Schnell</bezeichner>
+							<name>Schnell</name>
+							<kommentar />
+							<namemitkommentar>Schnell</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Sehr lernfähig</bezeichner>
+							<name>Sehr lernfähig</name>
+							<kommentar />
+							<namemitkommentar>Sehr lernfähig</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Zäh</bezeichner>
+							<name>Zäh</name>
+							<kommentar />
+							<namemitkommentar>Zäh</namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Zugkraft</bezeichner>
+							<name>Zugkraft </name>
+							<kommentar />
+							<namemitkommentar>Zugkraft </namemitkommentar>
+							<istvorteil>true</istvorteil>
+							<istnachteil>false</istnachteil>
+							<bereich>Sonst</bereich>
+							<auswahlen />
+						</vorteil>
+						<vorteil>
+							<bezeichner>Höhenangst</bezeichner>
+							<name>Höhenangst: 6</name>
+							<kommentar />
+							<namemitkommentar>Höhenangst: 6</namemitkommentar>
+							<istvorteil>false</istvorteil>
+							<istnachteil>true</istnachteil>
+							<istschlechteeigenschaft>true</istschlechteeigenschaft>
+							<wert>6</wert>
+							<bereich>Sonst</bereich>
+						</vorteil>
+						<vorteil>
+							<bezeichner>Nervosität</bezeichner>
+							<name>Nervosität</name>
+							<kommentar />
+							<namemitkommentar>Nervosität</namemitkommentar>
+							<istvorteil>false</istvorteil>
+							<istnachteil>true</istnachteil>
+							<bereich>Sonst</bereich>
+						</vorteil>
+					</vorteile>
+					<sonderfertigkeiten>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Ausbildung (Adelsross)</nameausfuehrlich>
+							<name>Ausbildung (Adelsross)</name>
+							<bezeichner>Ausbildung</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Adelsross</name>
+									<feld feldname="1" nr="1">Adelsross</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Ausbildung (Adelsross)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Großer Gegner</nameausfuehrlich>
+							<name>Großer Gegner</name>
+							<bezeichner>Großer Gegner</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<kommentar />
+							<namemitkommentar>Großer Gegner</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Niederwerfen (Tier) (6)</nameausfuehrlich>
+							<name>Niederwerfen (Tier) (6)</name>
+							<bezeichner>Niederwerfen (Tier)</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>6</name>
+									<feld feldname="1" nr="1">6</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Niederwerfen (Tier) (6)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Trick (Macht Männchen)</nameausfuehrlich>
+							<name>Trick (Macht Männchen)</name>
+							<bezeichner>Trick</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Macht Männchen</name>
+									<feld feldname="" nr="1">Macht Männchen</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Trick (Macht Männchen)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+						<sonderfertigkeit>
+							<nameausfuehrlich>Unarten (Spucken)</nameausfuehrlich>
+							<name>Unarten (Spucken)</name>
+							<bezeichner>Unarten</bezeichner>
+							<wirkung />
+							<dauer />
+							<kosten />
+							<probe />
+							<auswahlen>
+								<auswahl>
+									<name>Spucken</name>
+									<feld feldname="1" nr="1">Spucken</feld>
+								</auswahl>
+							</auswahlen>
+							<kommentar />
+							<namemitkommentar>Unarten (Spucken)</namemitkommentar>
+							<bereich>Sonst</bereich>
+						</sonderfertigkeit>
+					</sonderfertigkeiten>
+					<gattung>Shadif</gattung>
+					<familie>Pferd</familie>
+					<groesse>154</groesse>
+					<ini mul="1" sum="9" w="6" />
+					<angriffe>
+						<angriff at="11" dk="H" name="Biss" pa="8" tp="1W+1" />
+						<angriff at="11" dk="N" name="Tritt" pa="8" tp="1W+2" />
+					</angriffe>
+				</tier>
+			</details>
+			<arten>Tier</arten>
+		</gegenstand>
+	</gegenstaende>
+	<verbindungen />
+	<nahkampfwaffen deprecated="true" inbenutzung="true">
+		<nahkampfwaffe>
+			<nummer>1</nummer>
+			<möglich>true</möglich>
+			<name>Dolch</name>
+			<spalte2>Do/BE-1</spalte2>
+			<dk>H </dk>
+			<tp>1W+1</tp>
+			<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+			<ini>0</ini>
+			<wm>0 /-1</wm>
+			<at>6</at>
+			<pa>7</pa>
+			<tpinkl>1W+1</tpinkl>
+			<bereich>nahkampf</bereich>
+			<bfmin>2</bfmin>
+			<bfakt>2</bfakt>
+			<talentkurz>Do</talentkurz>
+			<talent>Dolche</talent>
+			<be>BE-1</be>
+		</nahkampfwaffe>
+	</nahkampfwaffen>
+	<fernkampfwaffen deprecated="true" inbenutzung="false" />
+	<schilder deprecated="true" inbenutzung="false" />
+	<ruestungen deprecated="true" inbenutzung="false" />
+	<set deprecated="true" inbenutzung="true" nr="1">
+		<raufen>
+			<at>6</at>
+			<pa>9</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>8</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>7</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+		<ini>10</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="true">
+			<nahkampfwaffe>
+				<nummer>1</nummer>
+				<möglich>true</möglich>
+				<name>Dolch</name>
+				<spalte2>Do/BE-1</spalte2>
+				<dk>H </dk>
+				<tp>1W+1</tp>
+				<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+				<ini>0</ini>
+				<wm>0 /-1</wm>
+				<at>6</at>
+				<pa>7</pa>
+				<tpinkl>1W+1</tpinkl>
+				<bereich>nahkampf</bereich>
+				<bfmin>2</bfmin>
+				<bfakt>2</bfakt>
+				<talentkurz>Do</talentkurz>
+				<talent>Dolche</talent>
+				<be>BE-1</be>
+			</nahkampfwaffe>
+		</nahkampfwaffen>
+		<fernkampfwaffen inbenutzung="false" />
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<set deprecated="true" inbenutzung="false" nr="2">
+		<raufen>
+			<at>6</at>
+			<pa>9</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>8</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>7</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+		<ini>10</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="false" />
+		<fernkampfwaffen inbenutzung="false" />
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<set deprecated="true" inbenutzung="false" nr="3">
+		<raufen>
+			<at>6</at>
+			<pa>9</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>8</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>7</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+		<ini>10</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="false" />
+		<fernkampfwaffen inbenutzung="false" />
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<kampfsets>
+		<kampfset defaultrsmodel="true" inbenutzung="true" nr="1" tzm="true">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="true">
+				<nahkampfwaffe>
+					<nummer>1</nummer>
+					<möglich>true</möglich>
+					<name>Dolch</name>
+					<spalte2>Do/BE-1</spalte2>
+					<dk>H </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+					<ini>0</ini>
+					<wm>0 /-1</wm>
+					<at>6</at>
+					<pa>7</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>2</bfmin>
+					<bfakt>2</bfakt>
+					<talentkurz>Do</talentkurz>
+					<talent>Dolche</talent>
+					<be>BE-1</be>
+				</nahkampfwaffe>
+			</nahkampfwaffen>
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="true" nr="1" tzm="false">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="true">
+				<nahkampfwaffe>
+					<nummer>1</nummer>
+					<möglich>true</möglich>
+					<name>Dolch</name>
+					<spalte2>Do/BE-1</spalte2>
+					<dk>H </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+					<ini>0</ini>
+					<wm>0 /-1</wm>
+					<at>6</at>
+					<pa>7</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>2</bfmin>
+					<bfakt>2</bfakt>
+					<talentkurz>Do</talentkurz>
+					<talent>Dolche</talent>
+					<be>BE-1</be>
+				</nahkampfwaffe>
+			</nahkampfwaffen>
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="true" inbenutzung="false" nr="2" tzm="true">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="false" nr="2" tzm="false">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="true" inbenutzung="false" nr="3" tzm="true">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="false" nr="3" tzm="false">
+			<raufen>
+				<at>6</at>
+				<pa>9</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>8</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>7</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>8</geschwindigkeitinklbe>
+			<ini>10</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+	</kampfsets>
+</daten>

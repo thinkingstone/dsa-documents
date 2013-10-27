@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
+<helden Version="5.2.7">
+	<held key="1324993253645" name="Magie" stand="1371299111962">
+		<basis>
+			<geschlecht name="weiblich" />
+			<settings name="DSA4.1" />
+			<mods />
+			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländerin">
+				<groesse gewicht="86" value="186" />
+				<aussehen alter="21" augenfarbe="blau" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4="" familietext5="" gbjahr="1003" gbmonat="3" gbtag="4" gprest="1" gpstart="110" haarfarbe="blond" kalender="Bosparans Fall" stand="" titel="" />
+			</rasse>
+			<kultur name="helden.model.kultur.Horasreich" string="Horasreich" />
+			<ausbildungen>
+				<ausbildung art="Hauptprofession" name="helden.model.profession.Magier" string="Konzil der Elemente zu Drakonia - Luftelementarist" tarnidentitaet="">
+					<variante name="Konzil der Elemente zu Drakonia - Luftelementarist" />
+				</ausbildung>
+			</ausbildungen>
+			<verify value="18" />
+			<notiz notiz0="Notizen" notiz1="" notiz10="" notiz11="" notiz2="" notiz3="" notiz4="" notiz5="" notiz6="" notiz7="" notiz8="" notiz9="" />
+			<portraet value="/home/mb/workspaces/heldendokument/GIT/testdata/src/main/resources/magie.jpg" />
+			<abenteuerpunkte value="5480" />
+			<freieabenteuerpunkte value="2146" />
+			<gilde name="grau" />
+		</basis>
+		<eigenschaften>
+			<eigenschaft mod="0" name="Mut" startwert="12" value="13" />
+			<eigenschaft mod="0" name="Klugheit" startwert="13" value="14" />
+			<eigenschaft mod="0" name="Intuition" startwert="11" value="12" />
+			<eigenschaft mod="0" name="Charisma" startwert="12" value="13" />
+			<eigenschaft mod="0" name="Fingerfertigkeit" startwert="11" value="12" />
+			<eigenschaft mod="0" name="Gewandtheit" startwert="8" value="9" />
+			<eigenschaft mod="0" name="Konstitution" startwert="8" value="9" />
+			<eigenschaft mod="0" name="Körperkraft" startwert="8" value="9" />
+			<eigenschaft mod="0" name="Sozialstatus" startwert="7" value="7" />
+			<eigenschaft mod="10" name="Lebensenergie" value="1" />
+			<eigenschaft mod="10" name="Ausdauer" value="1" />
+			<eigenschaft grossemeditation="0" mod="18" mrmod="-2" name="Astralenergie" value="1" />
+			<eigenschaft karmalqueste="0" mod="0" name="Karmaenergie" value="0" />
+			<eigenschaft mod="-2" name="Magieresistenz" value="1" />
+			<eigenschaft mod="0" name="ini" value="9" />
+			<eigenschaft mod="0" name="at" value="6" />
+			<eigenschaft mod="0" name="pa" value="6" />
+			<eigenschaft mod="0" name="fk" value="7" />
+		</eigenschaften>
+		<vt>
+			<vorteil name="Affinität zu " value="Elementaren" />
+			<vorteil name="Akademische Ausbildung (Magier)" />
+			<vorteil name="Begabung für [Merkmal]" value="Heilung" />
+			<vorteil name="Begabung für [Zauber]" value="Analys Arkanstruktur" />
+			<vorteil name="Begabung für [Zauber]" value="Balsam Salabunde" />
+			<vorteil name="Vollzauberer" />
+			<vorteil name="Lästige Mindergeister" />
+			<vorteil name="Neugier" value="7" />
+			<vorteil name="Prinzipientreue" value="8" />
+			<vorteil name="Schulden" value="500" />
+			<vorteil name="Unfähigkeit für [Merkmal]" value="Antimagie" />
+			<vorteil name="Unfähigkeit für [Talentgruppe]" value="Gesellschaft" />
+			<vorteil name="Weltfremd" value="12" />
+		</vt>
+		<sf>
+			<sonderfertigkeit name="Astrale Meditation" />
+			<sonderfertigkeit name="Bannschwert" />
+			<sonderfertigkeit name="Große Meditation" />
+			<sonderfertigkeit name="Kugelzauber: Bindung" />
+			<sonderfertigkeit name="Kugelzauber: Brennglas und Prisma" />
+			<sonderfertigkeit name="Kulturkunde">
+				<kultur name="Horasreich" />
+			</sonderfertigkeit>
+			<sonderfertigkeit name="Merkmalskenntnis: Elementar (Luft)" />
+			<sonderfertigkeit name="Merkmalskenntnis: Hellsicht" />
+			<sonderfertigkeit name="Repräsentation: Magier" />
+			<sonderfertigkeit name="Ritualkenntnis: Gildenmagie" />
+			<sonderfertigkeit name="Stabzauber: Bindung" />
+			<sonderfertigkeit name="Talentspezialisierung Magiekunde (Elementarismus)">
+				<talent name="Magiekunde" />
+				<spezialisierung name="Elementarismus" />
+			</sonderfertigkeit>
+			<sonderfertigkeit name="Talentspezialisierung Stäbe (Magierstab als Stab)">
+				<talent name="Stäbe" />
+				<spezialisierung name="Magierstab als Stab" />
+			</sonderfertigkeit>
+			<sonderfertigkeit name="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)">
+				<zauber name="Aeolitus Windgebraus" repraesentation="Magier" variante="" />
+				<spezialisierung name="Langer Atem" />
+			</sonderfertigkeit>
+			<sonderfertigkeit name="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)">
+				<zauber name="Dschinnenruf" repraesentation="Magier" variante="" />
+				<spezialisierung name="Kosten" />
+			</sonderfertigkeit>
+		</sf>
+		<ereignisse>
+			<ereignis obj="max GP für Helden: 110" text="EINSTELLUNG" time="1324993254923" version="5.2.0" />
+			<ereignis obj="max Eigenschafts-GP für Helden: 100" text="EINSTELLUNG" time="1324993254923" version="5.2.0" />
+			<ereignis obj="max Eigenschafts-Wert für Helden: 14" text="EINSTELLUNG" time="1324993254923" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Rasse: Mittelländerin" text="RKP" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="3 GP" obj="Kultur: Horasreich" text="RKP" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="31 GP" obj="Profession: Konzil der Elemente zu Drakonia - Luftelementarist" text="RKP" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="12" kommentar="12 GP" obj="Mut: 12" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="13" kommentar="13 GP" obj="Klugheit: 13" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="11" kommentar="11 GP" obj="Intuition: 11" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="12" kommentar="12 GP" obj="Charisma: 12" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="11" kommentar="11 GP" obj="Fingerfertigkeit: 11" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="8" kommentar="8 GP" obj="Gewandtheit: 8" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="8" kommentar="8 GP" obj="Konstitution: 8" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="8" kommentar="8 GP" obj="Körperkraft: 8" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="7" kommentar="0 GP" obj="Sozialstatus: 7" text="EIGENSCHAFTEN" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Affinität zu : Elementaren" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Akademische Ausbildung (Magier)" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="-3 GP" obj="Lästige Mindergeister" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Neugier: 7" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Prinzipientreue: 8" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="-5 GP" obj="Schulden: 500" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Unfähigkeit für [Talentgruppe]: Gesellschaft" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Vollzauberer" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Weltfremd: 12" text="VORTEILE" time="1324993254925" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Sprachen kennen Tulamidya" time="1324993254925" version="5.2.0" />
+			<ereignis Neu="1" obj="Auswahl" text="Hauswirtschaft" time="1324993254925" version="5.2.0" />
+			<ereignis Abenteuerpunkte="5000" obj="Abenteuerpunkte" text="Ereignis eingeben" time="1324993274659" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" obj="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)" text="Sonderfertigkeit hinzugefügt" time="1324993295887" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-60" obj="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)" text="Sonderfertigkeit hinzugefügt" time="1324993303373" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-350" Alt="12" Neu="13" obj="Mut" text="Eigenschaft steigern" time="1325171127382" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-380" Alt="13" Neu="14" obj="Klugheit" text="Eigenschaft steigern" time="1325171127787" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-320" Alt="11" Neu="12" obj="Intuition" text="Eigenschaft steigern" time="1325171128257" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-350" Alt="12" Neu="13" obj="Charisma" text="Eigenschaft steigern" time="1325171128734" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-320" Alt="11" Neu="12" obj="Fingerfertigkeit" text="Eigenschaft steigern" time="1325171129301" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-220" Alt="8" Neu="9" obj="Gewandtheit" text="Eigenschaft steigern" time="1325171129791" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-220" Alt="8" Neu="9" obj="Konstitution" text="Eigenschaft steigern" time="1325171130275" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-220" Alt="8" Neu="9" obj="Körperkraft" text="Eigenschaft steigern" time="1325171130737" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-16" Alt="0" Neu="1" obj="Magieresistenz" text="Eigenschaft steigern" time="1325171131414" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-16" Alt="0" Neu="1" obj="Lebensenergie" text="Eigenschaft steigern" time="1325171132035" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-4" Alt="0" Neu="1" obj="Ausdauer" text="Eigenschaft steigern" time="1325171132639" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-8" Alt="0" Neu="1" obj="Astralenergie" text="Eigenschaft steigern" time="1325171133359" version="5.2.0" />
+			<ereignis kommentar="Editor" obj="Begabung für [Merkmal] Heilung" text="Vor-/Nachteil hinzugefügt" time="1325173286464" version="5.2.0" />
+			<ereignis kommentar="Editor" obj="Begabung für [Zauber] (Analys Arkanstruktur, Balsam Salabunde)" text="Vor-/Nachteil hinzugefügt" time="1325173286464" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-150" obj="Merkmalskenntnis: Hellsicht" text="Sonderfertigkeit hinzugefügt" time="1325173444313" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-150" obj="Bannschwert" text="Sonderfertigkeit hinzugefügt" time="1325173449129" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-75" obj="Kugelzauber: Bindung" text="Sonderfertigkeit hinzugefügt" time="1325173449617" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-38" obj="Kugelzauber: Brennglas und Prisma" text="Sonderfertigkeit hinzugefügt" time="1325173451061" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-7" Alt="1;1;0" Info="Gegenseitiges Lehren" Neu="2;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549333667" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-12" Alt="2;1;0" Info="Gegenseitiges Lehren" Neu="3;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549333940" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-17" Alt="3;1;0" Info="Gegenseitiges Lehren" Neu="4;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549334118" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-22" Alt="4;1;0" Info="Gegenseitiges Lehren" Neu="5;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549334307" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-27" Alt="5;1;0" Info="Gegenseitiges Lehren" Neu="6;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549334548" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-33" Alt="6;1;0" Info="Gegenseitiges Lehren" Neu="7;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549334903" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-39" Alt="7;1;0" Info="Gegenseitiges Lehren" Neu="8;1;0" obj="Stäbe" text="Nahkampftalent steigern" time="1326549335661" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-80" obj="Talentspezialisierung Stäbe (Magierstab als Stab)" text="Sonderfertigkeit hinzugefügt" time="1326549353331" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" Neu="0" obj="Abvenenum reine Speise [Magier]" text="Zauber aktivieren" time="1328733703974" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" Neu="0" obj="Armatrutz [Magier]" text="Zauber aktivieren" time="1328733708953" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-20" Neu="0" obj="Auris Nasus Oculus [Magier]" text="Zauber aktivieren" time="1328733710704" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-10" Neu="0" obj="Blitz dich find [Magier]" text="Zauber aktivieren" time="1328733716252" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-25" Neu="0" obj="Fortifex arkane Wand [Magier]" text="Zauber aktivieren" time="1328733723934" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-20" Neu="0" obj="Oculus Astralis [Magier]" text="Zauber aktivieren" time="1328733742385" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-10" Neu="0" obj="Sapefacta Zauberschwamm [Magier]" text="Zauber aktivieren" time="1328733747667" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-10" Neu="0" obj="Silentium [Magier]" text="Zauber aktivieren" time="1328733751204" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" Neu="0" obj="Applicatus Zauberspeicher [Magier]" text="Zauber aktivieren" time="1328733775623" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" Neu="0" obj="Axxeleratus Blitzgeschwind [Magier]" text="Zauber aktivieren" time="1328733779361" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-10" Neu="0" obj="Bannbaladin [Magier]" text="Zauber aktivieren" time="1328733781303" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-15" Neu="0" obj="Duplicatus Doppelbild [Magier]" text="Zauber aktivieren" time="1328733794021" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-5" Neu="0" obj="Favilludo Funkentanz [Magier]" text="Zauber aktivieren" time="1328733796343" version="5.2.0" />
+			<ereignis kommentar="Editor" obj="Unfähigkeit für [Merkmal] Antimagie" text="Vor-/Nachteil hinzugefügt" time="1342859655146" version="5.2.1" />
+			<ereignis kommentar="[EDITOREINGEGEBEN]" obj="Änderungskontrolle für Althelden (5.2.3) aktiviert" text="Änderungskontrolle" time="1356768411638" version="HS 5.2.4" />
+		</ereignisse>
+		<talentliste>
+			<talent lernmethode="Gegenseitiges Lehren" name="Armbrust" probe=" (GE/FF/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Dolche" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Fechtwaffen" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Hiebwaffen" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Infanteriewaffen" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Raufen" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Ringen" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Stäbe" probe=" (GE/GE/KK)" value="8" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Säbel" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wurfmesser" probe=" (GE/FF/KK)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Athletik" probe=" (GE/KO/KK)" value="0" />
+			<talent be="BE" lernmethode="Gegenseitiges Lehren" name="Fliegen" probe=" (MU/IN/GE)" value="2" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Klettern" probe=" (MU/GE/KK)" value="3" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Körperbeherrschung" probe=" (MU/IN/GE)" value="2" />
+			<talent be="BE" lernmethode="Gegenseitiges Lehren" name="Schleichen" probe=" (MU/IN/GE)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Schwimmen" probe=" (GE/KO/KK)" value="1" />
+			<talent be="" lernmethode="Gegenseitiges Lehren" name="Selbstbeherrschung" probe=" (MU/KO/KK)" value="2" />
+			<talent be="BE-2" lernmethode="Gegenseitiges Lehren" name="Sich verstecken" probe=" (MU/IN/GE)" value="0" />
+			<talent be="BE-3" lernmethode="Gegenseitiges Lehren" name="Singen" probe=" (IN/CH/CH)" value="0" />
+			<talent be="0-&gt;BE" lernmethode="Gegenseitiges Lehren" name="Sinnenschärfe" probe=" (KL/IN/IN)" value="3" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Tanzen" probe=" (CH/GE/GE)" value="1" />
+			<talent be="" lernmethode="Gegenseitiges Lehren" name="Zechen" probe=" (IN/KO/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Betören" probe=" (IN/CH/CH)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Etikette" probe=" (KL/IN/CH)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Gassenwissen" probe=" (KL/IN/CH)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Lehren" probe=" (KL/IN/CH)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Menschenkenntnis" probe=" (KL/IN/CH)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Überreden" probe=" (MU/IN/CH)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Fährtensuchen" probe=" (KL/IN/KO)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Orientierung" probe=" (KL/IN/IN)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wettervorhersage" probe=" (KL/IN/IN)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wildnisleben" probe=" (IN/GE/KO)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Brett-/Kartenspiel" probe=" (KL/KL/IN)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Geschichtswissen" probe=" (KL/KL/IN)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Götter und Kulte" probe=" (KL/KL/IN)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Magiekunde" probe=" (KL/KL/IN)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Mechanik" probe=" (KL/KL/FF)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Pflanzenkunde" probe=" (KL/IN/FF)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Rechnen" probe=" (KL/KL/IN)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Rechtskunde" probe=" (KL/KL/IN)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Sagen und Legenden" probe=" (KL/IN/CH)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Sternkunde" probe=" (KL/KL/IN)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Tierkunde" probe=" (MU/KL/IN)" value="1" />
+			<talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Bosparano" probe=" (KL/IN/CH)" value="4" />
+			<talent k="16" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Ferkina" probe=" (KL/IN/CH)" value="2" />
+			<talent k="18" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Garethi" probe=" (KL/IN/CH)" value="13" />
+			<talent k="18" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Tulamidya" probe=" (KL/IN/CH)" value="14" />
+			<talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Urtulamidya" probe=" (KL/IN/CH)" value="4" />
+			<talent k="10" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Kusliker Zeichen" probe=" (KL/KL/FF)" value="7" />
+			<talent k="14" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Tulamidya" probe=" (KL/KL/FF)" value="8" />
+			<talent k="16" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Urtulamidya" probe=" (KL/KL/FF)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Alchimie" probe=" (MU/KL/FF)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Hauswirtschaft" probe=" (IN/CH/FF)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Heilkunde: Wunden" probe=" (KL/CH/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Holzbearbeitung" probe=" (KL/FF/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Kochen" probe=" (KL/IN/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Lederarbeiten" probe=" (KL/FF/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Malen/Zeichnen" probe=" (KL/IN/FF)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Schneidern" probe=" (KL/FF/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Ritualkenntnis: Gildenmagie" probe=" (--/--/--)" value="3" />
+		</talentliste>
+		<zauberliste>
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="je 4" lernmethode="Gegenseitiges Lehren" name="Abvenenum reine Speise" probe=" (KL/KL/FF)" reichweite="1" repraesentation="Magier" value="0" variante="" wirkungsdauer="augenbl." zauberdauer="15" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Aeolitus Windgebraus" probe=" (KL/CH/KO)" reichweite="" repraesentation="Magier" value="7" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerofugo Vakuum" probe=" (MU/KO/KK)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerogelo Atemqual" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="1" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="D" kosten="6+3 je 1/2h" lernmethode="Gegenseitiges Lehren" name="Analys Arkanstruktur" probe=" (KL/KL/IN)" reichweite="1" repraesentation="Magier" value="3" variante="" wirkungsdauer="=ZD" zauberdauer="1+SR" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Applicatus Zauberspeicher" probe=" (KL/FF/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="min 4" lernmethode="Gegenseitiges Lehren" name="Armatrutz" probe=" (IN/GE/KO)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="1 SR(A)" zauberdauer="3" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Attributo" probe=" (KL/CH/**)" reichweite="" repraesentation="Magier" value="3" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Auris Nasus Oculus" probe=" (KL/CH/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Axxeleratus Blitzgeschwind" probe=" (KL/GE/KO)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="1/LeP min 5" lernmethode="Gegenseitiges Lehren" name="Balsam Salabunde" probe=" (KL/IN/CH)" reichweite="S, B" repraesentation="Magier" value="4" variante="" wirkungsdauer="augenbl." zauberdauer="1 SR" zauberkommentar="Allgemein wirkender Heizauber, bringt verlorene LeP zurück" />
+			<zauber anmerkungen="+MR" hauszauber="false" k="B" kosten="7" lernmethode="Gegenseitiges Lehren" name="Bannbaladin" probe=" (IN/CH/CH)" reichweite="3" repraesentation="Magier" value="0" variante="" wirkungsdauer="ZfP* SR" zauberdauer="5" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Blitz dich find" probe=" (KL/IN/GE)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Dschinnenruf" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="8" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Duplicatus Doppelbild" probe=" (KL/CH/GE)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Elementarer Diener" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="5" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="" lernmethode="Gegenseitiges Lehren" name="Favilludo Funkentanz" probe=" (IN/CH/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="1/SR" lernmethode="Gegenseitiges Lehren" name="Flim Flam Funkel" probe=" (KL/KL/FF)" reichweite="ZfW" repraesentation="Magier" value="5" variante="" wirkungsdauer="variabel" zauberdauer="2" zauberkommentar="Erzeugt eine kalt leuchtende Kugel" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Foramen Foraminor" probe=" (KL/KL/FF)" reichweite="" repraesentation="Magier" value="1" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="11" lernmethode="Gegenseitiges Lehren" name="Fortifex arkane Wand" probe=" (IN/KO/KK)" reichweite="3" repraesentation="Magier" value="0" variante="" wirkungsdauer="ZfP* x 10 KR" zauberdauer="10" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Gardianum Zauberschild" probe=" (KL/IN/KO)" reichweite="3" repraesentation="Magier" value="1" variante="" wirkungsdauer="1 SR" zauberdauer="2" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="true" k="A" kosten="3" lernmethode="Gegenseitiges Lehren" name="Manifesto Element" probe=" (KL/IN/CH)" reichweite="max 1" repraesentation="Magier" value="7" variante="" wirkungsdauer="1 Min-ZfP* SR" zauberdauer="10" zauberkommentar="Anwender kann kleinere elementare Effekte hervorrufen" />
+			<zauber anmerkungen="" hauszauber="false" k="F" kosten="" lernmethode="Gegenseitiges Lehren" name="Meister der Elemente" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Motoricus" probe=" (KL/FF/KK)" reichweite="7" repraesentation="Magier" value="3" variante="" wirkungsdauer="1 SR (A)" zauberdauer="5" zauberkommentar="Kernformel der Telekinese; ermöglicht das berührungslose Heben und Bewegen von unbelebten Gegenständen" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Nebelwand und Morgendunst" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Nihilogravo Schwerelos" probe=" (KL/KO/KK)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="11 +3 je SR" lernmethode="Gegenseitiges Lehren" name="Oculus Astralis" probe=" (KL/IN/CH)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="x SR (A)" zauberdauer="15" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="4" lernmethode="Gegenseitiges Lehren" name="Odem Arcanum" probe=" (KL/IN/IN)" reichweite="ZfW" repraesentation="Magier" value="4" variante="" wirkungsdauer="2 KR" zauberdauer="4" zauberkommentar="Der Anwender kann magische Auren sehen" />
+			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanofaxius Luftstrahl" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier" value="5" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanosphaero Orkanball" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orkanwand" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="7" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="5" lernmethode="Gegenseitiges Lehren" name="Sapefacta Zauberschwamm" probe=" (KL/CH/FF)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="augenbl." zauberdauer="50" zauberkommentar="Kleidung des Zauberer wird von Schmutz befreit" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Silentium" probe=" (KL/IN/CH)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="speziell" lernmethode="Gegenseitiges Lehren" name="Unitatio Geistesbund" probe=" (IN/CH/KO)" reichweite="B" repraesentation="Magier" value="2" variante="" wirkungsdauer="speziell" zauberdauer="30" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Wettermeisterschaft" probe=" (MU/CH/GE)" reichweite="" repraesentation="Magier" value="4" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Windhose" probe=" (MU/IN/KK)" reichweite="" repraesentation="Magier" value="4" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Windstille" probe=" (KL/CH/KK)" reichweite="" repraesentation="Magier" value="6" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+		</zauberliste>
+		<kampf>
+			<kampfwerte name="Dolche">
+				<attacke value="7" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Fechtwaffen">
+				<attacke value="7" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Hiebwaffen">
+				<attacke value="6" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Infanteriewaffen">
+				<attacke value="7" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Raufen">
+				<attacke value="7" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Ringen">
+				<attacke value="6" />
+				<parade value="6" />
+			</kampfwerte>
+			<kampfwerte name="Stäbe">
+				<attacke value="11" />
+				<parade value="9" />
+			</kampfwerte>
+			<kampfwerte name="Säbel">
+				<attacke value="6" />
+				<parade value="6" />
+			</kampfwerte>
+		</kampf>
+		<gegenstände>
+			<gegenstand anzahl="10" name="Bolzen" slot="0" />
+			<gegenstand anzahl="1" name="Dolch" slot="0">
+				<Fernkampfwaffe>
+					<talente kampftalent="Wurfmesser" />
+				</Fernkampfwaffe>
+			</gegenstand>
+			<gegenstand anzahl="1" name="Leichte Armbrust" slot="0">
+				<Fernkampfwaffe>
+					<talente kampftalent="Armbrust" />
+				</Fernkampfwaffe>
+			</gegenstand>
+			<gegenstand anzahl="1" name="Magierstab als Stab" slot="0" />
+			<gegenstand anzahl="1" name="Tagebuch, Papier" slot="0" />
+		</gegenstände>
+		<BoniWaffenlos />
+		<kommentare>
+			<kommentar key="Schulden" kommentar="Kommentar" />
+			<kommentar key="Vollzauberer" kommentar="Kommentar" />
+			<kommentar key="Stabzauber: Bindung" kommentar="Kommentar" />
+			<kommentar key="Große Meditation" kommentar="Kommentar" />
+			<kommentar key="Ritualkenntnis: Gildenmagie" kommentar="Kommentar" />
+			<kommentar key="Lästige Mindergeister" kommentar="Kommentar" />
+			<kommentar key="Kulturkunde (Horasreich)" kommentar="Kommentar" />
+			<kommentar key="Prinzipientreue" kommentar="Kommentar" />
+			<kommentar key="Repräsentation: Magier" kommentar="Kommentar" />
+			<kommentar key="Unfähigkeit für [Talentgruppe]" kommentar="Kommentar" />
+			<kommentar key="Affinität zu " kommentar="Kommentar" />
+			<kommentar key="Akademische Ausbildung (Magier)" kommentar="Kommentar" />
+			<kommentar key="Neugier" kommentar="Kommentar" />
+			<kommentar key="Merkmalskenntnis: Elementar (Luft)" kommentar="Kommentar" />
+			<kommentar key="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)" kommentar="Kommentar" />
+			<kommentar key="Talentspezialisierung Magiekunde (Elementarismus)" kommentar="Kommentar" />
+			<kommentar key="Weltfremd" kommentar="Kommentar" />
+			<kommentar key="Astrale Meditation" kommentar="Kommentar" />
+			<kommentar key="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)" kommentar="Kommentar" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Bannschwert" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Kugelzauber: Bindung" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Kugelzauber: Brennglas und Prisma" wirkung="" />
+			<sfInfos dauer="Dauer" kosten="22+1 pASP" probe="KL CH FF+3" sf="KL CH FF+3" sfname="Stabzauber: Bindung" wirkung="Wirk" />
+		</kommentare>
+		<ausrüstungen>
+			<heldenausruestung bezeichner="" bfakt="2" bfmin="2" hand="rechts" name="nkwaffe1" schild="0" set="0" slot="0" talent="Dolche" waffenname="Dolch" />
+			<heldenausruestung bezeichner="" bfakt="-9" bfmin="-9" hand="rechts" name="nkwaffe2" schild="0" set="0" slot="0" talent="Stäbe" waffenname="Magierstab als Stab" />
+			<heldenausruestung name="fkwaffe1" set="0" slot="0" talent="Armbrust" waffenname="Leichte Armbrust" />
+			<heldenausruestung name="jagtwaffe" nummer="0" set="0" />
+		</ausrüstungen>
+		<verbindungen />
+		<extention />
+		<geldboerse>
+			<muenze anzahl="1" name="Dukat" waehrung="Mittelreich" />
+			<muenze anzahl="3" name="Heller" waehrung="Mittelreich" />
+			<muenze anzahl="4" name="Kreuzer" waehrung="Mittelreich" />
+			<muenze anzahl="2" name="Silbertaler" waehrung="Mittelreich" />
+		</geldboerse>
+	</held>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1" />
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>oEnfIpiz5SMvlV35xETxKwOVqm8=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>UW82tJ6VnXqxQOUzzhfgXb4EvHuJLgwgOq1/jsGwMnuyGz7B3prUzQ==</SignatureValue>
+		<KeyInfo>
+			<KeyValue>
+				<DSAKeyValue>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+						xD7nN1kuFw==</P>
+					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+						QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+						iExM4RWtJA==</Y>
+				</DSAKeyValue>
+			</KeyValue>
+		</KeyInfo>
+	</Signature>
+</helden>

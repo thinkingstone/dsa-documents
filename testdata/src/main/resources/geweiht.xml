@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
+<helden Version="5.2.7">
+	<held key="1325171725653" name="Geweiht" stand="1371299078905">
+		<basis>
+			<geschlecht name="weiblich" />
+			<settings name="DSA4.1" />
+			<mods />
+			<rasse name="helden.model.rasse.Tulamide" string="Tulamidin">
+				<groesse gewicht="83" value="188" />
+				<aussehen alter="20" augenfarbe="dunkelbraun" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4="" familietext5="" gbjahr="1003" gbmonat="1" gbtag="24" gprest="0" gpstart="110" haarfarbe="schwarz" kalender="Bosparans Fall" stand="" titel="" />
+			</rasse>
+			<kultur name="helden.model.kultur.Mhanadistan" schrift="Lesen/Schreiben Tulamidya" string="Mhanadistan/An wichtigen Handelsrouten" zweitsprache="Sprachen kennen Garethi">
+				<variante name="An wichtigen Handelsrouten" />
+			</kultur>
+			<ausbildungen>
+				<ausbildung art="Hauptprofession" name="helden.model.profession.Geweihter" string="Geweihte: Hesinde, Satori" tarnidentitaet="">
+					<variante name="Hesinde, Satori" />
+				</ausbildung>
+			</ausbildungen>
+			<verify value="2" />
+			<notiz notiz0="Notizen" notiz1="" notiz10="" notiz11="" notiz2="" notiz3="" notiz4="" notiz5="" notiz6="" notiz7="" notiz8="" notiz9="" />
+			<portraet value="/home/mb/workspaces/heldendokument/GIT/testdata/src/main/resources/geweiht.jpg" />
+			<abenteuerpunkte value="5540" />
+			<freieabenteuerpunkte value="2544" />
+		</basis>
+		<eigenschaften>
+			<eigenschaft mod="0" name="Mut" startwert="10" value="11" />
+			<eigenschaft mod="0" name="Klugheit" startwert="13" value="14" />
+			<eigenschaft mod="0" name="Intuition" startwert="14" value="15" />
+			<eigenschaft mod="0" name="Charisma" startwert="13" value="14" />
+			<eigenschaft mod="0" name="Fingerfertigkeit" startwert="10" value="11" />
+			<eigenschaft mod="0" name="Gewandtheit" startwert="10" value="11" />
+			<eigenschaft mod="0" name="Konstitution" startwert="10" value="11" />
+			<eigenschaft mod="0" name="Körperkraft" startwert="9" value="10" />
+			<eigenschaft mod="0" name="Sozialstatus" startwert="8" value="8" />
+			<eigenschaft mod="10" name="Lebensenergie" value="1" />
+			<eigenschaft mod="10" name="Ausdauer" value="1" />
+			<eigenschaft grossemeditation="0" mod="0" mrmod="-2" name="Astralenergie" value="0" />
+			<eigenschaft karmalqueste="4" mod="28" name="Karmaenergie" value="0" />
+			<eigenschaft mod="-2" name="Magieresistenz" value="1" />
+			<eigenschaft mod="0" name="ini" value="10" />
+			<eigenschaft mod="0" name="at" value="6" />
+			<eigenschaft mod="0" name="pa" value="7" />
+			<eigenschaft mod="0" name="fk" value="7" />
+		</eigenschaften>
+		<vt>
+			<vorteil name="Akademische Ausbildung (Gelehrter)" />
+			<vorteil name="Geweiht [zwölfgöttliche Kirche]" />
+			<vorteil name="Gutes Gedächtnis" />
+			<vorteil name="Meeresangst" value="5" />
+			<vorteil name="Moralkodex [Hesinde-Kirche]" />
+			<vorteil name="Neugier" value="7" />
+			<vorteil name="Verpflichtungen" />
+		</vt>
+		<sf>
+			<sonderfertigkeit name="Karmalqueste" />
+			<sonderfertigkeit name="Kulturkunde">
+				<kultur name="Tulamidenlande" />
+			</sonderfertigkeit>
+			<sonderfertigkeit name="Liturgie: Blick an den klaren Himmel (Sterne funkeln immerfort)" />
+			<sonderfertigkeit name="Liturgie: Eidsegen" />
+			<sonderfertigkeit name="Liturgie: Feuersegen" />
+			<sonderfertigkeit name="Liturgie: Geburtssegen" />
+			<sonderfertigkeit name="Liturgie: Glückssegen" />
+			<sonderfertigkeit name="Liturgie: Grabsegen" />
+			<sonderfertigkeit name="Liturgie: Harmoniesegen" />
+			<sonderfertigkeit name="Liturgie: Heilungssegen" />
+			<sonderfertigkeit name="Liturgie: Initiation" />
+			<sonderfertigkeit name="Liturgie: Märtyrersegen" />
+			<sonderfertigkeit name="Liturgie: Schutzsegen" />
+			<sonderfertigkeit name="Liturgie: Sicht auf Madas Welt" />
+			<sonderfertigkeit name="Liturgie: Speisesegen" />
+			<sonderfertigkeit name="Liturgie: Sprechende Symbole" />
+			<sonderfertigkeit name="Liturgie: Tranksegen" />
+			<sonderfertigkeit name="Liturgie: Unverstellter Blick" />
+			<sonderfertigkeit name="Liturgie: Weisheitssegen" />
+			<sonderfertigkeit name="Liturgiekenntnis (Hesinde)" />
+			<sonderfertigkeit name="Nandusgefälliges Wissen" />
+		</sf>
+		<ereignisse>
+			<ereignis obj="max GP für Helden: 110" text="EINSTELLUNG" time="1325171727028" version="5.2.0" />
+			<ereignis obj="max Eigenschafts-GP für Helden: 100" text="EINSTELLUNG" time="1325171727028" version="5.2.0" />
+			<ereignis obj="max Eigenschafts-Wert für Helden: 14" text="EINSTELLUNG" time="1325171727028" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Rasse: Tulamidin" text="RKP" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="1 GP" obj="Kultur: Mhanadistan/An wichtigen Handelsrouten" text="RKP" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="13 GP" obj="Profession: Geweihte: Hesinde, Satori" text="RKP" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="10" kommentar="10 GP" obj="Mut: 10" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="13" kommentar="13 GP" obj="Klugheit: 13" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="14" kommentar="14 GP" obj="Intuition: 14" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="13" kommentar="13 GP" obj="Charisma: 13" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="10" kommentar="10 GP" obj="Fingerfertigkeit: 10" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="10" kommentar="10 GP" obj="Gewandtheit: 10" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="10" kommentar="10 GP" obj="Konstitution: 10" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="9" kommentar="9 GP" obj="Körperkraft: 9" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="8" kommentar="0 GP" obj="Sozialstatus: 8" text="EIGENSCHAFTEN" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Akademische Ausbildung (Gelehrter)" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Geweiht [zwölfgöttliche Kirche]" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="12 GP" obj="Gutes Gedächtnis" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="-5 GP" obj="Meeresangst: 5" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Moralkodex [Hesinde-Kirche]" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Neugier: 7" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis Alt="0" Neu="0" kommentar="0 GP" obj="Verpflichtungen" text="VORTEILE" time="1325171727031" version="5.2.0" />
+			<ereignis obj="Auswahl" text="Lesen/Schreiben Tulamidya" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="1" obj="Auswahl" text="Hiebwaffen" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="1" obj="Auswahl" text="Hauswirtschaft" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Anatomie" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="4" obj="Auswahl" text="Baukunst" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="3" obj="Auswahl" text="Brett-/Kartenspiel" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="3" obj="Auswahl" text="Geografie" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="3" obj="Auswahl" text="Geschichtswissen" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="3" obj="Auswahl" text="Gesteinskunde" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="7" obj="Auswahl" text="Sprachen kennen Bosparano" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Sprachen kennen Urtulamidya" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="8" obj="Auswahl" text="Sprachen kennen Garethi" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Sprachen kennen Alt-Imperial/Aureliani" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="8" obj="Auswahl" text="Lesen/Schreiben Kusliker Zeichen" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="6" obj="Auswahl" text="Lesen/Schreiben Tulamidya" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Lesen/Schreiben Altes Alaani" time="1325171727031" version="5.2.0" />
+			<ereignis Neu="5" obj="Auswahl" text="Lesen/Schreiben Altes Amulashtra" time="1325171727031" version="5.2.0" />
+			<ereignis Abenteuerpunkte="5000" obj="Abenteuerpunkte" text="Ereignis eingeben" time="1325171734005" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-280" Alt="10" Neu="11" obj="Mut" text="Eigenschaft steigern" time="1325171737067" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-380" Alt="13" Neu="14" obj="Klugheit" text="Eigenschaft steigern" time="1325171737451" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-410" Alt="14" Neu="15" obj="Intuition" text="Eigenschaft steigern" time="1325171738143" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-380" Alt="13" Neu="14" obj="Charisma" text="Eigenschaft steigern" time="1325171738538" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-280" Alt="10" Neu="11" obj="Fingerfertigkeit" text="Eigenschaft steigern" time="1325171738932" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-280" Alt="10" Neu="11" obj="Gewandtheit" text="Eigenschaft steigern" time="1325171739437" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-280" Alt="10" Neu="11" obj="Konstitution" text="Eigenschaft steigern" time="1325171739817" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-250" Alt="9" Neu="10" obj="Körperkraft" text="Eigenschaft steigern" time="1325171740199" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-16" Alt="0" Neu="1" obj="Magieresistenz" text="Eigenschaft steigern" time="1325171740795" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-16" Alt="0" Neu="1" obj="Lebensenergie" text="Eigenschaft steigern" time="1325171741884" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-4" Alt="0" Neu="1" obj="Ausdauer" text="Eigenschaft steigern" time="1325171742356" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-19" Alt="7" Info="Gegenseitiges Lehren" Neu="8" obj="Götter und Kulte" text="Talent steigern" time="1325171763432" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-45" Alt="6" Info="Gegenseitiges Lehren" Neu="7" obj="Liturgiekenntnis (Hesinde)" text="Talent steigern" time="1325171790320" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-56" Alt="7" Info="Gegenseitiges Lehren" Neu="8" obj="Liturgiekenntnis (Hesinde)" text="Talent steigern" time="1325171790529" version="5.2.0" />
+			<ereignis Abenteuerpunkte="-300" Karmaenergie="4" text="Karmalqueste" time="1325171796347" version="5.2.0" />
+			<ereignis kommentar="[]" obj="Änderungskontrolle für Althelden (5.2.3) aktiviert" text="Änderungskontrolle" time="1356768411544" version="HS 5.2.4" />
+		</ereignisse>
+		<talentliste>
+			<talent lernmethode="Gegenseitiges Lehren" name="Dolche" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Hiebwaffen" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Raufen" probe=" (GE/GE/KK)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Ringen" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Stäbe" probe=" (GE/GE/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Säbel" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wurfmesser" probe=" (GE/FF/KK)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Athletik" probe=" (GE/KO/KK)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Klettern" probe=" (MU/GE/KK)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Körperbeherrschung" probe=" (MU/IN/GE)" value="0" />
+			<talent be="BE" lernmethode="Gegenseitiges Lehren" name="Schleichen" probe=" (MU/IN/GE)" value="0" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Schwimmen" probe=" (GE/KO/KK)" value="0" />
+			<talent be="" lernmethode="Gegenseitiges Lehren" name="Selbstbeherrschung" probe=" (MU/KO/KK)" value="0" />
+			<talent be="BE-2" lernmethode="Gegenseitiges Lehren" name="Sich verstecken" probe=" (MU/IN/GE)" value="0" />
+			<talent be="BE-3" lernmethode="Gegenseitiges Lehren" name="Singen" probe=" (IN/CH/CH)" value="3" />
+			<talent be="0-&gt;BE" lernmethode="Gegenseitiges Lehren" name="Sinnenschärfe" probe=" (KL/IN/IN)" value="1" />
+			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Tanzen" probe=" (CH/GE/GE)" value="1" />
+			<talent be="" lernmethode="Gegenseitiges Lehren" name="Zechen" probe=" (IN/KO/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Etikette" probe=" (KL/IN/CH)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Lehren" probe=" (KL/IN/CH)" value="7" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Menschenkenntnis" probe=" (KL/IN/CH)" value="8" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Schriftlicher Ausdruck" probe=" (KL/IN/IN)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Überreden" probe=" (MU/IN/CH)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Überzeugen" probe=" (KL/IN/CH)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Fährtensuchen" probe=" (KL/IN/KO)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Orientierung" probe=" (KL/IN/IN)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wettervorhersage" probe=" (KL/IN/IN)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Wildnisleben" probe=" (IN/GE/KO)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Anatomie" probe=" (MU/KL/FF)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Baukunst" probe=" (KL/KL/FF)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Brett-/Kartenspiel" probe=" (KL/KL/IN)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Geografie" probe=" (KL/KL/IN)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Geschichtswissen" probe=" (KL/KL/IN)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Gesteinskunde" probe=" (KL/IN/FF)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Götter und Kulte" probe=" (KL/KL/IN)" value="8" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Magiekunde" probe=" (KL/KL/IN)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Philosophie" probe=" (KL/KL/IN)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Rechnen" probe=" (KL/KL/IN)" value="4" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Rechtskunde" probe=" (KL/KL/IN)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Sagen und Legenden" probe=" (KL/IN/CH)" value="5" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Schätzen" probe=" (KL/IN/IN)" value="1" />
+			<talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Alt-Imperial/Aureliani" probe=" (KL/IN/CH)" value="5" />
+			<talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Bosparano" probe=" (KL/IN/CH)" value="7" />
+			<talent k="18" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Garethi" probe=" (KL/IN/CH)" value="17" />
+			<talent k="18" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Tulamidya" probe=" (KL/IN/CH)" value="13" />
+			<talent k="21" lernmethode="Gegenseitiges Lehren" name="Sprachen kennen Urtulamidya" probe=" (KL/IN/CH)" value="5" />
+			<talent k="18" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Altes Alaani" probe=" (KL/KL/FF)" value="5" />
+			<talent k="17" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Altes Amulashtra" probe=" (KL/KL/FF)" value="5" />
+			<talent k="10" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Kusliker Zeichen" probe=" (KL/KL/FF)" value="8" />
+			<talent k="14" lernmethode="Gegenseitiges Lehren" name="Lesen/Schreiben Tulamidya" probe=" (KL/KL/FF)" value="6" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Ackerbau" probe=" (IN/FF/KO)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Alchimie" probe=" (MU/KL/FF)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Hauswirtschaft" probe=" (IN/CH/FF)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Heilkunde: Wunden" probe=" (KL/CH/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Holzbearbeitung" probe=" (KL/FF/KK)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Kochen" probe=" (KL/IN/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Lederarbeiten" probe=" (KL/FF/FF)" value="1" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Malen/Zeichnen" probe=" (KL/IN/FF)" value="3" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Musizieren" probe=" (IN/CH/FF)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Schneidern" probe=" (KL/FF/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Viehzucht" probe=" (KL/IN/KK)" value="2" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Liturgiekenntnis (Hesinde)" probe=" (MU/IN/CH)" value="8" />
+		</talentliste>
+		<zauberliste />
+		<kampf>
+			<kampfwerte name="Dolche">
+				<attacke value="6" />
+				<parade value="8" />
+			</kampfwerte>
+			<kampfwerte name="Hiebwaffen">
+				<attacke value="6" />
+				<parade value="8" />
+			</kampfwerte>
+			<kampfwerte name="Raufen">
+				<attacke value="6" />
+				<parade value="9" />
+			</kampfwerte>
+			<kampfwerte name="Ringen">
+				<attacke value="6" />
+				<parade value="8" />
+			</kampfwerte>
+			<kampfwerte name="Stäbe">
+				<attacke value="6" />
+				<parade value="8" />
+			</kampfwerte>
+			<kampfwerte name="Säbel">
+				<attacke value="6" />
+				<parade value="7" />
+			</kampfwerte>
+		</kampf>
+		<gegenstände>
+			<gegenstand anzahl="1" name="Dolch" slot="0">
+				<Fernkampfwaffe>
+					<talente kampftalent="Wurfmesser" />
+				</Fernkampfwaffe>
+			</gegenstand>
+			<gegenstand anzahl="1" name="Katze: Al'Anfaner" slot="0">
+				<modallgemein>
+					<gewicht value="200.0" />
+					<preis value="0" />
+					<name value="Katze" />
+				</modallgemein>
+				<Tier>
+					<eigenschaften>
+						<eigenschaft name="Ausdauer" value="45" />
+						<eigenschaft name="Charisma" value="9" />
+						<eigenschaft name="Fingerfertigkeit" value="4" />
+						<eigenschaft name="Gefahrenwert" value="3" />
+						<eigenschaft name="Geschwindigkeit" value="11.0" />
+						<eigenschaft name="Geschwindigkeit 2" value="0.1" />
+						<eigenschaft name="Geschwindigkeit 3" value="0.2" />
+						<eigenschaft name="Gewandtheit" value="14" />
+						<eigenschaft name="Intuition" value="7" />
+						<eigenschaft name="Klugheit" value="5" />
+						<eigenschaft name="Konstitution" value="7" />
+						<eigenschaft name="Körperkraft" value="3" />
+						<eigenschaft name="Lebensenergie" value="10" />
+						<eigenschaft name="Loyalität" value="6" />
+						<eigenschaft name="Magieresistenz" value="1" />
+						<eigenschaft name="Magieresistenz 2" value="1" />
+						<eigenschaft name="Mut" value="7" />
+						<eigenschaft name="Rüstungsschutz" value="2" />
+					</eigenschaften>
+					<vorteile>
+						<vorteil name="Elegante Erscheinung" />
+						<vorteil name="Flinkheit" />
+						<vorteil name="Geduldig" />
+						<vorteil name="Guter Orientierungssinn" />
+						<vorteil name="Intelligent" />
+						<vorteil name="Lernfähig" />
+						<vorteil name="Magiegespür" />
+						<vorteil name="Nachtsicht" />
+						<vorteil name="Schnell" />
+						<vorteil name="Spieltrieb" value="4" />
+						<vorteil name="Tragkraft" />
+						<vorteil name="Wasserliebend" />
+					</vorteile>
+					<sonderfertigkeiten>
+						<sonderfertigkeit name="Anspringen (Tier)">
+							<auswahl name="0" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Anzeige" />
+						<sonderfertigkeit name="Apport (Tier)" />
+						<sonderfertigkeit name="Ausbildung">
+							<auswahl name="Geschult" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Fass I" />
+						<sonderfertigkeit name="Fass II" />
+						<sonderfertigkeit name="Gelände">
+							<auswahl name="Baum" />
+							<auswahl name="Dschungel" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Gezielter Angriff" />
+						<sonderfertigkeit name="Gezielter Biss" />
+						<sonderfertigkeit name="Hinlegen" />
+						<sonderfertigkeit name="Hinterhalt">
+							<auswahl name="0" />
+							<auswahl name="12" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Kommen auf Signal" />
+						<sonderfertigkeit name="Laut" />
+						<sonderfertigkeit name="Sehr kleiner Gegner">
+							<auswahl name="AT+2 / PA+4" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Sprungsicherheit" />
+						<sonderfertigkeit name="Stille Wacht" />
+						<sonderfertigkeit name="Such" />
+						<sonderfertigkeit name="Trick">
+							<auswahl>
+								<wahl position="0" value="Unwiederstehlicher Blick" />
+							</auswahl>
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Unarten">
+							<auswahl name="Knabbern" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Verbeißen" />
+					</sonderfertigkeiten>
+					<ini mul="1" sum="13" w="6" />
+					<groesse value="50" />
+					<angriffe>
+						<angriff name="Krallen">
+							<at value="11" />
+							<pa value="11" />
+							<tp mul="1" sum="-1" w="6" />
+							<dk value="Handgemenge" />
+						</angriff>
+						<angriff name="Fiktiv">
+							<at value="10" />
+							<pa value="11" />
+							<tp mul="1" sum="4" w="20" />
+							<dk value="Handgemenge" />
+							<dk value="Nah" />
+							<dk value="Stangenwaffe" />
+							<dk value="Pike" />
+						</angriff>
+						<angriff name="Fiktiv">
+							<at value="10" />
+							<pa value="11" />
+							<tp mul="1" sum="4" w="6" />
+							<dk value="Handgemenge" />
+							<dk value="Nah" />
+							<dk value="Stangenwaffe" />
+							<dk value="Pike" />
+						</angriff>
+						<angriff name="Fiktiv">
+							<at value="10" />
+							<pa value="11" />
+							<tp mul="1" sum="4" w="3" />
+							<dk value="Handgemenge" />
+							<dk value="Nah" />
+							<dk value="Stangenwaffe" />
+							<dk value="Pike" />
+						</angriff>
+						<angriff name="Fiktiv">
+							<at value="10" />
+							<pa value="11" />
+							<tp mul="1" sum="4" w="2" />
+							<dk value="Handgemenge" />
+							<dk value="Nah" />
+							<dk value="Stangenwaffe" />
+							<dk value="Pike" />
+						</angriff>
+					</angriffe>
+					<gattung value="Al'Anfaner" />
+					<familie value="Katze" />
+				</Tier>
+			</gegenstand>
+			<gegenstand anzahl="1" name="Pferd: Shadif" slot="0">
+				<modallgemein>
+					<gewicht value="18000.0" />
+					<preis value="0" />
+					<name value="Pferd" />
+				</modallgemein>
+				<Tier>
+					<eigenschaften>
+						<eigenschaft name="Astralenergie" value="4" />
+						<eigenschaft name="Ausdauer" value="4" />
+						<eigenschaft name="Charisma" value="4" />
+						<eigenschaft name="Fingerfertigkeit" value="5" />
+						<eigenschaft name="Gefahrenwert" value="8" />
+						<eigenschaft name="Geschwindigkeit" value="2.0" />
+						<eigenschaft name="Geschwindigkeit 2" value="12.0" />
+						<eigenschaft name="Geschwindigkeit 3" value="15.0" />
+						<eigenschaft name="Gewandtheit" value="6" />
+						<eigenschaft name="Intuition" value="3" />
+						<eigenschaft name="Klugheit" value="2" />
+						<eigenschaft name="Konstitution" value="18" />
+						<eigenschaft name="Körperkraft" value="21" />
+						<eigenschaft name="Lebensenergie" value="57" />
+						<eigenschaft name="Loyalität" value="10" />
+						<eigenschaft name="Magieresistenz" value="0" />
+						<eigenschaft name="Magieresistenz 2" value="8" />
+						<eigenschaft name="Mut" value="1" />
+						<eigenschaft name="Rüstungsschutz" value="1" />
+					</eigenschaften>
+					<vorteile>
+						<vorteil name="Ausdauernd (Tier)" />
+						<vorteil name="Höhenangst" value="6" />
+						<vorteil name="Nervosität" />
+						<vorteil name="Schnell" />
+						<vorteil name="Sehr lernfähig" />
+						<vorteil name="Zäh" />
+						<vorteil name="Zugkraft" />
+					</vorteile>
+					<sonderfertigkeiten>
+						<sonderfertigkeit name="Ausbildung">
+							<auswahl name="Adelsross" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Großer Gegner" />
+						<sonderfertigkeit name="Niederwerfen (Tier)">
+							<auswahl name="6" />
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Trick">
+							<auswahl>
+								<wahl position="0" value="Macht Männchen" />
+							</auswahl>
+						</sonderfertigkeit>
+						<sonderfertigkeit name="Unarten">
+							<auswahl name="Spucken" />
+						</sonderfertigkeit>
+					</sonderfertigkeiten>
+					<ini mul="1" sum="9" w="6" />
+					<groesse value="154" />
+					<angriffe>
+						<angriff name="Biss">
+							<at value="11" />
+							<pa value="8" />
+							<tp mul="1" sum="1" w="6" />
+							<dk value="Handgemenge" />
+						</angriff>
+						<angriff name="Tritt">
+							<at value="11" />
+							<pa value="8" />
+							<tp mul="1" sum="2" w="6" />
+							<dk value="Nah" />
+						</angriff>
+					</angriffe>
+					<gattung value="Shadif" />
+					<familie value="Pferd" />
+				</Tier>
+			</gegenstand>
+		</gegenstände>
+		<BoniWaffenlos />
+		<kommentare>
+			<kommentar key="Liturgie: Eidsegen" kommentar="Eidschwur mit Strafe" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Blick an den klaren Himmel (Sterne funkeln immerfort)" wirkung="" />
+			<sfInfos dauer="1 SR" kosten="5" probe="MU/IN/CH+0" sf="MU/IN/CH+0" sfname="Liturgie: Eidsegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Feuersegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Geburtssegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Glückssegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Grabsegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Harmoniesegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Heilungssegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Initiation" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Märtyrersegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Schutzsegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Sicht auf Madas Welt" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Speisesegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Sprechende Symbole" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Tranksegen" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Unverstellter Blick" wirkung="" />
+			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Liturgie: Weisheitssegen" wirkung="" />
+		</kommentare>
+		<ausrüstungen>
+			<heldenausruestung bezeichner="" bfakt="2" bfmin="2" hand="rechts" name="nkwaffe1" schild="0" set="0" slot="0" talent="Dolche" waffenname="Dolch" />
+			<heldenausruestung name="jagtwaffe" nummer="0" set="0" />
+		</ausrüstungen>
+		<verbindungen />
+		<extention />
+		<geldboerse />
+	</held>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1" />
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>+jgOcaDJoCPEj2YiAiZgNebAvD8=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>Wg1Yzvgp94GS+E99/xHlwhWFu2h66tHMvwbOAf3ZsAXUbJZ+1zwzBA==</SignatureValue>
+		<KeyInfo>
+			<KeyValue>
+				<DSAKeyValue>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+						xD7nN1kuFw==</P>
+					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+						QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+						iExM4RWtJA==</Y>
+				</DSAKeyValue>
+			</KeyValue>
+		</KeyInfo>
+	</Signature>
+</helden>

@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" ?>
+<daten>
+	<config>
+		<rsmodell>zone</rsmodell>
+		<datum>15.06.2013</datum>
+		<uhrzeit>14:46</uhrzeit>
+		<geldkreise>false</geldkreise>
+		<metatalente>true</metatalente>
+		<zauberquellen>true</zauberquellen>
+		<namenaufseiten>false</namenaufseiten>
+	</config>
+	<angaben>
+		<augenfarbe>blau</augenfarbe>
+		<geburtstag>4. Efferd 1003 BF</geburtstag>
+		<alter>21</alter>
+		<geschlecht>weiblich</geschlecht>
+		<groesse>186</groesse>
+		<gewicht>86</gewicht>
+		<haarfarbe>blond</haarfarbe>
+		<stand />
+		<titel />
+		<name>Magie</name>
+		<bildPfad>/home/mb/workspaces/heldendokument/GIT/testdata/src/main/resources/magie.jpg</bildPfad>
+		<aussehen>
+			<a0 />
+			<a1 />
+			<a2 />
+			<a3 />
+			<text />
+		</aussehen>
+		<familie>
+			<f0 />
+			<f1 />
+			<f2 />
+			<f3 />
+			<f4 />
+			<f5 />
+			<text />
+		</familie>
+		<notizen>
+			<n0>Notizen</n0>
+			<n1 />
+			<n2 />
+			<n3 />
+			<n4 />
+			<n5 />
+			<n6 />
+			<n7 />
+			<n8 />
+			<n9 />
+			<n10 />
+			<n11 />
+			<text>Notizen</text>
+		</notizen>
+		<profession>
+			<text>Konzil der Elemente zu Drakonia - Luftelementarist</text>
+			<textkurz>Konzil der Elemente zu Drakonia - Luftelementarist</textkurz>
+		</profession>
+		<ap>
+			<gesamt>5480</gesamt>
+			<frei>2146</frei>
+			<genutzt>3334</genutzt>
+		</ap>
+		<gp>
+			<start>110</start>
+			<rest>1</rest>
+		</gp>
+		<stufe40>
+			<akt>8</akt>
+			<max>10</max>
+			<lang>8 [10]</lang>
+		</stufe40>
+		<stufe41>
+			<akt>3</akt>
+			<max>5</max>
+			<lang>3 [5]</lang>
+		</stufe41>
+		<stufe deprecated="true">
+			<akt>3</akt>
+			<max>5</max>
+			<lang>3 [5]</lang>
+		</stufe>
+		<gilde>grau</gilde>
+		<magisch>true</magisch>
+		<geweiht>false</geweiht>
+		<rasse>Mittelländerin</rasse>
+		<kultur>Horasreich</kultur>
+		<aspregeneration>1W6</aspregeneration>
+		<leregeneration>1W6</leregeneration>
+		<heldenversion>050207</heldenversion>
+		<wundschwelle>5</wundschwelle>
+		<rsgesamt deprecated="true">0</rsgesamt>
+		<rsbe deprecated="true">0</rsbe>
+		<zonenruestung deprecated="true">
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+	</angaben>
+	<eigenschaften>
+		<geschwindigkeit>
+			<akt>7</akt>
+			<start>7</start>
+			<modi>0</modi>
+			<name>Geschwindigkeit</name>
+			<bereich>sonst</bereich>
+		</geschwindigkeit>
+		<mut>
+			<akt>13</akt>
+			<start>12</start>
+			<modi>0</modi>
+			<name>Mut</name>
+			<bereich>guteeigenschaft</bereich>
+		</mut>
+		<klugheit>
+			<akt>14</akt>
+			<start>13</start>
+			<modi>0</modi>
+			<name>Klugheit</name>
+			<bereich>guteeigenschaft</bereich>
+		</klugheit>
+		<intuition>
+			<akt>12</akt>
+			<start>11</start>
+			<modi>0</modi>
+			<name>Intuition</name>
+			<bereich>guteeigenschaft</bereich>
+		</intuition>
+		<charisma>
+			<akt>13</akt>
+			<start>12</start>
+			<modi>0</modi>
+			<name>Charisma</name>
+			<bereich>guteeigenschaft</bereich>
+		</charisma>
+		<fingerfertigkeit>
+			<akt>12</akt>
+			<start>11</start>
+			<modi>0</modi>
+			<name>Fingerfertigkeit</name>
+			<bereich>guteeigenschaft</bereich>
+		</fingerfertigkeit>
+		<gewandtheit>
+			<akt>9</akt>
+			<start>8</start>
+			<modi>0</modi>
+			<name>Gewandtheit</name>
+			<bereich>guteeigenschaft</bereich>
+		</gewandtheit>
+		<konstitution>
+			<akt>9</akt>
+			<start>8</start>
+			<modi>0</modi>
+			<name>Konstitution</name>
+			<bereich>guteeigenschaft</bereich>
+		</konstitution>
+		<koerperkraft>
+			<akt>9</akt>
+			<start>8</start>
+			<modi>0</modi>
+			<name>Körperkraft</name>
+			<bereich>guteeigenschaft</bereich>
+		</koerperkraft>
+		<sozialstatus>
+			<akt>7</akt>
+			<start>7</start>
+			<modi>0</modi>
+			<name>Sozialstatus</name>
+			<bereich>guteeigenschaft</bereich>
+		</sozialstatus>
+		<astralenergie>
+			<akt>38</akt>
+			<start>18</start>
+			<modi>18</modi>
+			<name>Astralenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>12</kaufbar>
+			<gekauft>1</gekauft>
+			<ausvornachteile>0</ausvornachteile>
+			<muinch2>19</muinch2>
+			<aussonderfertigkeiten>0</aussonderfertigkeiten>
+			<professionmod>18</professionmod>
+			<grossemeditation>0</grossemeditation>
+			<pasprueckkaufbar>0</pasprueckkaufbar>
+			<aktinklrueckkaufbarepasp>38</aktinklrueckkaufbarepasp>
+		</astralenergie>
+		<attacke>
+			<akt>6</akt>
+			<start>6</start>
+			<modi>0</modi>
+			<name>Attacke</name>
+			<bereich>sonst</bereich>
+		</attacke>
+		<ausdauer>
+			<akt>27</akt>
+			<start>14</start>
+			<modi>10</modi>
+			<name>Ausdauer</name>
+			<bereich>sonst</bereich>
+			<kaufbar>8</kaufbar>
+			<gekauft>1</gekauft>
+			<akt50>14</akt50>
+			<akt33>9</akt33>
+			<akt25>7</akt25>
+		</ausdauer>
+		<fernkampf-basis>
+			<akt>7</akt>
+			<start>6</start>
+			<modi>0</modi>
+			<name>Fernkampf-Basis</name>
+			<bereich>sonst</bereich>
+		</fernkampf-basis>
+		<initiative>
+			<akt>9</akt>
+			<start>9</start>
+			<modi>0</modi>
+			<name>Initiative</name>
+			<bereich>sonst</bereich>
+		</initiative>
+		<karmaenergie>
+			<akt>0</akt>
+			<start>0</start>
+			<modi>0</modi>
+			<name>Karmaenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>12</kaufbar>
+			<gekauft>0</gekauft>
+		</karmaenergie>
+		<lebensenergie>
+			<akt>25</akt>
+			<start>12</start>
+			<modi>10</modi>
+			<name>Lebensenergie</name>
+			<bereich>sonst</bereich>
+			<kaufbar>4</kaufbar>
+			<gekauft>1</gekauft>
+			<akt50>13</akt50>
+			<akt33>8</akt33>
+			<akt25>6</akt25>
+		</lebensenergie>
+		<magieresistenz>
+			<akt>6</akt>
+			<start>7</start>
+			<modi>-2</modi>
+			<name>Magieresistenz</name>
+			<bereich>sonst</bereich>
+			<kaufbar>6</kaufbar>
+			<gekauft>1</gekauft>
+		</magieresistenz>
+		<parade>
+			<akt>6</akt>
+			<start>5</start>
+			<modi>0</modi>
+			<name>Parade</name>
+			<bereich>sonst</bereich>
+		</parade>
+	</eigenschaften>
+	<geld>
+		<Dukat>
+			<anzahl>1</anzahl>
+			<namekurz>D</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>25.0</gewicht>
+			<wertinsilberstuecken>10.0</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>10.0</gesamtwertinsilberstuecken>
+		</Dukat>
+		<Silbertaler>
+			<anzahl>2</anzahl>
+			<namekurz>S</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>5.0</gewicht>
+			<wertinsilberstuecken>1.0</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>2.0</gesamtwertinsilberstuecken>
+		</Silbertaler>
+		<Heller>
+			<anzahl>3</anzahl>
+			<namekurz>H</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>5.0</gewicht>
+			<wertinsilberstuecken>0.1</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>0.3</gesamtwertinsilberstuecken>
+		</Heller>
+		<Kreuzer>
+			<anzahl>4</anzahl>
+			<namekurz>K</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>5.0</gewicht>
+			<wertinsilberstuecken>0.01</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>0.04</gesamtwertinsilberstuecken>
+		</Kreuzer>
+	</geld>
+	<vorteile>
+		<vorteil>
+			<bezeichner>Affinität zu </bezeichner>
+			<name>Affinität zu Elementaren</name>
+			<kommentar />
+			<namemitkommentar>Affinität zu Elementaren</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Sonst</bereich>
+			<auswahlen>
+				<auswahl>Elementaren</auswahl>
+				<kommentar />
+			</auswahlen>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Akademische Ausbildung (Magier)</bezeichner>
+			<name>Akademische Ausbildung (Magier)</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Akademische Ausbildung (Magier) (Kommentar)</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Begabung für [Merkmal]</bezeichner>
+			<name>Begabung für [Merkmal] Heilung</name>
+			<kommentar />
+			<namemitkommentar>Begabung für [Merkmal] Heilung</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+			<bereich>BEGABUNGMERKMAL</bereich>
+			<auswahlen>
+				<auswahl>Heilung</auswahl>
+				<kommentar />
+			</auswahlen>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Begabung für [Zauber]</bezeichner>
+			<name>Begabung für [Zauber] (Analys Arkanstruktur, Balsam Salabunde)</name>
+			<kommentar />
+			<namemitkommentar>Begabung für [Zauber] (Analys Arkanstruktur, Balsam Salabunde)</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+			<bereich>,BEGABUNGFUERZAUBER</bereich>
+			<auswahlen>
+				<auswahl>Analys Arkanstruktur</auswahl>
+				<kommentar />
+				<auswahl>Balsam Salabunde</auswahl>
+				<kommentar />
+			</auswahlen>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Vollzauberer</bezeichner>
+			<name>Vollzauberer</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Vollzauberer (Kommentar)</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Lästige Mindergeister</bezeichner>
+			<name>Lästige Mindergeister</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Lästige Mindergeister (Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Neugier</bezeichner>
+			<name>Neugier: 7</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Neugier: 7 (Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
+			<wert>7</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Prinzipientreue</bezeichner>
+			<name>Prinzipientreue: 8</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Prinzipientreue: 8 (Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
+			<wert>8</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Schulden</bezeichner>
+			<name>Schulden: 500</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Schulden: 500 (Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
+			<wert>500</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Unfähigkeit für [Merkmal]</bezeichner>
+			<name>Unfähigkeit für [Merkmal] Antimagie</name>
+			<kommentar />
+			<namemitkommentar>Unfähigkeit für [Merkmal] Antimagie</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<bereich>Magisch</bereich>
+			<bereich>UNFÄHIGKEITMERKMAL</bereich>
+			<auswahlen>
+				<auswahl>Antimagie</auswahl>
+				<kommentar />
+			</auswahlen>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Unfähigkeit für [Talentgruppe]</bezeichner>
+			<name>Unfähigkeit für [Talentgruppe] Gesellschaft</name>
+			<kommentar />
+			<namemitkommentar>Unfähigkeit für [Talentgruppe] Gesellschaft</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<bereich>Sonst</bereich>
+			<bereich>UNFÄHIGKEITTALENTGRUPPE</bereich>
+			<auswahlen>
+				<auswahl>Gesellschaft</auswahl>
+				<kommentar />
+			</auswahlen>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Weltfremd</bezeichner>
+			<name>Weltfremd: 12</name>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Weltfremd: 12 (Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
+			<wert>12</wert>
+			<bereich>Sonst</bereich>
+		</vorteil>
+	</vorteile>
+	<sonderfertigkeiten>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Astrale Meditation</nameausfuehrlich>
+			<name>Astrale Meditation</name>
+			<bezeichner>Astrale Meditation</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Astrale Meditation (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>SonstMagisch</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Bannschwert</nameausfuehrlich>
+			<name>Bannschwert</name>
+			<bezeichner>Bannschwert</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Bannschwert</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Ritual</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Große Meditation</nameausfuehrlich>
+			<name>Große Meditation</name>
+			<bezeichner>Große Meditation</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Große Meditation (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>SonstMagisch</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Kugelzauber: Bindung</nameausfuehrlich>
+			<name>Kugelzauber: Bindung</name>
+			<bezeichner>Kugelzauber: Bindung</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Kugelzauber: Bindung</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Ritual</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Kugelzauber: Brennglas und Prisma</nameausfuehrlich>
+			<name>Kugelzauber: Brennglas und Prisma</name>
+			<bezeichner>Kugelzauber: Brennglas und Prisma</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Kugelzauber: Brennglas und Prisma</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Ritual</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Kulturkunde (Horasreich)</nameausfuehrlich>
+			<name>Kulturkunde (Horasreich)</name>
+			<bezeichner>Kulturkunde</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<auswahlen>
+				<auswahl>
+					<name>Horasreich</name>
+					<feld feldname="1" nr="1">Horasreich</feld>
+				</auswahl>
+			</auswahlen>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Kulturkunde (Horasreich) (Kommentar)</namemitkommentar>
+			<bereich>Sonst</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Merkmalskenntnis: Elementar (Luft)</nameausfuehrlich>
+			<name>Elementar (Luft)</name>
+			<bezeichner>Merkmalskenntnis: Elementar (Luft)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Elementar (Luft) (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Merkmalskenntnis</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Merkmalskenntnis: Hellsicht</nameausfuehrlich>
+			<name>Hellsicht</name>
+			<bezeichner>Merkmalskenntnis: Hellsicht</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Hellsicht</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Merkmalskenntnis</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Repräsentation: Magier</nameausfuehrlich>
+			<name>Magier</name>
+			<bezeichner>Repräsentation: Magier</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Magier (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Repräsentation</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Ritualkenntnis: Gildenmagie</nameausfuehrlich>
+			<name>Ritualkenntnis: Gildenmagie</name>
+			<bezeichner>Ritualkenntnis: Gildenmagie</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Ritualkenntnis: Gildenmagie (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Ritualkenntnis</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Stabzauber: Bindung</nameausfuehrlich>
+			<name>Stabzauber: Bindung</name>
+			<bezeichner>Stabzauber: Bindung</bezeichner>
+			<wirkung>Wirk</wirkung>
+			<dauer>Dauer</dauer>
+			<kosten>22+1 pASP</kosten>
+			<probe>KL CH FF+3</probe>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Stabzauber: Bindung (Kommentar)</namemitkommentar>
+			<bereich>Magisch</bereich>
+			<bereich>Ritual</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Talentspezialisierung Magiekunde (Elementarismus)</nameausfuehrlich>
+			<name>Talentspezialisierung Magiekunde (Elementarismus)</name>
+			<bezeichner>Talentspezialisierung Magiekunde (Elementarismus)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Talentspezialisierung Magiekunde (Elementarismus) (Kommentar)</namemitkommentar>
+			<bereich>Talentspezialisierung</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Talentspezialisierung Stäbe (Magierstab als Stab)</nameausfuehrlich>
+			<name>Talentspezialisierung Stäbe (Magierstab als Stab)</name>
+			<bezeichner>Talentspezialisierung Stäbe (Magierstab als Stab)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar />
+			<namemitkommentar>Talentspezialisierung Stäbe (Magierstab als Stab)</namemitkommentar>
+			<bereich>Talentspezialisierung</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</nameausfuehrlich>
+			<name>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</name>
+			<bezeichner>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem) (Kommentar)</namemitkommentar>
+			<bereich>Talentspezialisierung</bereich>
+			<bereich>Magisch</bereich>
+			<bereich>SonstMagisch</bereich>
+		</sonderfertigkeit>
+		<sonderfertigkeit>
+			<nameausfuehrlich>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</nameausfuehrlich>
+			<name>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</name>
+			<bezeichner>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</bezeichner>
+			<wirkung />
+			<dauer />
+			<kosten />
+			<probe />
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Zauberspezialisierung Dschinnenruf [Magier] (Kosten) (Kommentar)</namemitkommentar>
+			<bereich>Talentspezialisierung</bereich>
+			<bereich>Magisch</bereich>
+			<bereich>SonstMagisch</bereich>
+		</sonderfertigkeit>
+	</sonderfertigkeiten>
+	<verbilligtesonderfertigkeiten>
+		<verbilligtesonderfertigkeit>
+			<nameausfuehrlich>Nandusgefälliges Wissen</nameausfuehrlich>
+		</verbilligtesonderfertigkeit>
+		<verbilligtesonderfertigkeit>
+			<nameausfuehrlich>Merkmalskenntnis: Elementar</nameausfuehrlich>
+		</verbilligtesonderfertigkeit>
+		<verbilligtesonderfertigkeit>
+			<nameausfuehrlich>Regeneration I</nameausfuehrlich>
+		</verbilligtesonderfertigkeit>
+		<verbilligtesonderfertigkeit>
+			<nameausfuehrlich>Repräsentation: Druide</nameausfuehrlich>
+		</verbilligtesonderfertigkeit>
+	</verbilligtesonderfertigkeiten>
+	<talente>
+		<talent>
+			<name>Armbrust</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Armbrust</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/FF/KK</probe>
+			<probenwerte>9/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Armbrust (GE/FF/KK)</nameausfuehrlichmitprobe>
+			<at>8</at>
+			<pa />
+			<behinderung>BE-5</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Dolche</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Dolche (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Dolche (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa>6</pa>
+			<behinderung>BE-1</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Fechtwaffen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Fechtwaffen</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Fechtwaffen (GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa>6</pa>
+			<behinderung>BE-1</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>E</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Hiebwaffen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Hiebwaffen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Hiebwaffen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>6</pa>
+			<behinderung>BE-4</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Infanteriewaffen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Infanteriewaffen</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Infanteriewaffen (GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa>6</pa>
+			<behinderung>BE-3</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Raufen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Raufen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Raufen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa>6</pa>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Ringen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Ringen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Ringen (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>6</pa>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Stäbe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Stäbe (Magierstab als Stab)</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Stäbe (Magierstab als Stab)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>11</at>
+			<pa>9</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen>Magierstab als Stab</spezialisierungen>
+		</talent>
+		<talent>
+			<name>Säbel</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Säbel (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Säbel (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>6</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wurfmesser</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Wurfmesser (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/FF/KK</probe>
+			<probenwerte>9/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Wurfmesser (B)(GE/FF/KK)</nameausfuehrlichmitprobe>
+			<at>7</at>
+			<pa />
+			<behinderung>BE-3</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Athletik</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Athletik (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>GE/KO/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Athletik (B)(GE/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Fliegen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Fliegen</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Fliegen (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Klettern</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Klettern (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>MU/GE/KK</probe>
+			<probenwerte>13/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Klettern (B)(MU/GE/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Körperbeherrschung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Körperbeherrschung (B)</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Körperbeherrschung (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schleichen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schleichen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Schleichen (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schwimmen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schwimmen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/KO/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Schwimmen (B)(GE/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Selbstbeherrschung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Selbstbeherrschung (B)</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>MU/KO/KK</probe>
+			<probenwerte>13/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Selbstbeherrschung (B)(MU/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sich verstecken</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sich verstecken (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Sich verstecken (B)(MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Singen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Singen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>IN/CH/CH</probe>
+			<probenwerte>12/13/13</probenwerte>
+			<nameausfuehrlichmitprobe>Singen (B)(IN/CH/CH)</nameausfuehrlichmitprobe>
+			<behinderung>BE-3</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sinnenschärfe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sinnenschärfe (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Sinnenschärfe (B)(KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung>0-&gt;BE</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Tanzen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Tanzen (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>CH/GE/GE</probe>
+			<probenwerte>13/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Tanzen (B)(CH/GE/GE)</nameausfuehrlichmitprobe>
+			<behinderung>BEx2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Zechen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Zechen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>IN/KO/KK</probe>
+			<probenwerte>12/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Zechen (B)(IN/KO/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Körperlich</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Betören</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Betören</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>IN/CH/CH</probe>
+			<probenwerte>12/13/13</probenwerte>
+			<nameausfuehrlichmitprobe>Betören (IN/CH/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Etikette</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Etikette</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Etikette (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Gassenwissen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Gassenwissen</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Gassenwissen (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Lehren</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Lehren</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Lehren (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Menschenkenntnis</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Menschenkenntnis (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Menschenkenntnis (B)(KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Überreden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Überreden (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>MU/IN/CH</probe>
+			<probenwerte>13/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Überreden (B)(MU/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gesellschaft</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Ansitzjagd + Waffe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Ansitzjagd + Waffe</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Ansitzjagd + Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Fährtensuchen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Fährtensuchen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/IN/KO</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Fährtensuchen (B)(KL/IN/KO)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Kräuter suchen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Kräuter suchen</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>MU/IN/FF</probe>
+			<probenwerte>13/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Kräuter suchen (MU/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Nahrung sammeln</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Nahrung sammeln</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>MU/IN/FF</probe>
+			<probenwerte>13/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Nahrung sammeln (MU/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Orientierung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Orientierung (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Orientierung (B)(KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Pirschjagd + Waffe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Pirschjagd + Waffe</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/GE</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Pirschjagd + Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wettervorhersage</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Wettervorhersage</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Wettervorhersage (KL/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wildnisleben</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Wildnisleben (B)</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>IN/GE/KO</probe>
+			<probenwerte>12/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Wildnisleben (B)(IN/GE/KO)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Brett-/Kartenspiel</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Brett-/Kartenspiel</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Brett-/Kartenspiel (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Geschichtswissen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Geschichtswissen</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Geschichtswissen (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Götter und Kulte</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Götter und Kulte (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Götter und Kulte (B)(KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Magiekunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Magiekunde (Elementarismus)</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Magiekunde (Elementarismus)(KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen>Elementarismus</spezialisierungen>
+		</talent>
+		<talent>
+			<name>Mechanik</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Mechanik</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Mechanik (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Pflanzenkunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Pflanzenkunde</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Pflanzenkunde (KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Rechnen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Rechnen (B)</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Rechnen (B)(KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Rechtskunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Rechtskunde</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Rechtskunde (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sagen und Legenden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Sagen und Legenden (B)</nameausfuehrlich>
+			<wert>5</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Sagen und Legenden (B)(KL/IN/CH)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Sternkunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Sternkunde</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Sternkunde (KL/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Tierkunde</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Tierkunde</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>MU/KL/IN</probe>
+			<probenwerte>13/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Tierkunde (MU/KL/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Wissen</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Bosparano</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Bosparano</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Bosparano (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>21</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Ferkina</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Ferkina</nameausfuehrlich>
+			<wert>2</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Ferkina (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>16</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Garethi</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Garethi</nameausfuehrlich>
+			<wert>13</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Garethi (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>18</sprachkomplexität>
+			<muttersprache>true</muttersprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Tulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Tulamidya</nameausfuehrlich>
+			<wert>14</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Tulamidya (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>18</sprachkomplexität>
+			<zweitlehrsprache>true</zweitlehrsprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Urtulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Urtulamidya</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<nameausfuehrlichmitprobe>Urtulamidya (KL/IN/CH)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>21</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Sprachen</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Kusliker Zeichen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Kusliker Zeichen</nameausfuehrlich>
+			<wert>7</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Kusliker Zeichen (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>10</sprachkomplexität>
+			<schriftmuttersprache>true</schriftmuttersprache>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Tulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Tulamidya</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Tulamidya (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>14</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>L/S Urtulamidya</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>L/S Urtulamidya</nameausfuehrlich>
+			<wert>6</wert>
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>L/S Urtulamidya (KL/KL/FF)</nameausfuehrlichmitprobe>
+			<sprachkomplexität>16</sprachkomplexität>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Schriften</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Alchimie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Alchimie</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>MU/KL/FF</probe>
+			<probenwerte>13/14/12</probenwerte>
+			<nameausfuehrlichmitprobe>Alchimie (MU/KL/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Hauswirtschaft</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Hauswirtschaft</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>IN/CH/FF</probe>
+			<probenwerte>12/13/12</probenwerte>
+			<nameausfuehrlichmitprobe>Hauswirtschaft (IN/CH/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Heilkunde: Wunden</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Heilkunde: Wunden (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/CH/FF</probe>
+			<probenwerte>14/13/12</probenwerte>
+			<nameausfuehrlichmitprobe>Heilkunde: Wunden (B)(KL/CH/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Holzbearbeitung</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Holzbearbeitung (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/FF/KK</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<nameausfuehrlichmitprobe>Holzbearbeitung (B)(KL/FF/KK)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Kochen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Kochen (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Kochen (B)(KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Lederarbeiten</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Lederarbeiten (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/FF/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Lederarbeiten (B)(KL/FF/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Malen/Zeichnen</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Malen/Zeichnen (B)</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>KL/IN/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Malen/Zeichnen (B)(KL/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schneidern</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>true</basis>
+			<nameausfuehrlich>Schneidern (B)</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>KL/FF/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Schneidern (B)(KL/FF/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Handwerk</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Gildenmagie</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Gildenmagie</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>--/--/--</probe>
+			<probenwerte>1000/1000/1000</probenwerte>
+			<nameausfuehrlichmitprobe>Gildenmagie (--/--/--)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Ritualkenntnis</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>E</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+	</talente>
+	<zauber>
+		<zauber>
+			<name>Abvenenum reine Speise</name>
+			<variante />
+			<namemitvariante>Abvenenum reine Speise</namemitvariante>
+			<nameausfuehrlich>Abvenenum reine Speise</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Objk</merkmale>
+			<zauberdauer>15</zauberdauer>
+			<kosten>je 4</kosten>
+			<reichweite>1</reichweite>
+			<wirkungsdauer>augenbl.</wirkungsdauer>
+			<anmerkung>+Mod</anmerkung>
+			<quelle buch="LCD" seite="11">LCD: 11</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Aeolitus Windgebraus</name>
+			<variante />
+			<namemitvariante>Aeolitus Windgebraus</namemitvariante>
+			<nameausfuehrlich>Aeolitus Windgebraus (Langer Atem)</nameausfuehrlich>
+			<wert>7</wert>
+			<spezialisierungen>Langer Atem</spezialisierungen>
+			<probe>KL/CH/KO</probe>
+			<probenwerte>14/13/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>A+</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="18">LCD: 18</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Aerofugo Vakuum</name>
+			<variante />
+			<namemitvariante>Aerofugo Vakuum</namemitvariante>
+			<nameausfuehrlich>Aerofugo Vakuum</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>MU/KO/KK</probe>
+			<probenwerte>13/9/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="19">LCD: 19</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Aerogelo Atemqual</name>
+			<variante />
+			<namemitvariante>Aerogelo Atemqual</namemitvariante>
+			<nameausfuehrlich>Aerogelo Atemqual</nameausfuehrlich>
+			<wert>1</wert>
+			<spezialisierungen />
+			<probe>MU/IN/KO</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="20">LCD: 20</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Analys Arkanstruktur</name>
+			<variante />
+			<namemitvariante>Analys Arkanstruktur</namemitvariante>
+			<nameausfuehrlich>Analys Arkanstruktur</nameausfuehrlich>
+			<wert>3</wert>
+			<spezialisierungen />
+			<probe>KL/KL/IN</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Hell, Meta</merkmale>
+			<zauberdauer>1+SR</zauberdauer>
+			<kosten>6+3 je 1/2h</kosten>
+			<reichweite>1</reichweite>
+			<wirkungsdauer>=ZD</wirkungsdauer>
+			<anmerkung>+Mod</anmerkung>
+			<quelle buch="LCD" seite="22">LCD: 22</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Applicatus Zauberspeicher</name>
+			<variante />
+			<namemitvariante>Applicatus Zauberspeicher</namemitvariante>
+			<nameausfuehrlich>Applicatus Zauberspeicher</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/FF/FF</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Meta, Objk</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="25">LCD: 25</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Armatrutz</name>
+			<variante />
+			<namemitvariante>Armatrutz</namemitvariante>
+			<nameausfuehrlich>Armatrutz</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>IN/GE/KO</probe>
+			<probenwerte>12/9/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Eign, Elem (Erz)</merkmale>
+			<zauberdauer>3</zauberdauer>
+			<kosten>min 4</kosten>
+			<reichweite>S</reichweite>
+			<wirkungsdauer>1 SR(A)</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="28">LCD: 28</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Attributo</name>
+			<variante />
+			<namemitvariante>Attributo</namemitvariante>
+			<nameausfuehrlich>Attributo</nameausfuehrlich>
+			<wert>3</wert>
+			<spezialisierungen />
+			<probe>KL/CH/**</probe>
+			<probenwerte>14/13/0</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Eign</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="30">LCD: 30</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Auris Nasus Oculus</name>
+			<variante />
+			<namemitvariante>Auris Nasus Oculus</namemitvariante>
+			<nameausfuehrlich>Auris Nasus Oculus</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/CH/FF</probe>
+			<probenwerte>14/13/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Illu</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="35">LCD: 35</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Axxeleratus Blitzgeschwind</name>
+			<variante />
+			<namemitvariante>Axxeleratus Blitzgeschwind</namemitvariante>
+			<nameausfuehrlich>Axxeleratus Blitzgeschwind</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/GE/KO</probe>
+			<probenwerte>14/9/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Eign</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="36">LCD: 36</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Balsam Salabunde</name>
+			<variante />
+			<namemitvariante>Balsam Salabunde</namemitvariante>
+			<nameausfuehrlich>Balsam Salabunde</nameausfuehrlich>
+			<wert>4</wert>
+			<spezialisierungen />
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Form, Heil</merkmale>
+			<zauberdauer>1 SR</zauberdauer>
+			<kosten>1/LeP min 5</kosten>
+			<reichweite>S, B</reichweite>
+			<wirkungsdauer>augenbl.</wirkungsdauer>
+			<anmerkung>+Mod</anmerkung>
+			<quelle buch="LCD" seite="37">LCD: 37</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Bannbaladin</name>
+			<variante />
+			<namemitvariante>Bannbaladin</namemitvariante>
+			<nameausfuehrlich>Bannbaladin</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>IN/CH/CH</probe>
+			<probenwerte>12/13/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Einfl</merkmale>
+			<zauberdauer>5</zauberdauer>
+			<kosten>7</kosten>
+			<reichweite>3</reichweite>
+			<wirkungsdauer>ZfP* SR</wirkungsdauer>
+			<anmerkung>+MR</anmerkung>
+			<quelle buch="LCD" seite="39">LCD: 39</quelle>
+			<kontrollwert />
+			<mr>+MR</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Blitz dich find</name>
+			<variante />
+			<namemitvariante>Blitz dich find</namemitvariante>
+			<nameausfuehrlich>Blitz dich find</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/IN/GE</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Einfl</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="49">LCD: 49</quelle>
+			<kontrollwert />
+			<mr>+MR</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Dschinnenruf</name>
+			<variante />
+			<namemitvariante>Dschinnenruf</namemitvariante>
+			<nameausfuehrlich>Dschinnenruf (Kosten)</nameausfuehrlich>
+			<wert>8</wert>
+			<spezialisierungen>Kosten</spezialisierungen>
+			<probe>MU/KL/CH</probe>
+			<probenwerte>13/14/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem, Rufe</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="68">LCD: 68</quelle>
+			<kontrollwert>12</kontrollwert>
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Duplicatus Doppelbild</name>
+			<variante />
+			<namemitvariante>Duplicatus Doppelbild</namemitvariante>
+			<nameausfuehrlich>Duplicatus Doppelbild</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/CH/GE</probe>
+			<probenwerte>14/13/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Illu</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="70">LCD: 70</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Elementarer Diener</name>
+			<variante />
+			<namemitvariante>Elementarer Diener</namemitvariante>
+			<nameausfuehrlich>Elementarer Diener</nameausfuehrlich>
+			<wert>5</wert>
+			<spezialisierungen />
+			<probe>MU/KL/CH</probe>
+			<probenwerte>13/14/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem, Rufe</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="80">LCD: 80</quelle>
+			<kontrollwert>11</kontrollwert>
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Favilludo Funkentanz</name>
+			<variante />
+			<namemitvariante>Favilludo Funkentanz</namemitvariante>
+			<nameausfuehrlich>Favilludo Funkentanz</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>IN/CH/FF</probe>
+			<probenwerte>12/13/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Illu</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="85">LCD: 85</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Flim Flam Funkel</name>
+			<variante />
+			<namemitvariante>Flim Flam Funkel</namemitvariante>
+			<nameausfuehrlich>Flim Flam Funkel</nameausfuehrlich>
+			<wert>5</wert>
+			<spezialisierungen />
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Umwt</merkmale>
+			<zauberdauer>2</zauberdauer>
+			<kosten>1/SR</kosten>
+			<reichweite>ZfW</reichweite>
+			<wirkungsdauer>variabel</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="87">LCD: 87</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Foramen Foraminor</name>
+			<variante />
+			<namemitvariante>Foramen Foraminor</namemitvariante>
+			<nameausfuehrlich>Foramen Foraminor</nameausfuehrlich>
+			<wert>1</wert>
+			<spezialisierungen />
+			<probe>KL/KL/FF</probe>
+			<probenwerte>14/14/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Hell, Tele</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="89">LCD: 89</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Fortifex arkane Wand</name>
+			<variante />
+			<namemitvariante>Fortifex arkane Wand</namemitvariante>
+			<nameausfuehrlich>Fortifex arkane Wand</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>IN/KO/KK</probe>
+			<probenwerte>12/9/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>E</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Erz), Umwt</merkmale>
+			<zauberdauer>10</zauberdauer>
+			<kosten>11</kosten>
+			<reichweite>3</reichweite>
+			<wirkungsdauer>ZfP* x 10 KR</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="90">LCD: 90</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Gardianum Zauberschild</name>
+			<variante />
+			<namemitvariante>Gardianum Zauberschild</namemitvariante>
+			<nameausfuehrlich>Gardianum Zauberschild</nameausfuehrlich>
+			<wert>1</wert>
+			<spezialisierungen />
+			<probe>KL/IN/KO</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>E</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Anti, Krft, Meta</merkmale>
+			<zauberdauer>2</zauberdauer>
+			<kosten>min 3</kosten>
+			<reichweite>3</reichweite>
+			<wirkungsdauer>1 SR</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="92">LCD: 92</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Manifesto Element</name>
+			<variante />
+			<namemitvariante>Manifesto Element</namemitvariante>
+			<nameausfuehrlich>Manifesto Element</nameausfuehrlich>
+			<wert>7</wert>
+			<spezialisierungen />
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A+</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem</merkmale>
+			<zauberdauer>10</zauberdauer>
+			<kosten>3</kosten>
+			<reichweite>max 1</reichweite>
+			<wirkungsdauer>1 Min-ZfP* SR</wirkungsdauer>
+			<anmerkung>+Mod</anmerkung>
+			<quelle buch="LCD" seite="173">LCD: 173</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Meister der Elemente</name>
+			<variante />
+			<namemitvariante>Meister der Elemente</namemitvariante>
+			<nameausfuehrlich>Meister der Elemente</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>MU/KL/CH</probe>
+			<probenwerte>13/14/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>F</komplexität>
+			<lernkomplexität>F</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem, Rufe</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="174">LCD: 174</quelle>
+			<kontrollwert>11</kontrollwert>
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Motoricus</name>
+			<variante />
+			<namemitvariante>Motoricus</namemitvariante>
+			<nameausfuehrlich>Motoricus</nameausfuehrlich>
+			<wert>3</wert>
+			<spezialisierungen />
+			<probe>KL/FF/KK</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Tele</merkmale>
+			<zauberdauer>5</zauberdauer>
+			<kosten>min 3</kosten>
+			<reichweite>7</reichweite>
+			<wirkungsdauer>1 SR (A)</wirkungsdauer>
+			<anmerkung>+Mod</anmerkung>
+			<quelle buch="LCD" seite="181">LCD: 181</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Nebelwand und Morgendunst</name>
+			<variante />
+			<namemitvariante>Nebelwand und Morgendunst</namemitvariante>
+			<nameausfuehrlich>Nebelwand und Morgendunst</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>KL/FF/KO</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Elem (Was), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="187">LCD: 187</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Nihilogravo Schwerelos</name>
+			<variante />
+			<namemitvariante>Nihilogravo Schwerelos</namemitvariante>
+			<nameausfuehrlich>Nihilogravo Schwerelos</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>KL/KO/KK</probe>
+			<probenwerte>14/9/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>E</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="189">LCD: 189</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Oculus Astralis</name>
+			<variante />
+			<namemitvariante>Oculus Astralis</namemitvariante>
+			<nameausfuehrlich>Oculus Astralis</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Hell, Krft, Meta, Limb</merkmale>
+			<zauberdauer>15</zauberdauer>
+			<kosten>11 +3 je SR</kosten>
+			<reichweite>S</reichweite>
+			<wirkungsdauer>x SR (A)</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="196">LCD: 196</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Odem Arcanum</name>
+			<variante />
+			<namemitvariante>Odem Arcanum</namemitvariante>
+			<nameausfuehrlich>Odem Arcanum</nameausfuehrlich>
+			<wert>4</wert>
+			<spezialisierungen />
+			<probe>KL/IN/IN</probe>
+			<probenwerte>14/12/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>A</komplexität>
+			<lernkomplexität>A+</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Hell, Krft</merkmale>
+			<zauberdauer>4</zauberdauer>
+			<kosten>4</kosten>
+			<reichweite>ZfW</reichweite>
+			<wirkungsdauer>2 KR</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="197">LCD: 197</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Orcanofaxius Luftstrahl</name>
+			<variante />
+			<namemitvariante>Orcanofaxius Luftstrahl</namemitvariante>
+			<nameausfuehrlich>Orcanofaxius Luftstrahl</nameausfuehrlich>
+			<wert>5</wert>
+			<spezialisierungen />
+			<probe>KL/FF/KO</probe>
+			<probenwerte>14/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Scha</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="122">LCD: 122</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Orcanosphaero Orkanball</name>
+			<variante />
+			<namemitvariante>Orcanosphaero Orkanball</namemitvariante>
+			<nameausfuehrlich>Orcanosphaero Orkanball</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>MU/IN/KO</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Scha, Tele</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="124">LCD: 124</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Orkanwand</name>
+			<variante />
+			<namemitvariante>Orkanwand</namemitvariante>
+			<nameausfuehrlich>Orkanwand</nameausfuehrlich>
+			<wert>7</wert>
+			<spezialisierungen />
+			<probe>MU/KL/CH</probe>
+			<probenwerte>13/14/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf)</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="275">LCD: 275</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Sapefacta Zauberschwamm</name>
+			<variante />
+			<namemitvariante>Sapefacta Zauberschwamm</namemitvariante>
+			<nameausfuehrlich>Sapefacta Zauberschwamm</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/CH/FF</probe>
+			<probenwerte>14/13/12</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Elem (Was), Tele</merkmale>
+			<zauberdauer>50</zauberdauer>
+			<kosten>5</kosten>
+			<reichweite>S</reichweite>
+			<wirkungsdauer>augenbl.</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="223">LCD: 223</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Silentium</name>
+			<variante />
+			<namemitvariante>Silentium</namemitvariante>
+			<nameausfuehrlich>Silentium</nameausfuehrlich>
+			<wert>0</wert>
+			<spezialisierungen />
+			<probe>KL/IN/CH</probe>
+			<probenwerte>14/12/13</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="241">LCD: 241</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Unitatio Geistesbund</name>
+			<variante />
+			<namemitvariante>Unitatio Geistesbund</namemitvariante>
+			<nameausfuehrlich>Unitatio Geistesbund</nameausfuehrlich>
+			<wert>2</wert>
+			<spezialisierungen />
+			<probe>IN/CH/KO</probe>
+			<probenwerte>12/13/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Krft, Vers</merkmale>
+			<zauberdauer>30</zauberdauer>
+			<kosten>speziell</kosten>
+			<reichweite>B</reichweite>
+			<wirkungsdauer>speziell</wirkungsdauer>
+			<anmerkung />
+			<quelle buch="LCD" seite="265">LCD: 265</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Wettermeisterschaft</name>
+			<variante />
+			<namemitvariante>Wettermeisterschaft</namemitvariante>
+			<nameausfuehrlich>Wettermeisterschaft</nameausfuehrlich>
+			<wert>4</wert>
+			<spezialisierungen />
+			<probe>MU/CH/GE</probe>
+			<probenwerte>13/13/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="283">LCD: 283</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Windhose</name>
+			<variante />
+			<namemitvariante>Windhose</namemitvariante>
+			<nameausfuehrlich>Windhose</nameausfuehrlich>
+			<wert>4</wert>
+			<spezialisierungen />
+			<probe>MU/IN/KK</probe>
+			<probenwerte>13/12/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>C</lernkomplexität>
+			<hauszauber>false</hauszauber>
+			<hauszauberformatiert>
+			</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="286">LCD: 286</quelle>
+			<kontrollwert />
+			<mr />
+			<leittalent>false</leittalent>
+		</zauber>
+		<zauber>
+			<name>Windstille</name>
+			<variante />
+			<namemitvariante>Windstille</namemitvariante>
+			<nameausfuehrlich>Windstille</nameausfuehrlich>
+			<wert>6</wert>
+			<spezialisierungen />
+			<probe>KL/CH/KK</probe>
+			<probenwerte>14/13/9</probenwerte>
+			<bereich>Zauber</bereich>
+			<komplexität>C</komplexität>
+			<lernkomplexität>A</lernkomplexität>
+			<hauszauber>true</hauszauber>
+			<hauszauberformatiert>X</hauszauberformatiert>
+			<repräsentation>Magier</repräsentation>
+			<merkmale>Elem (Luf), Umwt</merkmale>
+			<zauberdauer />
+			<kosten />
+			<reichweite />
+			<wirkungsdauer />
+			<anmerkung />
+			<quelle buch="LCD" seite="287">LCD: 287</quelle>
+			<kontrollwert />
+			<mr>+Mod</mr>
+			<leittalent>false</leittalent>
+		</zauber>
+	</zauber>
+	<gegenstaende>
+		<gegenstand>
+			<name>Bolzen</name>
+			<anzahl>10</anzahl>
+			<grundlage>Bolzen</grundlage>
+			<gewicht>3.0</gewicht>
+			<gesamtgewicht>30.0</gesamtgewicht>
+			<angelegt>false</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>150</einzelpreis>
+			<gesamtpreis>1500</gesamtpreis>
+			<quelle buch="AA" seite="46">AA: 46</quelle>
+			<details />
+			<arten>sonst</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Dolch</name>
+			<anzahl>1</anzahl>
+			<grundlage>Dolch</grundlage>
+			<gewicht>20.0</gewicht>
+			<gesamtgewicht>20.0</gesamtgewicht>
+			<angelegt>true</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>2000</einzelpreis>
+			<gesamtpreis>2000</gesamtpreis>
+			<quelle buch="AA" seite="12">AA: 12</quelle>
+			<details />
+			<arten>Nahkampfwaffe, Fernkampfwaffe</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Leichte Armbrust</name>
+			<anzahl>1</anzahl>
+			<grundlage>Leichte Armbrust</grundlage>
+			<gewicht>150.0</gewicht>
+			<gesamtgewicht>150.0</gesamtgewicht>
+			<angelegt>true</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>18000</einzelpreis>
+			<gesamtpreis>18000</gesamtpreis>
+			<quelle buch="AA" seite="45">AA: 45</quelle>
+			<details />
+			<arten>Fernkampfwaffe</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Magierstab als Stab</name>
+			<anzahl>1</anzahl>
+			<grundlage>Magierstab als Stab</grundlage>
+			<gewicht>90.0</gewicht>
+			<gesamtgewicht>90.0</gesamtgewicht>
+			<angelegt>true</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>0</einzelpreis>
+			<gesamtpreis>0</gesamtpreis>
+			<quelle buch="AA" seite="56">AA: 56</quelle>
+			<details />
+			<arten>Nahkampfwaffe</arten>
+		</gegenstand>
+		<gegenstand>
+			<name>Tagebuch, Papier</name>
+			<anzahl>1</anzahl>
+			<grundlage>Tagebuch, Papier</grundlage>
+			<gewicht>20.0</gewicht>
+			<gesamtgewicht>20.0</gesamtgewicht>
+			<angelegt>false</angelegt>
+			<angelegt1>false</angelegt1>
+			<angelegt2>false</angelegt2>
+			<einzelpreis>3500</einzelpreis>
+			<gesamtpreis>3500</gesamtpreis>
+			<quelle buch="MSB" seite="30">MSB: 30</quelle>
+			<details />
+			<arten>sonst</arten>
+		</gegenstand>
+	</gegenstaende>
+	<verbindungen />
+	<nahkampfwaffen deprecated="true" inbenutzung="true">
+		<nahkampfwaffe>
+			<nummer>1</nummer>
+			<möglich>true</möglich>
+			<name>Dolch</name>
+			<spalte2>Do/BE-1</spalte2>
+			<dk>H </dk>
+			<tp>1W+1</tp>
+			<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+			<ini>0</ini>
+			<wm>0 /-1</wm>
+			<at>7</at>
+			<pa>5</pa>
+			<tpinkl>1W+1</tpinkl>
+			<bereich>nahkampf</bereich>
+			<bfmin>2</bfmin>
+			<bfakt>2</bfakt>
+			<talentkurz>Do</talentkurz>
+			<talent>Dolche</talent>
+			<be>BE-1</be>
+		</nahkampfwaffe>
+		<nahkampfwaffe>
+			<nummer>2</nummer>
+			<möglich>true</möglich>
+			<name>Magierstab als Stab</name>
+			<spalte2>St/BE-2</spalte2>
+			<dk>N S </dk>
+			<tp>1W+1</tp>
+			<tpkk schrittweite="5" schwelle="11">11 / 5</tpkk>
+			<ini>0</ini>
+			<wm>-1/-1</wm>
+			<at>11</at>
+			<pa>9</pa>
+			<tpinkl>1W+1</tpinkl>
+			<bereich>nahkampf</bereich>
+			<bfmin>-9</bfmin>
+			<bfakt>-9</bfakt>
+			<talentkurz>St</talentkurz>
+			<talent>Stäbe</talent>
+			<be>BE-2</be>
+		</nahkampfwaffe>
+	</nahkampfwaffen>
+	<fernkampfwaffen deprecated="true" inbenutzung="true">
+		<fernkampfwaffe>
+			<nummer>1</nummer>
+			<name>Leichte Armbrust</name>
+			<spalte2>Ar/BE-5</spalte2>
+			<reichweite>10 / 15 / 25 / 40 / 60</reichweite>
+			<tp>1W+6</tp>
+			<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
+			<at>8</at>
+			<ladezeit>15</ladezeit>
+			<kampftalent>Armbrust</kampftalent>
+		</fernkampfwaffe>
+	</fernkampfwaffen>
+	<schilder deprecated="true" inbenutzung="false" />
+	<ruestungen deprecated="true" inbenutzung="false" />
+	<set deprecated="true" inbenutzung="true" nr="1">
+		<raufen>
+			<at>7</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>6</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+		<ini>9</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="true">
+			<nahkampfwaffe>
+				<nummer>1</nummer>
+				<möglich>true</möglich>
+				<name>Dolch</name>
+				<spalte2>Do/BE-1</spalte2>
+				<dk>H </dk>
+				<tp>1W+1</tp>
+				<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+				<ini>0</ini>
+				<wm>0 /-1</wm>
+				<at>7</at>
+				<pa>5</pa>
+				<tpinkl>1W+1</tpinkl>
+				<bereich>nahkampf</bereich>
+				<bfmin>2</bfmin>
+				<bfakt>2</bfakt>
+				<talentkurz>Do</talentkurz>
+				<talent>Dolche</talent>
+				<be>BE-1</be>
+			</nahkampfwaffe>
+			<nahkampfwaffe>
+				<nummer>2</nummer>
+				<möglich>true</möglich>
+				<name>Magierstab als Stab</name>
+				<spalte2>St/BE-2</spalte2>
+				<dk>N S </dk>
+				<tp>1W+1</tp>
+				<tpkk schrittweite="5" schwelle="11">11 / 5</tpkk>
+				<ini>0</ini>
+				<wm>-1/-1</wm>
+				<at>11</at>
+				<pa>9</pa>
+				<tpinkl>1W+1</tpinkl>
+				<bereich>nahkampf</bereich>
+				<bfmin>-9</bfmin>
+				<bfakt>-9</bfakt>
+				<talentkurz>St</talentkurz>
+				<talent>Stäbe</talent>
+				<be>BE-2</be>
+			</nahkampfwaffe>
+		</nahkampfwaffen>
+		<fernkampfwaffen inbenutzung="true">
+			<fernkampfwaffe>
+				<nummer>1</nummer>
+				<name>Leichte Armbrust</name>
+				<spalte2>Ar/BE-5</spalte2>
+				<reichweite>10 / 15 / 25 / 40 / 60</reichweite>
+				<tp>1W+6</tp>
+				<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
+				<at>8</at>
+				<ladezeit>15</ladezeit>
+				<kampftalent>Armbrust</kampftalent>
+			</fernkampfwaffe>
+		</fernkampfwaffen>
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<set deprecated="true" inbenutzung="false" nr="2">
+		<raufen>
+			<at>7</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>6</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+		<ini>9</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="false" />
+		<fernkampfwaffen inbenutzung="false" />
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<set deprecated="true" inbenutzung="false" nr="3">
+		<raufen>
+			<at>7</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</raufen>
+		<ringen>
+			<at>6</at>
+			<pa>6</pa>
+			<tp>1W+0</tp>
+		</ringen>
+		<ausweichen>6</ausweichen>
+		<ausweichenausweichenmod>0</ausweichenausweichenmod>
+		<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+		<ausweichenmod>0</ausweichenmod>
+		<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+		<ini>9</ini>
+		<ruestung>
+			<gesamt>0</gesamt>
+			<behinderung>0</behinderung>
+		</ruestung>
+		<zonenruestung>
+			<kopf>0</kopf>
+			<brust>0</brust>
+			<ruecken>0</ruecken>
+			<gesamt>0</gesamt>
+			<bauch>0</bauch>
+			<linkerarm>0</linkerarm>
+			<rechterarm>0</rechterarm>
+			<linkesbein>0</linkesbein>
+			<rechtesbein>0</rechtesbein>
+			<gesamtschutz>0</gesamtschutz>
+			<gesamtzonenschutz>0</gesamtzonenschutz>
+			<behinderung>0</behinderung>
+		</zonenruestung>
+		<nahkampfwaffen inbenutzung="false" />
+		<fernkampfwaffen inbenutzung="false" />
+		<schilder inbenutzung="false" />
+		<ruestungen inbenutzung="false" />
+	</set>
+	<kampfsets>
+		<kampfset defaultrsmodel="true" inbenutzung="true" nr="1" tzm="true">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="true">
+				<nahkampfwaffe>
+					<nummer>1</nummer>
+					<möglich>true</möglich>
+					<name>Dolch</name>
+					<spalte2>Do/BE-1</spalte2>
+					<dk>H </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+					<ini>0</ini>
+					<wm>0 /-1</wm>
+					<at>7</at>
+					<pa>5</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>2</bfmin>
+					<bfakt>2</bfakt>
+					<talentkurz>Do</talentkurz>
+					<talent>Dolche</talent>
+					<be>BE-1</be>
+				</nahkampfwaffe>
+				<nahkampfwaffe>
+					<nummer>2</nummer>
+					<möglich>true</möglich>
+					<name>Magierstab als Stab</name>
+					<spalte2>St/BE-2</spalte2>
+					<dk>N S </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="11">11 / 5</tpkk>
+					<ini>0</ini>
+					<wm>-1/-1</wm>
+					<at>11</at>
+					<pa>9</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>-9</bfmin>
+					<bfakt>-9</bfakt>
+					<talentkurz>St</talentkurz>
+					<talent>Stäbe</talent>
+					<be>BE-2</be>
+				</nahkampfwaffe>
+			</nahkampfwaffen>
+			<fernkampfwaffen inbenutzung="true">
+				<fernkampfwaffe>
+					<nummer>1</nummer>
+					<name>Leichte Armbrust</name>
+					<spalte2>Ar/BE-5</spalte2>
+					<reichweite>10 / 15 / 25 / 40 / 60</reichweite>
+					<tp>1W+6</tp>
+					<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
+					<at>8</at>
+					<ladezeit>15</ladezeit>
+					<kampftalent>Armbrust</kampftalent>
+				</fernkampfwaffe>
+			</fernkampfwaffen>
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="true" nr="1" tzm="false">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="true">
+				<nahkampfwaffe>
+					<nummer>1</nummer>
+					<möglich>true</möglich>
+					<name>Dolch</name>
+					<spalte2>Do/BE-1</spalte2>
+					<dk>H </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="12">12 / 5</tpkk>
+					<ini>0</ini>
+					<wm>0 /-1</wm>
+					<at>7</at>
+					<pa>5</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>2</bfmin>
+					<bfakt>2</bfakt>
+					<talentkurz>Do</talentkurz>
+					<talent>Dolche</talent>
+					<be>BE-1</be>
+				</nahkampfwaffe>
+				<nahkampfwaffe>
+					<nummer>2</nummer>
+					<möglich>true</möglich>
+					<name>Magierstab als Stab</name>
+					<spalte2>St/BE-2</spalte2>
+					<dk>N S </dk>
+					<tp>1W+1</tp>
+					<tpkk schrittweite="5" schwelle="11">11 / 5</tpkk>
+					<ini>0</ini>
+					<wm>-1/-1</wm>
+					<at>11</at>
+					<pa>9</pa>
+					<tpinkl>1W+1</tpinkl>
+					<bereich>nahkampf</bereich>
+					<bfmin>-9</bfmin>
+					<bfakt>-9</bfakt>
+					<talentkurz>St</talentkurz>
+					<talent>Stäbe</talent>
+					<be>BE-2</be>
+				</nahkampfwaffe>
+			</nahkampfwaffen>
+			<fernkampfwaffen inbenutzung="true">
+				<fernkampfwaffe>
+					<nummer>1</nummer>
+					<name>Leichte Armbrust</name>
+					<spalte2>Ar/BE-5</spalte2>
+					<reichweite>10 / 15 / 25 / 40 / 60</reichweite>
+					<tp>1W+6</tp>
+					<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
+					<at>8</at>
+					<ladezeit>15</ladezeit>
+					<kampftalent>Armbrust</kampftalent>
+				</fernkampfwaffe>
+			</fernkampfwaffen>
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="true" inbenutzung="false" nr="2" tzm="true">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="false" nr="2" tzm="false">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="true" inbenutzung="false" nr="3" tzm="true">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungzonen>
+				<kopf>0</kopf>
+				<brust>0</brust>
+				<ruecken>0</ruecken>
+				<gesamt>0</gesamt>
+				<bauch>0</bauch>
+				<linkerarm>0</linkerarm>
+				<rechterarm>0</rechterarm>
+				<linkesbein>0</linkesbein>
+				<rechtesbein>0</rechtesbein>
+				<gesamtschutz>0</gesamtschutz>
+				<gesamtzonenschutz>0</gesamtzonenschutz>
+				<behinderung>0</behinderung>
+			</ruestungzonen>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+		<kampfset defaultrsmodel="false" inbenutzung="false" nr="3" tzm="false">
+			<raufen>
+				<at>7</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</raufen>
+			<ringen>
+				<at>6</at>
+				<pa>6</pa>
+				<tp>1W+0</tp>
+			</ringen>
+			<ausweichen>6</ausweichen>
+			<ausweichenausweichenmod>0</ausweichenausweichenmod>
+			<ausweichenakrobatikmod>0</ausweichenakrobatikmod>
+			<ausweichenmod>0</ausweichenmod>
+			<geschwindigkeitinklbe>7</geschwindigkeitinklbe>
+			<ini>9</ini>
+			<ruestungeinfach>
+				<gesamt>0</gesamt>
+				<behinderung>0</behinderung>
+			</ruestungeinfach>
+			<nahkampfwaffen inbenutzung="false" />
+			<fernkampfwaffen inbenutzung="false" />
+			<schilder inbenutzung="false" />
+			<ruestungen inbenutzung="false" />
+		</kampfset>
+	</kampfsets>
+</daten>
