@@ -21,13 +21,19 @@
 	</licenses>
 	<scm>
 		<url>https://github.com/thinkingstone/dsa-documents</url>
-		<connection>scm:git:git://github.com/thinkingstone/dsa-documents.git</connection>
-		<developerConnection>scm:git:git://github.com/thinkingstone/dsa-documents.git</developerConnection>
+		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
+		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
+	<distributionManagement>
+		<repository>
+			<id>bintray</id>
+			<url>https://api.bintray.com/maven/thinkingstone/dsa-documents/tierdokumenta4</url>
+		</repository>
+	</distributionManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -86,6 +92,15 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<useReleaseProfile>false</useReleaseProfile>
+					<releaseProfiles>release</releaseProfiles>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
