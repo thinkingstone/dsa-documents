@@ -19,7 +19,8 @@ Folgende Software und Plugins werden benötigt, wenn das Dokument zusammen mit d
 
 ## Installation in die Helden-Software
 Für die Installation dieser Erweiterung müssen folgende Schritte ausgeführt werden: 
-1. Vorausetzungen installieren
+
+1. Voraussetzungen installieren
 2. Das Paket herunterladen
 3. In das Verzeichnis "../helden/plugins/heldenboegen" als "tierdokumenta4" entpacken
 4. Helden-Software neu starten
