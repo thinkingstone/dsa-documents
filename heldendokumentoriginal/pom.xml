@@ -21,13 +21,20 @@
 	</licenses>
 	<scm>
 		<url>https://github.com/thinkingstone/dsa-documents</url>
-		<connection>scm:git:git://github.com/thinkingstone/dsa-documents.git</connection>
-		<developerConnection>scm:git:git://github.com/thinkingstone/dsa-documents.git</developerConnection>
+		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
+		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
+	<distributionManagement>
+	  <repository>
+	    <id>bintray</id>
+	    <url>https://api.bintray.com/maven/thinkingstone/dsa-documents/heldendokumentoriginal</url>
+	  </repository>
+	</distributionManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -95,6 +102,16 @@
 					<url>http://www.ulisses-spiele.de</url>
 					<fromFile>download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf</fromFile>
 					<toDir>src/intermediate/document</toDir>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<useReleaseProfile>false</useReleaseProfile>
+					<releaseProfiles>release</releaseProfiles>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
 				</configuration>
 			</plugin>
 		</plugins>
