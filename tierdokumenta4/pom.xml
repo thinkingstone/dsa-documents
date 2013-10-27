@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>tierdokumenta4</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Tierdokument A4</name>
 	<url>http://www.thinkingstone.de</url>
@@ -22,7 +22,7 @@
 		<url>https://github.com/thinkingstone/dsa-documents</url>
 		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
 		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
-	  <tag>tierdokumenta4-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<issueManagement>
 		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
