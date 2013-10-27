@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<seiten debug="false" style="FormularPDFviaXSLT">
+	<neededfiles filename="Wege-der-Helden_Heldendokument-edit_20b4.pdf"
+		url="http://www.ulisses-spiele.de/download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf" />
+	<options>
+		<option type="boolean" name="includeGegenstaende" label="Gegenstände einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeGegenstandAnzahl" label="Gegenstände Anzahl einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeKommentare" label="Kommentare einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeTAW" label="TaW einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeZFW" label="ZfW einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeTier" label="Tiere einfügen" defaultvalue="false"/>
+	</options>
+	<pdf input="Wege-der-Helden_Heldendokument-edit_20b4.pdf" xslt="helden.xfdf.xsl" formflattening="false">
+		<image page="1" xpath="//daten/angaben/bildPfad" x="248" y="210" w="100" h="155" />
+		<page action="exclude" page="6" if="//daten/angaben[geweiht='false']" />
+		<page action="exclude" page="7" if="//daten/angaben[magisch='false']" />
+		<page action="exclude" page="8" if="//daten/angaben[magisch='false']" />
+		<page action="exclude" page="9" if="//daten/angaben[magisch='false']" />
+	</pdf>
+</seiten>
+
+
+
+

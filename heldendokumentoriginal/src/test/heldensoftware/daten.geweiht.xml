@@ -1,0 +1,2412 @@
+<?xml version="1.0" encoding="UTF-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+			<f href="Document.pdf"/>
+			<ids original="7A0631678ED475F0898815F0A818CFA1" modified="BEF7724317B311718E8675B677EF9B4E"/>
+			<fields>
+<field name="Name">
+<value>Geweiht</value>
+</field>
+<field name="Augenfarbe">
+<value>dunkelbraun</value>
+</field>
+<field name="Alter">
+<value>24. Praios 1003 BF (20)</value>
+</field>
+<field name="Geschlecht">
+<value>weiblich</value>
+</field>
+<field name="Grösse">
+<value>94 Finger (188 cm)</value>
+</field>
+<field name="Gewicht">
+<value>83 Stein</value>
+</field>
+<field name="Haarfarbe">
+<value>schwarz</value>
+</field>
+<field name="Stand">
+<value/>
+</field>
+<field name="Titel">
+<value/>
+</field>
+<field name="Rasse">
+<value>Tulamidin</value>
+</field>
+<field name="Kultur">
+<value>Mhanadistan/An wichtigen Handelsrouten</value>
+</field>
+<field name="Regeneration">
+<value/>
+</field>
+<field name="Wundschwelle">
+<value>6</value>
+</field>
+<field name="Aussehen 1">
+<value/>
+</field>
+<field name="Aussehen 2">
+<value/>
+</field>
+<field name="Aussehen 3">
+<value/>
+</field>
+<field name="Aussehen 4">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 1">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 2">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 3">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 4">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 5">
+<value/>
+</field>
+<field name="Familie/Herkunft/Hintergrund 6">
+<value/>
+</field>
+<field name="Notizen 1">
+<value>Notizen</value>
+</field>
+<field name="Notizen 2">
+<value/>
+</field>
+<field name="Notizen 3">
+<value/>
+</field>
+<field name="Notizen 4">
+<value/>
+</field>
+<field name="Profession">
+<value>Geweihte: Hesinde, Satori</value>
+</field>
+<field name="Gesamt">
+<value>5.540</value>
+</field>
+<field name="Eingesetzte AP">
+<value>2.996</value>
+</field>
+<field name="Guthaben">
+<value>2.544</value>
+</field>
+<field name="GP-Basis">
+<value>110</value>
+</field>
+<field name="Geschwindigkeit">
+<value>8</value>
+</field>
+<field name="Geschwindigkeit (Start)">
+<value>8</value>
+</field>
+<field name="Geschwindigkeit (Modifikator)">
+<value>0</value>
+</field>
+<field name="Mut">
+<value>11</value>
+</field>
+<field name="Mut (Start)">
+<value>10</value>
+</field>
+<field name="Mut (Modifikator)">
+<value>0</value>
+</field>
+<field name="Klugheit">
+<value>14</value>
+</field>
+<field name="Klugheit (Start)">
+<value>13</value>
+</field>
+<field name="Klugheit (Modifikator)">
+<value>0</value>
+</field>
+<field name="Intuition">
+<value>15</value>
+</field>
+<field name="Intuition (Start)">
+<value>14</value>
+</field>
+<field name="Intuition (Modifikator)">
+<value>0</value>
+</field>
+<field name="Charisma">
+<value>14</value>
+</field>
+<field name="Charisma (Start)">
+<value>13</value>
+</field>
+<field name="Charisma (Modifikator)">
+<value>0</value>
+</field>
+<field name="Fingerfertigkeit">
+<value>11</value>
+</field>
+<field name="Fingerfertigkeit (Start)">
+<value>10</value>
+</field>
+<field name="Fingerfertigkeit (Modifikator)">
+<value>0</value>
+</field>
+<field name="Gewandtheit">
+<value>11</value>
+</field>
+<field name="Gewandtheit (Start)">
+<value>10</value>
+</field>
+<field name="Gewandtheit (Modifikator)">
+<value>0</value>
+</field>
+<field name="Konstitution">
+<value>11</value>
+</field>
+<field name="Konstitution (Start)">
+<value>10</value>
+</field>
+<field name="Konstitution (Modifikator)">
+<value>0</value>
+</field>
+<field name="Körperkraft">
+<value>10</value>
+</field>
+<field name="Körperkraft (Start)">
+<value>9</value>
+</field>
+<field name="Körperkraft (Modifikator)">
+<value>0</value>
+</field>
+<field name="Sozialstatus">
+<value>8</value>
+</field>
+<field name="AT-Basiswert">
+<value>6</value>
+</field>
+<field name="AT-Basiswert (Start)">
+<value>6</value>
+</field>
+<field name="AT-Basiswert (Modifikator)">
+<value>0</value>
+</field>
+<field name="Ausdauer">
+<value>28</value>
+</field>
+<field name="Ausdauer (Start)">
+<value>15</value>
+</field>
+<field name="Ausdauer (Modifikator)">
+<value>10</value>
+</field>
+<field name="Ausdauer (Zugekauft)">
+<value>1</value>
+</field>
+<field name="Ausdauer (Max. Zug.)">
+<value>10</value>
+</field>
+<field name="Ausdauer (1/2)">
+<value>14</value>
+</field>
+<field name="Ausdauer (1/3)">
+<value>9</value>
+</field>
+<field name="Ausdauer (1/4)">
+<value>7</value>
+</field>
+<field name="FK-Basiswert">
+<value>7</value>
+</field>
+<field name="FK-Basiswert (Start)">
+<value>7</value>
+</field>
+<field name="FK-Basiswert (Modifikator)">
+<value>0</value>
+</field>
+<field name="INI-Basiswert">
+<value>10</value>
+</field>
+<field name="INI-Basiswert (Start)">
+<value>9</value>
+</field>
+<field name="INI-Basiswert (Modifikator)">
+<value>0</value>
+</field>
+<field name="Karmaenergie">
+<value>28</value>
+</field>
+<field name="Karmaenergie (Start)">
+<value>0</value>
+</field>
+<field name="Karmaenergie (Modifikator)">
+<value>28</value>
+</field>
+<field name="Karmaenergie (Zugekauft)">
+<value>0</value>
+</field>
+<field name="Karmaenergie (Max. Zug.)">
+<value>15</value>
+</field>
+<field name="Karmaenergie (max.)">
+<value>28</value>
+</field>
+<field name="Lebensenergie">
+<value>27</value>
+</field>
+<field name="Lebenspunkte (Start)">
+<value>15</value>
+</field>
+<field name="Lebenspunkte (Modifikator)">
+<value>10</value>
+</field>
+<field name="Lebenspunkte (Zugekauft)">
+<value>1</value>
+</field>
+<field name="Lebenspunkte (Max. Zug.)">
+<value>5</value>
+</field>
+<field name="Lebensenergie (1/2)">
+<value>14</value>
+</field>
+<field name="Lebensenergie (1/3)">
+<value>9</value>
+</field>
+<field name="Lebensenergie (1/4)">
+<value>7</value>
+</field>
+<field name="Magieresistenz">
+<value>6</value>
+</field>
+<field name="Magieresistenz (Start)">
+<value>7</value>
+</field>
+<field name="Magieresistenz (Modifikator)">
+<value>-2</value>
+</field>
+<field name="Magieresistenz (Zugekauft)">
+<value>1</value>
+</field>
+<field name="Magieresistenz (Max. Zug.)">
+<value>5</value>
+</field>
+<field name="Magieresistenz (Start)">
+<value>7</value>
+</field>
+<field name="Magieresistenz (Modifikator)">
+<value>-2</value>
+</field>
+<field name="Magieresistenz (Vor-/Nachteil)">
+<value/>
+</field>
+<field name="Magieresistenz (Sonderfertigkeiten)">
+<value> +1</value>
+</field>
+<field name="Magieresistenz">
+<value>6</value>
+</field>
+<field name="PA-Basiswert">
+<value>7</value>
+</field>
+<field name="PA-Basiswert (Start)">
+<value>7</value>
+</field>
+<field name="PA-Basiswert (Modifikator)">
+<value>0</value>
+</field>
+<field name="Vorteile &amp; Nachteile 1">
+<value>Akademische Ausbildung (Gelehrter), Geweiht [zwölfgöttliche Kirche], Gutes Gedächtnis, Meeresangst:</value>
+</field>
+<field name="Vorteile &amp; Nachteile 2">
+<value> 5, Moralkodex [Hesinde-Kirche], Neugier: 7, Verpflichtungen</value>
+</field>
+<field name="Vorteile &amp; Nachteile 3">
+<value/>
+</field>
+<field name="Vorteile &amp; Nachteile 4">
+<value/>
+</field>
+<field name="Vorteile &amp; Nachteile 5">
+<value/>
+</field>
+<field name="Begabungen">
+<value/>
+</field>
+<field name="Unfähigkeiten">
+<value/>
+</field>
+<field name="Magische Vor- / Nachteile.0">
+<value/>
+</field>
+<field name="Magische Vor- / Nachteile.1">
+<value/>
+</field>
+<field name="Magische Vor- / Nachteile.2">
+<value/>
+</field>
+<field name="Magische Vor- / Nachteile.3">
+<value/>
+</field>
+<field name="Magische Vor- / Nachteile.4">
+<value/>
+</field>
+<field name="Liturgiename.0">
+<value>Blick an den klaren Himmel (Sterne funkeln immerfort)</value>
+</field>
+<field name="Liturgiegrad.0">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.0">
+<value/>
+</field>
+<field name="Liturgiename.1">
+<value>Eidsegen</value>
+</field>
+<field name="Liturgiegrad.1">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.1">
+<value>(Eidschwur mit Strafe)</value>
+</field>
+<field name="Liturgiename.2">
+<value>Feuersegen</value>
+</field>
+<field name="Liturgiegrad.2">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.2">
+<value/>
+</field>
+<field name="Liturgiename.3">
+<value>Geburtssegen</value>
+</field>
+<field name="Liturgiegrad.3">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.3">
+<value/>
+</field>
+<field name="Liturgiename.4">
+<value>Glückssegen</value>
+</field>
+<field name="Liturgiegrad.4">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.4">
+<value/>
+</field>
+<field name="Liturgiename.5">
+<value>Grabsegen</value>
+</field>
+<field name="Liturgiegrad.5">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.5">
+<value/>
+</field>
+<field name="Liturgiename.6">
+<value>Harmoniesegen</value>
+</field>
+<field name="Liturgiegrad.6">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.6">
+<value/>
+</field>
+<field name="Liturgiename.7">
+<value>Heilungssegen</value>
+</field>
+<field name="Liturgiegrad.7">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.7">
+<value/>
+</field>
+<field name="Liturgiename.8">
+<value>Initiation</value>
+</field>
+<field name="Liturgiegrad.8">
+<value>2</value>
+</field>
+<field name="Liturgiewirkung.8">
+<value/>
+</field>
+<field name="Liturgiename.9">
+<value>Märtyrersegen</value>
+</field>
+<field name="Liturgiegrad.9">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.9">
+<value/>
+</field>
+<field name="Liturgiename.10">
+<value>Schutzsegen</value>
+</field>
+<field name="Liturgiegrad.10">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.10">
+<value/>
+</field>
+<field name="Liturgiename.11">
+<value>Sicht auf Madas Welt</value>
+</field>
+<field name="Liturgiegrad.11">
+<value>2</value>
+</field>
+<field name="Liturgiewirkung.11">
+<value/>
+</field>
+<field name="Liturgiename.12">
+<value>Speisesegen</value>
+</field>
+<field name="Liturgiegrad.12">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.12">
+<value/>
+</field>
+<field name="Liturgiename.13">
+<value>Sprechende Symbole</value>
+</field>
+<field name="Liturgiegrad.13">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.13">
+<value/>
+</field>
+<field name="Liturgiename.14">
+<value>Tranksegen</value>
+</field>
+<field name="Liturgiegrad.14">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.14">
+<value/>
+</field>
+<field name="Liturgiename.15">
+<value>Unverstellter Blick</value>
+</field>
+<field name="Liturgiegrad.15">
+<value>3</value>
+</field>
+<field name="Liturgiewirkung.15">
+<value/>
+</field>
+<field name="Liturgiename.16">
+<value>Weisheitssegen</value>
+</field>
+<field name="Liturgiegrad.16">
+<value>1</value>
+</field>
+<field name="Liturgiewirkung.16">
+<value/>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 1">
+<value>Karmalqueste, Kulturkunde (Tulamidenlande), Liturgiekenntni</value>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 2">
+<value>s (Hesinde), Nandusgefälliges Wissen</value>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 3">
+<value/>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 4">
+<value/>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 5">
+<value/>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 6">
+<value/>
+</field>
+<field name="Sonderfertigkeiten (ausser Kampf) 7">
+<value/>
+</field>
+<field name="Magische Sonderfertigkeiten.0">
+<value>Karmalqueste</value>
+</field>
+<field name="Magische Sonderfertigkeiten.1">
+<value/>
+</field>
+<field name="Magische Sonderfertigkeiten.2">
+<value/>
+</field>
+<field name="Magische Sonderfertigkeiten.3">
+<value/>
+</field>
+<field name="Magische Sonderfertigkeiten.4">
+<value/>
+</field>
+<field name="Merkmale">
+<value/>
+</field>
+<field name="Repräsentationen">
+<value/>
+</field>
+<field name="Nahkampf (Sonderfertigkeiten) 1">
+<value/>
+</field>
+<field name="Nahkampf (Sonderfertigkeiten) 2">
+<value/>
+</field>
+<field name="Nahkampf (Sonderfertigkeiten) 3">
+<value/>
+</field>
+<field name="Fernkampf (Sonderfertigkeiten) 1">
+<value/>
+</field>
+<field name="Fernkampf (Sonderfertigkeiten) 2">
+<value/>
+</field>
+<field name="Waffenloser Kampf (Sonderfertigkeiten) 1">
+<value/>
+</field>
+<field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
+<value/>
+</field>
+<field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
+<value/>
+</field>
+<field name="Kampftechniken 7">
+<value>Stäbe</value>
+</field>
+<field name="Kampftechniken (TaW) 7.1">
+<value>1</value>
+</field>
+<field name="Kampftechniken TaW 7.1">
+<value>1</value>
+</field>
+<field name="Kampftechniken (BE) 7">
+<value>BE-2</value>
+</field>
+<field name="Kampftechniken (Kosten) 7">
+<value>D</value>
+</field>
+<field name="Kampftechniken (Komp.) 7">
+<value>D</value>
+</field>
+<field name="Kampftechniken (AT) 7">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 7">
+<value>8</value>
+</field>
+<field name="Gesellschaftliche Talente 3">
+<value>Etikette (KL IN CH)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 3.1">
+<value>5</value>
+</field>
+<field name="Gesellschaftliche Talente TaW 3.1">
+<value>5</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 3">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 3">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 3">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 3">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente 4">
+<value>Lehren (KL IN CH)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 4.1">
+<value>7</value>
+</field>
+<field name="Gesellschaftliche Talente TaW 4.1">
+<value>7</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 4">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 4">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 4">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 4">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 4">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente 5">
+<value>Schriftlicher Ausdruck (KL IN IN)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 5.1">
+<value>4</value>
+</field>
+<field name="Gesellschaftliche Talente TaW 5.1">
+<value>4</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 5">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 5">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 5">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 5">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 5">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente 6">
+<value>Überzeugen (KL IN CH)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 6.1">
+<value>5</value>
+</field>
+<field name="Gesellschaftliche Talente TaW 6.1">
+<value>5</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 6">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 6">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 6">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 6">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 6">
+<value/>
+</field>
+<field name="Natur-Talente 4">
+<value>Wettervorhersage (KL IN IN)</value>
+</field>
+<field name="Natur-Talente (TaW) 4.1">
+<value>1</value>
+</field>
+<field name="Natur-Talente TaW 4.1">
+<value>1</value>
+</field>
+<field name="Natur-Talente (BE) 4">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 4">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 4">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 4">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 4">
+<value/>
+</field>
+<field name="Wissenstalente 4">
+<value>Anatomie (MU KL FF)</value>
+</field>
+<field name="Wissenstalente (TaW) 4.1">
+<value>5</value>
+</field>
+<field name="Wissenstalente TaW 4.1">
+<value>5</value>
+</field>
+<field name="Wissenstalente (BE) 4">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 4">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 4">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 4">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 4">
+<value/>
+</field>
+<field name="Wissenstalente 5">
+<value>Baukunst (KL KL FF)</value>
+</field>
+<field name="Wissenstalente (TaW) 5.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente TaW 5.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente (BE) 5">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 5">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 5">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 5">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 5">
+<value/>
+</field>
+<field name="Wissenstalente 6">
+<value>Brett-/Kartenspiel (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 6.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente TaW 6.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente (BE) 6">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 6">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 6">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 6">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 6">
+<value/>
+</field>
+<field name="Wissenstalente 7">
+<value>Geografie (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 7.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente TaW 7.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente (BE) 7">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 7">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 7">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 7">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 7">
+<value/>
+</field>
+<field name="Wissenstalente 8">
+<value>Geschichtswissen (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 8.1">
+<value>6</value>
+</field>
+<field name="Wissenstalente TaW 8.1">
+<value>6</value>
+</field>
+<field name="Wissenstalente (BE) 8">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 8">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 8">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 8">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 8">
+<value/>
+</field>
+<field name="Wissenstalente 9">
+<value>Gesteinskunde (KL IN FF)</value>
+</field>
+<field name="Wissenstalente (TaW) 9.1">
+<value>3</value>
+</field>
+<field name="Wissenstalente TaW 9.1">
+<value>3</value>
+</field>
+<field name="Wissenstalente (BE) 9">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 9">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 9">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 9">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 9">
+<value/>
+</field>
+<field name="Wissenstalente 10">
+<value>Magiekunde (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 10.1">
+<value>2</value>
+</field>
+<field name="Wissenstalente TaW 10.1">
+<value>2</value>
+</field>
+<field name="Wissenstalente (BE) 10">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 10">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 10">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 10">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 10">
+<value/>
+</field>
+<field name="Wissenstalente 11">
+<value>Philosophie (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 11.1">
+<value>1</value>
+</field>
+<field name="Wissenstalente TaW 11.1">
+<value>1</value>
+</field>
+<field name="Wissenstalente (BE) 11">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 11">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 11">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 11">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 11">
+<value/>
+</field>
+<field name="Wissenstalente 12">
+<value>Rechtskunde (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 12.1">
+<value>3</value>
+</field>
+<field name="Wissenstalente TaW 12.1">
+<value>3</value>
+</field>
+<field name="Wissenstalente (BE) 12">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 12">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 12">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 12">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 12">
+<value/>
+</field>
+<field name="Wissenstalente 13">
+<value>Schätzen (KL IN IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 13.1">
+<value>1</value>
+</field>
+<field name="Wissenstalente TaW 13.1">
+<value>1</value>
+</field>
+<field name="Wissenstalente (BE) 13">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 13">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 13">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 13">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 13">
+<value/>
+</field>
+<field name="Handwerkliche Talente 7">
+<value>Ackerbau (IN FF KO)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 7.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente TaW 7.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente (BE) 7">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 7">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 7">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 7">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 7">
+<value/>
+</field>
+<field name="Handwerkliche Talente 8">
+<value>Alchimie (MU KL FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 8.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente TaW 8.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente (BE) 8">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 8">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 8">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 8">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 8">
+<value/>
+</field>
+<field name="Handwerkliche Talente 9">
+<value>Hauswirtschaft (IN CH FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 9.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente TaW 9.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente (BE) 9">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 9">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 9">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 9">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 9">
+<value/>
+</field>
+<field name="Handwerkliche Talente 10">
+<value>Musizieren (IN CH FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 10.1">
+<value>2</value>
+</field>
+<field name="Handwerkliche Talente TaW 10.1">
+<value>2</value>
+</field>
+<field name="Handwerkliche Talente (BE) 10">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 10">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 10">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 10">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 10">
+<value/>
+</field>
+<field name="Handwerkliche Talente 11">
+<value>Viehzucht (KL IN KK)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 11.1">
+<value>2</value>
+</field>
+<field name="Handwerkliche Talente TaW 11.1">
+<value>2</value>
+</field>
+<field name="Handwerkliche Talente (BE) 11">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 11">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 11">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 11">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 11">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 1">
+<value>Tulamidya (KL IN CH)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 1.1">
+<value>13</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 1.1">
+<value>13</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 1">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 1">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 1">
+<value>18/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 1">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 1">
+<value/>
+</field>
+<field name="Sprachen und Schriften 1">
+<value>Tulamidya (KL IN CH)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 1.1">
+<value>13</value>
+</field>
+<field name="Sprachen und Schriften TaW 1.1">
+<value>13</value>
+</field>
+<field name="Sprachen und Schriften (BE) 1">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 1">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 1">
+<value>18/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 1">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 1">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 2">
+<value>Alt-Imperial/Aureliani (KL IN CH)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 2.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 2.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 2">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 2">
+<value>21/B</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 2">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 2">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 3">
+<value>Bosparano (KL IN CH)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 3.1">
+<value>7</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 3.1">
+<value>7</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 3">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 3">
+<value>21/B</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 3">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 3">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 4">
+<value>Garethi (KL IN CH)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 4.1">
+<value>17</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 4.1">
+<value>17</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 4">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 4">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 4">
+<value>18/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 4">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 4">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 5">
+<value>Urtulamidya (KL IN CH)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 5.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 5.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 5">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 5">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 5">
+<value>21/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 5">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 5">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 6">
+<value>L/S Altes Alaani (KL KL FF)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 6.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 6.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 6">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 6">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 6">
+<value>18/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 6">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 6">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 7">
+<value>L/S Altes Amulashtra (KL KL FF)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 7.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 7.1">
+<value>5</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 7">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 7">
+<value>B</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 7">
+<value>17/B</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 7">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 7">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 8">
+<value>L/S Kusliker Zeichen (KL KL FF)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 8.1">
+<value>8</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 8.1">
+<value>8</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 8">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 8">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 8">
+<value>10/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 8">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 8">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften 9">
+<value>L/S Tulamidya (KL KL FF)</value>
+</field>
+<field name="Sprachen &amp; Schriften (TaW) 9.1">
+<value>6</value>
+</field>
+<field name="Sprachen &amp; Schriften TaW 9.1">
+<value>6</value>
+</field>
+<field name="Sprachen &amp; Schriften (BE) 9">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (Kosten) 9">
+<value>A</value>
+</field>
+<field name="Sprachen &amp; Schriften (Komp.) 9">
+<value>14/A</value>
+</field>
+<field name="Sprachen &amp; Schriften (AT) 9">
+<value/>
+</field>
+<field name="Sprachen &amp; Schriften (PA) 9">
+<value/>
+</field>
+<field name="Sprachen und Schriften 2">
+<value>Alt-Imperial/Aureliani (KL IN CH)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 2.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften TaW 2.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften (BE) 2">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 2">
+<value>21/B</value>
+</field>
+<field name="Sprachen und Schriften (AT) 2">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 2">
+<value/>
+</field>
+<field name="Sprachen und Schriften 3">
+<value>Bosparano (KL IN CH)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 3.1">
+<value>7</value>
+</field>
+<field name="Sprachen und Schriften TaW 3.1">
+<value>7</value>
+</field>
+<field name="Sprachen und Schriften (BE) 3">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 3">
+<value>21/B</value>
+</field>
+<field name="Sprachen und Schriften (AT) 3">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 3">
+<value/>
+</field>
+<field name="Sprachen und Schriften 4">
+<value>Garethi (KL IN CH)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 4.1">
+<value>17</value>
+</field>
+<field name="Sprachen und Schriften TaW 4.1">
+<value>17</value>
+</field>
+<field name="Sprachen und Schriften (BE) 4">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 4">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 4">
+<value>18/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 4">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 4">
+<value/>
+</field>
+<field name="Sprachen und Schriften 5">
+<value>Urtulamidya (KL IN CH)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 5.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften TaW 5.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften (BE) 5">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 5">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 5">
+<value>21/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 5">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 5">
+<value/>
+</field>
+<field name="Sprachen und Schriften 6">
+<value>L/S Altes Alaani (KL KL FF)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 6.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften TaW 6.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften (BE) 6">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 6">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 6">
+<value>18/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 6">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 6">
+<value/>
+</field>
+<field name="Sprachen und Schriften 7">
+<value>L/S Altes Amulashtra (KL KL FF)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 7.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften TaW 7.1">
+<value>5</value>
+</field>
+<field name="Sprachen und Schriften (BE) 7">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 7">
+<value>B</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 7">
+<value>17/B</value>
+</field>
+<field name="Sprachen und Schriften (AT) 7">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 7">
+<value/>
+</field>
+<field name="Sprachen und Schriften 8">
+<value>L/S Kusliker Zeichen (KL KL FF)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 8.1">
+<value>8</value>
+</field>
+<field name="Sprachen und Schriften TaW 8.1">
+<value>8</value>
+</field>
+<field name="Sprachen und Schriften (BE) 8">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 8">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 8">
+<value>10/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 8">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 8">
+<value/>
+</field>
+<field name="Sprachen und Schriften 9">
+<value>L/S Tulamidya (KL KL FF)</value>
+</field>
+<field name="Sprachen und Schriften (TaW) 9.1">
+<value>6</value>
+</field>
+<field name="Sprachen und Schriften TaW 9.1">
+<value>6</value>
+</field>
+<field name="Sprachen und Schriften (BE) 9">
+<value/>
+</field>
+<field name="Sprachen und Schriften (Kosten) 9">
+<value>A</value>
+</field>
+<field name="Sprachen und Schriften (Komp.) 9">
+<value>14/A</value>
+</field>
+<field name="Sprachen und Schriften (AT) 9">
+<value/>
+</field>
+<field name="Sprachen und Schriften (PA) 9">
+<value/>
+</field>
+<field name="Kampftechniken 1">
+<value>Dolche (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 1.1">
+<value>1</value>
+</field>
+<field name="Kampftechniken (BE) 1">
+<value>BE-1</value>
+</field>
+<field name="Kampftechniken (Kosten) 1">
+<value>D</value>
+</field>
+<field name="Kampftechniken (Komp.) 1">
+<value>D</value>
+</field>
+<field name="Kampftechniken (AT) 1">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 1">
+<value>8</value>
+</field>
+<field name="Kampftechniken 2">
+<value>Hiebwaffen (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 2.1">
+<value>1</value>
+</field>
+<field name="Kampftechniken (BE) 2">
+<value>BE-4</value>
+</field>
+<field name="Kampftechniken (Kosten) 2">
+<value>D</value>
+</field>
+<field name="Kampftechniken (Komp.) 2">
+<value>D</value>
+</field>
+<field name="Kampftechniken (AT) 2">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 2">
+<value>8</value>
+</field>
+<field name="Kampftechniken 3">
+<value>Raufen (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 3.1">
+<value>2</value>
+</field>
+<field name="Kampftechniken (BE) 3">
+<value>BE</value>
+</field>
+<field name="Kampftechniken (Kosten) 3">
+<value>C</value>
+</field>
+<field name="Kampftechniken (Komp.) 3">
+<value>C</value>
+</field>
+<field name="Kampftechniken (AT) 3">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 3">
+<value>9</value>
+</field>
+<field name="Kampftechniken 4">
+<value>Ringen (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 4.1">
+<value>1</value>
+</field>
+<field name="Kampftechniken (BE) 4">
+<value>BE</value>
+</field>
+<field name="Kampftechniken (Kosten) 4">
+<value>D</value>
+</field>
+<field name="Kampftechniken (Komp.) 4">
+<value>D</value>
+</field>
+<field name="Kampftechniken (AT) 4">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 4">
+<value>8</value>
+</field>
+<field name="Kampftechniken 5">
+<value>Säbel (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 5.1">
+<value>0</value>
+</field>
+<field name="Kampftechniken (BE) 5">
+<value>BE-2</value>
+</field>
+<field name="Kampftechniken (Kosten) 5">
+<value>D</value>
+</field>
+<field name="Kampftechniken (Komp.) 5">
+<value>D</value>
+</field>
+<field name="Kampftechniken (AT) 5">
+<value>6</value>
+</field>
+<field name="Kampftechniken (PA) 5">
+<value>7</value>
+</field>
+<field name="Kampftechniken 6">
+<value>Wurfmesser (B)</value>
+</field>
+<field name="Kampftechniken (TaW) 6.1">
+<value>0</value>
+</field>
+<field name="Kampftechniken (BE) 6">
+<value>BE-3</value>
+</field>
+<field name="Kampftechniken (Kosten) 6">
+<value>C</value>
+</field>
+<field name="Kampftechniken (Komp.) 6">
+<value>C</value>
+</field>
+<field name="Kampftechniken (AT) 6">
+<value>7</value>
+</field>
+<field name="Kampftechniken (PA) 6">
+<value/>
+</field>
+<field name="Körperliche Talente 1">
+<value>Athletik (B) (GE KO KK)</value>
+</field>
+<field name="Körperliche Talente (TaW) 1.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 1">
+<value>BEx2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 1">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 1">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 1">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 1">
+<value/>
+</field>
+<field name="Körperliche Talente 2">
+<value>Klettern (B) (MU GE KK)</value>
+</field>
+<field name="Körperliche Talente (TaW) 2.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 2">
+<value>BEx2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 2">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 2">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 2">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 2">
+<value/>
+</field>
+<field name="Körperliche Talente 3">
+<value>Körperbeherrschung (B) (MU IN GE)</value>
+</field>
+<field name="Körperliche Talente (TaW) 3.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 3">
+<value>BEx2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 3">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 3">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 3">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 3">
+<value/>
+</field>
+<field name="Körperliche Talente 4">
+<value>Schleichen (B) (MU IN GE)</value>
+</field>
+<field name="Körperliche Talente (TaW) 4.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 4">
+<value>BE</value>
+</field>
+<field name="Körperliche Talente (Kosten) 4">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 4">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 4">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 4">
+<value/>
+</field>
+<field name="Körperliche Talente 5">
+<value>Schwimmen (B) (GE KO KK)</value>
+</field>
+<field name="Körperliche Talente (TaW) 5.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 5">
+<value>BEx2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 5">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 5">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 5">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 5">
+<value/>
+</field>
+<field name="Körperliche Talente 6">
+<value>Selbstbeherrschung (B) (MU KO KK)</value>
+</field>
+<field name="Körperliche Talente (TaW) 6.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 6">
+<value/>
+</field>
+<field name="Körperliche Talente (Kosten) 6">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 6">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 6">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 6">
+<value/>
+</field>
+<field name="Körperliche Talente 7">
+<value>Sich verstecken (B) (MU IN GE)</value>
+</field>
+<field name="Körperliche Talente (TaW) 7.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 7">
+<value>BE-2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 7">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 7">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 7">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 7">
+<value/>
+</field>
+<field name="Körperliche Talente 8">
+<value>Singen (B) (IN CH CH)</value>
+</field>
+<field name="Körperliche Talente (TaW) 8.1">
+<value>3</value>
+</field>
+<field name="Körperliche Talente (BE) 8">
+<value>BE-3</value>
+</field>
+<field name="Körperliche Talente (Kosten) 8">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 8">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 8">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 8">
+<value/>
+</field>
+<field name="Körperliche Talente 9">
+<value>Sinnenschärfe (B) (KL IN IN)</value>
+</field>
+<field name="Körperliche Talente (TaW) 9.1">
+<value>1</value>
+</field>
+<field name="Körperliche Talente (BE) 9">
+<value>0-&gt;BE</value>
+</field>
+<field name="Körperliche Talente (Kosten) 9">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 9">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 9">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 9">
+<value/>
+</field>
+<field name="Körperliche Talente 10">
+<value>Tanzen (B) (CH GE GE)</value>
+</field>
+<field name="Körperliche Talente (TaW) 10.1">
+<value>1</value>
+</field>
+<field name="Körperliche Talente (BE) 10">
+<value>BEx2</value>
+</field>
+<field name="Körperliche Talente (Kosten) 10">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 10">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 10">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 10">
+<value/>
+</field>
+<field name="Körperliche Talente 11">
+<value>Zechen (B) (IN KO KK)</value>
+</field>
+<field name="Körperliche Talente (TaW) 11.1">
+<value>0</value>
+</field>
+<field name="Körperliche Talente (BE) 11">
+<value/>
+</field>
+<field name="Körperliche Talente (Kosten) 11">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (Komp.) 11">
+<value>D</value>
+</field>
+<field name="Körperliche Talente (AT) 11">
+<value/>
+</field>
+<field name="Körperliche Talente (PA) 11">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente 1">
+<value>Menschenkenntnis (B) (KL IN CH)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 1.1">
+<value>8</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 1">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 1">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 1">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 1">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 1">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente 2">
+<value>Überreden (B) (MU IN CH)</value>
+</field>
+<field name="Gesellschaftliche Talente (TaW) 2.1">
+<value>4</value>
+</field>
+<field name="Gesellschaftliche Talente (BE) 2">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (Komp.) 2">
+<value>B</value>
+</field>
+<field name="Gesellschaftliche Talente (AT) 2">
+<value/>
+</field>
+<field name="Gesellschaftliche Talente (PA) 2">
+<value/>
+</field>
+<field name="Natur-Talente 1">
+<value>Fährtensuchen (B) (KL IN KO)</value>
+</field>
+<field name="Natur-Talente (TaW) 1.1">
+<value>1</value>
+</field>
+<field name="Natur-Talente (BE) 1">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 1">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 1">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 1">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 1">
+<value/>
+</field>
+<field name="Natur-Talente 2">
+<value>Orientierung (B) (KL IN IN)</value>
+</field>
+<field name="Natur-Talente (TaW) 2.1">
+<value>0</value>
+</field>
+<field name="Natur-Talente (BE) 2">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 2">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 2">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 2">
+<value/>
+</field>
+<field name="Natur-Talente 3">
+<value>Wildnisleben (B) (IN GE KO)</value>
+</field>
+<field name="Natur-Talente (TaW) 3.1">
+<value>3</value>
+</field>
+<field name="Natur-Talente (BE) 3">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 3">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 3">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 3">
+<value/>
+</field>
+<field name="Wissenstalente 1">
+<value>Götter und Kulte (B) (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 1.1">
+<value>8</value>
+</field>
+<field name="Wissenstalente (BE) 1">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 1">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 1">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 1">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 1">
+<value/>
+</field>
+<field name="Wissenstalente 2">
+<value>Rechnen (B) (KL KL IN)</value>
+</field>
+<field name="Wissenstalente (TaW) 2.1">
+<value>4</value>
+</field>
+<field name="Wissenstalente (BE) 2">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 2">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 2">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 2">
+<value/>
+</field>
+<field name="Wissenstalente 3">
+<value>Sagen und Legenden (B) (KL IN CH)</value>
+</field>
+<field name="Wissenstalente (TaW) 3.1">
+<value>5</value>
+</field>
+<field name="Wissenstalente (BE) 3">
+<value/>
+</field>
+<field name="Wissenstalente (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Wissenstalente (Komp.) 3">
+<value>B</value>
+</field>
+<field name="Wissenstalente (AT) 3">
+<value/>
+</field>
+<field name="Wissenstalente (PA) 3">
+<value/>
+</field>
+<field name="Handwerkliche Talente 1">
+<value>Heilkunde: Wunden (B) (KL CH FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 1.1">
+<value>0</value>
+</field>
+<field name="Handwerkliche Talente (BE) 1">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 1">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 1">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 1">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 1">
+<value/>
+</field>
+<field name="Handwerkliche Talente 2">
+<value>Holzbearbeitung (B) (KL FF KK)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 2.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente (BE) 2">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 2">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 2">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 2">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 2">
+<value/>
+</field>
+<field name="Handwerkliche Talente 3">
+<value>Kochen (B) (KL IN FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 3.1">
+<value>0</value>
+</field>
+<field name="Handwerkliche Talente (BE) 3">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 3">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 3">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 3">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 3">
+<value/>
+</field>
+<field name="Handwerkliche Talente 4">
+<value>Lederarbeiten (B) (KL FF FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 4.1">
+<value>1</value>
+</field>
+<field name="Handwerkliche Talente (BE) 4">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 4">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 4">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 4">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 4">
+<value/>
+</field>
+<field name="Handwerkliche Talente 5">
+<value>Malen/Zeichnen (B) (KL IN FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 5.1">
+<value>3</value>
+</field>
+<field name="Handwerkliche Talente (BE) 5">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 5">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 5">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 5">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 5">
+<value/>
+</field>
+<field name="Handwerkliche Talente 6">
+<value>Schneidern (B) (KL FF FF)</value>
+</field>
+<field name="Handwerkliche Talente (TaW) 6.1">
+<value>0</value>
+</field>
+<field name="Handwerkliche Talente (BE) 6">
+<value/>
+</field>
+<field name="Handwerkliche Talente (Kosten) 6">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (Komp.) 6">
+<value>B</value>
+</field>
+<field name="Handwerkliche Talente (AT) 6">
+<value/>
+</field>
+<field name="Handwerkliche Talente (PA) 6">
+<value/>
+</field>
+<field name="Ritualkenntnis 1.0">
+<value>Hesinde</value>
+</field>
+<field name="Ritualkenntnis 1.1">
+<value>8</value>
+</field>
+<field name="Liturgiekenntnis">
+<value>8</value>
+</field>
+<field name="Wissenstalente 17">
+<value>Wache halten (MU IN KO)</value>
+</field>
+<field name="Wissenstalente (TaW) 17.1">
+<value>1</value>
+</field>
+<field name="Tiere (Name) 1">
+<value>Katze</value>
+</field>
+<field name="Tiere (Art) 1">
+<value>Katze</value>
+</field>
+<field name="Tiere (INI) 1">
+<value>7</value>
+</field>
+<field name="Tiere (AT) 1">
+<value>11</value>
+</field>
+<field name="Tiere (PA) 1">
+<value>11</value>
+</field>
+<field name="Tiere (TP) 1">
+<value>1W-1</value>
+</field>
+<field name="Tiere (LE) 1">
+<value>10</value>
+</field>
+<field name="Tiere (RS) 1">
+<value>2</value>
+</field>
+<field name="Tiere (KO) 1">
+<value>7</value>
+</field>
+<field name="Tiere (GS) 1">
+<value>11,0</value>
+</field>
+<field name="Tiere (AU) 1">
+<value>45</value>
+</field>
+<field name="Tiere (MR) 1">
+<value>1</value>
+</field>
+<field name="Tiere (LO) 1">
+<value>6</value>
+</field>
+<field name="Tiere (Name) 2">
+<value>Pferd</value>
+</field>
+<field name="Tiere (Art) 2">
+<value>Pferd</value>
+</field>
+<field name="Tiere (INI) 2">
+<value>3</value>
+</field>
+<field name="Tiere (AT) 2">
+<value>11</value>
+</field>
+<field name="Tiere (PA) 2">
+<value>8</value>
+</field>
+<field name="Tiere (TP) 2">
+<value>1W+1</value>
+</field>
+<field name="Tiere (LE) 2">
+<value>57</value>
+</field>
+<field name="Tiere (RS) 2">
+<value>1</value>
+</field>
+<field name="Tiere (KO) 2">
+<value>18</value>
+</field>
+<field name="Tiere (GS) 2">
+<value>2,0</value>
+</field>
+<field name="Tiere (AU) 2">
+<value>4</value>
+</field>
+<field name="Tiere (MR) 2">
+<value>0</value>
+</field>
+<field name="Tiere (LO) 2">
+<value>10</value>
+</field>
+<field name="Waffenloser Kampf (AT) 1">
+<value>6</value>
+</field>
+<field name="Waffenloser Kampf (PA) 1">
+<value>9</value>
+</field>
+<field name="Waffenloser Kampf (TP(A)) 1">
+<value>1W+0</value>
+</field>
+<field name="Waffenloser Kampf (AT) 2">
+<value>6</value>
+</field>
+<field name="Waffenloser Kampf (PA) 2">
+<value>8</value>
+</field>
+<field name="Waffenloser Kampf (TP(A)) 2">
+<value>1W+0</value>
+</field>
+<field name="RS (Kopf)">
+<value>0</value>
+</field>
+<field name="RS (Oberkörper)">
+<value>0</value>
+</field>
+<field name="RS (Rücken)">
+<value>0</value>
+</field>
+<field name="RS (Unterleib)">
+<value>0</value>
+</field>
+<field name="RS (linker Arm)">
+<value>0</value>
+</field>
+<field name="RS (rechter Arm)">
+<value>0</value>
+</field>
+<field name="RS (linkes Bein)">
+<value>0</value>
+</field>
+<field name="RS (rechtes Bein)">
+<value>0</value>
+</field>
+<field name="Rüstung (RS)">
+<value>0</value>
+</field>
+<field name="BE">
+<value>0</value>
+</field>
+<field name="RS (Kopf)a">
+<value>0</value>
+</field>
+<field name="RS (Oberkörper)a">
+<value>0</value>
+</field>
+<field name="RS (Rücken)a">
+<value>0</value>
+</field>
+<field name="RS (Unterleib)a">
+<value>0</value>
+</field>
+<field name="RS (linker Arm)a">
+<value>0</value>
+</field>
+<field name="RS (rechter Arm)a">
+<value>0</value>
+</field>
+<field name="RS (linkes Bein)a">
+<value>0</value>
+</field>
+<field name="RS (rechtes Bein)a">
+<value>0</value>
+</field>
+<field name="Rüstung (RS)a">
+<value>0</value>
+</field>
+<field name="BEa">
+<value>0</value>
+</field>
+<field name="Nahkampfwaffe 1">
+<value>Dolch</value>
+</field>
+<field name="Nahkampfwaffe (Typ/eBE) 1">
+<value>Do/BE-1</value>
+</field>
+<field name="Nahkampfwaffe (DK) 1">
+<value>H</value>
+</field>
+<field name="Nahkampfwaffe (TP) 1">
+<value>1W+1</value>
+</field>
+<field name="Nahkampfwaffe (TP/KK) 1">
+<value>12 / 5</value>
+</field>
+<field name="Nahkampfwaffe (INI) 1">
+<value>0</value>
+</field>
+<field name="Nahkampfwaffe (WM) 1">
+<value>0 /-1</value>
+</field>
+<field name="Nahkampfwaffe (AT) 1">
+<value>6</value>
+</field>
+<field name="Nahkampfwaffe (PA) 1">
+<value>7</value>
+</field>
+<field name="Nahkampfwaffe (TP(KK)) 1">
+<value>1W+1</value>
+</field>
+<field name="Nahkampfwaffe (Bruchfaktor) 1.1">
+<value>2</value>
+</field>
+<field name="Nahkampfwaffe 1a">
+<value>Dolch</value>
+</field>
+<field name="Nahkampfwaffe (Typ/eBE) 1a">
+<value>Do/BE-1</value>
+</field>
+<field name="Nahkampfwaffe (DK) 1a">
+<value>H</value>
+</field>
+<field name="Nahkampfwaffe (TP) 1a">
+<value>1W+1</value>
+</field>
+<field name="Nahkampfwaffe (TP/KK) 1a">
+<value>12 / 5</value>
+</field>
+<field name="Nahkampfwaffe (INI) 1a">
+<value>0</value>
+</field>
+<field name="Nahkampfwaffe (WM) 1a">
+<value>0 /-1</value>
+</field>
+<field name="Nahkampfwaffe (AT) 1a">
+<value>6</value>
+</field>
+<field name="Nahkampfwaffe (PA) 1a">
+<value>7</value>
+</field>
+<field name="Nahkampfwaffe (TP(KK)) 1a">
+<value>1W+1</value>
+</field>
+<field name="Nahkampfwaffe (Bruchfaktor) 1.1a">
+<value>2</value>
+</field>
+<field name="Ausweichen (Summe)">
+<value>7</value>
+</field>
+<field name="Initiative (Basis)">
+<value/>
+</field>
+<field name="Initiative (gesamt)">
+<value/>
+</field>
+<field name="Initiative (Basis)a">
+<value/>
+</field>
+<field name="Initiative (gesamt)a">
+<value/>
+</field>
+</fields>
+		</xfdf>
