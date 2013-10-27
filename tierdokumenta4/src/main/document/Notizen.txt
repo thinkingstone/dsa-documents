@@ -1,0 +1,38 @@
+Reittiere:
+ Tragkraft TK
+ Zugkraft ZK
+ Futterbedarf
+ AU (Anzahl möglicher Spielrunden in Trab/Galopp)
+ Ausbildung
+
+ * Rüstungen	ZBA 29
+
+ nur für Pferde definiert
+ 10 verfügbare Rüstungsteile; starke Einschränkungen der Kombination/Nutzbarkeit
+ 
+ RS
+ BE
+ 
+ evtl ähnlich zu Rüstungszonen Grafik
+ 
+Vertrautentiere:
+ * Zauber	WdZ 121
+
+  Zusätzliche Werte des Vertrauten
+  AsP
+  Ritualkenntnis (Vertrautenmagie)
+  Zauber Zwiegespräch (automatisch)
+  Abenteuerpunkte gesamt, eingesetzt, Guthaben
+ 
+ 
+ 12 verfügbare Zauber
+ 
+  Probe
+  Zauberdauer
+  AsP Kosten
+  Zielobjekt
+  Reichweite
+  Wirkungsdauer
+  Merkmal
+  Kommentar/Anmerkungen
+  => siehe auch Zauberbogen
