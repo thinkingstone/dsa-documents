@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/PdfToolkit/src/main/java/de/thinkingstone/pdftoolkit/FillPdfForm.java"/>
+<listEntry value="/pdftoolkit/src/main/java/de/thinkingstone/pdftoolkit/FillPdfForm.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -9,6 +9,6 @@
 <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="de.thinkingstone.pdftoolkit.FillPdfForm"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--template ${workspace_loc:tierdokumenta4}/src/intermediate/document/Tierdokument.pdf -xfdf ${workspace_loc:tierdokumenta4}/target/main/heldensoftware/daten.geweiht.xml --result ${workspace_loc:tierdokumenta4}/target/main/heldensoftware/geweiht.Tierdokument.pdf"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PdfToolkit"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="pdftoolkit"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>
