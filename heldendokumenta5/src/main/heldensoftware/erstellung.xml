@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<seiten debug="false" style="FormularPDFviaXSLT">
+	<options>
+		<option type="boolean" name="includeGegenstaende" label="Gegenstände einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeGegenstandAnzahl" label="Gegenstände Anzahl einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeKommentare" label="Kommentare einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeTAW" label="TaW einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeZFW" label="ZfW einfügen" defaultvalue="true"/>
+		<option type="boolean" name="includeTier" label="Tiere einfügen" defaultvalue="false"/>
+	</options>
+	<pdf input="Heldendokument.pdf" xslt="helden.xfdf.xsl" formflattening="false">
+		<image page="1" xpath="//daten/angaben/bildPfad" x="227" y="195" w="168" h="350" />
+	</pdf>
+</seiten>
+
+
+
+
