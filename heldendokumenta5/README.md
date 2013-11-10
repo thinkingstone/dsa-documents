@@ -58,10 +58,11 @@ Achtung: die einfachen Hochkomma sind wichtig!
 
  * Neues Versionierungsschema
  * Getested mit Helden-Software 5.2.7
+ * Neues Design des Heldenbogens
  * Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht
  * Berechnung von Initiative und Ausweichen umgestaltet
  * Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt
- * Angreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit einem beliebigen Zeichen gefüllt werden 
+ * Ankreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit einem beliebigen Zeichen gefüllt werden 
  * Tierfelder sind entfallen
  * Edelsteine sind entfallen; bitte in "Sonstiger Besitz" eintragen
  * Hintergrund ist entfernt; bitte in "Aussehen & Hintergrund" eintragen
