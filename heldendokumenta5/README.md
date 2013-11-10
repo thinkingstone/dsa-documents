@@ -52,9 +52,21 @@ Das Verhalten dieser Erweiterung kann teilweise den eigenen Wünschen angepasst 
 2. Die Parameter am Beginn der Datei können geändet werden. Bitte die Hinweise in der Datei beachten. 
 Achtung: die einfachen Hochkomma sind wichtig!
 
+## Änderungen
+
+### Version 1.0.0
+
  * Neues Versionierungsschema
  * Getested mit Helden-Software 5.2.7
-
-### Version TODO
-
- * TODO
+ * Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht
+ * Berechnung von Initiative und Ausweichen umgestaltet
+ * Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt
+ * Angreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit beliebigen Zeichen gefüllt werden 
+ * Tierfelder sind entfallen
+ * Edelsteine sind entfallen; bitte in "Sonstiger Besitz" eintragen
+ * Hintergrund ist entfernt; bitte in "Aussehen & Hintergrund" eintragen
+ * Feldnamen:
+    * Geld-Felder umbenannt: neu: Geld_D_1 alt: D_1 , etc.
+    * Eigenschaften CH, FF, etc auf dem zauberdokument heißen jetzt CH_z1, CH_z2, etc
+    * Notizen: notizen umbenant in notizen1 und notizen2
+ 

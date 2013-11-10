@@ -45,30 +45,51 @@
 <value>Aussehen 0123 Aussehen 0123 Aussehen 0123 Au</value>
 </field>
 <field name="aussehen2">
-<value>ssehen 0123</value>
+<value>ssehen 0123 Familie 012345678901234567 Famili</value>
 </field>
 <field name="aussehen3">
-<value/>
+<value>e 012345678901234567 Familie 0123456789012345</value>
 </field>
 <field name="aussehen4">
+<value>67 Familie 012345678901234567 Familie 0123456</value>
+</field>
+<field name="aussehen5">
+<value>78901234567 Familie 012345678901234567</value>
+</field>
+<field name="aussehen6">
 <value/>
 </field>
-<field name="hintergrund1">
-<value>Familie 012345678901234567 Familie 012345678</value>
-</field>
-<field name="hintergrund2">
-<value>901234567 Familie 012345678901234567 Familie </value>
-</field>
-<field name="hintergrund3">
-<value>012345678901234567 Familie 012345678901234567</value>
-</field>
-<field name="hintergrund4">
-<value> Familie 012345678901234567</value>
-</field>
-<field name="hintergrund5">
+<field name="aussehen7">
 <value/>
 </field>
-<field name="notizen">
+<field name="aussehen8">
+<value/>
+</field>
+<field name="aussehen9">
+<value/>
+</field>
+<field name="aussehen10">
+<value/>
+</field>
+<field name="aussehen11">
+<value/>
+</field>
+<field name="aussehen12">
+<value/>
+</field>
+<field name="aussehen13">
+<value/>
+</field>
+<field name="aussehen14">
+<value/>
+</field>
+<field name="aussehen15">
+<value/>
+</field>
+<field name="aussehen16">
+<value/>
+</field>
+<field name="notizen1">
 <value>Notizen</value>
 </field>
 <field name="profession">
@@ -194,6 +215,18 @@
 <field name="AU_max">
 <value>12</value>
 </field>
+<field name="AU_maximal">
+<value>33</value>
+</field>
+<field name="AU_12">
+<value>17</value>
+</field>
+<field name="AU_13">
+<value>11</value>
+</field>
+<field name="AU_14">
+<value>8</value>
+</field>
 <field name="FK_akt">
 <value>7</value>
 </field>
@@ -226,6 +259,18 @@
 </field>
 <field name="LE_max">
 <value>6</value>
+</field>
+<field name="LE_maximal">
+<value>31</value>
+</field>
+<field name="LE_12">
+<value>16</value>
+</field>
+<field name="LE_13">
+<value>10</value>
+</field>
+<field name="LE_14">
+<value>8</value>
 </field>
 <field name="MR_akt">
 <value>4</value>
@@ -266,13 +311,13 @@
 <field name="PA_mod">
 <value>0</value>
 </field>
-<field name="Vorteil1">
+<field name="Vorteil2">
 <value>Adlige Abstammung (Kommentar)</value>
 </field>
-<field name="Nachteil1">
+<field name="Nachteil2">
 <value>Prinzipientreue: 10 (Kommentar)</value>
 </field>
-<field name="Nachteil2">
+<field name="Nachteil3">
 <value>Schulden: 1500 (Kommentar)</value>
 </field>
 <field name="SchlechteEigenschaft1">
@@ -314,6 +359,12 @@
 <field name="MagVorteileNachteile_7">
 <value/>
 </field>
+<field name="MagVorteileNachteile_8">
+<value/>
+</field>
+<field name="MagVorteileNachteile_9">
+<value/>
+</field>
 <field name="MagSonderfertigkeiten_1">
 <value/>
 </field>
@@ -339,6 +390,15 @@
 <value/>
 </field>
 <field name="MagSonderfertigkeiten_9">
+<value/>
+</field>
+<field name="MagSonderfertigkeiten_10">
+<value/>
+</field>
+<field name="MagSonderfertigkeiten_11">
+<value/>
+</field>
+<field name="MagSonderfertigkeiten_12">
 <value/>
 </field>
 <field name="Merkmale">
@@ -375,10 +435,10 @@
 <value/>
 </field>
 <field name="NK_Sonderfertigkeiten_1">
-<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparad</value>
+<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Komme</value>
 </field>
 <field name="NK_Sonderfertigkeiten_2">
-<value>e (Kommentar), Wuchtschlag (Kommentar)</value>
+<value>ntar), Wuchtschlag (Kommentar)</value>
 </field>
 <field name="NK_Sonderfertigkeiten_3">
 <value/>
@@ -386,11 +446,14 @@
 <field name="NK_Sonderfertigkeiten_4">
 <value/>
 </field>
+<field name="NK_Sonderfertigkeiten_5">
+<value/>
+</field>
 <field name="FK_Sonderfertigkeiten_1">
-<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbr</value>
+<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Ko</value>
 </field>
 <field name="FK_Sonderfertigkeiten_2">
-<value>ust) (Kommentar), Schnellladen (Armbrust) (Kommentar)</value>
+<value>mmentar), Schnellladen (Armbrust) (Kommentar)</value>
 </field>
 <field name="FK_Sonderfertigkeiten_3">
 <value/>
@@ -398,44 +461,50 @@
 <field name="FK_Sonderfertigkeiten_4">
 <value/>
 </field>
+<field name="FK_Sonderfertigkeiten_5">
+<value/>
+</field>
 <field name="Waffenlos_Sonderfertigkeiten_1">
-<value>Auspendeln (Kommentar), Beinarbeit (Kommentar), B</value>
+<value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), B</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_2">
-<value>iss (Kommentar), Block (Kommentar), Doppelschlag (Kommentar), Eisenarm (Kommentar), Fußfeger (Kommen</value>
+<value>lock (Kommentar), Doppelschlag (Kommentar), Eisenarm (Kommentar), Fußfeger (Kommentar), Gerade (Komm</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_3">
-<value>tar), Gerade (Kommentar), Griff (Kommentar), Halten (Kommentar), Knaufschlag (Kommentar), Knie (Komm</value>
+<value>entar), Griff (Kommentar), Halten (Kommentar), Knaufschlag (Kommentar), Knie (Kommentar), Kopfstoß (</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_4">
-<value>entar), Kopfstoß (Kommentar), Schmetterschlag (Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Klinge (Kommentar), Würgegriff (Kommentar)</value>
+<value>Kommentar), Schmetterschlag (Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Kling</value>
+</field>
+<field name="Waffenlos_Sonderfertigkeiten_5">
+<value>e (Kommentar), Würgegriff (Kommentar)</value>
 </field>
 <field name="SF_Ausweichen_1">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Ausweichen_2">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Kampfreflexe">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Linkhand">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Parierwaffen_1">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Ruestungsgewoehnung_1">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Ruestungsgewoehnung">
 <value>Amazonenrüstung (kompl), Leichte Platte</value>
 </field>
 <field name="SF_Ruestungsgewoehnung_2">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="SF_Schildkampf_1">
-<value>Yes</value>
+<value>✘</value>
 </field>
 <field name="Kampf_1">
 <value>Anderthalbhänder (Anderthalbhänder)</value>
@@ -477,7 +546,7 @@
 <value>11</value>
 </field>
 <field name="Kampf_2_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Kampf_3">
 <value>Infanteriewaffen</value>
@@ -540,7 +609,7 @@
 <value/>
 </field>
 <field name="Koerper_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Gesellschaft_1">
 <value>Betören</value>
@@ -561,7 +630,7 @@
 <value/>
 </field>
 <field name="Gesellschaft_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Gesellschaft_2">
 <value>Etikette</value>
@@ -582,7 +651,7 @@
 <value/>
 </field>
 <field name="Gesellschaft_2_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Gesellschaft_3">
 <value>Gassenwissen</value>
@@ -603,7 +672,7 @@
 <value/>
 </field>
 <field name="Gesellschaft_3_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Gesellschaft_4">
 <value>Lehren</value>
@@ -624,7 +693,7 @@
 <value/>
 </field>
 <field name="Gesellschaft_4_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_1">
 <value>Geografie</value>
@@ -645,7 +714,7 @@
 <value/>
 </field>
 <field name="Wissen_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_2">
 <value>Geschichtswissen</value>
@@ -666,7 +735,7 @@
 <value/>
 </field>
 <field name="Wissen_2_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_3">
 <value>Heraldik</value>
@@ -687,7 +756,7 @@
 <value/>
 </field>
 <field name="Wissen_3_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_4">
 <value>Kriegskunst</value>
@@ -708,7 +777,7 @@
 <value/>
 </field>
 <field name="Wissen_4_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_5">
 <value>Magiekunde</value>
@@ -729,7 +798,7 @@
 <value/>
 </field>
 <field name="Wissen_5_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wissen_6">
 <value>Rechtskunde</value>
@@ -750,7 +819,7 @@
 <value/>
 </field>
 <field name="Wissen_6_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Handwerk_1">
 <value>Ackerbau (MH) (G'Rolmur-Biotope)</value>
@@ -771,7 +840,7 @@
 <value/>
 </field>
 <field name="Handwerk_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Muttersprache_1">
 <value>Garethi</value>
@@ -792,7 +861,7 @@
 <value/>
 </field>
 <field name="Muttersprache_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Sprache_1">
 <value>Bosparano</value>
@@ -813,7 +882,7 @@
 <value/>
 </field>
 <field name="Sprache_1_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Sprache_2">
 <value>Rogolan</value>
@@ -834,7 +903,7 @@
 <value/>
 </field>
 <field name="Sprache_2_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Sprache_3">
 <value>Tulamidya</value>
@@ -855,7 +924,7 @@
 <value/>
 </field>
 <field name="Sprache_3_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Sprache_4">
 <value>L/S Kusliker Zeichen</value>
@@ -876,7 +945,7 @@
 <value/>
 </field>
 <field name="Sprache_4_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Dolche">
 <value>Dolche (B) (Langdolch)</value>
@@ -1017,7 +1086,7 @@
 <value>7</value>
 </field>
 <field name="Wurfmesser_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wurfmesser_spez">
 <value/>
@@ -1041,7 +1110,7 @@
 <value/>
 </field>
 <field name="Athletik_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Athletik_spez">
 <value/>
@@ -1065,7 +1134,7 @@
 <value/>
 </field>
 <field name="Klettern_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Klettern_spez">
 <value/>
@@ -1089,7 +1158,7 @@
 <value/>
 </field>
 <field name="Koerperbeherrschung_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Koerperbeherrschung_spez">
 <value/>
@@ -1113,7 +1182,7 @@
 <value/>
 </field>
 <field name="Schleichen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Schleichen_spez">
 <value/>
@@ -1137,7 +1206,7 @@
 <value/>
 </field>
 <field name="Schwimmen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Schwimmen_spez">
 <value/>
@@ -1161,7 +1230,7 @@
 <value/>
 </field>
 <field name="Selbstbeherrschung_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Selbstbeherrschung_spez">
 <value/>
@@ -1185,7 +1254,7 @@
 <value/>
 </field>
 <field name="SichVerstecken_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="SichVerstecken_spez">
 <value/>
@@ -1209,7 +1278,7 @@
 <value/>
 </field>
 <field name="Singen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Singen_spez">
 <value/>
@@ -1233,7 +1302,7 @@
 <value/>
 </field>
 <field name="Sinnenschaerfe_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Sinnenschaerfe_spez">
 <value/>
@@ -1257,7 +1326,7 @@
 <value/>
 </field>
 <field name="Tanzen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Tanzen_spez">
 <value/>
@@ -1281,7 +1350,7 @@
 <value/>
 </field>
 <field name="Zechen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Zechen_spez">
 <value/>
@@ -1305,7 +1374,7 @@
 <value/>
 </field>
 <field name="Menschenkenntnis_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Menschenkenntnis_spez">
 <value/>
@@ -1329,7 +1398,7 @@
 <value/>
 </field>
 <field name="Ueberreden_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Ueberreden_spez">
 <value/>
@@ -1353,7 +1422,7 @@
 <value/>
 </field>
 <field name="Faehrtensuchen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Faehrtensuchen_spez">
 <value/>
@@ -1377,7 +1446,7 @@
 <value/>
 </field>
 <field name="Orientierung_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Orientierung_spez">
 <value/>
@@ -1401,7 +1470,7 @@
 <value/>
 </field>
 <field name="Wildnisleben_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Wildnisleben_spez">
 <value/>
@@ -1425,7 +1494,7 @@
 <value/>
 </field>
 <field name="GoetterKulte_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="GoetterKulte_spez">
 <value/>
@@ -1449,7 +1518,7 @@
 <value/>
 </field>
 <field name="Rechnen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Rechnen_spez">
 <value/>
@@ -1473,7 +1542,7 @@
 <value/>
 </field>
 <field name="SagenLegenden_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="SagenLegenden_spez">
 <value/>
@@ -1497,7 +1566,7 @@
 <value/>
 </field>
 <field name="HeilkundeWunden_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="HeilkundeWunden_spez">
 <value/>
@@ -1521,7 +1590,7 @@
 <value/>
 </field>
 <field name="Holzbearbeitung_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Holzbearbeitung_spez">
 <value/>
@@ -1545,7 +1614,7 @@
 <value/>
 </field>
 <field name="Kochen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Kochen_spez">
 <value/>
@@ -1569,7 +1638,7 @@
 <value/>
 </field>
 <field name="Lederarbeiten_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Lederarbeiten_spez">
 <value/>
@@ -1593,7 +1662,7 @@
 <value/>
 </field>
 <field name="MalenZeichnen_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="MalenZeichnen_spez">
 <value/>
@@ -1617,45 +1686,63 @@
 <value/>
 </field>
 <field name="Schneidern_PA">
-<value/>
+<value>-</value>
 </field>
 <field name="Schneidern_spez">
 <value/>
 </field>
-<field name="Wissen_18">
-<value>Wache halten</value>
-</field>
-<field name="Wissen_18_probe">
-<value>MU IN KO</value>
-</field>
-<field name="Wissen_18_TAW_1">
-<value>3</value>
-</field>
-<field name="MU">
+<field name="MU_z1">
 <value>13</value>
 </field>
-<field name="KL">
+<field name="MU_z2">
+<value>13</value>
+</field>
+<field name="KL_z1">
 <value>9</value>
 </field>
-<field name="IN">
-<value>13</value>
-</field>
-<field name="CH">
+<field name="KL_z2">
 <value>9</value>
 </field>
-<field name="FF">
+<field name="IN_z1">
+<value>13</value>
+</field>
+<field name="IN_z2">
+<value>13</value>
+</field>
+<field name="CH_z1">
 <value>9</value>
 </field>
-<field name="GE">
+<field name="CH_z2">
+<value>9</value>
+</field>
+<field name="FF_z1">
+<value>9</value>
+</field>
+<field name="FF_z2">
+<value>9</value>
+</field>
+<field name="GE_z1">
 <value>13</value>
 </field>
-<field name="KO">
+<field name="GE_z2">
 <value>13</value>
 </field>
-<field name="KK">
+<field name="KO_z1">
 <value>13</value>
 </field>
-<field name="MR">
+<field name="KO_z2">
+<value>13</value>
+</field>
+<field name="KK_z1">
+<value>13</value>
+</field>
+<field name="KK_z2">
+<value>13</value>
+</field>
+<field name="MR_z1">
+<value>4</value>
+</field>
+<field name="MR_z2">
 <value>4</value>
 </field>
 <field name="Ausruestung_1">
@@ -1740,7 +1827,7 @@
 <value>0</value>
 </field>
 <field name="Ruestung_Summe_RS">
-<value>2</value>
+<value>2 -- 0 / 3 / 2 / 2 / 1 / 1 / 2 / 2</value>
 </field>
 <field name="Ruestung_Summe_BE">
 <value>0</value>
@@ -1749,7 +1836,7 @@
 <value>Dolch</value>
 </field>
 <field name="NK_1_typ">
-<value>BE-1</value>
+<value>Do/BE-1</value>
 </field>
 <field name="NK_1_DK">
 <value>H</value>
@@ -1782,7 +1869,7 @@
 <value>Rapier</value>
 </field>
 <field name="NK_2_typ">
-<value>BE-1</value>
+<value>Fe/BE-1</value>
 </field>
 <field name="NK_2_DK">
 <value>N</value>
@@ -1815,7 +1902,7 @@
 <value>Kurzbogen</value>
 </field>
 <field name="FK_1_typ">
-<value>BE-3</value>
+<value>Bo/BE-3</value>
 </field>
 <field name="FK_1_Entfernung">
 <value>5/15/25/40/60</value>
@@ -1833,7 +1920,7 @@
 <value>Leichte Armbrust</value>
 </field>
 <field name="FK_2_typ">
-<value>BE-5</value>
+<value>Ar/BE-5</value>
 </field>
 <field name="FK_2_Entfernung">
 <value>10/15/25/40/60</value>
@@ -1887,7 +1974,7 @@
 <value>Iryanrüstung</value>
 </field>
 <field name="Ruestung_1_RS">
-<value>3</value>
+<value>3 -- 0 / 3 / 2 / 2 / 0 / 0 / 1 / 1</value>
 </field>
 <field name="Ruestung_1_BE">
 <value>2</value>
@@ -1896,7 +1983,7 @@
 <value>Armschiene (links), Leder</value>
 </field>
 <field name="Ruestung_2_RS">
-<value>*</value>
+<value>* -- 0 / 0 / 0 / 0 / 1 / 0 / 0 / 0</value>
 </field>
 <field name="Ruestung_2_BE">
 <value>*</value>
@@ -1905,7 +1992,7 @@
 <value>Armschiene (rechts), Leder</value>
 </field>
 <field name="Ruestung_3_RS">
-<value>*</value>
+<value>* -- 0 / 0 / 0 / 0 / 0 / 1 / 0 / 0</value>
 </field>
 <field name="Ruestung_3_BE">
 <value>*</value>
@@ -1914,7 +2001,7 @@
 <value>Beinschienen (links), Leder</value>
 </field>
 <field name="Ruestung_4_RS">
-<value>*</value>
+<value>* -- 0 / 0 / 0 / 0 / 0 / 0 / 1 / 0</value>
 </field>
 <field name="Ruestung_4_BE">
 <value>*</value>
@@ -1923,7 +2010,7 @@
 <value>Beinschienen (rechts), Leder</value>
 </field>
 <field name="Ruestung_5_RS">
-<value>*</value>
+<value>* -- 0 / 0 / 0 / 0 / 0 / 0 / 0 / 1</value>
 </field>
 <field name="Ruestung_5_BE">
 <value>*</value>
@@ -1937,11 +2024,20 @@
 <field name="Rechnung_PA_summe">
 <value>14</value>
 </field>
+<field name="Rechnung_PA_ausweichen_1">
+<value>3</value>
+</field>
+<field name="Rechnung_PA_ausweichen_2">
+<value>3</value>
+</field>
 <field name="Rechnung_INI">
-<value>14</value>
+<value>10</value>
 </field>
 <field name="Rechnung_INI_BE">
-<value/>
+<value>0</value>
+</field>
+<field name="Rechnung_INI_summe">
+<value>14 (inkl. SF Mod.)</value>
 </field>
 </fields>
 		</xfdf>

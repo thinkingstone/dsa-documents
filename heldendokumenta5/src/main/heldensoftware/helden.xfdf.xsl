@@ -75,7 +75,7 @@
 		'true': Metatalente der Helden-Software ignorieren.
 		'false': Metatalente der Helden-Software werden eingefügt.  
 	-->
-	<xsl:param name="workaroundMetatalente" select="'true'" />
+	<xsl:param name="workaroundMetatalente" select="'false'" />
 	
 	<!-- 
 		includeTier:
@@ -83,6 +83,20 @@
 		'false': keine Tiere eintragen 
 	-->
 	<xsl:param name="includeTier" select="'true'" />
+	
+	<xsl:variable name="checkbox">
+		<!-- filled circle -->
+		<!-- <xsl:text>&#x25CF;</xsl:text> -->
+
+		<!-- filled star -->
+		<!-- <xsl:text>&#x2605;</xsl:text> -->
+
+		<!-- checked mark -->
+		<!-- <xsl:text>&#x2714;</xsl:text> -->
+
+		<!-- checked cross -->
+		<xsl:text>&#x2718;</xsl:text>
+	</xsl:variable>
 	
 	<!-- Templates -->
 	<xsl:template match="@*|text()" />
@@ -185,7 +199,7 @@
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/angaben/notizen">
-		<field name="notizen">
+		<field name="notizen1">
 			<value>
 				<xsl:value-of select="text" />
 			</value>
@@ -195,6 +209,8 @@
 	<xsl:template match="/daten/angaben/aussehen">
 		<xsl:variable name="Aussehen">
 			<xsl:value-of select="text" />
+			<xsl:text> </xsl:text>
+			<xsl:value-of select="../familie/text" />
 		</xsl:variable>
 		<field name="aussehen1">
 			<value>
@@ -213,41 +229,72 @@
 		</field>
 		<field name="aussehen4">
 			<value>
-				<xsl:value-of select="substring($Aussehen, 135)"></xsl:value-of>
+				<xsl:value-of select="substring($Aussehen, 135, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen5">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 180, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen6">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 225, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen7">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 270, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen8">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 315, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen9">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 360, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen10">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 405, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen11">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 450, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen12">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 495, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen13">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 540, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen14">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 585, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen15">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 630, 45)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="aussehen16">
+			<value>
+				<xsl:value-of select="substring($Aussehen, 675)"></xsl:value-of>
 			</value>
 		</field>
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/angaben/familie">
-		<xsl:variable name="Hintergrund">
-			<xsl:value-of select="text" />
-		</xsl:variable>
-		<field name="hintergrund1">
-			<value>
-				<xsl:value-of select="substring($Hintergrund, 0, 45)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="hintergrund2">
-			<value>
-				<xsl:value-of select="substring($Hintergrund, 45, 45)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="hintergrund3">
-			<value>
-				<xsl:value-of select="substring($Hintergrund, 90, 45)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="hintergrund4">
-			<value>
-				<xsl:value-of select="substring($Hintergrund, 135, 45)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="hintergrund5">
-			<value>
-				<xsl:value-of select="substring($Hintergrund, 180)"></xsl:value-of>
-			</value>
-		</field>
-
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/angaben/profession">
@@ -384,6 +431,12 @@
 					<xsl:value-of select="akt" />
 				</value>
 			</field>
+			<!-- ASP aktuelle Werte -->
+			<field name="ASP_maximal">
+				<value>
+					<xsl:value-of select="akt" />
+				</value>
+			</field>
 		</xsl:if>
 		<xsl:apply-templates />
 	</xsl:template>
@@ -413,6 +466,12 @@
 				<value>
 					<!-- TODO korrekt? -->
 					<xsl:value-of select="kaufbar" />
+				</value>
+			</field>
+			<!-- KE aktuelle Werte -->
+			<field name="KE_maximal">
+				<value>
+					<xsl:value-of select="akt" />
 				</value>
 			</field>
 		</xsl:if>
@@ -575,6 +634,27 @@
 				<xsl:value-of select="kaufbar" />
 			</value>
 		</field>
+		<!-- LE aktuelle Werte -->
+		<field name="LE_maximal">
+			<value>
+				<xsl:value-of select="akt" />
+			</value>
+		</field>
+		<field name="LE_12">
+			<value>
+				<xsl:value-of select="akt50" />
+			</value>
+		</field>
+		<field name="LE_13">
+			<value>
+				<xsl:value-of select="akt33" />
+			</value>
+		</field>
+		<field name="LE_14">
+			<value>
+				<xsl:value-of select="akt25" />
+			</value>
+		</field>
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/eigenschaften/ausdauer">
@@ -603,6 +683,27 @@
 			<value>
 				<!-- TODO korrekt? -->
 				<xsl:value-of select="kaufbar" />
+			</value>
+		</field>
+		<!-- AU aktuelle Werte -->
+		<field name="AU_maximal">
+			<value>
+				<xsl:value-of select="akt" />
+			</value>
+		</field>
+		<field name="AU_12">
+			<value>
+				<xsl:value-of select="akt50" />
+			</value>
+		</field>
+		<field name="AU_13">
+			<value>
+				<xsl:value-of select="akt33" />
+			</value>
+		</field>
+		<field name="AU_14">
+			<value>
+				<xsl:value-of select="akt25" />
 			</value>
 		</field>
 		<xsl:apply-templates />
@@ -766,28 +867,28 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="/daten/geld/Dukat">
-		<field name="D_1">
+		<field name="Geld_D_1">
 			<value>
 				<xsl:value-of select="round(number(gesamtwertinsilberstuecken) div number(wertinsilberstuecken))" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/geld/Silbertaler">
-		<field name="S_1">
+		<field name="Geld_S_1">
 			<value>
 				<xsl:value-of select="round(number(gesamtwertinsilberstuecken) div number(wertinsilberstuecken))" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/geld/Heller">
-		<field name="H_1">
+		<field name="Geld_H_1">
 			<value>
 				<xsl:value-of select="round(number(gesamtwertinsilberstuecken) div number(wertinsilberstuecken))" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/geld/Kreuzer">
-		<field name="K_1">
+		<field name="Geld_K_1">
 			<value>
 				<xsl:value-of select="round(number(gesamtwertinsilberstuecken) div number(wertinsilberstuecken))" />
 			</value>
@@ -825,37 +926,47 @@
 		</xsl:variable>
 		<field name="MagVorteileNachteile_1">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 0, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 0, 58)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_2">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 100, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 0, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_3">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 200, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 1, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_4">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 300, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 2, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_5">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 400, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 3, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_6">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 500, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 4, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagVorteileNachteile_7">
 			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 600)"></xsl:value-of>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 5, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="MagVorteileNachteile_8">
+			<value>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 6, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="MagVorteileNachteile_9">
+			<value>
+				<xsl:value-of select="substring($MagVorteileNachteile, 58 + 100 * 7)"></xsl:value-of>
 			</value>
 		</field>
 	</xsl:template>
@@ -880,7 +991,7 @@
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil" mode="vorteil">
-		<xsl:variable name="POS" select="position()" />
+		<xsl:variable name="POS" select="position() + 1" />
 		<field name="Vorteil{$POS}">
 			<value>
 				<xsl:value-of select="normalize-space(name)" />
@@ -895,7 +1006,7 @@
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil" mode="nachteil">
-		<xsl:variable name="POS" select="position()" />
+		<xsl:variable name="POS" select="position() + 1" />
 		<field name="Nachteil{$POS}">
 			<value>
 				<xsl:value-of select="normalize-space(name)" />
@@ -952,47 +1063,62 @@
 		</xsl:variable>
 		<field name="MagSonderfertigkeiten_1">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 0, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 0, 55)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_2">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 100, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 0, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_3">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 200, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 1, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_4">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 300, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 2, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_5">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 400, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 3, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_6">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 500, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 4, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_7">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 600, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 5, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_8">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 700, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 6, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="MagSonderfertigkeiten_9">
 			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 800)"></xsl:value-of>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 7, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="MagSonderfertigkeiten_10">
+			<value>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 8, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="MagSonderfertigkeiten_11">
+			<value>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 9, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="MagSonderfertigkeiten_12">
+			<value>
+				<xsl:value-of select="substring($MagSonderfertigkeiten, 55 + 100 * 10)"></xsl:value-of>
 			</value>
 		</field>
 
@@ -1074,22 +1200,27 @@
 		</xsl:variable>
 		<field name="NK_Sonderfertigkeiten_1">
 			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 0, 60)"></xsl:value-of>
+				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 0, 68)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="NK_Sonderfertigkeiten_2">
 			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 60, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 68, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="NK_Sonderfertigkeiten_3">
 			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 160, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 68 + 100 * 1, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="NK_Sonderfertigkeiten_4">
 			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 260)"></xsl:value-of>
+				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 68 + 100 * 2, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="NK_Sonderfertigkeiten_5">
+			<value>
+				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 68 + 100 * 3)"></xsl:value-of>
 			</value>
 		</field>
 		<xsl:variable name="FK_Sonderfertigkeiten">
@@ -1097,22 +1228,27 @@
 		</xsl:variable>
 		<field name="FK_Sonderfertigkeiten_1">
 			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 0, 60)"></xsl:value-of>
+				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 0, 68)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="FK_Sonderfertigkeiten_2">
 			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 60, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 68 + 100 * 0, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="FK_Sonderfertigkeiten_3">
 			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 160, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 68 + 100 * 1, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="FK_Sonderfertigkeiten_4">
 			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 260)"></xsl:value-of>
+				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 68 + 100 * 2, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="FK_Sonderfertigkeiten_5">
+			<value>
+				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 68 + 100 * 3)"></xsl:value-of>
 			</value>
 		</field>
 		<xsl:variable name="Waffenlos_Sonderfertigkeiten">
@@ -1120,22 +1256,27 @@
 		</xsl:variable>
 		<field name="Waffenlos_Sonderfertigkeiten_1">
 			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 0, 50)"></xsl:value-of>
+				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 0, 68)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="Waffenlos_Sonderfertigkeiten_2">
 			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 50, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 68 + 100 * 0, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="Waffenlos_Sonderfertigkeiten_3">
 			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 150, 100)"></xsl:value-of>
+				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 68 + 100 * 1, 100)"></xsl:value-of>
 			</value>
 		</field>
 		<field name="Waffenlos_Sonderfertigkeiten_4">
 			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 250)"></xsl:value-of>
+				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 68 + 100 * 2, 100)"></xsl:value-of>
+			</value>
+		</field>
+		<field name="Waffenlos_Sonderfertigkeiten_5">
+			<value>
+				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 68 + 100 * 3)"></xsl:value-of>
 			</value>
 		</field>
 		<!-- Checkboxen -->
@@ -1144,28 +1285,28 @@
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen I']" mode="sfCheckboxes">
 		<field name="SF_Ausweichen_1">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen II']" mode="sfCheckboxes">
 		<field name="SF_Ausweichen_2">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen III']" mode="sfCheckboxes">
 		<field name="SF_Ausweichen_3">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Rüstungsgewöhnung I']" mode="sfCheckboxes">
 		<field name="SF_Ruestungsgewoehnung_1">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 		<field name="SF_Ruestungsgewoehnung">
@@ -1189,7 +1330,7 @@
 		mode="sfCheckboxes">
 		<field name="SF_Ruestungsgewoehnung_2">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
@@ -1197,56 +1338,56 @@
 		mode="sfCheckboxes">
 		<field name="SF_Ruestungsgewoehnung_3">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Kampfreflexe']" mode="sfCheckboxes">
 		<field name="SF_Kampfreflexe">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Kampfgespür']" mode="sfCheckboxes">
 		<field name="SF_Kampfgespuer">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Linkhand']" mode="sfCheckboxes">
 		<field name="SF_Linkhand">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Schildkampf I']" mode="sfCheckboxes">
 		<field name="SF_Schildkampf_1">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Schildkampf II']" mode="sfCheckboxes">
 		<field name="SF_Schildkampf_2">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Parierwaffen I']" mode="sfCheckboxes">
 		<field name="SF_Parierwaffen_1">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Parierwaffen II']" mode="sfCheckboxes">
 		<field name="SF_Parierwaffen_2">
 			<value>
-				<xsl:text>Yes</xsl:text>
+				<xsl:value-of select="$checkbox" />
 			</value>
 		</field>
 	</xsl:template>
@@ -1309,17 +1450,20 @@
 		<field name="Ritual_{$POS}_notiz">
 			<value>
 				<xsl:value-of select="grad" />
-				<xsl:text>: </xsl:text>
+				<xsl:if test="string-length(grad) > 0">
+					<xsl:text>: </xsl:text>
+				</xsl:if>
 				<xsl:if test="$workaroundRituale = 'true'">
 					<xsl:value-of select="kosten" />
 				</xsl:if>
 				<xsl:if test="not($workaroundRituale = 'true')">
 					<xsl:value-of select="wirkung" />
+					<xsl:if test="string-length(wirkung) > 0">
+						<xsl:text> </xsl:text>
+					</xsl:if>
 				</xsl:if>
 				<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
-					<xsl:text>(</xsl:text>
 					<xsl:value-of select="kommentar" />
-					<xsl:text>)</xsl:text>
 				</xsl:if>
 			</value>
 		</field>
@@ -1365,9 +1509,7 @@
 					<xsl:value-of select="wirkung" />
 				</xsl:if>
 				<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
-					<xsl:text>(</xsl:text>
 					<xsl:value-of select="kommentar" />
-					<xsl:text>)</xsl:text>
 				</xsl:if>
 			</value>
 		</field>
@@ -1405,11 +1547,18 @@
 		</field>
 		<field name="Ritual_{$POS}_notiz">
 			<value>
+				<xsl:value-of select="grad" />
+				<xsl:if test="string-length(grad) > 0">
+					<xsl:text>: </xsl:text>
+				</xsl:if>
 				<xsl:if test="$workaroundRituale = 'true'">
 					<xsl:value-of select="kosten" />
 				</xsl:if>
 				<xsl:if test="not($workaroundRituale = 'true')">
 					<xsl:value-of select="wirkung" />
+					<xsl:if test="string-length(wirkung) > 0">
+						<xsl:text> </xsl:text>
+					</xsl:if>
 				</xsl:if>
 				<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 					<xsl:text>(</xsl:text>
@@ -1607,6 +1756,9 @@
 		<field name="{$SECTION}_PA">
 			<value>
 				<xsl:value-of select="pa" />
+				<xsl:if test="string-length(pa) = 0">
+					<xsl:text>-</xsl:text>
+				</xsl:if>
 			</value>
 		</field>
 		<field name="{$SECTION}_spez">
@@ -1662,6 +1814,9 @@
 		<field name="{$SECTION}_{$POS}_PA">
 			<value>
 				<xsl:value-of select="pa" />
+				<xsl:if test="string-length(pa) = 0">
+					<xsl:text>-</xsl:text>
+				</xsl:if>
 			</value>
 		</field>
 		<xsl:apply-templates />
@@ -1683,7 +1838,7 @@
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template name="metatalente">
-		<xsl:if test="$includeMetatalente = 'true'">
+		<xsl:if test="$includeMetatalente = 'true' and $workaroundMetatalente = 'true'">
 			<xsl:variable name="SECTION" select="'Wissen'" />
 			<xsl:variable name="POS" select="16" />
 			<!-- Nahrung sammeln + Kräuter suchen WdS 189/190 -->
@@ -1877,6 +2032,8 @@
 	</xsl:template>
 	<xsl:template match="/daten/kampfsets/kampfset[@inbenutzung = 'true']">
 		<xsl:apply-templates />
+		
+		<!-- Rechnung Parade/Ausweichen -->
 		<field name="Rechnung_PA_basis">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/parade/akt" />
@@ -1892,14 +2049,37 @@
 				<xsl:value-of select="ausweichen" />
 			</value>
 		</field>
+		<xsl:if test="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen I']">
+			<field name="Rechnung_PA_ausweichen_1">
+				<value>3</value>
+			</field>
+		</xsl:if>
+		<xsl:if test="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen II']">
+			<field name="Rechnung_PA_ausweichen_2">
+				<value>3</value>
+			</field>
+		</xsl:if>
+		<xsl:if test="/daten/sonderfertigkeiten/sonderfertigkeit[bezeichner = 'Ausweichen III']">
+			<field name="Rechnung_PA_ausweichen_3">
+				<value>3</value>
+			</field>
+		</xsl:if>
+		
+		<!-- Rechnung INI -->
 		<field name="Rechnung_INI">
 			<value>
-				<xsl:value-of select="ini" />
+				<xsl:value-of select="/daten/eigenschaften/initiative/akt" />
 			</value>
 		</field>
 		<field name="Rechnung_INI_BE">
 			<value>
-				<xsl:text></xsl:text>
+				<xsl:value-of select="ruestungzonen/behinderung" />
+			</value>
+		</field>
+		<field name="Rechnung_INI_summe">
+			<value>
+				<xsl:value-of select="ini" />
+				<xsl:text> (inkl. SF Mod.)</xsl:text>
 			</value>
 		</field>
 	</xsl:template>
@@ -1987,6 +2167,23 @@
 		<field name="Ruestung_Summe_RS">
 			<value>
 				<xsl:value-of select="gesamtzonenschutz" />
+				<xsl:text> -- </xsl:text>
+				<xsl:value-of select="kopf" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="brust" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="ruecken" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="bauch" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="linkerarm" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="rechterarm" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="linkesbein" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="rechtesbein" />
+				<xsl:text></xsl:text>
 			</value>
 		</field>
 		<field name="Ruestung_Summe_BE">
@@ -2007,7 +2204,12 @@
 		</field>
 		<field name="NK_{$POS}_typ">
 			<value>
-				<xsl:value-of select="substring-after(spalte2, '/')" />
+				<xsl:value-of select="spalte2" />
+				<!-- 
+				<xsl:value-of select="talentkurz" />
+				<xsl:text>/</xsl:text>
+				<xsl:value-of select="be" />
+				 -->
 			</value>
 		</field>
 		<field name="NK_{$POS}_DK">
@@ -2069,7 +2271,8 @@
 		</field>
 		<field name="FK_{$POS}_typ">
 			<value>
-				<xsl:value-of select="substring-after(spalte2, '/')" />
+				<xsl:value-of select="spalte2" />
+				<!-- <xsl:value-of select="substring-after(spalte2, '/')" /> -->
 			</value>
 		</field>
 		<field name="FK_{$POS}_Entfernung">
@@ -2143,6 +2346,23 @@
 		<field name="Ruestung_{$POS}_RS">
 			<value>
 				<xsl:value-of select="rs" />
+				<xsl:text> -- </xsl:text>
+				<xsl:value-of select="kopf" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="brust" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="ruecken" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="bauch" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="linkerarm" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="rechterarm" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="linkesbein" />
+				<xsl:text> / </xsl:text>
+				<xsl:value-of select="rechtesbein" />
+				<xsl:text></xsl:text>
 			</value>
 		</field>
 		<field name="Ruestung_{$POS}_BE">
@@ -2152,47 +2372,93 @@
 		</field>
 	</xsl:template>
 	<xsl:template match="/daten/zauber">
-		<field name="MU">
+		<!-- Eigenschaften auf dem Zauberdokument -->
+		<field name="MU_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/mut/akt" />
 			</value>
 		</field>
-		<field name="KL">
+		<field name="MU_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/mut/akt" />
+			</value>
+		</field>
+		<field name="KL_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/klugheit/akt" />
 			</value>
 		</field>
-		<field name="IN">
+		<field name="KL_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/klugheit/akt" />
+			</value>
+		</field>
+		<field name="IN_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/intuition/akt" />
 			</value>
 		</field>
-		<field name="CH">
+		<field name="IN_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/intuition/akt" />
+			</value>
+		</field>
+		<field name="CH_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/charisma/akt" />
 			</value>
 		</field>
-		<field name="FF">
+		<field name="CH_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/charisma/akt" />
+			</value>
+		</field>
+		<field name="FF_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/fingerfertigkeit/akt" />
 			</value>
 		</field>
-		<field name="GE">
+		<field name="FF_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/fingerfertigkeit/akt" />
+			</value>
+		</field>
+		<field name="GE_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/gewandtheit/akt" />
 			</value>
 		</field>
-		<field name="KO">
+		<field name="GE_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/gewandtheit/akt" />
+			</value>
+		</field>
+		<field name="KO_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/konstitution/akt" />
 			</value>
 		</field>
-		<field name="KK">
+		<field name="KO_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/konstitution/akt" />
+			</value>
+		</field>
+		<field name="KK_z1">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/koerperkraft/akt" />
 			</value>
 		</field>
-		<field name="MR">
+		<field name="KK_z2">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/koerperkraft/akt" />
+			</value>
+		</field>
+		<field name="MR_z1">
+			<value>
+				<xsl:value-of select="/daten/eigenschaften/magieresistenz/akt" />
+			</value>
+		</field>
+		<field name="MR_z2">
 			<value>
 				<xsl:value-of select="/daten/eigenschaften/magieresistenz/akt" />
 			</value>
