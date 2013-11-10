@@ -98,7 +98,9 @@ public class ExtractXfdf {
 		try {
 
 			sourceInputStream = new FileInputStream(new File(source));
-			resultOutputStream = new FileOutputStream(new File(result), false);
+			File resultFile = new File(result);
+			resultFile.getParentFile().mkdirs();
+			resultOutputStream = new FileOutputStream(resultFile, false);
 
 			final ExtractXfdf extractXfdf = new ExtractXfdf();
 			extractXfdf.generateXfdf(
