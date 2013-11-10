@@ -11,7 +11,10 @@
    Insbesondere muss das Versionsdatum angepasst werden
 2. Scribus: PDF Export nach: ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.original.pdf
 3. Eclipse: "heldendokumenta5 - FixBrokenForm" nach ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
-   PdfToolkit: de.thinkingstone.pdftoolkit.FixBrokenForm --source ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.original.pdf --result ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
+
+```
+de.thinkingstone.pdftoolkit.FixBrokenForm --source ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.original.pdf --result ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
+```
 
 ### PDF Einstellungen
 **Wichtig:** Beim PDF Export müssen folgende Einstellungen gewählt werden. 
@@ -40,7 +43,7 @@ Scribus speichert die Exporteinstellungn leider nicht in der Datei ab.
    * Linux Libertine O Regular
    * Mason Bold
 * in Kurven umwandeln:
-   * Linux Libertine O Regular
+   * Linux Libertine O Semibold
 
-### Farbe
+#### Farbe
 * Ausgabe vorsehen für: Graustufen; "Drucker" führt zu sehr großen Dateien
