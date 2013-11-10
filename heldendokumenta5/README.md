@@ -58,3 +58,14 @@ Achtung: die einfachen Hochkomma sind wichtig!
 
  * Neues Versionierungsschema
  * Getested mit Helden-Software 5.2.7
+ * Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht
+ * Berechnung von Initiative und Ausweichen umgestaltet
+ * Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt
+ * Angreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit einem beliebigen Zeichen gefüllt werden 
+ * Tierfelder sind entfallen
+ * Edelsteine sind entfallen; bitte in "Sonstiger Besitz" eintragen
+ * Hintergrund ist entfernt; bitte in "Aussehen & Hintergrund" eintragen
+ * Feldnamen:
+    * Geld-Felder umbenannt: neu: Geld_D_1 alt: D_1 , etc.
+    * Eigenschaften CH, FF, etc auf dem zauberdokument heißen jetzt CH_z1, CH_z2, etc
+    * Notizen: notizen umbenant in notizen1 und notizen2
