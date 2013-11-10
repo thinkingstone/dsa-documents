@@ -12,7 +12,7 @@ Außerdem können die Daten eines Helden aus der [Helden-Software](http://www.he
 * Die Felder des Heldendokuments können nachträglich mit einem PDF Reader geändert werden.
 * Sonderfertigkeiten, die als Ankreuzfeld auf dem Dokument dargestellt werden, werden nicht nochmal aufgelistet. Beispiele: Ausweichen, Linkhand, Rüstungsgewöhnung, Kampfreflexe.
 * Unterstützung für die Druckoptionen der Helden-Software:
-   * Metatalente drucken; Die Metatalente werden neu berechnet und wegen Platzmangel als "Nahrung/Kräuter sammeln", "Jagd + 1/5 Fernkanpfwaffe" und "Wache halten" zusammengefasst.
+   * Metatalente drucken
    * Geldkreise
 
 ## Voraussetzungen
@@ -59,6 +59,7 @@ Achtung: die einfachen Hochkomma sind wichtig!
  * Neues Versionierungsschema
  * Getested mit Helden-Software 5.2.7
  * Neues Design des Heldenbogens
+ * Metatalent "Wache halten" entfernt. Die Berechnung ist zu kompliziert um sie nur mit XSLT durchzuführen. Die Helden-Software übergibt dieses Metatalent nicht an die Erweiterung.
  * Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht
  * Berechnung von Initiative und Ausweichen umgestaltet
  * Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt
