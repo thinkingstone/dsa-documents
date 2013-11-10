@@ -85,6 +85,7 @@
 	<xsl:param name="includeTier" select="'true'" />
 	
 	<xsl:variable name="checkbox">
+		<xsl:text>x</xsl:text>
 		<!-- filled circle -->
 		<!-- <xsl:text>&#x25CF;</xsl:text> -->
 
@@ -95,7 +96,7 @@
 		<!-- <xsl:text>&#x2714;</xsl:text> -->
 
 		<!-- checked cross -->
-		<xsl:text>&#x2718;</xsl:text>
+		<!-- <xsl:text>&#x2718;</xsl:text> -->
 	</xsl:variable>
 	
 	<!-- Templates -->

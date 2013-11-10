@@ -480,31 +480,31 @@
 <value>e (Kommentar), Würgegriff (Kommentar)</value>
 </field>
 <field name="SF_Ausweichen_1">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Ausweichen_2">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Kampfreflexe">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Linkhand">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Parierwaffen_1">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Ruestungsgewoehnung_1">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Ruestungsgewoehnung">
 <value>Amazonenrüstung (kompl), Leichte Platte</value>
 </field>
 <field name="SF_Ruestungsgewoehnung_2">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="SF_Schildkampf_1">
-<value>✘</value>
+<value>x</value>
 </field>
 <field name="Kampf_1">
 <value>Anderthalbhänder (Anderthalbhänder)</value>
