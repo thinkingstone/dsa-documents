@@ -2136,7 +2136,7 @@
 <value>Elem (Luf), Umwt</value>
 </field>
 <field name="2_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="2_lern">
 <value>A+</value>
@@ -2604,7 +2604,7 @@
 <value>Elem, Rufe</value>
 </field>
 <field name="14_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="14_lern">
 <value>D</value>
@@ -2682,7 +2682,7 @@
 <value>Elem, Rufe</value>
 </field>
 <field name="16_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="16_lern">
 <value>C</value>
@@ -2916,7 +2916,7 @@
 <value>Elem</value>
 </field>
 <field name="22_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="22_lern">
 <value>A+</value>
@@ -3189,7 +3189,7 @@
 <value>Elem (Luf), Scha</value>
 </field>
 <field name="29_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="29_lern">
 <value>A</value>
@@ -3267,7 +3267,7 @@
 <value>Elem (Luf)</value>
 </field>
 <field name="31_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="31_lern">
 <value>B</value>
@@ -3501,7 +3501,7 @@
 <value>Elem (Luf), Umwt</value>
 </field>
 <field name="37_haus">
-<value>x</value>
+<value>✘</value>
 </field>
 <field name="37_lern">
 <value>A</value>

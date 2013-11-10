@@ -2535,7 +2535,7 @@
 		<field name="{$POS}_haus">
 			<value>
 				<xsl:if test="hauszauber = 'true'">
-					<xsl:text>x</xsl:text>
+					<xsl:value-of select="$checkbox" />
 				</xsl:if>
 			</value>
 		</field>
