@@ -137,8 +137,10 @@ public class FixBrokenForm {
 		for (int i = 1; i <= reader.getNumberOfPages(); i++) {
 			page = reader.getPageN(i);
 			annots = page.getAsArray(PdfName.ANNOTS);
-			for (int j = 0; j < annots.size(); j++) {
-				fields.add(annots.getAsIndirectObject(j));
+			if(annots != null){
+				for (int j = 0; j < annots.size(); j++) {
+					fields.add(annots.getAsIndirectObject(j));
+				}
 			}
 		}
 
