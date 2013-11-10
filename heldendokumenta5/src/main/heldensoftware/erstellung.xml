@@ -9,7 +9,7 @@
 		<option type="boolean" name="includeTier" label="Tiere einfügen" defaultvalue="false"/>
 	</options>
 	<pdf input="Heldendokument.pdf" xslt="helden.xfdf.xsl" formflattening="false">
-		<image page="1" xpath="//daten/angaben/bildPfad" x="227" y="195" w="168" h="350" />
+		<image page="1" xpath="//daten/angaben/bildPfad" x="217" y="185" w="175" h="350" />
 	</pdf>
 </seiten>
 
