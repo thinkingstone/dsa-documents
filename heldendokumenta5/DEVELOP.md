@@ -3,7 +3,7 @@ Releases werden mit Maven durchgeführt.
 
 ## einmalige Vorbereitung
 
-1. Die SCM developer connection benitzt das SSH Protokoll. Auf Github muss daher der SSH Key eingerichtet sein.
+1. Die SCM developer connection benutzt das SSH Protokoll. Auf Github muss daher der SSH Key eingerichtet sein.
 2. In die settings.xml müssen die bintray credentials eingetragen werden. Die Bintray REST API benötigt API keys!:
 
 ```xml
