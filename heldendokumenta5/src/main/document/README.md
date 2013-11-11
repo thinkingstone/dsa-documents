@@ -9,11 +9,11 @@
 
 1. Scribus: Dokumenteinstellung & Copyrighthinweis aktualisieren.
    Insbesondere muss das Versionsdatum angepasst werden
-2. Scribus: PDF Export nach: ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.original.pdf
+2. Scribus: PDF Export nach: ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.pdf
 3. Eclipse: "heldendokumenta5 - FixBrokenForm" nach ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
 
 ```
-de.thinkingstone.pdftoolkit.FixBrokenForm --source ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.original.pdf --result ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
+de.thinkingstone.pdftoolkit.FixBrokenForm --source ${workspace_loc:heldendokumenta5}/target/tmp/Heldendokument.pdf --result ${workspace_loc:heldendokumenta5}/src/intermediate/document/Heldendokument.pdf
 ```
 
 ### PDF Einstellungen
