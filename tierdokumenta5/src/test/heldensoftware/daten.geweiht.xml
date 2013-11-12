@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+			<f href="Document.pdf"/>
+			<ids original="7A0631678ED475F0898815F0A818CFA1" modified="BEF7724317B311718E8675B677EF9B4E"/>
+			<fields>Tulamidenlande<field name="Tier_1_name">
+<value>Katze</value>
+</field>
+<field name="Tier_1_gewicht">
+<value>5,0 Stein</value>
+</field>
+<field name="Tier_1_familie">
+<value>Katze</value>
+</field>
+<field name="Tier_1_gattung">
+<value>Al'Anfaner</value>
+</field>
+<field name="Tier_1_groesse">
+<value>25 Finger (50 cm)</value>
+</field>
+<field name="Tier_1_INI">
+<value>1W+13</value>
+</field>
+<field name="Tier_1_MU">
+<value>7</value>
+</field>
+<field name="Tier_1_KL">
+<value>5</value>
+</field>
+<field name="Tier_1_IN">
+<value>7</value>
+</field>
+<field name="Tier_1_CH">
+<value>9</value>
+</field>
+<field name="Tier_1_FF">
+<value>4</value>
+</field>
+<field name="Tier_1_GE">
+<value>14</value>
+</field>
+<field name="Tier_1_KO">
+<value>7</value>
+</field>
+<field name="Tier_1_KK">
+<value>3</value>
+</field>
+<field name="Tier_1_MR">
+<value>1 / 1</value>
+</field>
+<field name="Tier_1_GS">
+<value>11,0 / 0,1 / 0,2</value>
+</field>
+<field name="Tier_1_LEP">
+<value>10</value>
+</field>
+<field name="Tier_1_LEP_12">
+<value>5</value>
+</field>
+<field name="Tier_1_LEP_13">
+<value>3</value>
+</field>
+<field name="Tier_1_LEP_14">
+<value>2</value>
+</field>
+<field name="Tier_1_AUP">
+<value>45</value>
+</field>
+<field name="Tier_1_AUP_12">
+<value>22</value>
+</field>
+<field name="Tier_1_AUP_13">
+<value>15</value>
+</field>
+<field name="Tier_1_AUP_14">
+<value>11</value>
+</field>
+<field name="Tier_1_ASP">
+<value/>
+</field>
+<field name="Tier_1_LO">
+<value>6</value>
+</field>
+<field name="Tier_1_RS">
+<value>2</value>
+</field>
+<field name="Tier_1_GW">
+<value>14</value>
+</field>
+<field name="Tier_1_vornachteile_2">
+<value>Elegante Erscheinung, Flinkheit, Geduldig, Guter Orientierungssinn, Intelligent, Lernfähig, Magiegespür,</value>
+</field>
+<field name="Tier_1_vornachteile_3">
+<value> Nachtsicht, Schnell, Tragkraft, Wasserliebend, Spieltrieb: 4</value>
+</field>
+<field name="Tier_1_vornachteile_4">
+<value/>
+</field>
+<field name="Tier_1_vornachteile_5">
+<value/>
+</field>
+<field name="Tier_1_sonderfertigkeit_2">
+<value>Anspringen (Tier) (0), Anzeige, Apport (Tier), Ausbildung (Geschult), Fass I, Fass II, Gelände (Baum, Ds</value>
+</field>
+<field name="Tier_1_sonderfertigkeit_3">
+<value>chungel), Gezielter Angriff, Gezielter Biss, Hinlegen, Hinterhalt (0, 12), Kommen auf Signal, Laut, Sehr </value>
+</field>
+<field name="Tier_1_sonderfertigkeit_4">
+<value>kleiner Gegner (AT+2 / PA+4), Sprungsicherheit, Stille Wacht, Such, Trick (Unwiederstehlicher Blick), Una</value>
+</field>
+<field name="Tier_1_sonderfertigkeit_5">
+<value>rten (Knabbern), Verbeißen</value>
+</field>
+<field name="Tier_1_sonderfertigkeit_6">
+<value/>
+</field>
+<field name="Tier_1_sonderfertigkeit_7">
+<value/>
+</field>
+<field name="Tier_1_angriff_1_name">
+<value>Krallen</value>
+</field>
+<field name="Tier_1_angriff_1_dk">
+<value>H</value>
+</field>
+<field name="Tier_1_angriff_1_at">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_1_pa">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_1_tp">
+<value>1W-1</value>
+</field>
+<field name="Tier_1_angriff_2_name">
+<value>Fiktiv</value>
+</field>
+<field name="Tier_1_angriff_2_dk">
+<value>HNSP</value>
+</field>
+<field name="Tier_1_angriff_2_at">
+<value>10</value>
+</field>
+<field name="Tier_1_angriff_2_pa">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_2_tp">
+<value>1W20+4</value>
+</field>
+<field name="Tier_1_angriff_3_name">
+<value>Fiktiv</value>
+</field>
+<field name="Tier_1_angriff_3_dk">
+<value>HNSP</value>
+</field>
+<field name="Tier_1_angriff_3_at">
+<value>10</value>
+</field>
+<field name="Tier_1_angriff_3_pa">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_3_tp">
+<value>1W+4</value>
+</field>
+<field name="Tier_1_angriff_4_name">
+<value>Fiktiv</value>
+</field>
+<field name="Tier_1_angriff_4_dk">
+<value>HNSP</value>
+</field>
+<field name="Tier_1_angriff_4_at">
+<value>10</value>
+</field>
+<field name="Tier_1_angriff_4_pa">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_4_tp">
+<value>1W3+4</value>
+</field>
+<field name="Tier_1_angriff_5_name">
+<value>Fiktiv</value>
+</field>
+<field name="Tier_1_angriff_5_dk">
+<value>HNSP</value>
+</field>
+<field name="Tier_1_angriff_5_at">
+<value>10</value>
+</field>
+<field name="Tier_1_angriff_5_pa">
+<value>11</value>
+</field>
+<field name="Tier_1_angriff_5_tp">
+<value>1W2+4</value>
+</field>
+</fields>
+		</xfdf>

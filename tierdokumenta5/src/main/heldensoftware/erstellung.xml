@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<seiten debug="false" style="FormularPDFviaXSLT">
+	<options>
+		<option type="boolean" name="includeKommentare" label="Kommentare einfügen" defaultvalue="true"/>
+		<option type="select" name="selectedName" label="Auswahl" preset="//daten/gegenstaende/gegenstand[arten = 'Tier']/name"/>
+	</options>
+	<pdf input="Tierdokument.pdf" xslt="helden.xfdf.xsl" formflattening="false">
+	</pdf>
+</seiten>
