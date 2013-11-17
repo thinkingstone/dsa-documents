@@ -95,13 +95,13 @@ Die ausgedruckten Seiten so aufeinander legen, dass beim Zusammenfalten folgende
 7. Sprachen & Schriften, Handwerkliche Talente
 8. Waffen & Kampfwerte
 9. Schild / Parierwaffe, Rüstung, Ausweichen, Initiative
-11. Ausrüstung I
-12. Ausrüstung II
-13. Vermögen, Verbindungen
-14. Magie, Magische Vorteile & Nachteile, Magische Sonderfertigkeiten
-15. Liturgie-/ Ritualkenntnisse
+10. Ausrüstung I
+11. Ausrüstung II
+12. Vermögen, Verbindungen
+13. Magie, Magische Vorteile & Nachteile, Magische Sonderfertigkeiten
+14. Liturgie-/ Ritualkenntnisse
+15. Notizen
 16. Notizen
-17. Notizen
 
 Die Blätter können jetzt entlang der Faltkante miteinander verbunden werden. Dazu können die Seiten mit Nadel und Faden zusammen genäht werden. 
 
