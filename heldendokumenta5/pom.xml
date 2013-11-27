@@ -44,10 +44,16 @@ Außerdem können die Daten eines Helden aus der [Helden-Software](http://www.he
 			<name>Bintray</name>
 			<url>https://api.bintray.com/maven/thinkingstone/dsa-documents/heldendokumenta5</url>
 		</repository>
+		<site>
+			<id>github-pages-site</id>
+			<name>Deployment through GitHub's site deployment plugin</name>
+			<url>site/${project.version}</url>
+		</site>
 	</distributionManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<github.global.server>github</github.global.server>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -149,6 +155,26 @@ Außerdem können die Daten eines Helden aus der [Helden-Software](http://www.he
 					<skipDeploy>true</skipDeploy>
 					<locales>de</locales>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.9</version>
+				<configuration>
+					<message>Creating site for ${project.artifactId}, ${project.version}</message>
+					<!-- this does the trick to place every module in the correct subfolder -->
+					<path>${project.distributionManagement.site.url}</path>
+					<merge>true</merge>
+				</configuration>
+				<executions>
+					<execution>
+						<id>github-site</id>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>site-deploy</phase>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
