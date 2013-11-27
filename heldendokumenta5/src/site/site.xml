@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DSA Heldendokument A5" xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
+	<bannerLeft>
+		<name>DSA Heldendokument A5</name>
+		<href>/index.html</href>
+	</bannerLeft>
+
+	<publishDate position="bottom" format="yyyy-MM-dd" />
+	<version position="bottom" />
+
+	<skin>
+		<groupId>lt.velykis.maven.skins</groupId>
+		<artifactId>reflow-maven-skin</artifactId>
+		<version>1.0.0</version>
+	</skin>
+
+	<custom>
+		<reflowSkin>
+			<protocolRelativeURLs>false</protocolRelativeURLs>
+			<smoothScroll>true</smoothScroll>
+			<theme>default</theme>
+			<highlightJs>true</highlightJs>
+			<highlightJsTheme>github</highlightJsTheme>
+			<absoluteResourceURL></absoluteResourceURL>
+			<brand>
+				<name>DSA Heldendokument A5</name>
+				<href>/index.html</href>
+			</brand>
+			<slogan>Heldendokument im A5 Format und Erweiterung für die Helden-Software</slogan>
+			<titleTemplate>%2$s | %1$s</titleTemplate>
+			<toc>top</toc>
+			<tocTopFlatten>true</tocTopFlatten>
+			<topNav>Dokumentation|Mitarbeiten</topNav>
+			<skinAttribution>false</skinAttribution>
+			<bottomNav maxSpan="9">
+				<column>Hauptmenü|Download</column>
+				<column>Dokumentation</column>
+				<column>Mitarbeiten</column>
+				<column>reports</column>
+			</bottomNav>
+			<pages>
+				<index>
+					<breadcrumbs>false</breadcrumbs>
+					<sections>
+						<body />
+						<thumbs>4</thumbs>
+					</sections>
+				</index>
+				<download>
+					<toc />
+				</download>
+			</pages>
+		</reflowSkin>
+	</custom>
+
+	<body>
+		<head>
+			<link rel="author" href="http://www.thinkingstone.de" />
+		</head>
+
+		<links>
+			<item name="Download" href="download.html" />
+		</links>
+
+		<breadcrumbs>
+			<item name="Home" href="/index.html" />
+		</breadcrumbs>
+
+		<menu name="Hauptmenü" inherit="top">
+			<item name="Home" href="/index.html" />
+		</menu>
+		<menu name="Download" inherit="top">
+			<item name="Download" href="download.html" />
+		</menu>
+		<menu name="Dokumentation" inherit="bottom">
+			<item name="Installation" href="install.html" />
+			<item name="Drucken" href="print.html" />
+			<item name="Bekannte Probleme" href="knownproblems.html" />
+			<item name="Fortgeschrittene Nutzung" href="advancedusage.html" />
+		</menu>
+		<menu name="Mitarbeiten" inherit="bottom">
+			<item name="Mitarbeiten" href="contribute.html" />
+			<item name="Änderungen" href="changes-report.html" />
+			<item name="Lizenz" href="license.html" />
+			<item name="Entwicklung" href="develop.html" />
+			<item name="Probleme melden" href="https://github.com/thinkingstone/dsa-documents/issues" />
+			<item name="GitHub" href="https://github.com/thinkingstone/dsa-documents" />
+		</menu>
+	</body>
+</project>

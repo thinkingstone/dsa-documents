@@ -1,0 +1,20 @@
+#set($h1 = '#')
+#set($h2 = '##')
+#set($h3 = '###')
+#set($h4 = '####')
+
+$h1 Download
+
+Alle Downloads liegen auf [Bintray](https://bintray.com/thinkingstone/dsa-documents/heldendokumenta5).
+
+$h2 Aktuelle Version
+
+Aktuelle Version ist ${project.version}.
+
+<a class="btn btn-primary" href="http://dl.bintray.com/thinkingstone/dsa-documents/de/thinkingstone/dsa/heldendokumenta5/${project.version}/heldendokumenta5-${project.version}.zip">Download Version ${project.version}</a>
+
+---
+
+$h2 Ältere Versionen
+
+[Ältere Versionen](https://bintray.com/thinkingstone/dsa-documents/heldendokumenta5) können auf [Bintray](https://bintray.com/thinkingstone/dsa-documents/heldendokumenta5) heruntergeladen werden. 
