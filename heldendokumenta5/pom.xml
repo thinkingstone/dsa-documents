@@ -47,7 +47,7 @@ Außerdem können die Daten eines Helden aus der [Helden-Software](http://www.he
 		<site>
 			<id>github-pages-site</id>
 			<name>Deployment through GitHub's site deployment plugin</name>
-			<url>site/${project.version}</url>
+			<url>${project.artifactId}</url>
 		</site>
 	</distributionManagement>
 	<properties>
