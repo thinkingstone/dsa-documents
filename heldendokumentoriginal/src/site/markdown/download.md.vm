@@ -11,7 +11,7 @@ $h2 Aktuelle Version
 
 Aktuelle Version ist ${project.version}.
 
-<a class="btn btn-primary" href="http://dl.bintray.com/thinkingstone/dsa-documents/de/thinkingstone/dsa/${project.artifactId}/${project.version}/${project.artifactId}-${project.version}.zip">Download Version ${project.version}</a>
+<a class="btn btn-primary" href="http://dl.bintray.com/thinkingstone/dsa-documents/de/thinkingstone/dsa/${project.artifactId}/${project.version}/${project.build.finalName}.zip">Download Version ${project.version}</a>
 
 ---
 
