@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/changes/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+	<properties>
+		<title>Änderungen</title>
+		<author>Michael Binder</author>
+	</properties>
+	<body>
+		<release version="1.0.2" date="23. November 2013" description="Projektwebseite">
+			<action type="add" dev="mb">
+				Projektwebseite erstellt
+			</action>
+		</release>
+		<release version="1.0.1" date="29. Oktober 2013" description="Helden-Software 5.2.7">
+			<action type="add" dev="mb">
+				Neues Versionierungsschema
+			</action>
+			<action type="add" dev="mb">
+				Getested mit Helden-Software 5.2.7
+			</action>
+		</release>
+		<release version="2013-03-02" date="02. März 2013" description="Helden-Software 5.2.6">
+			<action type="add" dev="mb">
+				Erste Version
+			</action>
+			<action type="add" dev="mb">
+				Anpassungen an die Helden-Software 5.2.6
+			</action>
+		</release>
+	</body>
+</document>

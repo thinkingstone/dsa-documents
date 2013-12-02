@@ -5,6 +5,6 @@ Das "Heldendokument Original" von Michael Binder <mb@thinkingstone.de> ist unter
 ## Abweichende Lizenzen
 Teile des Werks stehen unter einer anderen Lizenz. 
 
-* Originaldokument: Das original "Das Scharze Auge Heldendokument" steht unter einer Lizenz der Ulisses Medien und Spiel Distribution GmbH und ist nicht Gegenstand der Creative Commons Lizenz. Das Originaldokument darf nicht Teil einer Distribution meines Werks sein, sonder muss von http://www.ulisses-spiele.de/download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf geladen werden.  
+* Originaldokument: Das original "Das Scharze Auge Heldendokument" steht unter einer Lizenz der Ulisses Medien und Spiel Distribution GmbH und ist nicht Gegenstand der Creative Commons Lizenz. Das Originaldokument darf nicht Teil einer Distribution dieses Werks sein, sondern muss von http://www.ulisses-spiele.de/download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf geladen werden.  
 
 DAS SCHWARZE AUGE, AVENTURIEN und DERE sind eingetragene Marken in Schrift und Bild der Ulisses Medien und Spiel Distribution GmbH oder deren Partner.

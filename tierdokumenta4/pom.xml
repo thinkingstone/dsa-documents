@@ -1,42 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.thinkingstone.dsa</groupId>
+	<parent>
+		<groupId>de.thinkingstone.dsa</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent/pom.xml</relativePath>
+	</parent>
 	<artifactId>tierdokumenta4</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Tierdokument A4</name>
 	<url>http://www.thinkingstone.de</url>
-	<organization>
-		<url>http://www.thinkingstone.de</url>
-		<name>Michael Binder</name>
-	</organization>
-	<licenses>
-		<license>
-			<name>Creative Commons Lizenz vom Typ Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland</name>
-			<url>http://creativecommons.org/licenses/by-sa/3.0/de/</url>
-			<distribution>repo</distribution>
-			<comments>Teile des Werks stehen unter einer anderen Lizenz.</comments>
-		</license>
-	</licenses>
-	<scm>
-		<url>https://github.com/thinkingstone/dsa-documents</url>
-		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
-		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
-	<issueManagement>
-		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
-		<system>GitHub Issues</system>
-	</issueManagement>
+	<description></description>
+
 	<distributionManagement>
-		<repository>
-			<id>bintray</id>
-			<url>https://api.bintray.com/maven/thinkingstone/dsa-documents/tierdokumenta4</url>
-		</repository>
+		<site>
+			<id>github-pages-site</id>
+			<name>Deployment through GitHub's site deployment plugin</name>
+			<url>${project.artifactId}</url>
+		</site>
 	</distributionManagement>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
@@ -50,59 +33,10 @@
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>de.thinkingstone.pdf</groupId>
+			<artifactId>pdftoolkit</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.0</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<!-- disable default jar packaging -->
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.3.2</version>
-				<executions>
-					<execution>
-						<id>default-jar</id>
-						<phase>none</phase>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<!-- assemble distribution files -->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<!-- http://maven.apache.org/plugins/maven-assembly-plugin/ -->
-				<executions>
-					<execution>
-						<id>create-distribution</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
-							<descriptors>
-								<descriptor>src/main/assembly/heldensoftware.xml</descriptor>
-							</descriptors>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<artifactId>maven-release-plugin</artifactId>
-				<version>2.4.1</version>
-				<configuration>
-					<useReleaseProfile>false</useReleaseProfile>
-					<releaseProfiles>release</releaseProfiles>
-					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>

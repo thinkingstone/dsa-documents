@@ -1,17 +1,4 @@
-# Hinweise zur Entwicklung
-
-## Werkzeuge
-
-Folgende Werkzeuge werden zur Entwicklung benötigt:
-
-* [Scribus](http://www.scribus.net/) 1.4.3 
-* thinkingstone.de [PdfToolkit](https://github.com/thinkingstone/dsa-documents/tree/master/pdftoolkit)
-* [Eclipse](http://www.eclipse.org) 4.3.1
-* [Maven](https://maven.apache.org/) 3.0.4
-* [Git](http://git-scm.com/) 1.7.9.5
-* [Imagemagick](http://www.imagemagick.org) 6.6.9 für die Thumbnails
-
-## Scribus
+# Scribus
 
 Das Dokument selbst wird in Scribus erstellt und dort als PDF exportiert. 
 
@@ -26,7 +13,7 @@ Für Skribus stehen ein paar Skripte zur Verfügung, die das Entwickeln einfache
 ### PDF Export
 
 Das Scribus Dokument kann als PDF exportiert werden. Scribus erstellt allerdings ein fehlerhaftes Formular. 
-Beim Ausfüllen mit iText werden Formualrfelder teilweise mit schwarzem Hintergrund angeeigt.
+Beim Ausfüllen mit iText werden Formualrfelder teilweise mit schwarzem Hintergrund angelegt.
 Um dies zu umgehen enthält das PdfToolkit die Klasse FixBrokenForm. Das Scribus PDF wird in ein tmp Verzeichnis erstellt.
 Das FixBrokenForm korrigiert das Formular und speichert das PDF in dem intermediate/document Verzeichnis.
 
@@ -84,59 +71,3 @@ Scribus speichert die Exporteinstellungn leider nicht in der Datei ab.
 * Ausgabe vorsehen für: Graustufen; "Drucker" führt zu sehr großen Dateien
 
 ![Farben](images/scribus/farben.png "Farben")
-
----
-
-## Webseite
-
-Die Webseite wird mit Maven generiert und bei Github veröffentlicht. 
-
-### Thumbnails erzeugen
-
-1. toimage.sh ausführen:
-
-    ```
-    ~/workspaces/dsa-documents/GIT/heldendokumenta5/src/main/scripts/toimage.sh ~/workspaces/dsa-documents/GIT/heldendokumenta5/src/intermediate/document/Heldendokument.pdf ~/workspaces/dsa-documents/GIT/heldendokumenta5/src/site/resources/images/document/Heldendokument 80
-    ```
-2. Thumbnails kontrollieren
-
----
-
-## Releases
-
-Releases werden mit Maven durchgeführt. 
-
-### einmalige Vorbereitung
-
-1. Die SCM developer connection benutzt das SSH Protokoll. Auf Github muss daher der SSH Key eingerichtet sein.
-2. In die settings.xml müssen die bintray credentials eingetragen werden. Die Bintray REST API benötigt API keys!:
-
-```xml
-<server>
-  <id>bintray</id>
-  <username>(bintray-user)</username>
-  <password>(bintray-api-key)</password>
-</server>
-```
-
-### Release durchführen
-
-Es muss eine lokale Maven Installation genutzt werden. Das Eclipse embedded Maven funktioniert nicht!
-
-1. changes.xml: Änderungshistorie ergänzen
-
-2. lokales Maven: Release vorbereiten:
-    
-    ```
-    mvn release:prepare
-    ```
-
-3. Ergebnis kontrollieren
-
-4. lokales Maven: Release durchführen
-    
-    ```
-    mvn release:perform
-    ```
-
-5. Bintray: Publish der neuen Version

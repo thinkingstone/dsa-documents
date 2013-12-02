@@ -2,7 +2,7 @@
 <project name="DSA Heldendokument A5" xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
 
 	<bannerLeft>
-		<name>DSA Heldendokument A5</name>
+		<name>DSA Initiative &amp; Rundenzähler</name>
 		<href>/index.html</href>
 	</bannerLeft>
 
@@ -24,18 +24,17 @@
 			<highlightJsTheme>github</highlightJsTheme>
 			<absoluteResourceURL>..</absoluteResourceURL>
 			<brand>
-				<name>DSA Heldendokument A5</name>
+				<name>DSA Initiative &amp; Rundenzähler</name>
 				<href>/index.html</href>
 			</brand>
-			<slogan>Heldendokument im A5 Format und Erweiterung für die Helden-Software</slogan>
+			<slogan>Einfache Verwaltung der Inititative und Kampfrunden</slogan>
 			<titleTemplate>%2$s | %1$s</titleTemplate>
 			<toc>top</toc>
 			<tocTopFlatten>true</tocTopFlatten>
-			<topNav>Dokumentation|Mitarbeiten|Projekte</topNav>
+			<topNav>Mitarbeiten|Projekte</topNav>
 			<skinAttribution>false</skinAttribution>
 			<bottomNav maxSpan="9">
 				<column>Hauptmenü|Download</column>
-				<column>Dokumentation</column>
 				<column>Mitarbeiten</column>
 				<column>Projekte</column>
 			</bottomNav>
@@ -74,12 +73,6 @@
 			<item name="Download" href="download.html" />
 			<item name="Änderungen" href="changes-report.html" />
 			<item name="Lizenz" href="license.html" />
-		</menu>
-		<menu name="Dokumentation" inherit="bottom">
-			<item name="Installation" href="install.html" />
-			<item name="Drucken" href="print.html" />
-			<item name="Bekannte Probleme" href="knownproblems.html" />
-			<item name="Fortgeschrittene Nutzung" href="advancedusage.html" />
 		</menu>
 	</body>
 </project>
