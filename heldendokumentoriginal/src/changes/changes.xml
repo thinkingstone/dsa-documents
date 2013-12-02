@@ -5,12 +5,12 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.1" date="23. November 2013" description="Projektwebseite">
+		<release version="1.0.1" date="23.11.2013" description="Projektwebseite">
 			<action type="add" dev="mb">
 				Projektwebseite erstellt
 			</action>
 		</release>
-		<release version="1.0.0" date="27. Oktober 2013" description="Helden-Software 5.2.7">
+		<release version="1.0.0" date="27.10.2013" description="Helden-Software 5.2.7">
 			<action type="update" dev="mb">
 				Neues Versionierungsschema
 			</action>

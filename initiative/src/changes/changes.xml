@@ -5,7 +5,7 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.1" date="23. November 2013" description="Layoutkorrekturen">
+		<release version="1.0.1" date="23.11.2013" description="Layoutkorrekturen">
 			<action type="add" dev="mb">
 				Projektwebseite erstellt
 			</action>
@@ -13,7 +13,7 @@
 				Layoutkorrektur: "Runden" Linie war zu hoch
 			</action>
 		</release>
-		<release version="1.0.0" date="27. Oktober 2013" description="Erste Version">
+		<release version="1.0.0" date="27.10.2013" description="Erste Version">
 			<action type="add" dev="mb">
 				Erste Version
 			</action>

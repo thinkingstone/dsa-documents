@@ -5,7 +5,7 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.1" date="23. November 2013" description="Layoutkorrekturen">
+		<release version="1.0.1" date="23.11.2013" description="Layoutkorrekturen">
 			<action type="add" dev="mb">
 				Projektwebseite erstellt
 			</action>
@@ -13,12 +13,12 @@
 				Layoutkorrekturen: Rahmen bei Rüstungszonen verschoben
 			</action>
 		</release>
-		<release version="1.0.0" date="12. November 2013" description="Helden-Software 5.2.7">
+		<release version="1.0.0" date="12.11.2013" description="Helden-Software 5.2.7">
 			<action type="add" dev="mb">
 				Anpassungen an die Helden-Software 5.2.7
 			</action>
 		</release>
-		<release version="2013-03-02" date="02. März 2013" description="Helden-Software 5.2.6">
+		<release version="2013-03-02" date="02.03.2013" description="Helden-Software 5.2.6">
 			<action type="add" dev="mb">
 				Erste Version
 			</action>
