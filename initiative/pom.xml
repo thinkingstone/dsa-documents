@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>dsa-documents</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../parent/pom.xml</relativePath>
+
 	</parent>
 	<artifactId>initiative</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
@@ -21,4 +21,11 @@
 			<url>${project.artifactId}</url>
 		</site>
 	</distributionManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>

@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>dsa-documents</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../parent/pom.xml</relativePath>
+
 	</parent>
 	<artifactId>heldendokumentoriginal</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
@@ -37,6 +37,9 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>wagon-maven-plugin</artifactId>
