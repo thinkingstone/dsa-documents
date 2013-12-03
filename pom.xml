@@ -17,6 +17,9 @@
 		<module>tierdokumenta4</module>
 		<module>tierdokumenta5</module>
 		<module>copyxml</module>
+		<module>pdftoolkit</module>
+		<module>testdata</module>
+		<module>testutils</module>
 	</modules>
 
 	<organization>
