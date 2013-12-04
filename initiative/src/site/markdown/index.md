@@ -28,7 +28,7 @@ Für eine einfache Verwendung am Spieltisch kann ein praktisches Steckbrett geba
  * Teppichmesser
  * wasserfester Stift
  * evtl etwas Farbe und Holzschutz wie z.B. Leinöl zum Verzieren und Schutz vor Verschmutzung
- * evtl Schleifpapier zum glätten der Holzoberflächen
+ * evtl Schleifpapier zum Glätten der Holzoberflächen
 
 ### Arbeitsschritte
 

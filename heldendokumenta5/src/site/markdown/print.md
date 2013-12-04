@@ -30,7 +30,7 @@ Im Acrobat Reader können folgende Einstellungen zum Drucken genutzt werden.
 1. Druckbereich
     * Seiten: 1-16
 2. Seiteneinstellungen
-    * AnpassZauberdokumenten der Seitengröße: Broschürendruck
+    * Anpassen der Seitengröße: Broschürendruck
     * Seitenauswahl: Nur Rückseite
 4. OK zum Drucken der Rückseiten
 
@@ -76,8 +76,8 @@ Die ausgedruckten Seiten so aufeinander legen, dass beim Zusammenfalten folgende
 12. Vermögen, Verbindungen
 13. Magie, Magische Vorteile & Nachteile, Magische Sonderfertigkeiten
 14. Liturgie-/ Ritualkenntnisse
-15. Notizen
-16. Notizen
+15. Notizen I
+16. Notizen II
 
 Die Blätter können jetzt entlang der Faltkante miteinander verbunden werden. Dazu können die Seiten mit Nadel und Faden zusammen genäht werden. 
 

@@ -29,7 +29,7 @@ de.thinkingstone.pdftoolkit.FixBrokenForm --source ${workspace_loc:heldendokumen
 #### PDF Einstellungen
 
 **Wichtig:** Beim PDF Export müssen folgende Einstellungen gewählt werden. 
-Scribus speichert die Exporteinstellungn leider nicht in der Datei ab. 
+Scribus speichert die Exporteinstellungen leider nicht in der Datei ab. 
 
 **Legende**
 

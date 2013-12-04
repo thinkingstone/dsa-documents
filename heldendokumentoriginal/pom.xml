@@ -11,7 +11,6 @@
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument Original Erweiterung</name>
 	<description>Die Helden-Software (http://www.helden-software.de/) ist ein wunderbares Hilfsmittel um die Das Schwarze Auge (http://www.dasschwarzeauge.de/) Charaktere zu erstellen und zu verwalten. Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DSA Heldendokument Erweiterung möglich.</description>
-
 	<distributionManagement>
 		<site>
 			<id>github-pages-site</id>

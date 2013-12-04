@@ -14,5 +14,6 @@ Für die Installation dieser Erweiterung müssen folgende Schritte ausgeführt w
 1. Voraussetzungen installieren
 2. Das Paket herunterladen
 3. In das Verzeichnis "../helden/plugins/heldenboegen" als "heldendokumenta5" entpacken
-4. Helden-Software neu starten
-5. Neuer Menüpunkt: "Erweiterungen => Heldenbögen erstellen => PDF - A5"
+4. evtl. alte Versionen des Pakets löschen
+5. Helden-Software neu starten
+6. Neuer Menüpunkt: "Erweiterungen => Heldenbögen erstellen => PDF - A5"

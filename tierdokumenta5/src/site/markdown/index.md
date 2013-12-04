@@ -6,7 +6,7 @@ Außerdem können die Daten eines Tieres aus der [Helden-Software](http://www.he
 
 ## Funktionen 
 
-* Automatische Befüllung des Tierdokuments aus der Helden-Software
+* Automatische Befüllung des Tierdokuments aus der Helden-Software.
 * Enthält Felder für tierische Begleiter.
 * Unterstützt Vertrautentiere und deren Zauberfähigkeiten.
 * Für Pferde können weitere Details eingetragen werden.
@@ -17,11 +17,11 @@ Außerdem können die Daten eines Tieres aus der [Helden-Software](http://www.he
 
 ---
 
-##### Tierdokument
+##### Basisdaten
 
 ![Basisdaten](images/document/Tierdokument-00.png "Basisdaten")
 
-##### Notizen
+##### Kampfwerte
 
 ![Kampfwerte](images/document/Tierdokument-01.png "Kampfwerte")
 

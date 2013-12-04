@@ -8,7 +8,7 @@ Das Verhalten dieser Erweiterung kann teilweise den eigenen Wünschen angepasst 
 
 ## Vorgehen
 
-1. "../helden/plugins/heldenboegen/tierdokumenta4/helden.xfdf.xsl" in einem Texteditor öffnen
+1. "../helden/plugins/heldenboegen/tierdokumenta5/helden.xfdf.xsl" in einem Texteditor öffnen
 2. Die Parameter am Beginn der Datei können geändet werden. Bitte die Hinweise in der Datei beachten. 
 
 Achtung: die einfachen Hochkomma sind wichtig!

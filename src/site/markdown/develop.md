@@ -20,12 +20,14 @@ Die Webseite wird mit Maven generiert und bei Github veröffentlicht.
 
 ### Thumbnails erzeugen
 
-1. toimage.sh ausführen:
+1. toimage.sh ausführen: 
+   Dazu kann auch die Eclipse External Tools Configuration "heldendokumenta5 - shell -  convert image" genutzt werden. 
+   Das Skript nutzt eine Linux Shell und ImageMagick und ist daher nur unter Linux lauffähig.
 
     ```
-    .../dsa-documents/parent/src/main/scripts/toimage.sh .../dsa-documents/heldendokumenta5/src/intermediate/document/Heldendokument.pdf .../dsa-documents/heldendokumentoriginal/src/site/resources/images/document/Heldendokument 80
+    .../dsa-documents/src/main/scripts/toimage.sh .../dsa-documents/heldendokumenta5/src/intermediate/document/Heldendokument.pdf .../dsa-documents/heldendokumentoriginal/src/site/resources/images/document/Heldendokument 80
     ```
-2. Thumbnails kontrollieren
+2. Thumbnails kontrollieren.
 
 ---
 
@@ -58,6 +60,8 @@ Es muss eine lokale Maven Installation genutzt werden. Das Eclipse embedded Mave
     mvn release:prepare
     ```
 
+	Evtl vorher auch mit "-DdryRun=true".
+
 3. Ergebnis kontrollieren
 
 4. lokales Maven: Release durchführen
@@ -66,4 +70,5 @@ Es muss eine lokale Maven Installation genutzt werden. Das Eclipse embedded Mave
     mvn release:perform
     ```
 
-5. Bintray: Publish der neuen Version
+5. Bintray: Publish der neuen Version: 
+   Auf Bintray einloggen und im "dsa-documents" Repository die Dateien freigeben.
