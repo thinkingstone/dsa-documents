@@ -5,14 +5,12 @@
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-
 	</parent>
 	<artifactId>heldendokumentoriginal</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<url>http://www.thinkingstone.de</url>
 	<name>DSA Heldendokument Original Erweiterung</name>
-	<description></description>
+	<description>Die Helden-Software (http://www.helden-software.de/) ist ein wunderbares Hilfsmittel um die Das Schwarze Auge (http://www.dasschwarzeauge.de/) Charaktere zu erstellen und zu verwalten. Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DSA Heldendokument Erweiterung möglich.</description>
 
 	<distributionManagement>
 		<site>
@@ -39,6 +37,25 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-changes-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>

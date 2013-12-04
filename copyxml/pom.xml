@@ -9,9 +9,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>CopyXML Heldenbogen-Erweiterung für die Helden-Software</name>
-	<url>http://www.thinkingstone.de</url>
-	<description></description>
-
+	<description>CopyXML ist eine Erweiterung für das Heldenbogen-Plugin (http://wiki.helden-software.de/wiki/Erweiterungen/Heldenbogen) der  Helden-Software (http://www.helden-software.de/). Diese Erweiterung ermöglicht es das im Heldenbogen-Plugin genutzte Heldendaten XML-Format zu speichern.</description>
 	<distributionManagement>
 		<site>
 			<id>github-pages-site</id>
@@ -23,6 +21,18 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-changes-plugin</artifactId>
 			</plugin>
 			<plugin>
 				<artifactId>maven-site-plugin</artifactId>

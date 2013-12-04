@@ -4,15 +4,12 @@
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		
 	</parent>
 	<artifactId>tierdokumenta4</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Tierdokument A4</name>
-	<url>http://www.thinkingstone.de</url>
-	<description></description>
-
+	<description>Das Vertrauten- und Begleiter-Dokument ist ein ausfüllbares PDF im A4 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). In dem Dokument können die Daten eines Vertrauten und Begleiters eingetragen werden. Außerdem können die Daten eines Tieres aus der Helden-Software (http://www.helden-software.de/) exportiert werden. </description>
 	<distributionManagement>
 		<site>
 			<id>github-pages-site</id>
@@ -24,6 +21,25 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-changes-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>

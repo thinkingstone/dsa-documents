@@ -5,15 +5,12 @@
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-
 	</parent>
 	<artifactId>initiative</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<url>http://www.thinkingstone.de</url>
 	<name>DSA Initiative und Rundenzähler</name>
-	<description></description>
-
+	<description>In DSA ist es nicht immer leicht die Übersicht während der Kämpfe zu behalten. Das Initiativeblatt und der Rundenzähler sollen hierbei helfen.</description>
 	<distributionManagement>
 		<site>
 			<id>github-pages-site</id>
@@ -25,6 +22,25 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-changes-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>

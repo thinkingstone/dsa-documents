@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>dsa-documents</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<url>http://www.thinkingstone.de</url>
+	<url>http://thinkingstone.github.io/dsa-documents/</url>
 	<name>DSA Dokumente</name>
 	<description></description>
-
 	<modules>
 		<module>heldendokumenta5</module>
 		<module>heldendokumentoriginal</module>
 		<module>initiative</module>
 		<module>tierdokumenta4</module>
 		<module>tierdokumenta5</module>
-		<!--
-			<module>copyxml</module>
-			<module>pdftoolkit</module>
-			<module>testdata</module>
-			<module>testutils</module>
-		-->
+		<module>copyxml</module>
+		<module>pdftoolkit</module>
+		<module>testdata</module>
+		<module>testutils</module>
 	</modules>
-
 	<organization>
 		<url>http://www.thinkingstone.de</url>
 		<name>Michael Binder</name>
@@ -32,6 +27,7 @@
 		<developer>
 			<id>mb</id>
 			<name>Michael Binder</name>
+			<url>http://www.thinkingstone.de</url>
 		</developer>
 	</developers>
 	<licenses>
@@ -70,27 +66,6 @@
 		<github.global.server>github</github.global.server>
 	</properties>
 	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-jar-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-release-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-site-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-changes-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<groupId>com.github.github</groupId>
-				<artifactId>site-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
 		<pluginManagement>
 			<plugins>
 				<plugin>

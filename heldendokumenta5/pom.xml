@@ -10,11 +10,7 @@
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument A5</name>
-	<url>http://www.thinkingstone.de</url>
-	<description>Das Heldendokument ist ein ausfüllbares PDF im A5 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). 
-In dem Dokument können die Daten eines Charakters eingetragen werden. 
-Außerdem können die Daten eines Helden aus der Helden-Software (http://www.helden-software.de/) exportiert werden.</description>
-
+	<description>Das Heldendokument ist ein ausfüllbares PDF im A5 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). In dem Dokument können die Daten eines Charakters eingetragen werden. Außerdem können die Daten eines Helden aus der Helden-Software (http://www.helden-software.de/) exportiert werden.</description>
 	<distributionManagement>
 		<site>
 			<id>github-pages-site</id>
@@ -26,6 +22,25 @@ Außerdem können die Daten eines Helden aus der Helden-Software (http://www.hel
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-changes-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
