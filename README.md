@@ -8,6 +8,10 @@ Das ist kein offizielles Projekt der Ulisses Medien und Spiel Distribution GmbH 
 DAS SCHWARZE AUGE, AVENTURIEN und DERE sind eingetragene Marken der Ulisses Medien und Spiel Distribution GmbH oder deren Partner.
 [Ulisses Medien und Spiel Distribution GmbH Lizenz zu Fan- und Kartenpaket](http://www.ulisses-spiele.de/sortiment/rollenspiele/das-schwarze-auge/informationen-zu-das-schwarze-auge/fan-und-kartenpaket/gebrauchsanleitung/)
 
+Projekt Webseiten
+=================
+
+Die [Projekt Webseiten](http://thinkingstone.github.io/dsa-documents/index.html	) werden auf Github gehostet.
 
 Download Releases
 =================
