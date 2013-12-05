@@ -6,11 +6,11 @@
 	</prerequisites>
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>dsa-documents</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<url>http://thinkingstone.github.io/dsa-documents/</url>
 	<name>DSA Dokumente</name>
-	<description></description>
+	<description />
 	<modules>
 		<module>heldendokumenta5</module>
 		<module>heldendokumentoriginal</module>
@@ -45,7 +45,7 @@
 		<url>https://github.com/thinkingstone/dsa-documents</url>
 		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
 		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>dsa-documents-1.0.0</tag>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
@@ -60,7 +60,7 @@
 		<site>
 			<id>github-pages-site</id>
 			<name>Deployment through GitHub's site deployment plugin</name>
-			<url></url>
+			<url />
 		</site>
 	</distributionManagement>
 	<properties>
