@@ -100,15 +100,8 @@
 					</configuration>
 				</plugin>
 				<plugin>
-					<!-- disable default jar packaging -->
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>2.4</version>
-					<executions>
-						<execution>
-							<id>default-jar</id>
-							<phase>none</phase>
-						</execution>
-					</executions>
 				</plugin>
 				<plugin>
 					<artifactId>maven-changes-plugin</artifactId>
