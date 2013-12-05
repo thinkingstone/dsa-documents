@@ -165,7 +165,6 @@
 					<version>2.4.2</version>
 					<configuration>
 						<useReleaseProfile>false</useReleaseProfile>
-						<releaseProfiles>release</releaseProfiles>
 						<autoVersionSubmodules>false</autoVersionSubmodules>
 						<allowTimestampedSnapshots>false</allowTimestampedSnapshots>
 					</configuration>
