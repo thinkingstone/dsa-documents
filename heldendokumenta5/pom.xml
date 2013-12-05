@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>heldendokumenta5</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument A5</name>
 	<description>Das Heldendokument ist ein ausfüllbares PDF im A5 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). In dem Dokument können die Daten eines Charakters eingetragen werden. Außerdem können die Daten eines Helden aus der Helden-Software (http://www.helden-software.de/) exportiert werden.</description>
@@ -54,19 +54,19 @@
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testutils</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testdata</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.pdf</groupId>
 			<artifactId>pdftoolkit</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
