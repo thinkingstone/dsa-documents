@@ -46,72 +46,72 @@ Gefaltet passt aber auch dieses perfekt in das A5 Buch.
 
 ##### Deckblatt
 
-![Heldendokument Deckblatt](images/document/Heldendokument-00.png "Heldendokument Deckblatt")
+![Heldendokument Deckblatt](images/document/Heldendokument-01.jpg "Heldendokument Deckblatt")
 
 ##### Eigenschaften
 
-![Eigenschaften](images/document/Heldendokument-01.png "Eigenschaften")
+![Eigenschaften](images/document/Heldendokument-02.jpg "Eigenschaften")
 
 ##### Vorteile
 
-![Vorteile](images/document/Heldendokument-02.png "Vorteile")
+![Vorteile](images/document/Heldendokument-03.jpg "Vorteile")
 
 ##### Kampftalente
 
-![Talente](images/document/Heldendokument-03.png "Talente")
+![Talente](images/document/Heldendokument-04.jpg "Talente")
 
 ##### Körperliche Talente
 
-![Talente](images/document/Heldendokument-04.png "Talente")
+![Talente](images/document/Heldendokument-05.jpg "Talente")
 
 ##### Natur-Talente
 
-![Talente](images/document/Heldendokument-05.png "Talente")
+![Talente](images/document/Heldendokument-06.jpg "Talente")
 
 ##### Sprachen
 
-![Sprachen](images/document/Heldendokument-06.png "Sprachen")
+![Sprachen](images/document/Heldendokument-07.jpg "Sprachen")
 
 ##### Kampfwerte
 
-![Kampfwerte](images/document/Heldendokument-07.png "Kampfwerte")
+![Kampfwerte](images/document/Heldendokument-08.jpg "Kampfwerte")
 
 ##### Rüstung
 
-![Rüstung](images/document/Heldendokument-08.png "Rüstung")
+![Rüstung](images/document/Heldendokument-09.jpg "Rüstung")
 
 ##### Ausrüstung I
 
-![Ausrüstung](images/document/Heldendokument-09.png "Ausrüstung")
+![Ausrüstung](images/document/Heldendokument-10.jpg "Ausrüstung")
 
 ##### Ausrüstung II
 
-![Ausrüstung](images/document/Heldendokument-10.png "Ausrüstung")
+![Ausrüstung](images/document/Heldendokument-11.jpg "Ausrüstung")
 
 ##### Vermögen
 
-![Vermögen](images/document/Heldendokument-11.png "Vermögen")
+![Vermögen](images/document/Heldendokument-12.jpg "Vermögen")
 
 ##### Magie
 
-![Magie](images/document/Heldendokument-12.png "Magie")
+![Magie](images/document/Heldendokument-13.jpg "Magie")
 
 ##### Rituale
 
-![Liturgie](images/document/Heldendokument-13.png "Liturgie")
+![Liturgie](images/document/Heldendokument-14.jpg "Liturgie")
 
 ##### Notizen I
 
-![Notizen](images/document/Heldendokument-14.png "Notizen")
+![Notizen](images/document/Heldendokument-15.jpg "Notizen")
 
 ##### Notizen II
 
-![Notizen](images/document/Heldendokument-15.png "Notizen")
+![Notizen](images/document/Heldendokument-16.jpg "Notizen")
 
 ##### Zauberdokument I
 
-![Zauberdokument](images/document/Heldendokument-16.png "Zauberdokument")
+![Zauberdokument](images/document/Heldendokument-17.jpg "Zauberdokument")
 
 ##### Zauberdokument II
 
-![Zauberdokument](images/document/Heldendokument-17.png "Zauberdokument")
+![Zauberdokument](images/document/Heldendokument-18.jpg "Zauberdokument")

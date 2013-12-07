@@ -12,3 +12,11 @@ Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DS
     * Metatalente drucken
     * Geldkreise
 
+
+## Seiten
+
+---
+
+##### Heldendokument
+
+![Heldendokument](images/document/Heldendokument-1.jpg "Heldendokument")

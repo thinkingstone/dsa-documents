@@ -8,11 +8,15 @@
 FILENAME=$1
 DESTINATION=$2
 SIZE=$3
+TYPE=$4
 echo Filename: ${FILENAME}
 echo Destination: ${DESTINATION}
 echo Size: ${SIZE}
+echo Type: ${TYPE}
 
 DENSITY=$((${SIZE} * 4))
 echo Density: ${DENSITY}
 
-convert -density ${DENSITY} ${FILENAME} -depth 8 -resize 25% ${DESTINATION}-%02d.png
+# convert -density ${DENSITY} ${FILENAME} -depth 8 -resize 25% ${DESTINATION}-%02d.${TYPE}
+
+pdftoppm -${TYPE} -r ${SIZE} ${FILENAME} ${DESTINATION}

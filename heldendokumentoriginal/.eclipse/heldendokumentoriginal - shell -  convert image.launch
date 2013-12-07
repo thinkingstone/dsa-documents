@@ -3,6 +3,6 @@
 <stringAttribute key="bad_container_name" value="/hedendokumentoriginal/.eclipse"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${none}"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${env_var:SHELL}"/>
-<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-i ${workspace_loc:/dsa-documents/src/main/scripts/toimage.sh} ${workspace_loc:/heldendokumentoriginal/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf} ${workspace_loc:/heldendokumentoriginal}/src/site/resources/images/document/Heldendokument 80"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="-i ${workspace_loc:/dsa-documents/src/main/scripts/toimage.sh} ${workspace_loc:/heldendokumentoriginal/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf} ${workspace_loc:/heldendokumentoriginal}/src/site/resources/images/document/Heldendokument 80 jpeg"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/heldendokumentoriginal}"/>
 </launchConfiguration>

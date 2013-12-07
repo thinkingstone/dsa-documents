@@ -20,9 +20,9 @@ Außerdem können die Daten eines Tieres aus der [Helden-Software](http://www.he
 
 ##### Tierdokument
 
-![Tierdokument](images/document/Tierdokument-00.png "Tierdokument")
+![Tierdokument](images/document/Tierdokument-1.jpg "Tierdokument")
 
 ##### Notizen
 
-![Notizen](images/document/Tierdokument-01.png "Notizen")
+![Notizen](images/document/Tierdokument-2.jpg "Notizen")
 

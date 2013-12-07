@@ -43,6 +43,6 @@ Für eine einfache Verwendung am Spieltisch kann ein praktisches Steckbrett geba
 
 ##### Initiative und Runden
 
-![Initiative und Runden](images/document/Initiative-00.png "Initiative und Runden")
+![Initiative und Runden](images/document/Initiative-1.jpg "Initiative und Runden")
 
 

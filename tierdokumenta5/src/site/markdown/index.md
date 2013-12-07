@@ -19,9 +19,9 @@ Außerdem können die Daten eines Tieres aus der [Helden-Software](http://www.he
 
 ##### Basisdaten
 
-![Basisdaten](images/document/Tierdokument-00.png "Basisdaten")
+![Basisdaten](images/document/Tierdokument-1.jpg "Basisdaten")
 
 ##### Kampfwerte
 
-![Kampfwerte](images/document/Tierdokument-01.png "Kampfwerte")
+![Kampfwerte](images/document/Tierdokument-2.jpg "Kampfwerte")
 
