@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.2.7">
+<helden Version="5.3.1">
 	<held key="1325171725653" name="Geweiht" stand="1371299078905">
 		<basis>
 			<geschlecht name="weiblich" />
@@ -270,7 +270,7 @@
 						<vorteil name="Nachtsicht" />
 						<vorteil name="Schnell" />
 						<vorteil name="Spieltrieb" value="4" />
-						<vorteil name="Tragkraft" />
+						<vorteil name="" />
 						<vorteil name="Wasserliebend" />
 					</vorteile>
 					<sonderfertigkeiten>
@@ -392,13 +392,13 @@
 						<eigenschaft name="Rüstungsschutz" value="1" />
 					</eigenschaften>
 					<vorteile>
-						<vorteil name="Ausdauernd (Tier)" />
+						<vorteil name="" />
 						<vorteil name="Höhenangst" value="6" />
 						<vorteil name="Nervosität" />
 						<vorteil name="Schnell" />
 						<vorteil name="Sehr lernfähig" />
 						<vorteil name="Zäh" />
-						<vorteil name="Zugkraft" />
+						<vorteil name="" />
 					</vorteile>
 					<sonderfertigkeiten>
 						<sonderfertigkeit name="Ausbildung">
@@ -476,20 +476,17 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>+jgOcaDJoCPEj2YiAiZgNebAvD8=</DigestValue>
+				<DigestValue>sjA4kScBkmwxawJ0aDStLP42h1c=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>Wg1Yzvgp94GS+E99/xHlwhWFu2h66tHMvwbOAf3ZsAXUbJZ+1zwzBA==</SignatureValue>
+		<SignatureValue>KbCIIgs6q3pxgLUhOww45r9dbNqPWefhR2BBwbW4IXAwHQ6IeLg4AA==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
-						xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
-						QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
-						iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>

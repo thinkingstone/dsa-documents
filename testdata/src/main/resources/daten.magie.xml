@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>15.06.2013</datum>
-		<uhrzeit>14:46</uhrzeit>
+		<datum>08.12.2013</datum>
+		<uhrzeit>17:08</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Horasreich</kultur>
 		<aspregeneration>1W6</aspregeneration>
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050207</heldenversion>
+		<heldenversion>050301</heldenversion>
 		<wundschwelle>5</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -271,14 +271,6 @@
 			<wertinsilberstuecken>10.0</wertinsilberstuecken>
 			<gesamtwertinsilberstuecken>10.0</gesamtwertinsilberstuecken>
 		</Dukat>
-		<Silbertaler>
-			<anzahl>2</anzahl>
-			<namekurz>S</namekurz>
-			<waehrung>Mittelreich</waehrung>
-			<gewicht>5.0</gewicht>
-			<wertinsilberstuecken>1.0</wertinsilberstuecken>
-			<gesamtwertinsilberstuecken>2.0</gesamtwertinsilberstuecken>
-		</Silbertaler>
 		<Heller>
 			<anzahl>3</anzahl>
 			<namekurz>H</namekurz>
@@ -295,6 +287,14 @@
 			<wertinsilberstuecken>0.01</wertinsilberstuecken>
 			<gesamtwertinsilberstuecken>0.04</gesamtwertinsilberstuecken>
 		</Kreuzer>
+		<Silbertaler>
+			<anzahl>2</anzahl>
+			<namekurz>S</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>5.0</gewicht>
+			<wertinsilberstuecken>1.0</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>2.0</gesamtwertinsilberstuecken>
+		</Silbertaler>
 	</geld>
 	<vorteile>
 		<vorteil>

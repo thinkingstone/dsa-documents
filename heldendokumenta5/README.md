@@ -19,7 +19,7 @@ Außerdem können die Daten eines Helden aus der [Helden-Software](http://www.he
 
 Folgende Software und Plugins werden benötigt, wenn das Dokument zusammen mit der Helden-Software genutzt werden soll: 
 
-* [Helden-Software](http://www.helden-software.de/) (getestet mit Version 5.2.7)
+* [Helden-Software](http://www.helden-software.de/) (getestet mit Version 5.3.1)
 * [Heldenbogen-Plugin](http://wiki.helden-software.de/wiki/Erweiterungen/Heldenbogen) (getestet mit Version 1.01)
 
 ## Installation in die Helden-Software
@@ -161,7 +161,7 @@ Achtung: die einfachen Hochkomma sind wichtig!
 ### Version 1.0.0
 
  * Neues Versionierungsschema
- * Getestet mit Helden-Software 5.2.7
+ * Getestet mit Helden-Software 5.3.1
  * Neues Design des Heldenbogens
  * Metatalent "Wache halten" entfernt. Die Berechnung ist zu kompliziert um sie nur mit XSLT durchzuführen. Die Helden-Software übergibt dieses Metatalent nicht an die Erweiterung.
  * Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht

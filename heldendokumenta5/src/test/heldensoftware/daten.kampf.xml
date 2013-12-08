@@ -1998,7 +1998,7 @@
 <value>*</value>
 </field>
 <field name="Ruestung_4">
-<value>Beinschienen (links), Leder</value>
+<value>Beinschiene (links), Leder</value>
 </field>
 <field name="Ruestung_4_RS">
 <value>* -- 0 / 0 / 0 / 0 / 0 / 0 / 1 / 0</value>
@@ -2007,7 +2007,7 @@
 <value>*</value>
 </field>
 <field name="Ruestung_5">
-<value>Beinschienen (rechts), Leder</value>
+<value>Beinschiene (rechts), Leder</value>
 </field>
 <field name="Ruestung_5_RS">
 <value>* -- 0 / 0 / 0 / 0 / 0 / 0 / 0 / 1</value>

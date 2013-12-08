@@ -5,63 +5,31 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.2" date="TODO" description="Helden-Software Update">
+			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
+		</release>
 		<release version="1.0.1" date="05.12.2013" description="Layoutkorrekturen">
-			<action type="add" dev="mb">
-				Projektwebseite erstellt
-			</action>
-			<action type="update" dev="mb">
-				Layout korrigiert: Rüstungsschutz und Sonderfertigkeiten
-			</action>
+			<action type="add" dev="mb">Projektwebseite erstellt</action>
+			<action type="update" dev="mb">Layout korrigiert: Rüstungsschutz und Sonderfertigkeiten</action>
 		</release>
 		<release version="1.0.0" date="12.11.2013" description="Neues Design &amp; viele Verbesserungen">
-			<action type="add" dev="mb">
-				Neues Versionierungsschema
-			</action>
-			<action type="add" dev="mb">
-				Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt
-			</action>
-			<action type="update" dev="mb">
-				Getestet mit Helden-Software 5.2.7
-			</action>
-			<action type="update" dev="mb">
-				Neues Design des Heldenbogens
-			</action>
-			<action type="update" dev="mb">
-				Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht
-			</action>
-			<action type="update" dev="mb">
-				Berechnung von Initiative und Ausweichen umgestaltet
-			</action>
-			<action type="update" dev="mb">
-				Ankreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit einem beliebigen Zeichen gefüllt werden
-			</action>
-			<action type="update" dev="mb">
-				Geld-Felder umbenannt: neu: Geld_D_1 alt: D_1
-			</action>
-			<action type="update" dev="mb">
-				Eigenschaften CH, FF, etc auf dem Zauberdokument heißen jetzt CH_z1, CH_z2, etc
-			</action>
-			<action type="update" dev="mb">
-				Notizen: notizen umbenant in notizen1 und notizen2
-			</action>
-			<action type="remove" dev="mb">
-				Metatalent "Wache halten" entfernt. Die Berechnung ist zu kompliziert um sie nur mit XSLT durchzuführen. Die Helden-Software übergibt dieses Metatalent nicht an die
-				Erweiterung.
-			</action>
-			<action type="remove" dev="mb">
-				Tierfelder sind entfallen
-			</action>
-			<action type="remove" dev="mb">
-				Edelsteine sind entfallen; bitte in "Sonstiger Besitz" eintragen
-			</action>
-			<action type="remove" dev="mb">
-				Hintergrund ist entfernt; bitte in "Aussehen &amp; Hintergrund" eintragen
-			</action>
+			<action type="add" dev="mb">Neues Versionierungsschema</action>
+			<action type="add" dev="mb">Felder für aktuelle Werte für LE, AU, ASP, KE eingefügt</action>
+			<action type="update" dev="mb">Getestet mit Helden-Software 5.2.7</action>
+			<action type="update" dev="mb">Neues Design des Heldenbogens</action>
+			<action type="update" dev="mb">Anzahl der Zeilen für Talente, Sonderfertigkeiten, Waffen etc wurden erhöht</action>
+			<action type="update" dev="mb">Berechnung von Initiative und Ausweichen umgestaltet</action>
+			<action type="update" dev="mb">Ankreuzbare Sonderfertigkeitten sind keine Checkboxen mehr, sondern können mit einem beliebigen Zeichen gefüllt werden</action>
+			<action type="update" dev="mb">Geld-Felder umbenannt: neu: Geld_D_1 alt: D_1</action>
+			<action type="update" dev="mb">Eigenschaften CH, FF, etc auf dem Zauberdokument heißen jetzt CH_z1, CH_z2, etc</action>
+			<action type="update" dev="mb">Notizen: notizen umbenant in notizen1 und notizen2</action>
+			<action type="remove" dev="mb">Metatalent "Wache halten" entfernt. Die Berechnung ist zu kompliziert um sie nur mit XSLT durchzuführen. Die Helden-Software übergibt dieses Metatalent nicht an die Erweiterung.</action>
+			<action type="remove" dev="mb">Tierfelder sind entfallen</action>
+			<action type="remove" dev="mb">Edelsteine sind entfallen; bitte in "Sonstiger Besitz" eintragen</action>
+			<action type="remove" dev="mb">Hintergrund ist entfernt; bitte in "Aussehen &amp; Hintergrund" eintragen</action>
 		</release>
 		<release version="2013-03-02" date="02.03.2013" description="Helden-Software 5.2.6">
-			<action type="update" dev="mb">
-				Anpassungen an die Helden-Software 5.2.6
-			</action>
+			<action type="update" dev="mb">Anpassungen an die Helden-Software 5.2.6</action>
 		</release>
 	</body>
 </document>

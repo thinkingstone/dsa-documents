@@ -5,26 +5,19 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.3" date="TODO" description="Helden-Software Update">
+			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
+		</release>
 		<release version="1.0.2" date="05.12.2013" description="Projektwebseite">
-			<action type="add" dev="mb">
-				Projektwebseite erstellt
-			</action>
+			<action type="add" dev="mb">Projektwebseite erstellt</action>
 		</release>
 		<release version="1.0.1" date="29.10.2013" description="Helden-Software 5.2.7">
-			<action type="add" dev="mb">
-				Neues Versionierungsschema
-			</action>
-			<action type="add" dev="mb">
-				Getested mit Helden-Software 5.2.7
-			</action>
+			<action type="add" dev="mb">Neues Versionierungsschema</action>
+			<action type="add" dev="mb">Getested mit Helden-Software 5.2.7</action>
 		</release>
 		<release version="2013-03-02" date="02.03.2013" description="Helden-Software 5.2.6">
-			<action type="add" dev="mb">
-				Erste Version
-			</action>
-			<action type="add" dev="mb">
-				Anpassungen an die Helden-Software 5.2.6
-			</action>
+			<action type="add" dev="mb">Erste Version</action>
+			<action type="add" dev="mb">Anpassungen an die Helden-Software 5.2.6</action>
 		</release>
 	</body>
 </document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.2.7">
+<helden Version="5.3.1">
 	<held key="1324993253645" name="Magie" stand="1371299111962">
 		<basis>
 			<geschlecht name="weiblich" />
@@ -360,20 +360,17 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>oEnfIpiz5SMvlV35xETxKwOVqm8=</DigestValue>
+				<DigestValue>l5e5vKSxOZexmsc9dXDAYu6l+bU=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>UW82tJ6VnXqxQOUzzhfgXb4EvHuJLgwgOq1/jsGwMnuyGz7B3prUzQ==</SignatureValue>
+		<SignatureValue>PRjigjy3sMoSIBhvGH/jMe9gnbAEajHfJas45alvDwU2qbId6T4WaA==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
-						xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
-						QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
-						iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>

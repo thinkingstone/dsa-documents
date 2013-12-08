@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.2.7">
+<helden Version="5.3.1">
 	<held key="1324972419780" name="Kampf" stand="1371299096813">
 		<basis>
 			<geschlecht name="männlich" />
@@ -7,7 +7,8 @@
 			<mods />
 			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländer">
 				<groesse gewicht="68" value="168" />
-				<aussehen alter="19" augenfarbe="braun" aussehentext0="Aussehen 0123" aussehentext1="Aussehen 0123" aussehentext2="Aussehen 0123" aussehentext3="Aussehen 0123" familietext0="Familie 012345678901234567" familietext1="Familie 012345678901234567" familietext2="Familie 012345678901234567" familietext3="Familie 012345678901234567" familietext4="Familie 012345678901234567" familietext5="Familie 012345678901234567" gbjahr="1003" gbmonat="1" gbtag="12" gprest="0" gpstart="110" haarfarbe="braun" kalender="Bosparans Fall" stand="Mein Stand" titel="Mein langer Titel" />
+				<aussehen alter="19" augenfarbe="braun" aussehentext0="Aussehen 0123" aussehentext1="Aussehen 0123" aussehentext2="Aussehen 0123" aussehentext3="Aussehen 0123" familietext0="Familie 012345678901234567" familietext1="Familie 012345678901234567" familietext2="Familie 012345678901234567" familietext3="Familie 012345678901234567" familietext4="Familie 012345678901234567" familietext5="Familie 012345678901234567" gbjahr="1003" gbmonat="1" gbtag="12" gprest="0" gpstart="110" haarfarbe="braun"
+					kalender="Bosparans Fall" stand="Mein Stand" titel="Mein langer Titel" />
 			</rasse>
 			<kultur name="helden.model.kultur.Garetien" string="Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte">
 				<variante name="Städte mit wichtigem Tempel/Pilgerstätte" />
@@ -324,8 +325,8 @@
 		<gegenstände>
 			<gegenstand anzahl="1" name="Armschiene (links), Leder" slot="0" />
 			<gegenstand anzahl="1" name="Armschiene (rechts), Leder" slot="0" />
-			<gegenstand anzahl="1" name="Beinschienen (links), Leder" slot="0" />
-			<gegenstand anzahl="1" name="Beinschienen (rechts), Leder" slot="0" />
+			<gegenstand anzahl="1" name="Beinschiene (links), Leder" slot="0" />
+			<gegenstand anzahl="1" name="Beinschiene (rechts), Leder" slot="0" />
 			<gegenstand anzahl="6" name="Bolzen" slot="0" />
 			<gegenstand anzahl="1" name="Dolch" slot="0">
 				<Fernkampfwaffe>
@@ -419,8 +420,8 @@
 			<heldenausruestung name="ruestung1" ruestungsname="Iryanrüstung" set="0" slot="0" />
 			<heldenausruestung name="ruestung2" ruestungsname="Armschiene (links), Leder" set="0" slot="0" />
 			<heldenausruestung name="ruestung3" ruestungsname="Armschiene (rechts), Leder" set="0" slot="0" />
-			<heldenausruestung name="ruestung4" ruestungsname="Beinschienen (links), Leder" set="0" slot="0" />
-			<heldenausruestung name="ruestung5" ruestungsname="Beinschienen (rechts), Leder" set="0" slot="0" />
+			<heldenausruestung name="ruestung4" ruestungsname="Beinschiene (links), Leder" set="0" slot="0" />
+			<heldenausruestung name="ruestung5" ruestungsname="Beinschiene (rechts), Leder" set="0" slot="0" />
 			<heldenausruestung name="jagtwaffe" nummer="0" set="0" />
 		</ausrüstungen>
 		<verbindungen />
@@ -441,20 +442,17 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>HVnh0exAs2K1Ugy7MrPhpXNxMG8=</DigestValue>
+				<DigestValue>WYtm0sfsPYEx8yKR03pz/ASeS6s=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>AmStRxA/9cCgNIDl9MSAyHUB/eRJ89aEJ9IZLvZzWc1Nj2bUd2DLWw==</SignatureValue>
+		<SignatureValue>ghhgQ07dlSUw+2Uff31YlmKIxdCCRPr4qeJfmEUfKOVBk6/+8NWS9A==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
-						xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
-						QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
-						iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>

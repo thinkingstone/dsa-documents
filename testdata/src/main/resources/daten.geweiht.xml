@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>15.06.2013</datum>
-		<uhrzeit>14:46</uhrzeit>
+		<datum>08.12.2013</datum>
+		<uhrzeit>17:07</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050207</heldenversion>
+		<heldenversion>050301</heldenversion>
 		<wundschwelle>6</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>

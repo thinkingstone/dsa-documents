@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>15.06.2013</datum>
-		<uhrzeit>14:46</uhrzeit>
+		<datum>08.12.2013</datum>
+		<uhrzeit>17:07</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050207</heldenversion>
+		<heldenversion>050301</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -264,14 +264,6 @@
 			<wertinsilberstuecken>10.0</wertinsilberstuecken>
 			<gesamtwertinsilberstuecken>10.0</gesamtwertinsilberstuecken>
 		</Dukat>
-		<Silbertaler>
-			<anzahl>2</anzahl>
-			<namekurz>S</namekurz>
-			<waehrung>Mittelreich</waehrung>
-			<gewicht>5.0</gewicht>
-			<wertinsilberstuecken>1.0</wertinsilberstuecken>
-			<gesamtwertinsilberstuecken>2.0</gesamtwertinsilberstuecken>
-		</Silbertaler>
 		<Heller>
 			<anzahl>3</anzahl>
 			<namekurz>H</namekurz>
@@ -288,6 +280,14 @@
 			<wertinsilberstuecken>0.01</wertinsilberstuecken>
 			<gesamtwertinsilberstuecken>0.04</gesamtwertinsilberstuecken>
 		</Kreuzer>
+		<Silbertaler>
+			<anzahl>2</anzahl>
+			<namekurz>S</namekurz>
+			<waehrung>Mittelreich</waehrung>
+			<gewicht>5.0</gewicht>
+			<wertinsilberstuecken>1.0</wertinsilberstuecken>
+			<gesamtwertinsilberstuecken>2.0</gesamtwertinsilberstuecken>
+		</Silbertaler>
 	</geld>
 	<vorteile>
 		<vorteil>
@@ -2131,8 +2131,8 @@
 			<angelegt>true</angelegt>
 			<angelegt1>false</angelegt1>
 			<angelegt2>false</angelegt2>
-			<einzelpreis>1500</einzelpreis>
-			<gesamtpreis>1500</gesamtpreis>
+			<einzelpreis>750</einzelpreis>
+			<gesamtpreis>750</gesamtpreis>
 			<quelle buch="AA" seite="102">AA: 102</quelle>
 			<details />
 			<arten>Rüstung</arten>
@@ -2146,38 +2146,38 @@
 			<angelegt>true</angelegt>
 			<angelegt1>false</angelegt1>
 			<angelegt2>false</angelegt2>
-			<einzelpreis>1500</einzelpreis>
-			<gesamtpreis>1500</gesamtpreis>
+			<einzelpreis>750</einzelpreis>
+			<gesamtpreis>750</gesamtpreis>
 			<quelle buch="AA" seite="102">AA: 102</quelle>
 			<details />
 			<arten>Rüstung</arten>
 		</gegenstand>
 		<gegenstand>
-			<name>Beinschienen (links), Leder</name>
+			<name>Beinschiene (links), Leder</name>
 			<anzahl>1</anzahl>
-			<grundlage>Beinschienen (links), Leder</grundlage>
+			<grundlage>Beinschiene (links), Leder</grundlage>
 			<gewicht>20.0</gewicht>
 			<gesamtgewicht>20.0</gesamtgewicht>
 			<angelegt>true</angelegt>
 			<angelegt1>false</angelegt1>
 			<angelegt2>false</angelegt2>
-			<einzelpreis>2500</einzelpreis>
-			<gesamtpreis>2500</gesamtpreis>
+			<einzelpreis>1250</einzelpreis>
+			<gesamtpreis>1250</gesamtpreis>
 			<quelle buch="AA" seite="102">AA: 102</quelle>
 			<details />
 			<arten>Rüstung</arten>
 		</gegenstand>
 		<gegenstand>
-			<name>Beinschienen (rechts), Leder</name>
+			<name>Beinschiene (rechts), Leder</name>
 			<anzahl>1</anzahl>
-			<grundlage>Beinschienen (rechts), Leder</grundlage>
+			<grundlage>Beinschiene (rechts), Leder</grundlage>
 			<gewicht>20.0</gewicht>
 			<gesamtgewicht>20.0</gesamtgewicht>
 			<angelegt>true</angelegt>
 			<angelegt1>false</angelegt1>
 			<angelegt2>false</angelegt2>
-			<einzelpreis>2500</einzelpreis>
-			<gesamtpreis>2500</gesamtpreis>
+			<einzelpreis>1250</einzelpreis>
+			<gesamtpreis>1250</gesamtpreis>
 			<quelle buch="AA" seite="102">AA: 102</quelle>
 			<details />
 			<arten>Rüstung</arten>
@@ -2526,8 +2526,8 @@
 		</ruestung>
 		<ruestung>
 			<nummer>4</nummer>
-			<name>Beinschienen (links), Leder</name>
-			<grundlage>Beinschienen (links), Leder</grundlage>
+			<name>Beinschiene (links), Leder</name>
+			<grundlage>Beinschiene (links), Leder</grundlage>
 			<be>*</be>
 			<rs>*</rs>
 			<kopf>0</kopf>
@@ -2544,8 +2544,8 @@
 		</ruestung>
 		<ruestung>
 			<nummer>5</nummer>
-			<name>Beinschienen (rechts), Leder</name>
-			<grundlage>Beinschienen (rechts), Leder</grundlage>
+			<name>Beinschiene (rechts), Leder</name>
+			<grundlage>Beinschiene (rechts), Leder</grundlage>
 			<be>*</be>
 			<rs>*</rs>
 			<kopf>0</kopf>
@@ -2743,8 +2743,8 @@
 			</ruestung>
 			<ruestung>
 				<nummer>4</nummer>
-				<name>Beinschienen (links), Leder</name>
-				<grundlage>Beinschienen (links), Leder</grundlage>
+				<name>Beinschiene (links), Leder</name>
+				<grundlage>Beinschiene (links), Leder</grundlage>
 				<be>*</be>
 				<rs>*</rs>
 				<kopf>0</kopf>
@@ -2761,8 +2761,8 @@
 			</ruestung>
 			<ruestung>
 				<nummer>5</nummer>
-				<name>Beinschienen (rechts), Leder</name>
-				<grundlage>Beinschienen (rechts), Leder</grundlage>
+				<name>Beinschiene (rechts), Leder</name>
+				<grundlage>Beinschiene (rechts), Leder</grundlage>
 				<be>*</be>
 				<rs>*</rs>
 				<kopf>0</kopf>
@@ -3038,8 +3038,8 @@
 				</ruestung>
 				<ruestung>
 					<nummer>4</nummer>
-					<name>Beinschienen (links), Leder</name>
-					<grundlage>Beinschienen (links), Leder</grundlage>
+					<name>Beinschiene (links), Leder</name>
+					<grundlage>Beinschiene (links), Leder</grundlage>
 					<be>*</be>
 					<rs>*</rs>
 					<kopf>0</kopf>
@@ -3056,8 +3056,8 @@
 				</ruestung>
 				<ruestung>
 					<nummer>5</nummer>
-					<name>Beinschienen (rechts), Leder</name>
-					<grundlage>Beinschienen (rechts), Leder</grundlage>
+					<name>Beinschiene (rechts), Leder</name>
+					<grundlage>Beinschiene (rechts), Leder</grundlage>
 					<be>*</be>
 					<rs>*</rs>
 					<kopf>0</kopf>
@@ -3242,8 +3242,8 @@
 				</ruestung>
 				<ruestung>
 					<nummer>4</nummer>
-					<name>Beinschienen (links), Leder</name>
-					<grundlage>Beinschienen (links), Leder</grundlage>
+					<name>Beinschiene (links), Leder</name>
+					<grundlage>Beinschiene (links), Leder</grundlage>
 					<be>*</be>
 					<rs>*</rs>
 					<kopf>0</kopf>
@@ -3260,8 +3260,8 @@
 				</ruestung>
 				<ruestung>
 					<nummer>5</nummer>
-					<name>Beinschienen (rechts), Leder</name>
-					<grundlage>Beinschienen (rechts), Leder</grundlage>
+					<name>Beinschiene (rechts), Leder</name>
+					<grundlage>Beinschiene (rechts), Leder</grundlage>
 					<be>*</be>
 					<rs>*</rs>
 					<kopf>0</kopf>
