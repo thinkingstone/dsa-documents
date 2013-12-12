@@ -292,8 +292,6 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	
-	
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile">
 		<xsl:param name="TPOS" />
 		<xsl:variable name="Vorteile">

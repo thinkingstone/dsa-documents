@@ -276,10 +276,7 @@
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit">
 		<xsl:value-of select="bezeichner" />
 		<xsl:if test="count(auswahlen/auswahl) > 0">
-			<xsl:text> </xsl:text>
-			<xsl:text>(</xsl:text>
 			<xsl:apply-templates select="auswahlen" />
-			<xsl:text>)</xsl:text>
 		</xsl:if>
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 			<xsl:text> </xsl:text>
@@ -291,12 +288,15 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="auswahlen">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen">
+		<xsl:text> </xsl:text>
+		<xsl:text>(</xsl:text>
 		<xsl:apply-templates select="auswahl">
 			<xsl:sort select="name" order="ascending" />
 		</xsl:apply-templates>
+		<xsl:text>)</xsl:text>
 	</xsl:template>
-	<xsl:template match="auswahlen/auswahl">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen/auswahl">
 		<xsl:value-of select="name" />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
@@ -333,6 +333,9 @@
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil">
 		<xsl:value-of select="normalize-space(bezeichner)" />
+		<xsl:if test="count(auswahlen/auswahl) > 0">
+			<xsl:apply-templates select="auswahlen" />
+		</xsl:if>
 		<xsl:if test="string-length(wert) > 0">
 			<xsl:text>: </xsl:text>
 			<xsl:value-of select="wert" />
@@ -343,6 +346,16 @@
 			<xsl:value-of select="kommentar" />
 			<xsl:text>)</xsl:text>
 		</xsl:if>
+		<xsl:if test="not(position() = last())">
+			<xsl:text>, </xsl:text>
+		</xsl:if>
+	</xsl:template>
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen">
+		<xsl:text> </xsl:text>
+		<xsl:apply-templates select="auswahl" />
+	</xsl:template>
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen/auswahl">
+		<xsl:value-of select="." />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
