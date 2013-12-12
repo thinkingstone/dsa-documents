@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
 			<f href="Document.pdf"/>
 			<ids original="7A0631678ED475F0898815F0A818CFA1" modified="BEF7724317B311718E8675B677EF9B4E"/>
-			<fields>Tulamidenlande<field name="Tier_1_name">
+			<fields>
+<field name="Tier_1_name">
 <value>Katze</value>
 </field>
 <field name="Tier_1_gewicht">
@@ -89,10 +90,10 @@
 <value>Elegante Erscheinung, Flinkheit, Geduldig, Guter Orientierungssinn, I</value>
 </field>
 <field name="Tier_1_vornachteile_3">
-<value>ntelligent, Lernfähig, Magiegespür, Nachtsicht, Schnell, Tragkraft, Wa</value>
+<value>ntelligent, Lernfähig, Magiegespür, Nachtsicht, Schnell, Tragkraft erh</value>
 </field>
 <field name="Tier_1_vornachteile_4">
-<value>sserliebend, Spieltrieb: 4</value>
+<value>öht, Wasserliebend, Spieltrieb: 4</value>
 </field>
 <field name="Tier_1_vornachteile_5">
 <value/>

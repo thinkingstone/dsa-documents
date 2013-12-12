@@ -3,16 +3,13 @@
 	<xsl:decimal-format name="de" decimal-separator="," grouping-separator="." />
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 	<!-- Optionen Ja: "true" Nein: "false" -->
-
-	<!-- 
+	<!--
 		includeKommentare:
 		'true': Kommentare werden in Klammer angegeben.
-		'false': keine Kommentare eintragen 
+		'false': keine Kommentare eintragen
 	-->
 	<xsl:param name="includeKommentare" select="'true'" />
-	
 	<xsl:param name="selectedName" select="''" />
-	
 	<!-- Templates -->
 	<xsl:template match="@*|text()" />
 	<xsl:template match="/">
@@ -27,10 +24,10 @@
 	<xsl:template match="/daten/gegenstaende">
 		<xsl:choose>
 			<xsl:when test="string-length($selectedName) > 0">
-				<xsl:apply-templates select="gegenstand[name=$selectedName]"/>
+				<xsl:apply-templates select="gegenstand[name=$selectedName]" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="gegenstand[arten = 'Tier'][1]"/>
+				<xsl:apply-templates select="gegenstand[arten = 'Tier'][1]" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -200,7 +197,6 @@
 				<xsl:value-of select="floor(ausdauer div 4)" />
 			</value>
 		</field>
-		
 		<field name="Tier_{$TPOS}_ASP">
 			<value>
 				<xsl:if test="string-length(astralenergie) > 0 and astralenergie != 'null'">
@@ -214,13 +210,13 @@
 			</value>
 		</field>
 		<!-- INI wird von der Heldensoftware Berechnet -->
-		<!-- 
-		<field name="Tier_{$TPOS}_INI">
+		<!--
+			<field name="Tier_{$TPOS}_INI">
 			<value>
-				<xsl:value-of select="intuition" />
+			<xsl:value-of select="intuition" />
 			</value>
-		</field>
-		 -->
+			</field>
+		-->
 		<field name="Tier_{$TPOS}_RS">
 			<value>
 				<xsl:value-of select="ruestungsschutz" />
@@ -270,10 +266,7 @@
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit">
 		<xsl:value-of select="bezeichner" />
 		<xsl:if test="count(auswahlen/auswahl) > 0">
-			<xsl:text> </xsl:text>
-			<xsl:text>(</xsl:text>				
-			<xsl:apply-templates select="auswahlen"/>
-			<xsl:text>)</xsl:text>
+			<xsl:apply-templates select="auswahlen" />
 		</xsl:if>
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 			<xsl:text> </xsl:text>
@@ -285,17 +278,22 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="auswahlen">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen">
+		<xsl:text> </xsl:text>
+		<xsl:text>(</xsl:text>
 		<xsl:apply-templates select="auswahl">
 			<xsl:sort select="name" order="ascending" />
 		</xsl:apply-templates>
+		<xsl:text>)</xsl:text>
 	</xsl:template>
-	<xsl:template match="auswahlen/auswahl">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen/auswahl">
 		<xsl:value-of select="name" />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
+	
+	
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile">
 		<xsl:param name="TPOS" />
 		<xsl:variable name="Vorteile">
@@ -332,6 +330,9 @@
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil">
 		<xsl:value-of select="normalize-space(bezeichner)" />
+		<xsl:if test="count(auswahlen/auswahl) > 0">
+			<xsl:apply-templates select="auswahlen" />
+		</xsl:if>
 		<xsl:if test="string-length(wert) > 0">
 			<xsl:text>: </xsl:text>
 			<xsl:value-of select="wert" />
@@ -342,6 +343,16 @@
 			<xsl:value-of select="kommentar" />
 			<xsl:text>)</xsl:text>
 		</xsl:if>
+		<xsl:if test="not(position() = last())">
+			<xsl:text>, </xsl:text>
+		</xsl:if>
+	</xsl:template>
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen">
+		<xsl:text> </xsl:text>
+		<xsl:apply-templates select="auswahl" />
+	</xsl:template>
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen/auswahl">
+		<xsl:value-of select="." />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
