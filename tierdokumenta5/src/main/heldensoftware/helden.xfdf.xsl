@@ -3,16 +3,13 @@
 	<xsl:decimal-format name="de" decimal-separator="," grouping-separator="." />
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 	<!-- Optionen Ja: "true" Nein: "false" -->
-
-	<!-- 
+	<!--
 		includeKommentare:
 		'true': Kommentare werden in Klammer angegeben.
-		'false': keine Kommentare eintragen 
+		'false': keine Kommentare eintragen
 	-->
 	<xsl:param name="includeKommentare" select="'true'" />
-	
 	<xsl:param name="selectedName" select="''" />
-	
 	<!-- Templates -->
 	<xsl:template match="@*|text()" />
 	<xsl:template match="/">
@@ -27,10 +24,10 @@
 	<xsl:template match="/daten/gegenstaende">
 		<xsl:choose>
 			<xsl:when test="string-length($selectedName) > 0">
-				<xsl:apply-templates select="gegenstand[name=$selectedName]"/>
+				<xsl:apply-templates select="gegenstand[name=$selectedName]" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="gegenstand[arten = 'Tier'][1]"/>
+				<xsl:apply-templates select="gegenstand[arten = 'Tier'][1]" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -43,16 +40,16 @@
 		</field>
 		<field name="Tier_{$TPOS}_gewicht">
 			<value>
-				<!-- 
-				<xsl:value-of select="format-number(gewicht, '#.##0,0', 'de')" />
-				<xsl:text> Unzen</xsl:text>
-				<xsl:text> (</xsl:text>
-				 -->
+				<!--
+					<xsl:value-of select="format-number(gewicht, '#.##0,0', 'de')" />
+					<xsl:text> Unzen</xsl:text>
+					<xsl:text> (</xsl:text>
+				-->
 				<xsl:value-of select="format-number(gewicht div 40, '#.##0,0', 'de')" />
 				<xsl:text> Stein</xsl:text>
-				<!-- 
-				<xsl:text>)</xsl:text>
-				 -->
+				<!--
+					<xsl:text>)</xsl:text>
+				-->
 			</value>
 		</field>
 		<xsl:apply-templates>
@@ -205,7 +202,6 @@
 				<xsl:value-of select="floor(ausdauer div 4)" />
 			</value>
 		</field>
-		
 		<field name="Tier_{$TPOS}_ASP">
 			<value>
 				<xsl:if test="string-length(astralenergie) > 0 and astralenergie != 'null'">
@@ -219,13 +215,13 @@
 			</value>
 		</field>
 		<!-- INI wird von der Heldensoftware Berechnet -->
-		<!-- 
-		<field name="Tier_{$TPOS}_INI">
+		<!--
+			<field name="Tier_{$TPOS}_INI">
 			<value>
-				<xsl:value-of select="intuition" />
+			<xsl:value-of select="intuition" />
 			</value>
-		</field>
-		 -->
+			</field>
+		-->
 		<field name="Tier_{$TPOS}_RS">
 			<value>
 				<xsl:value-of select="ruestungsschutz" />
@@ -281,8 +277,8 @@
 		<xsl:value-of select="bezeichner" />
 		<xsl:if test="count(auswahlen/auswahl) > 0">
 			<xsl:text> </xsl:text>
-			<xsl:text>(</xsl:text>				
-			<xsl:apply-templates select="auswahlen"/>
+			<xsl:text>(</xsl:text>
+			<xsl:apply-templates select="auswahlen" />
 			<xsl:text>)</xsl:text>
 		</xsl:if>
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
