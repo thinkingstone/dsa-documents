@@ -270,7 +270,7 @@
 						<vorteil name="Nachtsicht" />
 						<vorteil name="Schnell" />
 						<vorteil name="Spieltrieb" value="4" />
-						<vorteil name="" />
+						<vorteil name="Tragkraft" value="erhöht" />
 						<vorteil name="Wasserliebend" />
 					</vorteile>
 					<sonderfertigkeiten>
@@ -392,13 +392,13 @@
 						<eigenschaft name="Rüstungsschutz" value="1" />
 					</eigenschaften>
 					<vorteile>
-						<vorteil name="" />
+						<vorteil name="Ausdauernd (Tier)" value="Trab" />
 						<vorteil name="Höhenangst" value="6" />
 						<vorteil name="Nervosität" />
 						<vorteil name="Schnell" />
 						<vorteil name="Sehr lernfähig" />
 						<vorteil name="Zäh" />
-						<vorteil name="" />
+						<vorteil name="Zugkraft" value="erhöht" />
 					</vorteile>
 					<sonderfertigkeiten>
 						<sonderfertigkeit name="Ausbildung">
@@ -476,10 +476,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>sjA4kScBkmwxawJ0aDStLP42h1c=</DigestValue>
+				<DigestValue>+MhyRToKN164w1UJPmQo430CMHM=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>KbCIIgs6q3pxgLUhOww45r9dbNqPWefhR2BBwbW4IXAwHQ6IeLg4AA==</SignatureValue>
+		<SignatureValue>Iyl2xI7PuiqC0P4CYLmEiI0tzeh/nC6/tBGg03srvivbxhOTUDV7VA==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

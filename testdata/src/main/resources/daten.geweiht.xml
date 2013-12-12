@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>08.12.2013</datum>
-		<uhrzeit>17:07</uhrzeit>
+		<datum>11.12.2013</datum>
+		<uhrzeit>19:04</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -1860,6 +1860,7 @@
 			<details>
 				<tier>
 					<eigenschaften>
+						<astralenergie>null</astralenergie>
 						<ausdauer>45</ausdauer>
 						<charisma>9</charisma>
 						<fingerfertigkeit>4</fingerfertigkeit>
@@ -1964,13 +1965,16 @@
 						</vorteil>
 						<vorteil>
 							<bezeichner>Tragkraft</bezeichner>
-							<name>Tragkraft </name>
+							<name>Tragkraft erhöht</name>
 							<kommentar />
-							<namemitkommentar>Tragkraft </namemitkommentar>
+							<namemitkommentar>Tragkraft erhöht</namemitkommentar>
 							<istvorteil>true</istvorteil>
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
-							<auswahlen />
+							<auswahlen>
+								<auswahl>erhöht</auswahl>
+								<kommentar />
+							</auswahlen>
 						</vorteil>
 						<vorteil>
 							<bezeichner>Wasserliebend</bezeichner>
@@ -2338,13 +2342,16 @@
 					<vorteile>
 						<vorteil>
 							<bezeichner>Ausdauernd (Tier)</bezeichner>
-							<name>Ausdauernd (Tier) </name>
+							<name>Ausdauernd (Tier) Trab</name>
 							<kommentar />
-							<namemitkommentar>Ausdauernd (Tier) </namemitkommentar>
+							<namemitkommentar>Ausdauernd (Tier) Trab</namemitkommentar>
 							<istvorteil>true</istvorteil>
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
-							<auswahlen />
+							<auswahlen>
+								<auswahl>Trab</auswahl>
+								<kommentar />
+							</auswahlen>
 						</vorteil>
 						<vorteil>
 							<bezeichner>Schnell</bezeichner>
@@ -2375,13 +2382,16 @@
 						</vorteil>
 						<vorteil>
 							<bezeichner>Zugkraft</bezeichner>
-							<name>Zugkraft </name>
+							<name>Zugkraft erhöht</name>
 							<kommentar />
-							<namemitkommentar>Zugkraft </namemitkommentar>
+							<namemitkommentar>Zugkraft erhöht</namemitkommentar>
 							<istvorteil>true</istvorteil>
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
-							<auswahlen />
+							<auswahlen>
+								<auswahl>erhöht</auswahl>
+								<kommentar />
+							</auswahlen>
 						</vorteil>
 						<vorteil>
 							<bezeichner>Höhenangst</bezeichner>
