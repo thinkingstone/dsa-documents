@@ -102,6 +102,26 @@
 					<toDir>src/intermediate/document</toDir>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.github.goldin</groupId>
+				<artifactId>copy-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-pdf-to-helden-software</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<inherited>true</inherited>
+						<configuration>
+							<resource>
+								<targetPath>${user.home}/helden/plugins/heldenboegen/heldendokumentoriginal</targetPath>
+								<file>${project.basedir}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf</file>
+							</resource>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 </project>

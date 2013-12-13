@@ -222,6 +222,28 @@
 					<artifactId>versions-maven-plugin</artifactId>
 					<version>2.1</version>
 				</plugin>
+				<plugin>
+					<groupId>com.github.goldin</groupId>
+					<artifactId>copy-maven-plugin</artifactId>
+					<version>0.2.5</version>
+					<executions>
+						<execution>
+							<id>copy-to-helden-software</id>
+							<phase>integration-test</phase>
+							<goals>
+								<goal>copy</goal>
+							</goals>
+							<inherited>true</inherited>
+							<configuration>
+								<resource>
+									<targetPath>${user.home}/helden/plugins/heldenboegen</targetPath>
+									<file>${project.basedir}/target/${project.build.finalName}.zip</file>
+									<unpack>true</unpack>
+								</resource>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 		<plugins>
