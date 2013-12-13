@@ -180,26 +180,13 @@
 		<xsl:variable name="Notizen">
 			<xsl:value-of select="text" />
 		</xsl:variable>
-		<field name="Notizen 1">
-			<value>
-				<xsl:value-of select="substring($Notizen, 0, 100)" />
-			</value>
-		</field>
-		<field name="Notizen 2">
-			<value>
-				<xsl:value-of select="substring($Notizen, 100, 100)" />
-			</value>
-		</field>
-		<field name="Notizen 3">
-			<value>
-				<xsl:value-of select="substring($Notizen, 200, 100)" />
-			</value>
-		</field>
-		<field name="Notizen 4">
-			<value>
-				<xsl:value-of select="substring($Notizen, 300)" />
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$Notizen" />
+			<xsl:with-param name="name" select="'Notizen '" />
+			<xsl:with-param name="total" select="80" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="4" />
+		</xsl:call-template>
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template match="/daten/angaben/aussehen">
@@ -857,33 +844,13 @@
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:variable>
-		<xsl:variable name="vorteileLineSizeFirst" select="100" />
-		<xsl:variable name="vorteileLineSize" select="100" />
-		<field name="Vorteile &amp; Nachteile 1">
-			<value>
-				<xsl:value-of select="substring($VorteileNachteile, 0, $vorteileLineSizeFirst)" />
-			</value>
-		</field>
-		<field name="Vorteile &amp; Nachteile 2">
-			<value>
-				<xsl:value-of select="substring($VorteileNachteile, $vorteileLineSizeFirst + $vorteileLineSize * 0, $vorteileLineSize)" />
-			</value>
-		</field>
-		<field name="Vorteile &amp; Nachteile 3">
-			<value>
-				<xsl:value-of select="substring($VorteileNachteile, $vorteileLineSizeFirst + $vorteileLineSize * 1, $vorteileLineSize)" />
-			</value>
-		</field>
-		<field name="Vorteile &amp; Nachteile 4">
-			<value>
-				<xsl:value-of select="substring($VorteileNachteile, $vorteileLineSizeFirst + $vorteileLineSize * 2, $vorteileLineSize)" />
-			</value>
-		</field>
-		<field name="Vorteile &amp; Nachteile 5">
-			<value>
-				<xsl:value-of select="substring($VorteileNachteile, $vorteileLineSizeFirst + $vorteileLineSize * 3)" />
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$VorteileNachteile" />
+			<xsl:with-param name="name" select="'Vorteile &amp; Nachteile '" />
+			<xsl:with-param name="total" select="90" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="5" />
+		</xsl:call-template>
 		<xsl:variable name="Begabungen">
 			<xsl:apply-templates select="vorteil[bereich = 'BEGABUNGMERKMAL']" mode="begabung" />
 		</xsl:variable>
@@ -903,33 +870,13 @@
 		<xsl:variable name="MagVorteileNachteile">
 			<xsl:apply-templates select="vorteil[bereich = 'Magisch' and not(bereich = 'BEGABUNGMERKMAL') and not(bereich = 'UNFÄHIGKEITMERKMAL')]" />
 		</xsl:variable>
-		<xsl:variable name="magVorteileLineSizeFirst" select="60" />
-		<xsl:variable name="magVorteileLineSize" select="95" />
-		<field name="Magische Vor- / Nachteile.0">
-			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, 0, $magVorteileLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Vor- / Nachteile.1">
-			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, $magVorteileLineSizeFirst + $magVorteileLineSize * 0, $magVorteileLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Vor- / Nachteile.2">
-			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, $magVorteileLineSizeFirst + $magVorteileLineSize * 1, $magVorteileLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Vor- / Nachteile.3">
-			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, $magVorteileLineSizeFirst + $magVorteileLineSize * 2, $magVorteileLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Vor- / Nachteile.4">
-			<value>
-				<xsl:value-of select="substring($MagVorteileNachteile, $magVorteileLineSizeFirst + $magVorteileLineSize * 3)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$MagVorteileNachteile" />
+			<xsl:with-param name="name" select="'Magische Vor- / Nachteile.'" />
+			<xsl:with-param name="total" select="75" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="4" />
+		</xsl:call-template>
 	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil">
 		<xsl:value-of select="name" />
@@ -981,74 +928,24 @@
 		<xsl:variable name="SonderfertigkeitenAusserKampf">
 			<xsl:apply-templates select="sonderfertigkeit[not(bereich = 'Kampf') and not(bereich = 'Ritual')  and not(bereich = 'Ritualkenntnis') and not(bereich = 'Liturgie') and not(bereich = 'Merkmalskenntnis') and not(bereich = 'Repräsentation') and not(bereich = 'SonstMagisch')]" />
 		</xsl:variable>
-		<xsl:variable name="sfLineSizeFirst" select="60" />
-		<xsl:variable name="sfLineSize" select="60" />
-		<field name="Sonderfertigkeiten (ausser Kampf) 1">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, 0, $sfLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 2">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 0, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 3">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 1, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 4">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 2, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 5">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 3, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 6">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 4, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Sonderfertigkeiten (ausser Kampf) 7">
-			<value>
-				<xsl:value-of select="substring($SonderfertigkeitenAusserKampf, $sfLineSizeFirst + $sfLineSize * 5)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$SonderfertigkeitenAusserKampf" />
+			<xsl:with-param name="name" select="'Sonderfertigkeiten (ausser Kampf) '" />
+			<xsl:with-param name="total" select="45" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="7" />
+		</xsl:call-template>
 		<xsl:variable name="MagSonderfertigkeiten">
 			<xsl:apply-templates select="sonderfertigkeit[bereich = 'SonstMagisch' and not(bereich = 'Talentspezialisierung')]" />
 			<xsl:apply-templates select="sonderfertigkeit[bereich = 'SonstGeweiht' and not(bereich = 'Talentspezialisierung')]" />
 		</xsl:variable>
-		<xsl:variable name="magSfLineSizeFirst" select="60" />
-		<xsl:variable name="magSfLineSize" select="95" />
-		<field name="Magische Sonderfertigkeiten.0">
-			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, 0, $sfLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Sonderfertigkeiten.1">
-			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, $sfLineSizeFirst + $sfLineSize * 0, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Sonderfertigkeiten.2">
-			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, $sfLineSizeFirst + $sfLineSize * 1, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Sonderfertigkeiten.3">
-			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, $sfLineSizeFirst + $sfLineSize * 2, $sfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Magische Sonderfertigkeiten.4">
-			<value>
-				<xsl:value-of select="substring($MagSonderfertigkeiten, $sfLineSizeFirst + $sfLineSize * 3)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$MagSonderfertigkeiten" />
+			<xsl:with-param name="name" select="'Magische Sonderfertigkeiten.'" />
+			<xsl:with-param name="total" select="75" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="4" />
+		</xsl:call-template>
 		<field name="Merkmale">
 			<value>
 				<xsl:for-each select="sonderfertigkeit[bereich = 'Merkmalskenntnis']">
@@ -1073,58 +970,33 @@
 			<xsl:apply-templates
 				select="sonderfertigkeit[bereich = 'Nahkampf' and not(bezeichner='Linkhand') and not(bezeichner='Rüstungsgewöhnung II') and not(bezeichner='Rüstungsgewöhnung III') and not(bezeichner='Ausweichen I') and not(bezeichner='Ausweichen II')  and not(bezeichner='Ausweichen III') and not(bezeichner='Schildkampf I') and not(bezeichner='Schildkampf II') and not(bezeichner='Parierwaffen I') and not(bezeichner='Parierwaffen II') and not(bezeichner='Kampfreflexe') and not(bezeichner='Kampfgespür')]" />
 		</xsl:variable>
-		<xsl:variable name="nkSfLineSizeFirst" select="95" />
-		<xsl:variable name="nkSfLineSize" select="100" />
-		<field name="Nahkampf (Sonderfertigkeiten) 1">
-			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, 0, $nkSfLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Nahkampf (Sonderfertigkeiten) 2">
-			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, $nkSfLineSizeFirst + $nkSfLineSize * 0, $nkSfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Nahkampf (Sonderfertigkeiten) 3">
-			<value>
-				<xsl:value-of select="substring($NK_Sonderfertigkeiten, $nkSfLineSizeFirst + $nkSfLineSize * 1)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$NK_Sonderfertigkeiten" />
+			<xsl:with-param name="name" select="'Nahkampf (Sonderfertigkeiten) '" />
+			<xsl:with-param name="total" select="80" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="3" />
+		</xsl:call-template>
 		<xsl:variable name="FK_Sonderfertigkeiten">
 			<xsl:apply-templates select="sonderfertigkeit[bereich = 'Fernkampf']" />
 		</xsl:variable>
-		<xsl:variable name="fkSfLineSizeFirst" select="95" />
-		<xsl:variable name="fkSfLineSize" select="100" />
-		<field name="Fernkampf (Sonderfertigkeiten) 1">
-			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, 0, $fkSfLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Fernkampf (Sonderfertigkeiten) 2">
-			<value>
-				<xsl:value-of select="substring($FK_Sonderfertigkeiten, $fkSfLineSizeFirst + $fkSfLineSize * 0)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$FK_Sonderfertigkeiten" />
+			<xsl:with-param name="name" select="'Fernkampf (Sonderfertigkeiten) '" />
+			<xsl:with-param name="total" select="80" />
+			<xsl:with-param name="index" select="1" />
+			<xsl:with-param name="indexmax" select="2" />
+		</xsl:call-template>
 		<xsl:variable name="Waffenlos_Sonderfertigkeiten">
 			<xsl:apply-templates select="sonderfertigkeit[bereich = 'Manöver']" />
 		</xsl:variable>
-		<xsl:variable name="wkSfLineSizeFirst" select="45" />
-		<xsl:variable name="wkSfLineSize" select="80" />
-		<field name="Waffenloser Kampf (Sonderfertigkeiten) 1">
-			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, 0, $wkSfLineSizeFirst)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
-			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, $wkSfLineSizeFirst + $wkSfLineSize * 0, $wkSfLineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
-			<value>
-				<xsl:value-of select="substring($Waffenlos_Sonderfertigkeiten, $wkSfLineSizeFirst + $wkSfLineSize * 1)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$Waffenlos_Sonderfertigkeiten" />
+			<xsl:with-param name="name" select="'Waffenloser Kampf (Sonderfertigkeiten) '" />
+			<xsl:with-param name="total" select="70" />
+			<xsl:with-param name="index" select="2" />
+			<xsl:with-param name="indexmax" select="3" />
+		</xsl:call-template>
 		<!-- Checkboxen -->
 		<xsl:apply-templates mode="sfCheckboxes" />
 	</xsl:template>
@@ -2406,5 +2278,103 @@
 				<xsl:value-of select="lernkomplexität" />
 			</value>
 		</field>
+	</xsl:template>
+	<xsl:template name="substring">
+		<xsl:param name="text" />
+		<xsl:param name="total" />
+		<xsl:param name="name" select="''" />
+		<xsl:param name="index" select="1" />
+		<xsl:param name="indexmax" select="1000" />
+		<xsl:call-template name="row">
+			<xsl:with-param name="name" select="$name" />
+			<xsl:with-param name="text" select="$text" />
+			<xsl:with-param name="total" select="$total" />
+			<xsl:with-param name="index" select="$index" />
+			<xsl:with-param name="indexmax" select="$indexmax" />
+		</xsl:call-template>
+	</xsl:template>
+	<xsl:template name="row">
+		<xsl:param name="text" />
+		<xsl:param name="name" />
+		<xsl:param name="storage" select="''" />
+		<xsl:param name="count" select="0" />
+		<xsl:param name="total" select="70" />
+		<xsl:param name="index" select="1" />
+		<xsl:param name="indexmax" select="1000" />
+		<xsl:choose>
+			<xsl:when test="$count &lt; $total and $text != ''">
+				<!--
+					<xsl:message>
+					when
+					name: <xsl:value-of select="$name" />
+					index: <xsl:value-of select="$index" />
+					count: <xsl:value-of select="$count" />
+					storage: <xsl:value-of select="$storage" />
+					</xsl:message>
+				-->
+				<xsl:variable name="word">
+					<xsl:choose>
+						<xsl:when test="contains($text, ' ')">
+							<xsl:value-of select="substring-before($text, ' ')" />
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="$text" />
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:variable>
+				<xsl:call-template name="row">
+					<xsl:with-param name="text" select="substring-after($text, ' ')" />
+					<xsl:with-param name="name" select="$name" />
+					<xsl:with-param name="storage" select="concat($storage, ' ', $word)" />
+					<xsl:with-param name="count" select="$count + string-length($word)" />
+					<xsl:with-param name="total" select="$total" />
+					<xsl:with-param name="index" select="$index" />
+					<xsl:with-param name="indexmax" select="$indexmax" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<!--
+					<xsl:message>
+					otherwise
+					name: <xsl:value-of select="$name" />
+					index: <xsl:value-of select="$index" />
+					count: <xsl:value-of select="$count" />
+					storage: <xsl:value-of select="$storage" />
+					</xsl:message>
+				-->
+				<field name="{$name}{$index}">
+					<value>
+						<xsl:if test="$index &lt; $indexmax">
+							<xsl:value-of select="normalize-space($storage)" />
+						</xsl:if>
+						<xsl:if test="$index = $indexmax">
+							<xsl:value-of select="normalize-space($storage)" />
+							<xsl:text> </xsl:text>
+							<xsl:value-of select="normalize-space($text)" />
+						</xsl:if>
+					</value>
+				</field>
+				<xsl:if test="$index &lt; $indexmax">
+					<xsl:if test="$text != ''">
+						<!--
+							<xsl:message>
+							call substring
+							name: <xsl:value-of select="$name" />
+							index: <xsl:value-of select="$index" />
+							count: <xsl:value-of select="$count" />
+							storage: <xsl:value-of select="$storage" />
+							</xsl:message>
+						-->
+						<xsl:call-template name="substring">
+							<xsl:with-param name="text" select="$text" />
+							<xsl:with-param name="name" select="$name" />
+							<xsl:with-param name="total" select="$total" />
+							<xsl:with-param name="index" select="$index + 1" />
+							<xsl:with-param name="indexmax" select="$indexmax" />
+						</xsl:call-template>
+					</xsl:if>
+				</xsl:if>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 </xsl:stylesheet>

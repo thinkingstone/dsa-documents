@@ -74,15 +74,6 @@
 <field name="Notizen 1">
 <value>Notizen</value>
 </field>
-<field name="Notizen 2">
-<value/>
-</field>
-<field name="Notizen 3">
-<value/>
-</field>
-<field name="Notizen 4">
-<value/>
-</field>
 <field name="Profession">
 <value>Schwertgeselle nach Adersin</value>
 </field>
@@ -297,19 +288,10 @@
 <value>0</value>
 </field>
 <field name="Vorteile &amp; Nachteile 1">
-<value>Adlige Abstammung (Kommentar), Arroganz: 5 (Kommentar), Eitelkeit: 5 (Kommentar), Prinzipientreue: </value>
+<value>Adlige Abstammung (Kommentar), Arroganz: 5 (Kommentar), Eitelkeit: 5 (Kommentar), Prinzipientreue: 10</value>
 </field>
 <field name="Vorteile &amp; Nachteile 2">
-<value>10 (Kommentar), Schulden: 1500 (Kommentar)</value>
-</field>
-<field name="Vorteile &amp; Nachteile 3">
-<value/>
-</field>
-<field name="Vorteile &amp; Nachteile 4">
-<value/>
-</field>
-<field name="Vorteile &amp; Nachteile 5">
-<value/>
+<value>(Kommentar), Schulden: 1500 (Kommentar)</value>
 </field>
 <field name="Begabungen">
 <value/>
@@ -317,55 +299,31 @@
 <field name="Unfähigkeiten">
 <value/>
 </field>
-<field name="Magische Vor- / Nachteile.0">
+<field name="Magische Vor- / Nachteile.1">
 <value>Meisterhandwerk (Körperkraft, Ackerbau)</value>
 </field>
-<field name="Magische Vor- / Nachteile.1">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.2">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.3">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.4">
-<value/>
-</field>
 <field name="Sonderfertigkeiten (ausser Kampf) 1">
-<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar), </value>
+<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 2">
-<value>Dschungelkundig (Kommentar), Eiskundig (Kommentar), Gebirgsk</value>
+<value>Dschungelkundig (Kommentar), Eiskundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 3">
-<value>undig (Kommentar), Höhlenkundig (Kommentar), Kulturkunde (Al</value>
+<value>Gebirgskundig (Kommentar), Höhlenkundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 4">
-<value>mada, Andergast/Nostria, Mittelreich), Maraskankundig (Komme</value>
+<value>Kulturkunde (Almada, Andergast/Nostria, Mittelreich),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 5">
-<value>ntar), Meereskundig (Kommentar), Ortskenntnis (Örtlichkeit 1</value>
+<value>Maraskankundig (Kommentar), Meereskundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 6">
-<value>, Stadtteil/Kleinstadt, Strecke 1), Steppenkundig (Kommentar</value>
+<value>Ortskenntnis (Örtlichkeit 1, Stadtteil/Kleinstadt,</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 7">
-<value>), Sumpfkundig (Kommentar), Ackerbau (G'Rolmur-Biotope) (Kommentar), Anderthalbhänder (Anderthalbhänder) (Kommentar), Dolche (Langdolch) (Kommentar), Waldkundig (Kommentar), Wüstenkundig (Kommentar)</value>
-</field>
-<field name="Magische Sonderfertigkeiten.0">
-<value/>
+<value>Strecke 1), Steppenkundig (Kommentar), Sumpfkundig (Kommentar), Ackerbau (G'Rolmur-Biotope) (Kommentar), Anderthalbhänder (Anderthalbhänder) (Kommentar), Dolche (Langdolch) (Kommentar), Waldkundig (Kommentar), Wüstenkundig (Kommentar)</value>
 </field>
 <field name="Magische Sonderfertigkeiten.1">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.2">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.3">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.4">
 <value/>
 </field>
 <field name="Merkmale">
@@ -375,28 +333,22 @@
 <value/>
 </field>
 <field name="Nahkampf (Sonderfertigkeiten) 1">
-<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Kommentar), Rüstungsgewöhnung I </value>
+<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Kommentar), Rüstungsgewöhnung</value>
 </field>
 <field name="Nahkampf (Sonderfertigkeiten) 2">
-<value>(Amazonenrüstung (kompl), Leichte Platte), Wuchtschlag (Kommentar)</value>
-</field>
-<field name="Nahkampf (Sonderfertigkeiten) 3">
-<value/>
+<value>I (Amazonenrüstung (kompl), Leichte Platte), Wuchtschlag (Kommentar)</value>
 </field>
 <field name="Fernkampf (Sonderfertigkeiten) 1">
-<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Kommentar), Schnellladen (Arm</value>
+<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Kommentar), Schnellladen</value>
 </field>
 <field name="Fernkampf (Sonderfertigkeiten) 2">
-<value>brust) (Kommentar)</value>
-</field>
-<field name="Waffenloser Kampf (Sonderfertigkeiten) 1">
-<value>Auspendeln (Kommentar), Beinarbeit (Kommenta</value>
+<value>(Armbrust) (Kommentar) </value>
 </field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
-<value>r), Biss (Kommentar), Block (Kommentar), Doppelschlag (Kommentar), Eisenarm (Kom</value>
+<value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), Block (Kommentar),</value>
 </field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
-<value>mentar), Fußfeger (Kommentar), Gerade (Kommentar), Griff (Kommentar), Halten (Kommentar), Knaufschlag (Kommentar), Knie (Kommentar), Kopfstoß (Kommentar), Schmetterschlag (Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Klinge (Kommentar), Würgegriff (Kommentar)</value>
+<value>Doppelschlag (Kommentar), Eisenarm (Kommentar), Fußfeger (Kommentar), Gerade (Kommentar), Griff (Kommentar), Halten (Kommentar), Knaufschlag (Kommentar), Knie (Kommentar), Kopfstoß (Kommentar), Schmetterschlag (Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Klinge (Kommentar), Würgegriff (Kommentar)</value>
 </field>
 <field name="Ausweichen I">
 <value>Yes</value>

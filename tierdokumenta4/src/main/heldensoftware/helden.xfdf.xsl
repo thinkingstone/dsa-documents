@@ -44,7 +44,8 @@
 				<xsl:text> Unzen</xsl:text>
 				<xsl:text> (</xsl:text>
 				<xsl:value-of select="format-number(gewicht div 40, '#.##0,0', 'de')" />
-				<xsl:text> Stein)</xsl:text>
+				<xsl:text> Stein</xsl:text>
+				<xsl:text>)</xsl:text>
 			</value>
 		</field>
 		<xsl:apply-templates>
@@ -236,32 +237,13 @@
 		<xsl:variable name="Sonderfertigkeiten">
 			<xsl:apply-templates select="sonderfertigkeit" />
 		</xsl:variable>
-		<xsl:variable name="lineSize" select="70" />
-		<field name="Tier_{$TPOS}_sonderfertigkeit_2">
-			<value>
-				<xsl:value-of select="substring($Sonderfertigkeiten, $lineSize * 0, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_sonderfertigkeit_3">
-			<value>
-				<xsl:value-of select="substring($Sonderfertigkeiten, $lineSize * 1, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_sonderfertigkeit_4">
-			<value>
-				<xsl:value-of select="substring($Sonderfertigkeiten, $lineSize * 2, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_sonderfertigkeit_5">
-			<value>
-				<xsl:value-of select="substring($Sonderfertigkeiten, $lineSize * 3, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_sonderfertigkeit_6">
-			<value>
-				<xsl:value-of select="substring($Sonderfertigkeiten, $lineSize * 4)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$Sonderfertigkeiten" />
+			<xsl:with-param name="name" select="concat('Tier_', $TPOS, '_sonderfertigkeit_')" />
+			<xsl:with-param name="total" select="60" />
+			<xsl:with-param name="index" select="2" />
+			<xsl:with-param name="indexmax" select="6" />
+		</xsl:call-template>
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit">
 		<xsl:value-of select="bezeichner" />
@@ -299,32 +281,13 @@
 				<xsl:with-param name="TPOS" select="$TPOS" />
 			</xsl:apply-templates>
 		</xsl:variable>
-		<xsl:variable name="lineSize" select="70" />
-		<field name="Tier_{$TPOS}_vornachteile_2">
-			<value>
-				<xsl:value-of select="substring($Vorteile, $lineSize * 0, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_vornachteile_3">
-			<value>
-				<xsl:value-of select="substring($Vorteile, $lineSize * 1, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_vornachteile_4">
-			<value>
-				<xsl:value-of select="substring($Vorteile, $lineSize * 2, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_vornachteile_5">
-			<value>
-				<xsl:value-of select="substring($Vorteile, $lineSize * 3, $lineSize)"></xsl:value-of>
-			</value>
-		</field>
-		<field name="Tier_{$TPOS}_vornachteile_6">
-			<value>
-				<xsl:value-of select="substring($Vorteile, $lineSize * 4)"></xsl:value-of>
-			</value>
-		</field>
+		<xsl:call-template name="substring">
+			<xsl:with-param name="text" select="$Vorteile" />
+			<xsl:with-param name="name" select="concat('Tier_', $TPOS, '_vornachteile_')" />
+			<xsl:with-param name="total" select="60" />
+			<xsl:with-param name="index" select="2" />
+			<xsl:with-param name="indexmax" select="6" />
+		</xsl:call-template>
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil">
 		<xsl:value-of select="normalize-space(bezeichner)" />
@@ -389,5 +352,103 @@
 				<xsl:value-of select="@tp" />
 			</value>
 		</field>
+	</xsl:template>
+	<xsl:template name="substring">
+		<xsl:param name="text" />
+		<xsl:param name="total" />
+		<xsl:param name="name" select="''" />
+		<xsl:param name="index" select="1" />
+		<xsl:param name="indexmax" select="1000" />
+		<xsl:call-template name="row">
+			<xsl:with-param name="name" select="$name" />
+			<xsl:with-param name="text" select="$text" />
+			<xsl:with-param name="total" select="$total" />
+			<xsl:with-param name="index" select="$index" />
+			<xsl:with-param name="indexmax" select="$indexmax" />
+		</xsl:call-template>
+	</xsl:template>
+	<xsl:template name="row">
+		<xsl:param name="text" />
+		<xsl:param name="name" />
+		<xsl:param name="storage" select="''" />
+		<xsl:param name="count" select="0" />
+		<xsl:param name="total" select="70" />
+		<xsl:param name="index" select="1" />
+		<xsl:param name="indexmax" select="1000" />
+		<xsl:choose>
+			<xsl:when test="$count &lt; $total and $text != ''">
+				<!--
+					<xsl:message>
+					when
+					name: <xsl:value-of select="$name" />
+					index: <xsl:value-of select="$index" />
+					count: <xsl:value-of select="$count" />
+					storage: <xsl:value-of select="$storage" />
+					</xsl:message>
+				-->
+				<xsl:variable name="word">
+					<xsl:choose>
+						<xsl:when test="contains($text, ' ')">
+							<xsl:value-of select="substring-before($text, ' ')" />
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:value-of select="$text" />
+						</xsl:otherwise>
+					</xsl:choose>
+				</xsl:variable>
+				<xsl:call-template name="row">
+					<xsl:with-param name="text" select="substring-after($text, ' ')" />
+					<xsl:with-param name="name" select="$name" />
+					<xsl:with-param name="storage" select="concat($storage, ' ', $word)" />
+					<xsl:with-param name="count" select="$count + string-length($word)" />
+					<xsl:with-param name="total" select="$total" />
+					<xsl:with-param name="index" select="$index" />
+					<xsl:with-param name="indexmax" select="$indexmax" />
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+				<!--
+					<xsl:message>
+					otherwise
+					name: <xsl:value-of select="$name" />
+					index: <xsl:value-of select="$index" />
+					count: <xsl:value-of select="$count" />
+					storage: <xsl:value-of select="$storage" />
+					</xsl:message>
+				-->
+				<field name="{$name}{$index}">
+					<value>
+						<xsl:if test="$index &lt; $indexmax">
+							<xsl:value-of select="normalize-space($storage)" />
+						</xsl:if>
+						<xsl:if test="$index = $indexmax">
+							<xsl:value-of select="normalize-space($storage)" />
+							<xsl:text> </xsl:text>
+							<xsl:value-of select="normalize-space($text)" />
+						</xsl:if>
+					</value>
+				</field>
+				<xsl:if test="$index &lt; $indexmax">
+					<xsl:if test="$text != ''">
+						<!--
+							<xsl:message>
+							call substring
+							name: <xsl:value-of select="$name" />
+							index: <xsl:value-of select="$index" />
+							count: <xsl:value-of select="$count" />
+							storage: <xsl:value-of select="$storage" />
+							</xsl:message>
+						-->
+						<xsl:call-template name="substring">
+							<xsl:with-param name="text" select="$text" />
+							<xsl:with-param name="name" select="$name" />
+							<xsl:with-param name="total" select="$total" />
+							<xsl:with-param name="index" select="$index + 1" />
+							<xsl:with-param name="indexmax" select="$indexmax" />
+						</xsl:call-template>
+					</xsl:if>
+				</xsl:if>
+			</xsl:otherwise>
+		</xsl:choose>
 	</xsl:template>
 </xsl:stylesheet>

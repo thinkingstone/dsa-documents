@@ -74,15 +74,6 @@
 <field name="Notizen 1">
 <value>Notizen</value>
 </field>
-<field name="Notizen 2">
-<value/>
-</field>
-<field name="Notizen 3">
-<value/>
-</field>
-<field name="Notizen 4">
-<value/>
-</field>
 <field name="Profession">
 <value>Konzil der Elemente zu Drakonia - Luftelementarist (grau)</value>
 </field>
@@ -342,19 +333,13 @@
 <value>0</value>
 </field>
 <field name="Vorteile &amp; Nachteile 1">
-<value>Affinität zu Elementaren, Magiegespür, Schwer zu verzaubern, Neugier: 7 (Kommentar), Prinzipientreu</value>
+<value>Affinität zu Elementaren, Magiegespür, Schwer zu verzaubern, Neugier: 7 (Kommentar), Prinzipientreue:</value>
 </field>
 <field name="Vorteile &amp; Nachteile 2">
-<value>e: 8 (Kommentar), Schulden: 500 (Kommentar), Unfähigkeit für [Talentgruppe] Gesellschaft, Weltfremd:</value>
+<value>8 (Kommentar), Schulden: 500 (Kommentar), Unfähigkeit für [Talentgruppe] Gesellschaft, Weltfremd: 12</value>
 </field>
 <field name="Vorteile &amp; Nachteile 3">
-<value> 12 (Kommentar)</value>
-</field>
-<field name="Vorteile &amp; Nachteile 4">
-<value/>
-</field>
-<field name="Vorteile &amp; Nachteile 5">
-<value/>
+<value>(Kommentar)</value>
 </field>
 <field name="Begabungen">
 <value>Heilung</value>
@@ -362,20 +347,17 @@
 <field name="Unfähigkeiten">
 <value>Antimagie</value>
 </field>
-<field name="Magische Vor- / Nachteile.0">
-<value>Akademische Ausbildung (Magier) (Kommentar), Astrale Regene</value>
-</field>
 <field name="Magische Vor- / Nachteile.1">
-<value>ration: 3, Astralmacht: 3, Ausdauernder Zauberer, Begabung für [Zauber] (Analys Arkanstruktur, </value>
+<value>Akademische Ausbildung (Magier) (Kommentar), Astrale Regeneration: 3, Astralmacht:</value>
 </field>
 <field name="Magische Vor- / Nachteile.2">
-<value>Balsam Salabunde), Feste Matrix, Verhüllte Aura, Vollzauberer (Kommentar), Zauberhaar, Lästige </value>
+<value>3, Ausdauernder Zauberer, Begabung für [Zauber] (Analys Arkanstruktur, Balsam Salabunde),</value>
 </field>
 <field name="Magische Vor- / Nachteile.3">
-<value>Mindergeister (Kommentar)</value>
+<value>Feste Matrix, Verhüllte Aura, Vollzauberer (Kommentar), Zauberhaar, Lästige Mindergeister</value>
 </field>
 <field name="Magische Vor- / Nachteile.4">
-<value/>
+<value>(Kommentar) </value>
 </field>
 <field name="Ritualname 1.0">
 <value>Bannschwert</value>
@@ -438,40 +420,16 @@
 <value>Wirk(Kommentar)</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 1">
-<value>Kulturkunde (Horasreich) (Kommentar), Magiekunde (Elementar</value>
+<value>Kulturkunde (Horasreich) (Kommentar), Magiekunde</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 2">
-<value>ismus) (Kommentar), Stäbe (Magierstab als Stab)</value>
+<value>(Elementarismus) (Kommentar), Stäbe (Magierstab als</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 3">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 4">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 5">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 6">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 7">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.0">
-<value>Astrale Meditation (Kommentar), Große Meditation (Kommentar</value>
+<value>Stab)</value>
 </field>
 <field name="Magische Sonderfertigkeiten.1">
-<value>)</value>
-</field>
-<field name="Magische Sonderfertigkeiten.2">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.3">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.4">
-<value/>
+<value>Astrale Meditation (Kommentar), Große Meditation (Kommentar)</value>
 </field>
 <field name="Merkmale">
 <value>Elementar (Luft), Hellsicht</value>
@@ -482,25 +440,10 @@
 <field name="Nahkampf (Sonderfertigkeiten) 1">
 <value/>
 </field>
-<field name="Nahkampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Nahkampf (Sonderfertigkeiten) 3">
-<value/>
-</field>
 <field name="Fernkampf (Sonderfertigkeiten) 1">
 <value/>
 </field>
-<field name="Fernkampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Waffenloser Kampf (Sonderfertigkeiten) 1">
-<value/>
-</field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
 <value/>
 </field>
 <field name="Gaben 1">

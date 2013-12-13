@@ -74,15 +74,6 @@
 <field name="Notizen 1">
 <value>Notizen</value>
 </field>
-<field name="Notizen 2">
-<value/>
-</field>
-<field name="Notizen 3">
-<value/>
-</field>
-<field name="Notizen 4">
-<value/>
-</field>
 <field name="Profession">
 <value>Geweihte: Hesinde, Satori</value>
 </field>
@@ -318,16 +309,7 @@
 <value>Akademische Ausbildung (Gelehrter), Geweiht [zwölfgöttliche Kirche], Gutes Gedächtnis, Meeresangst:</value>
 </field>
 <field name="Vorteile &amp; Nachteile 2">
-<value> 5, Moralkodex [Hesinde-Kirche], Neugier: 7, Verpflichtungen</value>
-</field>
-<field name="Vorteile &amp; Nachteile 3">
-<value/>
-</field>
-<field name="Vorteile &amp; Nachteile 4">
-<value/>
-</field>
-<field name="Vorteile &amp; Nachteile 5">
-<value/>
+<value>5, Moralkodex [Hesinde-Kirche], Neugier: 7, Verpflichtungen</value>
 </field>
 <field name="Begabungen">
 <value/>
@@ -335,19 +317,7 @@
 <field name="Unfähigkeiten">
 <value/>
 </field>
-<field name="Magische Vor- / Nachteile.0">
-<value/>
-</field>
 <field name="Magische Vor- / Nachteile.1">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.2">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.3">
-<value/>
-</field>
-<field name="Magische Vor- / Nachteile.4">
 <value/>
 </field>
 <field name="Liturgiename.0">
@@ -504,40 +474,13 @@
 <value/>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 1">
-<value>Karmalqueste, Kulturkunde (Tulamidenlande), Liturgiekenntni</value>
+<value>Karmalqueste, Kulturkunde (Tulamidenlande), Liturgiekenntnis</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 2">
-<value>s (Hesinde), Nandusgefälliges Wissen</value>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 3">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 4">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 5">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 6">
-<value/>
-</field>
-<field name="Sonderfertigkeiten (ausser Kampf) 7">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.0">
-<value>Karmalqueste</value>
+<value>(Hesinde), Nandusgefälliges Wissen</value>
 </field>
 <field name="Magische Sonderfertigkeiten.1">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.2">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.3">
-<value/>
-</field>
-<field name="Magische Sonderfertigkeiten.4">
-<value/>
+<value>Karmalqueste</value>
 </field>
 <field name="Merkmale">
 <value/>
@@ -548,25 +491,10 @@
 <field name="Nahkampf (Sonderfertigkeiten) 1">
 <value/>
 </field>
-<field name="Nahkampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Nahkampf (Sonderfertigkeiten) 3">
-<value/>
-</field>
 <field name="Fernkampf (Sonderfertigkeiten) 1">
 <value/>
 </field>
-<field name="Fernkampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Waffenloser Kampf (Sonderfertigkeiten) 1">
-<value/>
-</field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
-<value/>
-</field>
-<field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
 <value/>
 </field>
 <field name="Kampftechniken 7">

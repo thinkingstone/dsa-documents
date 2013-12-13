@@ -42,51 +42,6 @@
 <value>6</value>
 </field>
 <field name="aussehen1">
-<value> </value>
-</field>
-<field name="aussehen2">
-<value/>
-</field>
-<field name="aussehen3">
-<value/>
-</field>
-<field name="aussehen4">
-<value/>
-</field>
-<field name="aussehen5">
-<value/>
-</field>
-<field name="aussehen6">
-<value/>
-</field>
-<field name="aussehen7">
-<value/>
-</field>
-<field name="aussehen8">
-<value/>
-</field>
-<field name="aussehen9">
-<value/>
-</field>
-<field name="aussehen10">
-<value/>
-</field>
-<field name="aussehen11">
-<value/>
-</field>
-<field name="aussehen12">
-<value/>
-</field>
-<field name="aussehen13">
-<value/>
-</field>
-<field name="aussehen14">
-<value/>
-</field>
-<field name="aussehen15">
-<value/>
-</field>
-<field name="aussehen16">
 <value/>
 </field>
 <field name="notizen1">
@@ -359,31 +314,7 @@
 <field name="Unfaehigkeiten">
 <value/>
 </field>
-<field name="MagVorteileNachteile_1">
-<value/>
-</field>
 <field name="MagVorteileNachteile_2">
-<value/>
-</field>
-<field name="MagVorteileNachteile_3">
-<value/>
-</field>
-<field name="MagVorteileNachteile_4">
-<value/>
-</field>
-<field name="MagVorteileNachteile_5">
-<value/>
-</field>
-<field name="MagVorteileNachteile_6">
-<value/>
-</field>
-<field name="MagVorteileNachteile_7">
-<value/>
-</field>
-<field name="MagVorteileNachteile_8">
-<value/>
-</field>
-<field name="MagVorteileNachteile_9">
 <value/>
 </field>
 <field name="Ritual_1">
@@ -947,41 +878,8 @@
 <field name="17_notiz">
 <value/>
 </field>
-<field name="MagSonderfertigkeiten_1">
-<value>Karmalqueste</value>
-</field>
 <field name="MagSonderfertigkeiten_2">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_3">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_4">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_5">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_6">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_7">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_8">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_9">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_10">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_11">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_12">
-<value/>
+<value>Karmalqueste</value>
 </field>
 <field name="Merkmale">
 <value/>
@@ -992,73 +890,13 @@
 <field name="Sonderfertigkeit1">
 <value>Kulturkunde (Tulamidenlande), Nandusgefälliges Wissen</value>
 </field>
-<field name="Sonderfertigkeit2">
-<value/>
-</field>
-<field name="Sonderfertigkeit3">
-<value/>
-</field>
-<field name="Sonderfertigkeit4">
-<value/>
-</field>
-<field name="Sonderfertigkeit5">
-<value/>
-</field>
-<field name="Sonderfertigkeit6">
-<value/>
-</field>
-<field name="Sonderfertigkeit7">
-<value/>
-</field>
-<field name="Sonderfertigkeit8">
-<value/>
-</field>
-<field name="Sonderfertigkeit9">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_1">
-<value/>
-</field>
 <field name="NK_Sonderfertigkeiten_2">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_3">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_4">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_5">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_1">
 <value/>
 </field>
 <field name="FK_Sonderfertigkeiten_2">
 <value/>
 </field>
-<field name="FK_Sonderfertigkeiten_3">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_4">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_5">
-<value/>
-</field>
-<field name="Waffenlos_Sonderfertigkeiten_1">
-<value/>
-</field>
 <field name="Waffenlos_Sonderfertigkeiten_2">
-<value/>
-</field>
-<field name="Waffenlos_Sonderfertigkeiten_3">
-<value/>
-</field>
-<field name="Waffenlos_Sonderfertigkeiten_4">
-<value/>
-</field>
-<field name="Waffenlos_Sonderfertigkeiten_5">
 <value/>
 </field>
 <field name="Kampf_1">

@@ -42,52 +42,22 @@
 <value>7</value>
 </field>
 <field name="aussehen1">
-<value>Aussehen 0123 Aussehen 0123 Aussehen 0123 Au</value>
+<value>Aussehen 0123 Aussehen 0123 Aussehen</value>
 </field>
 <field name="aussehen2">
-<value>ssehen 0123 Familie 012345678901234567 Famili</value>
+<value>0123 Aussehen 0123 Familie 012345678901234567</value>
 </field>
 <field name="aussehen3">
-<value>e 012345678901234567 Familie 0123456789012345</value>
+<value>Familie 012345678901234567 Familie</value>
 </field>
 <field name="aussehen4">
-<value>67 Familie 012345678901234567 Familie 0123456</value>
+<value>012345678901234567 Familie 012345678901234567</value>
 </field>
 <field name="aussehen5">
-<value>78901234567 Familie 012345678901234567</value>
+<value>Familie 012345678901234567 Familie</value>
 </field>
 <field name="aussehen6">
-<value/>
-</field>
-<field name="aussehen7">
-<value/>
-</field>
-<field name="aussehen8">
-<value/>
-</field>
-<field name="aussehen9">
-<value/>
-</field>
-<field name="aussehen10">
-<value/>
-</field>
-<field name="aussehen11">
-<value/>
-</field>
-<field name="aussehen12">
-<value/>
-</field>
-<field name="aussehen13">
-<value/>
-</field>
-<field name="aussehen14">
-<value/>
-</field>
-<field name="aussehen15">
-<value/>
-</field>
-<field name="aussehen16">
-<value/>
+<value>012345678901234567</value>
 </field>
 <field name="notizen1">
 <value>Notizen</value>
@@ -338,67 +308,10 @@
 <field name="Unfaehigkeiten">
 <value/>
 </field>
-<field name="MagVorteileNachteile_1">
+<field name="MagVorteileNachteile_2">
 <value>Meisterhandwerk (Körperkraft, Ackerbau)</value>
 </field>
-<field name="MagVorteileNachteile_2">
-<value/>
-</field>
-<field name="MagVorteileNachteile_3">
-<value/>
-</field>
-<field name="MagVorteileNachteile_4">
-<value/>
-</field>
-<field name="MagVorteileNachteile_5">
-<value/>
-</field>
-<field name="MagVorteileNachteile_6">
-<value/>
-</field>
-<field name="MagVorteileNachteile_7">
-<value/>
-</field>
-<field name="MagVorteileNachteile_8">
-<value/>
-</field>
-<field name="MagVorteileNachteile_9">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_1">
-<value/>
-</field>
 <field name="MagSonderfertigkeiten_2">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_3">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_4">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_5">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_6">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_7">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_8">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_9">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_10">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_11">
-<value/>
-</field>
-<field name="MagSonderfertigkeiten_12">
 <value/>
 </field>
 <field name="Merkmale">
@@ -408,76 +321,40 @@
 <value/>
 </field>
 <field name="Sonderfertigkeit1">
-<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar), Dschungelkundig (Kommentar), Eiskundig (</value>
+<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar), Dschungelkundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeit2">
-<value>Kommentar), Gebirgskundig (Kommentar), Höhlenkundig (Kommentar), Kulturkunde (Almada, Andergast/Nost</value>
+<value>Eiskundig (Kommentar), Gebirgskundig (Kommentar), Höhlenkundig (Kommentar), Kulturkunde</value>
 </field>
 <field name="Sonderfertigkeit3">
-<value>ria, Mittelreich), Maraskankundig (Kommentar), Meereskundig (Kommentar), Ortskenntnis (Örtlichkeit 1</value>
+<value>(Almada, Andergast/Nostria, Mittelreich), Maraskankundig (Kommentar), Meereskundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeit4">
-<value>, Stadtteil/Kleinstadt, Strecke 1), Steppenkundig (Kommentar), Sumpfkundig (Kommentar), Waldkundig (</value>
+<value>Ortskenntnis (Örtlichkeit 1, Stadtteil/Kleinstadt, Strecke 1), Steppenkundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeit5">
-<value>Kommentar), Wüstenkundig (Kommentar)</value>
-</field>
-<field name="Sonderfertigkeit6">
-<value/>
-</field>
-<field name="Sonderfertigkeit7">
-<value/>
-</field>
-<field name="Sonderfertigkeit8">
-<value/>
-</field>
-<field name="Sonderfertigkeit9">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_1">
-<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Komme</value>
+<value>Sumpfkundig (Kommentar), Waldkundig (Kommentar), Wüstenkundig (Kommentar)</value>
 </field>
 <field name="NK_Sonderfertigkeiten_2">
-<value>ntar), Wuchtschlag (Kommentar)</value>
-</field>
-<field name="NK_Sonderfertigkeiten_3">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_4">
-<value/>
-</field>
-<field name="NK_Sonderfertigkeiten_5">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_1">
-<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Ko</value>
+<value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Kommentar), Wuchtschlag (Kommentar)</value>
 </field>
 <field name="FK_Sonderfertigkeiten_2">
-<value>mmentar), Schnellladen (Armbrust) (Kommentar)</value>
+<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Kommentar), Schnellladen</value>
 </field>
 <field name="FK_Sonderfertigkeiten_3">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_4">
-<value/>
-</field>
-<field name="FK_Sonderfertigkeiten_5">
-<value/>
-</field>
-<field name="Waffenlos_Sonderfertigkeiten_1">
-<value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), B</value>
+<value>(Armbrust) (Kommentar)</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_2">
-<value>lock (Kommentar), Doppelschlag (Kommentar), Eisenarm (Kommentar), Fußfeger (Kommentar), Gerade (Komm</value>
+<value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), Block (Kommentar), Doppelschlag</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_3">
-<value>entar), Griff (Kommentar), Halten (Kommentar), Knaufschlag (Kommentar), Knie (Kommentar), Kopfstoß (</value>
+<value>(Kommentar), Eisenarm (Kommentar), Fußfeger (Kommentar), Gerade (Kommentar), Griff (Kommentar),</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_4">
-<value>Kommentar), Schmetterschlag (Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Kling</value>
+<value>Halten (Kommentar), Knaufschlag (Kommentar), Knie (Kommentar), Kopfstoß (Kommentar), Schmetterschlag</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_5">
-<value>e (Kommentar), Würgegriff (Kommentar)</value>
+<value>(Kommentar), Schwinger (Kommentar), Sprung (Kommentar), Versteckte Klinge (Kommentar), Würgegriff (Kommentar)</value>
 </field>
 <field name="SF_Ausweichen_1">
 <value>x</value>

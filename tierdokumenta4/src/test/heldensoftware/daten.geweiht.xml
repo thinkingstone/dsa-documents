@@ -87,34 +87,28 @@
 <value>14</value>
 </field>
 <field name="Tier_1_vornachteile_2">
-<value>Elegante Erscheinung, Flinkheit, Geduldig, Guter Orientierungssinn, I</value>
+<value>Elegante Erscheinung, Flinkheit, Geduldig, Guter Orientierungssinn,</value>
 </field>
 <field name="Tier_1_vornachteile_3">
-<value>ntelligent, Lernfähig, Magiegespür, Nachtsicht, Schnell, Tragkraft erh</value>
+<value>Intelligent, Lernfähig, Magiegespür, Nachtsicht, Schnell, Tragkraft</value>
 </field>
 <field name="Tier_1_vornachteile_4">
-<value>öht, Wasserliebend, Spieltrieb: 4</value>
-</field>
-<field name="Tier_1_vornachteile_5">
-<value/>
-</field>
-<field name="Tier_1_vornachteile_6">
-<value/>
+<value>erhöht, Wasserliebend, Spieltrieb: 4</value>
 </field>
 <field name="Tier_1_sonderfertigkeit_2">
 <value>Anspringen (Tier) (0), Anzeige, Apport (Tier), Ausbildung (Geschult),</value>
 </field>
 <field name="Tier_1_sonderfertigkeit_3">
-<value> Fass I, Fass II, Gelände (Baum, Dschungel), Gezielter Angriff, Geziel</value>
+<value>Fass I, Fass II, Gelände (Baum, Dschungel), Gezielter Angriff, Gezielter</value>
 </field>
 <field name="Tier_1_sonderfertigkeit_4">
-<value>ter Biss, Hinlegen, Hinterhalt (0, 12), Kommen auf Signal, Laut, Sehr </value>
+<value>Biss, Hinlegen, Hinterhalt (0, 12), Kommen auf Signal, Laut, Sehr kleiner</value>
 </field>
 <field name="Tier_1_sonderfertigkeit_5">
-<value>kleiner Gegner (AT+2 / PA+4), Sprungsicherheit, Stille Wacht, Such, Tr</value>
+<value>Gegner (AT+2 / PA+4), Sprungsicherheit, Stille Wacht, Such, Trick (Unwiederstehlicher</value>
 </field>
 <field name="Tier_1_sonderfertigkeit_6">
-<value>ick (Unwiederstehlicher Blick), Unarten (Knabbern), Verbeißen</value>
+<value>Blick), Unarten (Knabbern), Verbeißen </value>
 </field>
 <field name="Tier_1_angriff_1_name">
 <value>Krallen</value>
