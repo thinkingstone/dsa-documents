@@ -36,7 +36,7 @@
 <value>Horasreich</value>
 </field>
 <field name="Regeneration">
-<value>1W6</value>
+<value>1W6+3</value>
 </field>
 <field name="wundschwelle">
 <value>5</value>
@@ -192,13 +192,13 @@
 <value>7</value>
 </field>
 <field name="ASP_akt">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="ASP_start">
 <value>19</value>
 </field>
 <field name="ASP_mod">
-<value>18</value>
+<value>28</value>
 </field>
 <field name="ASP_zugek">
 <value>1</value>
@@ -213,7 +213,7 @@
 <value>18</value>
 </field>
 <field name="Rechnung_AE_VorNachteil">
-<value>0</value>
+<value>10</value>
 </field>
 <field name="Rechnung_AE_SF">
 <value>0</value>
@@ -225,16 +225,16 @@
 <value>1</value>
 </field>
 <field name="Rechnung_AE_Max">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Rechnung_AE_pASP">
 <value>0</value>
 </field>
 <field name="Rechnung_AE_aktuell">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="ASP_maximal">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="AT_akt">
 <value>6</value>
@@ -359,6 +359,12 @@
 <field name="Vorteil2">
 <value>Affinität zu Elementaren</value>
 </field>
+<field name="Vorteil3">
+<value>Magiegespür</value>
+</field>
+<field name="Vorteil4">
+<value>Schwer zu verzaubern</value>
+</field>
 <field name="Nachteil2">
 <value>Prinzipientreue: 8 (Kommentar)</value>
 </field>
@@ -387,16 +393,16 @@
 <value>Antimagie</value>
 </field>
 <field name="MagVorteileNachteile_1">
-<value>Akademische Ausbildung (Magier) (Kommentar), Begabung für</value>
+<value>Akademische Ausbildung (Magier) (Kommentar), Astrale Rege</value>
 </field>
 <field name="MagVorteileNachteile_2">
-<value> [Zauber] (Analys Arkanstruktur, Balsam Salabunde), Vollzauberer (Kommentar), Lästige Mindergeister </value>
+<value>neration: 3, Astralmacht: 3, Ausdauernder Zauberer, Begabung für [Zauber] (Analys Arkanstruktur, Bal</value>
 </field>
 <field name="MagVorteileNachteile_3">
-<value>(Kommentar)</value>
+<value>sam Salabunde), Feste Matrix, Verhüllte Aura, Vollzauberer (Kommentar), Zauberhaar, Lästige Minderge</value>
 </field>
 <field name="MagVorteileNachteile_4">
-<value/>
+<value>ister (Kommentar)</value>
 </field>
 <field name="MagVorteileNachteile_5">
 <value/>
@@ -586,6 +592,27 @@
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_5">
 <value/>
+</field>
+<field name="Gaben_1">
+<value>Magiegespür</value>
+</field>
+<field name="Gaben_1_probe">
+<value>MU IN IN</value>
+</field>
+<field name="Gaben_1_TAW_1">
+<value>3</value>
+</field>
+<field name="Gaben_1_BE">
+<value/>
+</field>
+<field name="Gaben_1_komp">
+<value>F</value>
+</field>
+<field name="Gaben_1_AT">
+<value/>
+</field>
+<field name="Gaben_1_PA">
+<value>-</value>
 </field>
 <field name="Kampf_1">
 <value>Armbrust</value>

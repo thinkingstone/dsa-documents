@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
 <helden Version="5.3.1">
-	<held key="1324993253645" name="Magie" stand="1371299111962">
+	<held key="1324993253645" name="Magie" stand="1386947959547">
 		<basis>
 			<geschlecht name="weiblich" />
 			<settings name="DSA4.1" />
@@ -15,7 +15,7 @@
 					<variante name="Konzil der Elemente zu Drakonia - Luftelementarist" />
 				</ausbildung>
 			</ausbildungen>
-			<verify value="18" />
+			<verify value="26" />
 			<notiz notiz0="Notizen" notiz1="" notiz10="" notiz11="" notiz2="" notiz3="" notiz4="" notiz5="" notiz6="" notiz7="" notiz8="" notiz9="" />
 			<portraet value="/home/mb/workspaces/heldendokument/GIT/testdata/src/main/resources/magie.jpg" />
 			<abenteuerpunkte value="5480" />
@@ -34,7 +34,7 @@
 			<eigenschaft mod="0" name="Sozialstatus" startwert="7" value="7" />
 			<eigenschaft mod="10" name="Lebensenergie" value="1" />
 			<eigenschaft mod="10" name="Ausdauer" value="1" />
-			<eigenschaft grossemeditation="0" mod="18" mrmod="-2" name="Astralenergie" value="1" />
+			<eigenschaft grossemeditation="0" mod="28" mrmod="-2" name="Astralenergie" value="1" />
 			<eigenschaft karmalqueste="0" mod="0" name="Karmaenergie" value="0" />
 			<eigenschaft mod="-2" name="Magieresistenz" value="1" />
 			<eigenschaft mod="0" name="ini" value="9" />
@@ -45,10 +45,18 @@
 		<vt>
 			<vorteil name="Affinität zu " value="Elementaren" />
 			<vorteil name="Akademische Ausbildung (Magier)" />
+			<vorteil name="Astrale Regeneration" value="3" />
+			<vorteil name="Astralmacht" value="3" />
+			<vorteil name="Ausdauernder Zauberer" />
 			<vorteil name="Begabung für [Merkmal]" value="Heilung" />
 			<vorteil name="Begabung für [Zauber]" value="Analys Arkanstruktur" />
 			<vorteil name="Begabung für [Zauber]" value="Balsam Salabunde" />
+			<vorteil name="Feste Matrix" />
+			<vorteil name="Magiegespür" />
+			<vorteil name="Schwer zu verzaubern" />
+			<vorteil name="Verhüllte Aura" />
 			<vorteil name="Vollzauberer" />
+			<vorteil name="Zauberhaar" />
 			<vorteil name="Lästige Mindergeister" />
 			<vorteil name="Neugier" value="7" />
 			<vorteil name="Prinzipientreue" value="8" />
@@ -159,6 +167,18 @@
 			<ereignis Abenteuerpunkte="-5" Neu="0" obj="Favilludo Funkentanz [Magier]" text="Zauber aktivieren" time="1328733796343" version="5.2.0" />
 			<ereignis kommentar="Editor" obj="Unfähigkeit für [Merkmal] Antimagie" text="Vor-/Nachteil hinzugefügt" time="1342859655146" version="5.2.1" />
 			<ereignis kommentar="[EDITOREINGEGEBEN]" obj="Änderungskontrolle für Althelden (5.2.3) aktiviert" text="Änderungskontrolle" time="1356768411638" version="HS 5.2.4" />
+			<ereignis kommentar="[PRE424, EDITOREINGEGEBEN]" obj="Held wurde extern verändert. Änderungskontrolle wieder aktiviert." text="Änderungskontrolle" time="1386947784273" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Magiegespür" text="Talent aktivieren" time="1386947959461" version="HS 5.3.1" />
+			<ereignis Alt="0" Neu="3" kommentar="Editor" obj="Magiegespür" text="Talent steigern" time="1386947959461" version="HS 5.3.1" />
+			<ereignis Alt="38" Neu="48" kommentar="Editor" obj="Astralenergie" text="Eigenschaft steigern" time="1386947959462" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Astrale Regeneration: 3" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Astralmacht: 3" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Ausdauernder Zauberer" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Feste Matrix" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Magiegespür" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Schwer zu verzaubern" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Verhüllte Aura" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
+			<ereignis kommentar="Editor" obj="Zauberhaar" text="Vor-/Nachteil hinzugefügt" time="1386947959463" version="HS 5.3.1" />
 		</ereignisse>
 		<talentliste>
 			<talent lernmethode="Gegenseitiges Lehren" name="Armbrust" probe=" (GE/FF/KK)" value="1" />
@@ -220,6 +240,7 @@
 			<talent lernmethode="Gegenseitiges Lehren" name="Lederarbeiten" probe=" (KL/FF/FF)" value="0" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Malen/Zeichnen" probe=" (KL/IN/FF)" value="3" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Schneidern" probe=" (KL/FF/FF)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Magiegespür" probe=" (MU/IN/IN)" value="3" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Ritualkenntnis: Gildenmagie" probe=" (--/--/--)" value="3" />
 		</talentliste>
 		<zauberliste>
@@ -360,10 +381,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>l5e5vKSxOZexmsc9dXDAYu6l+bU=</DigestValue>
+				<DigestValue>Z/D6rxA0fJ/YbXdaEVvAajhHEv0=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>PRjigjy3sMoSIBhvGH/jMe9gnbAEajHfJas45alvDwU2qbId6T4WaA==</SignatureValue>
+		<SignatureValue>Scqp7AAmU9mwdkPTOoOXZRv9gVmBHYzp77CErs7peyttA7M1ta4zqQ==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

@@ -36,7 +36,7 @@
 <value>Horasreich</value>
 </field>
 <field name="Regeneration">
-<value>1W6</value>
+<value>1W6+3</value>
 </field>
 <field name="Wundschwelle">
 <value>5</value>
@@ -183,13 +183,13 @@
 <value>7</value>
 </field>
 <field name="Astralenergie">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Astralenergie (Start)">
 <value>19</value>
 </field>
 <field name="Astralenergie (Modifikator)">
-<value>18</value>
+<value>28</value>
 </field>
 <field name="Astralenergie (Zugekauft)">
 <value>1</value>
@@ -198,7 +198,7 @@
 <value>12</value>
 </field>
 <field name="Astralenergie (Vor-/Nachteil)">
-<value>0</value>
+<value>10</value>
 </field>
 <field name="Astralenergie (Sonderfertigkeiten)">
 <value>0</value>
@@ -213,16 +213,16 @@
 <value>1</value>
 </field>
 <field name="Astralenergie (Max">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Astralenergie (max">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Astralenergie (max.)">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Astralenergie (Maximum)">
-<value>38</value>
+<value>48</value>
 </field>
 <field name="Astralenergie (pAsP)">
 <value>0</value>
@@ -342,13 +342,13 @@
 <value>0</value>
 </field>
 <field name="Vorteile &amp; Nachteile 1">
-<value>Affinität zu Elementaren, Neugier: 7 (Kommentar), Prinzipientreue: 8 (Kommentar), Schulden: 500 (Ko</value>
+<value>Affinität zu Elementaren, Magiegespür, Schwer zu verzaubern, Neugier: 7 (Kommentar), Prinzipientreu</value>
 </field>
 <field name="Vorteile &amp; Nachteile 2">
-<value>mmentar), Unfähigkeit für [Talentgruppe] Gesellschaft, Weltfremd: 12 (Kommentar)</value>
+<value>e: 8 (Kommentar), Schulden: 500 (Kommentar), Unfähigkeit für [Talentgruppe] Gesellschaft, Weltfremd:</value>
 </field>
 <field name="Vorteile &amp; Nachteile 3">
-<value/>
+<value> 12 (Kommentar)</value>
 </field>
 <field name="Vorteile &amp; Nachteile 4">
 <value/>
@@ -363,16 +363,16 @@
 <value>Antimagie</value>
 </field>
 <field name="Magische Vor- / Nachteile.0">
-<value>Akademische Ausbildung (Magier) (Kommentar), Begabung für [</value>
+<value>Akademische Ausbildung (Magier) (Kommentar), Astrale Regene</value>
 </field>
 <field name="Magische Vor- / Nachteile.1">
-<value>Zauber] (Analys Arkanstruktur, Balsam Salabunde), Vollzauberer (Kommentar), Lästige Mindergeist</value>
+<value>ration: 3, Astralmacht: 3, Ausdauernder Zauberer, Begabung für [Zauber] (Analys Arkanstruktur, </value>
 </field>
 <field name="Magische Vor- / Nachteile.2">
-<value>er (Kommentar)</value>
+<value>Balsam Salabunde), Feste Matrix, Verhüllte Aura, Vollzauberer (Kommentar), Zauberhaar, Lästige </value>
 </field>
 <field name="Magische Vor- / Nachteile.3">
-<value/>
+<value>tige Mindergeister (Kommentar)</value>
 </field>
 <field name="Magische Vor- / Nachteile.4">
 <value/>
@@ -501,6 +501,30 @@
 <value/>
 </field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 3">
+<value/>
+</field>
+<field name="Gaben 1">
+<value>Magiegespür (MU IN IN)</value>
+</field>
+<field name="Gaben (TaW) 1.1">
+<value>3</value>
+</field>
+<field name="Gaben TaW 1.1">
+<value>3</value>
+</field>
+<field name="Gaben (BE) 1">
+<value/>
+</field>
+<field name="Gaben (Kosten) 1">
+<value>F</value>
+</field>
+<field name="Gaben (Komp.) 1">
+<value>F</value>
+</field>
+<field name="Gaben (AT) 1">
+<value/>
+</field>
+<field name="Gaben (PA) 1">
 <value/>
 </field>
 <field name="Kampftechniken 7">

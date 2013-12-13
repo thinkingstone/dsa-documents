@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>08.12.2013</datum>
-		<uhrzeit>17:08</uhrzeit>
+		<datum>13.12.2013</datum>
+		<uhrzeit>16:19</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -85,7 +85,7 @@
 		<geweiht>false</geweiht>
 		<rasse>Mittelländerin</rasse>
 		<kultur>Horasreich</kultur>
-		<aspregeneration>1W6</aspregeneration>
+		<aspregeneration>1W6+3</aspregeneration>
 		<leregeneration>1W6</leregeneration>
 		<heldenversion>050301</heldenversion>
 		<wundschwelle>5</wundschwelle>
@@ -176,20 +176,20 @@
 			<bereich>guteeigenschaft</bereich>
 		</sozialstatus>
 		<astralenergie>
-			<akt>38</akt>
+			<akt>48</akt>
 			<start>18</start>
-			<modi>18</modi>
+			<modi>28</modi>
 			<name>Astralenergie</name>
 			<bereich>sonst</bereich>
 			<kaufbar>12</kaufbar>
 			<gekauft>1</gekauft>
-			<ausvornachteile>0</ausvornachteile>
+			<ausvornachteile>10</ausvornachteile>
 			<muinch2>19</muinch2>
 			<aussonderfertigkeiten>0</aussonderfertigkeiten>
 			<professionmod>18</professionmod>
 			<grossemeditation>0</grossemeditation>
 			<pasprueckkaufbar>0</pasprueckkaufbar>
-			<aktinklrueckkaufbarepasp>38</aktinklrueckkaufbarepasp>
+			<aktinklrueckkaufbarepasp>48</aktinklrueckkaufbarepasp>
 		</astralenergie>
 		<attacke>
 			<akt>6</akt>
@@ -320,6 +320,35 @@
 			<bereich>Magisch</bereich>
 		</vorteil>
 		<vorteil>
+			<bezeichner>Astrale Regeneration</bezeichner>
+			<name>Astrale Regeneration: 3</name>
+			<kommentar />
+			<namemitkommentar>Astrale Regeneration: 3</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<wert>3</wert>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Astralmacht</bezeichner>
+			<name>Astralmacht: 3</name>
+			<kommentar />
+			<namemitkommentar>Astralmacht: 3</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<wert>3</wert>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Ausdauernder Zauberer</bezeichner>
+			<name>Ausdauernder Zauberer</name>
+			<kommentar />
+			<namemitkommentar>Ausdauernder Zauberer</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
 			<bezeichner>Begabung für [Merkmal]</bezeichner>
 			<name>Begabung für [Merkmal] Heilung</name>
 			<kommentar />
@@ -350,10 +379,56 @@
 			</auswahlen>
 		</vorteil>
 		<vorteil>
+			<bezeichner>Feste Matrix</bezeichner>
+			<name>Feste Matrix</name>
+			<kommentar />
+			<namemitkommentar>Feste Matrix</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Magiegespür</bezeichner>
+			<name>Magiegespür</name>
+			<kommentar />
+			<namemitkommentar>Magiegespür</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<istgabe>true</istgabe>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Schwer zu verzaubern</bezeichner>
+			<name>Schwer zu verzaubern</name>
+			<kommentar />
+			<namemitkommentar>Schwer zu verzaubern</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Verhüllte Aura</bezeichner>
+			<name>Verhüllte Aura</name>
+			<kommentar />
+			<namemitkommentar>Verhüllte Aura</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
 			<bezeichner>Vollzauberer</bezeichner>
 			<name>Vollzauberer</name>
 			<kommentar>Kommentar</kommentar>
 			<namemitkommentar>Vollzauberer (Kommentar)</namemitkommentar>
+			<istvorteil>true</istvorteil>
+			<istnachteil>false</istnachteil>
+			<bereich>Magisch</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Zauberhaar</bezeichner>
+			<name>Zauberhaar</name>
+			<kommentar />
+			<namemitkommentar>Zauberhaar</namemitkommentar>
 			<istvorteil>true</istvorteil>
 			<istnachteil>false</istnachteil>
 			<bereich>Magisch</bereich>
@@ -1883,6 +1958,25 @@
 			<bereich>Handwerk</bereich>
 			<komplexität>B</komplexität>
 			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Magiegespür</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Magiegespür</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>MU/IN/IN</probe>
+			<probenwerte>13/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Magiegespür (MU/IN/IN)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Gaben</bereich>
+			<komplexität>F</komplexität>
+			<lernkomplexität>F</lernkomplexität>
 			<spezialisierungen />
 		</talent>
 		<talent>
