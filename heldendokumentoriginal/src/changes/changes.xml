@@ -8,6 +8,7 @@
 		<release version="1.0.2" date="TODO" description="Helden-Software Update">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
 			<action type="update" dev="mb">Zeilentrennung bei mehrzeiligen Feldern verbessert.</action>
+			<action type="update" dev="mb">Mag. Vorteile wurden bei Zeilenumbrüchen teilweise wiederholt</action>
 		</release>
 		<release version="1.0.1" date="05.12.2013" description="Projektwebseite">
 			<action type="add" dev="mb">Projektwebseite erstellt</action>
