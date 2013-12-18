@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="DSA Heldendokument A5" xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
-
 	<bannerLeft>
 		<name>DSA Dokumente</name>
 		<href>/index.html</href>
 	</bannerLeft>
-
 	<publishDate position="bottom" format="yyyy-MM-dd" />
 	<version position="bottom" />
-
 	<skin>
 		<groupId>lt.velykis.maven.skins</groupId>
 		<artifactId>reflow-maven-skin</artifactId>
 		<version>1.0.0</version>
 	</skin>
-
 	<custom>
 		<reflowSkin>
 			<protocolRelativeURLs>false</protocolRelativeURLs>
@@ -57,16 +53,13 @@
 			</pages>
 		</reflowSkin>
 	</custom>
-
 	<body>
 		<head>
 			<link rel="author" href="http://www.thinkingstone.de" />
 		</head>
-
 		<breadcrumbs>
 			<item name="Home" href="/index.html" />
 		</breadcrumbs>
-
 		<menu name="Mitarbeiten" inherit="bottom">
 			<item name="Mitarbeiten" href="contribute.html" />
 			<item name="Entwicklung" href="develop.html" />
@@ -74,7 +67,6 @@
 			<item name="Probleme melden" href="https://github.com/thinkingstone/dsa-documents/issues" />
 			<item name="GitHub" href="https://github.com/thinkingstone/dsa-documents" />
 		</menu>
-
 		<menu name="Projekte" inherit="bottom">
 			<item name="Übersicht" href="index.html" />
 			<item name="Heldendokument A5" href="heldendokumenta5/index.html" />
@@ -83,6 +75,5 @@
 			<item name="Tierdokument A5" href="tierdokumenta5/index.html" />
 			<item name="Initiative und Rundenzähler" href="initiative/index.html" />
 		</menu>
-
 	</body>
 </project>

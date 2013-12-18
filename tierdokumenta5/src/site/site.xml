@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="DSA Tierdokument A5" xmlns="http://maven.apache.org/DECORATION/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
-
 	<bannerLeft>
 		<name>DSA Tierdokument A5</name>
 		<href>/index.html</href>
 	</bannerLeft>
-
 	<publishDate position="bottom" format="yyyy-MM-dd" />
 	<version position="bottom" />
-
 	<skin>
 		<groupId>lt.velykis.maven.skins</groupId>
 		<artifactId>reflow-maven-skin</artifactId>
 		<version>1.0.0</version>
 	</skin>
-
 	<custom>
 		<reflowSkin>
 			<protocolRelativeURLs>false</protocolRelativeURLs>
@@ -53,26 +49,23 @@
 			</pages>
 		</reflowSkin>
 	</custom>
-
 	<body>
 		<head>
 			<link rel="author" href="http://www.thinkingstone.de" />
 		</head>
-
 		<links>
 			<item name="Download" href="download.html" />
 		</links>
-
 		<breadcrumbs>
 			<item name="Home" href="/index.html" />
 		</breadcrumbs>
-
 		<menu name="Hauptmenü" inherit="top">
 			<item name="Home" href="/index.html" />
 		</menu>
 		<menu name="Download" inherit="top">
 			<item name="Download" href="download.html" />
 			<item name="Änderungen" href="changes-report.html" />
+			<item name="RSS-Feed" href="changes.rss" img="images/rss.png" alt="rss feed" title="rss feed" position="right" />
 			<item name="Lizenz" href="license.html" />
 		</menu>
 		<menu name="Dokumentation" inherit="bottom">
