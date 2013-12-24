@@ -13,7 +13,6 @@
 	</skin>
 	<custom>
 		<reflowSkin>
-			<protocolRelativeURLs>false</protocolRelativeURLs>
 			<smoothScroll>true</smoothScroll>
 			<theme>default</theme>
 			<highlightJs>true</highlightJs>
