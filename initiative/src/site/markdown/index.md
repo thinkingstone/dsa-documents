@@ -6,7 +6,7 @@ Das Initiativeblatt und der Rundenzähler sollen hierbei helfen.
 ## Rundenzähler
 
 Auf dem Rundenzähler wird die aktuelle Kampfrunde und Aktion markiert. Jeder Spieler markiert besondere Momente während den Kampfrunden. So markiert z.B. der Magier den Beginn und die Dauer eines Zaubers.
-So kann die gesame Spielrunde leicht erkennen, wann welche Aktionen wirksam werden. 
+So kann die gesamte Spielrunde leicht erkennen, wann welche Aktionen wirksam werden. 
 
 ## Initiativeblatt
 
