@@ -418,12 +418,23 @@
 		<!-- Rechnung -->
 		<field name="Rechnung_MR_1">
 			<value>
-				<xsl:value-of select="start" />
+				<xsl:value-of select="
+					round(
+						(
+							  number(/daten/eigenschaften/mut/akt)
+						 	+ number(/daten/eigenschaften/klugheit/akt)
+						  	+ number(/daten/eigenschaften/konstitution/akt)
+						) div 5
+					)" />
 			</value>
 		</field>
 		<field name="Rechnung_MR_mod">
 			<value>
 				<xsl:value-of select="modi" />
+				<xsl:if test="gekauft != 0">
+					<xsl:text> + </xsl:text>
+					<xsl:value-of select="gekauft" />
+				</xsl:if>
 			</value>
 		</field>
 		<field name="Rechnung_MR_VorNachteil">
@@ -434,8 +445,6 @@
 		<field name="Rechnung_MR_SF">
 			<value>
 				<xsl:value-of select="''" />
-				<xsl:text> + </xsl:text>
-				<xsl:value-of select="gekauft" />
 			</value>
 		</field>
 		<field name="Rechnung_MR_aktuell">

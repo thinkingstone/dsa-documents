@@ -291,7 +291,7 @@
 <value/>
 </field>
 <field name="Magieresistenz (Sonderfertigkeiten)">
-<value> +1</value>
+<value>+1</value>
 </field>
 <field name="Magieresistenz">
 <value>6</value>

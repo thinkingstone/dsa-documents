@@ -17,7 +17,7 @@ Folgende Probleme sind bekannt und nach einer Lösung wird gesucht:
   Die magischen Begabungen werden nicht automatisch in das Begabungen Feld eingetragen sondern bei den magischen Vorteilen. 
   Bei Begabungen für einzelne Zauber wird das Begabungen Feld sehr schnell zu klein. 
 * **Magieresistenzberechnung:**
-  Die Berechnung der Magieresistenz enthält bei Modifikationen auch die zugekaufte Magieresistenz. 
+  Die Berechnung der Magieresistenz enthält bei Modifikationen auch die zugekaufte Magieresistenz und die Differenz aus Startwert und aktueller (MU+KL+KO)/5 Berechnung. 
 * **Ausrüstung:**
   Bei der Ausrüstung werden die angelegten Waffen und Rüstungen nicht nochmals aufgelistet. 
   Eine weitere Aufteilung in Kleidung, Munition, Proviant, etc ist nicht möglich, da die Helden-Software diese Unterscheidung ebenfalls nicht kennt. 

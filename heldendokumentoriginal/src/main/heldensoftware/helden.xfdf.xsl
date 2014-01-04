@@ -477,8 +477,23 @@
 		<field name="Magieresistenz (Sonderfertigkeiten)">
 			<value>
 				<xsl:value-of select="''" />
-				<xsl:text> +</xsl:text>
-				<xsl:value-of select="gekauft" />
+				<xsl:if test="gekauft != 0">
+					<xsl:text>+</xsl:text>
+					<xsl:value-of select="gekauft" />
+				</xsl:if>
+				<!-- Differenz des Startwerts und der aktuellen Berechnung (MU+KL+KO)/5 -->
+				<xsl:variable name="mr" select="
+					round(
+						(
+							  number(/daten/eigenschaften/mut/akt)
+						 	+ number(/daten/eigenschaften/klugheit/akt)
+						  	+ number(/daten/eigenschaften/konstitution/akt)
+						) div 5
+					) - start" />
+				<xsl:if test="$mr != 0">
+					<xsl:text>+</xsl:text>
+					<xsl:value-of select="$mr" />
+				</xsl:if>
 			</value>
 		</field>
 		<field name="Magieresistenz">

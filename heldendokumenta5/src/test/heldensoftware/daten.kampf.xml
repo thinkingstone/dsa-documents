@@ -258,16 +258,16 @@
 <value>6</value>
 </field>
 <field name="Rechnung_MR_1">
-<value>6</value>
+<value>7</value>
 </field>
 <field name="Rechnung_MR_mod">
-<value>-4</value>
+<value>-4 + 1</value>
 </field>
 <field name="Rechnung_MR_VorNachteil">
 <value/>
 </field>
 <field name="Rechnung_MR_SF">
-<value> + 1</value>
+<value/>
 </field>
 <field name="Rechnung_MR_aktuell">
 <value>4</value>

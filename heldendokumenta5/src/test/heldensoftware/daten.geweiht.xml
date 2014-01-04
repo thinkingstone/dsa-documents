@@ -264,13 +264,13 @@
 <value>7</value>
 </field>
 <field name="Rechnung_MR_mod">
-<value>-2</value>
+<value>-2 + 1</value>
 </field>
 <field name="Rechnung_MR_VorNachteil">
 <value/>
 </field>
 <field name="Rechnung_MR_SF">
-<value> + 1</value>
+<value/>
 </field>
 <field name="Rechnung_MR_aktuell">
 <value>6</value>
