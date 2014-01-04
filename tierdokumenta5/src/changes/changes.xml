@@ -9,6 +9,7 @@
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
 			<action type="update" dev="mb">Zeilentrennung bei mehrzeiligen Feldern verbessert.</action>
 			<action type="update" dev="mb">Vorteile mit einer Auswahl werden angezeigt</action>
+			<action type="update" dev="mb">PDF: anderes Schriftformat (TrueType statt OpenType) um ein Speichern des PDF mit dem Acrobat Reader XI zu unterstützen.</action>
 		</release>
 		<release version="1.0.1" date="05.12.2013" description="Layoutkorrekturen">
 			<action type="add" dev="mb">Projektwebseite erstellt</action>

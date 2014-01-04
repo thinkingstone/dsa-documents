@@ -2,6 +2,19 @@
 
 Das Dokument selbst wird in Scribus erstellt und dort als PDF exportiert. 
 
+### Schriften
+
+Es müssen zwingend TrueType (TTF) Schriften verwendet werden. 
+Die Linux Libertine OpenType Schriften werden vom Acrobat Reader XI nicht korrekt verarbeitet. 
+Der Acrobat Reader kann ein geändertes PDF Formular speichern. 
+Dies schlägt bei OpenType Schriften fehl, da ein erneutes Öffnen des PDFs zu der Fehlermeldung 
+"Cannot extract the embedded font ‘LinLibertineO’. Some characters may not Display or print correctly." führt.  
+
+Genutzte Schriftarten:
+
+* Mason Regular & Bold
+* Linux Libertine Regular & Bold: [Linux Libertine Webseite](http://www.linuxlibertine.org)
+
 ### Skripte
 
 Für Skribus stehen ein paar Skripte zur Verfügung, die das Entwickeln einfacher machen.
@@ -59,10 +72,10 @@ Scribus speichert die Exporteinstellungen leider nicht in der Datei ab.
 
 * alle vollständig einbetten; insbesondere:
     * Mason Regular
-    * Linux Libertine O Regular
+    * Linux Libertine Regular
     * Mason Bold
 * in Kurven umwandeln:
-    * Linux Libertine O Semibold
+    * Linux Libertine Bold
 
 ![Schriftarten](images/scribus/schriftarten.png "Schriftarten")
 
