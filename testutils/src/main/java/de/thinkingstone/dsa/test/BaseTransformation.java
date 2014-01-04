@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-
 public class BaseTransformation {
 
 	public BaseTransformation() {
@@ -16,10 +15,6 @@ public class BaseTransformation {
 
 	protected String getExpectedPath() {
 		return "./src/test/heldensoftware/";
-	}
-
-	protected String getTestdataPath() {
-		return "../testdata/src/main/resources/";
 	}
 
 	protected String getTesttargetPath() {
@@ -34,8 +29,7 @@ public class BaseTransformation {
 		testCopy(getExpectedPath() + filename, getTesttargetPath() + filename);
 	}
 
-	protected void testCopy(
-			final String expectedfilename,
+	protected void testCopy(final String expectedfilename,
 			final String outputfilename) {
 		try {
 			IOUtils.copy(outputfilename, expectedfilename);
@@ -45,22 +39,18 @@ public class BaseTransformation {
 	}
 
 	protected void testTransformation(final String inputFilename) {
-		testTransformation(
-				getTestdataPath() + inputFilename,
-				getXslPath() + "helden.xfdf.xsl",
-				getTesttargetPath() + inputFilename,
-				getExpectedPath() + inputFilename);
+		testTransformation(inputFilename, getXslPath() + "helden.xfdf.xsl",
+				getTesttargetPath() + inputFilename, getExpectedPath()
+						+ inputFilename);
 	}
 
-	protected void testTransformation(
-			final String inputFilename,
-			final String xsltFilename,
-			final String outputfilename,
+	protected void testTransformation(final String inputFilename,
+			final String xsltFilename, final String outputfilename,
 			final String expectedFilename) {
 
 		try {
-			final InputStream inputFileInputStream = IOUtils
-					.createInputStream(inputFilename);
+			final InputStream inputFileInputStream = Thread.currentThread()
+					.getContextClassLoader().getResourceAsStream(inputFilename);
 
 			final InputStream xsltInputStream = IOUtils
 					.createInputStream(xsltFilename);
@@ -69,10 +59,8 @@ public class BaseTransformation {
 					.createOutputStream(outputfilename);
 
 			try {
-				TransformationUtils.transform(
-						inputFileInputStream,
-						xsltInputStream,
-						resultOutputStream);
+				TransformationUtils.transform(inputFileInputStream,
+						xsltInputStream, resultOutputStream);
 			} finally {
 				inputFileInputStream.close();
 				xsltInputStream.close();
