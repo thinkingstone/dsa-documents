@@ -6,7 +6,7 @@
 	</prerequisites>
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>dsa-documents</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>http://thinkingstone.github.io/dsa-documents/</url>
 	<name>DSA Dokumente</name>
