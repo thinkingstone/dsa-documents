@@ -124,6 +124,9 @@
 							<goals>
 								<goal>changes-check</goal>
 							</goals>
+							<configuration>
+								<skipSnapshots>true</skipSnapshots>
+							</configuration>
 						</execution>
 						<execution>
 							<id>validate-changes</id>
