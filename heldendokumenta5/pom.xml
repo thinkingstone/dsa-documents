@@ -7,7 +7,7 @@
 		<version>1.0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>heldendokumenta5</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument A5</name>
 	<description>Das Heldendokument ist ein ausfüllbares PDF im A5 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). In dem Dokument können die Daten eines Charakters eingetragen werden. Außerdem können die Daten eines Helden aus der Helden-Software (http://www.helden-software.de/) exportiert werden.</description>
