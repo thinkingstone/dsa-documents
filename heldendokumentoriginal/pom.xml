@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>1.0.1</version>
 	</parent>
 	<artifactId>heldendokumentoriginal</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument Original Erweiterung</name>
 	<description>Die Helden-Software (http://www.helden-software.de/) ist ein wunderbares Hilfsmittel um die Das Schwarze Auge (http://www.dasschwarzeauge.de/) Charaktere zu erstellen und zu verwalten. Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DSA Heldendokument Erweiterung möglich.</description>
