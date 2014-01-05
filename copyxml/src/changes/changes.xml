@@ -5,7 +5,7 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.1" date="TODO" description="Helden-Software 5.3.1 und Zeilentrennung">
+		<release version="1.0.1" date="05.01.2014" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
 		</release>
 		<release version="1.0.0" date="05.12.2013" description="Neues Versionierungsschema">

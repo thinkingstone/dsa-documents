@@ -10,6 +10,7 @@ Folgende Werkzeuge werden zur Entwicklung benötigt:
 * [Maven](https://maven.apache.org/) 3.0.4
 * [Git](http://git-scm.com/) 1.7.9.5
 * [Imagemagick](http://www.imagemagick.org) 6.6.9 für die Thumbnails
+* [XFDF Format Spec](http://partners.adobe.com/public/developer/en/xml/XFDF_Spec_3.0.pdf)
 
 
 ---

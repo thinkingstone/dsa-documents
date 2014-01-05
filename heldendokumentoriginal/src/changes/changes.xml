@@ -5,7 +5,7 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.2" date="TODO" description="Helden-Software 5.3.1 und Zeilentrennung">
+		<release version="1.0.2" date="05.01.2014" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
 			<action type="update" dev="mb">Zeilentrennung bei mehrzeiligen Feldern verbessert.</action>
 			<action type="update" dev="mb">Mag. Vorteile wurden bei Zeilenumbrüchen teilweise wiederholt</action>
