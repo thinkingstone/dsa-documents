@@ -5,11 +5,14 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.3" date="05.01.2014" description="PDF: Schriftkorrektur">
+			<action type="update" dev="mb">PDF: Die Änderung der Schrifttype führte zu leichten Layoutverschiebungen. Diese sind jetzt korrigiert.</action>
+		</release>
 		<release version="1.0.2" date="05.01.2014" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
 			<action type="update" dev="mb">Zeilentrennung bei mehrzeiligen Feldern verbessert.</action>
 			<action type="update" dev="mb">PDF: anderes Schriftformat (TrueType statt OpenType) um ein Speichern des PDF mit dem Acrobat Reader XI zu unterstützen.</action>
-			<action type="update" dev="mb">Berechnung der Magieresistenz korrigert. Es wird nicht mehr der Startwert genutzt sondern (MU+KL+KO)/5 neu berechnet.</action>
+			<action type="update" dev="mb">Berechnung der Magieresistenz korrigiert. Es wird nicht mehr der Startwert genutzt sondern (MU+KL+KO)/5 neu berechnet.</action>
 		</release>
 		<release version="1.0.1" date="05.12.2013" description="Layoutkorrekturen">
 			<action type="add" dev="mb">Projektwebseite erstellt</action>
