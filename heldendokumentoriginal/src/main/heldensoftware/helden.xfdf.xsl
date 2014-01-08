@@ -1742,7 +1742,11 @@
 				<xsl:value-of select="ausweichen" />
 			</value>
 		</field>
-		<!-- TODO -->
+		<field name="Ausweichen (Summe)a">
+			<value>
+				<xsl:value-of select="ausweichen" />
+			</value>
+		</field>		<!-- TODO -->
 		<field name="Initiative (Basis)">
 			<value>
 				<xsl:text></xsl:text>
