@@ -71,7 +71,7 @@
 		'true': Metatalente der Helden-Software ignorieren.
 		'false': Metatalente der Helden-Software werden eingefügt.
 	-->
-	<xsl:param name="workaroundMetatalente" select="'true'" />
+	<xsl:param name="workaroundMetatalente" select="'false'" />
 	<!--
 		includeTier:
 		'true': Tiere eintragen
@@ -1236,13 +1236,13 @@
 			<xsl:with-param name="SECTION" select="'Gesellschaftliche Talente'" />
 			<xsl:with-param name="POSPLUS" select="2" />
 		</xsl:apply-templates>
-		<xsl:if test="not($workaroundMetatalente = 'true')">
+		<xsl:if test="$includeMetatalente ='true' and not($workaroundMetatalente = 'true')">
 			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur']" mode="talenteWeitere">
 				<xsl:with-param name="SECTION" select="'Natur-Talente'" />
 				<xsl:with-param name="POSPLUS" select="3" />
 			</xsl:apply-templates>
 		</xsl:if>
-		<xsl:if test="$workaroundMetatalente = 'true'">
+		<xsl:if test="$includeMetatalente ='true' and $workaroundMetatalente = 'true'">
 			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur' and metatalent = 'false']" mode="talenteWeitere">
 				<xsl:with-param name="SECTION" select="'Natur-Talente'" />
 				<xsl:with-param name="POSPLUS" select="3" />
@@ -1555,7 +1555,7 @@
 		<xsl:apply-templates />
 	</xsl:template>
 	<xsl:template name="metatalente">
-		<xsl:if test="$includeMetatalente = 'true'">
+		<xsl:if test="$includeMetatalente = 'true' and $workaroundMetatalente = 'true'">
 			<xsl:variable name="SECTION" select="'Wissenstalente'" />
 			<xsl:variable name="POS" select="15" />
 			<!-- Nahrung sammeln + Kräuter suchen WdS 189/190 -->

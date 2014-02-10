@@ -687,13 +687,13 @@
 <value/>
 </field>
 <field name="Natur-Talente 4">
-<value>Wettervorhersage (KL IN IN)</value>
+<value>Ansitzjagd + Waffe (MU IN GE)</value>
 </field>
 <field name="Natur-Talente (TaW) 4.1">
-<value>5</value>
+<value>0</value>
 </field>
 <field name="Natur-Talente TaW 4.1">
-<value>5</value>
+<value>0</value>
 </field>
 <field name="Natur-Talente (BE) 4">
 <value/>
@@ -708,6 +708,102 @@
 <value/>
 </field>
 <field name="Natur-Talente (PA) 4">
+<value/>
+</field>
+<field name="Natur-Talente 5">
+<value>Kräuter suchen (MU IN FF)</value>
+</field>
+<field name="Natur-Talente (TaW) 5.1">
+<value>2</value>
+</field>
+<field name="Natur-Talente TaW 5.1">
+<value>2</value>
+</field>
+<field name="Natur-Talente (BE) 5">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 5">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 5">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 5">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 5">
+<value/>
+</field>
+<field name="Natur-Talente 6">
+<value>Nahrung sammeln (MU IN FF)</value>
+</field>
+<field name="Natur-Talente (TaW) 6.1">
+<value>2</value>
+</field>
+<field name="Natur-Talente TaW 6.1">
+<value>2</value>
+</field>
+<field name="Natur-Talente (BE) 6">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 6">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 6">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 6">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 6">
+<value/>
+</field>
+<field name="Natur-Talente 7">
+<value>Pirschjagd + Waffe (MU IN GE)</value>
+</field>
+<field name="Natur-Talente (TaW) 7.1">
+<value>0</value>
+</field>
+<field name="Natur-Talente TaW 7.1">
+<value>0</value>
+</field>
+<field name="Natur-Talente (BE) 7">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 7">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 7">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 7">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 7">
+<value/>
+</field>
+<field name="Natur-Talente 8">
+<value>Wettervorhersage (KL IN IN)</value>
+</field>
+<field name="Natur-Talente (TaW) 8.1">
+<value>5</value>
+</field>
+<field name="Natur-Talente TaW 8.1">
+<value>5</value>
+</field>
+<field name="Natur-Talente (BE) 8">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 8">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 8">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 8">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 8">
 <value/>
 </field>
 <field name="Wissenstalente 4">
@@ -1992,24 +2088,6 @@
 <value>3</value>
 </field>
 <field name="Liturgiekenntnis">
-<value>3</value>
-</field>
-<field name="Wissenstalente 15">
-<value>Nahrung/Kräuter sammeln (MU IN FF)</value>
-</field>
-<field name="Wissenstalente (TaW) 15.1">
-<value>2</value>
-</field>
-<field name="Wissenstalente 16">
-<value>Jagd + 1/5 Fernkampfwaffe (MU IN GE)</value>
-</field>
-<field name="Wissenstalente (TaW) 16.1">
-<value>0</value>
-</field>
-<field name="Wissenstalente 17">
-<value>Wache halten (MU IN KO)</value>
-</field>
-<field name="Wissenstalente (TaW) 17.1">
 <value>3</value>
 </field>
 <field name="Zaubername 1.0">

@@ -7,6 +7,7 @@
 	<body>
 		<release version="1.0.3" date="TODO" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="update" dev="mb">Ausweichen Summe auf dem zweiten Kampfbogen wird jetzt korrekt befüllt.</action>
+			<action type="update" dev="mb">Metatalente können korrekt aktiviert/deaktiviert werden. Die Metatalente werden von der Helden-Software berechnet und als Natur-Talent eingefügt. Da der Platz für optionale Natur-Talente oft nicht ausreicht, kann es sein, dass Natur-Talente unvollständig sind.</action>
 		</release>
 		<release version="1.0.2" date="05.01.2014" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
