@@ -1,0 +1,3462 @@
+<?xml version="1.0" encoding="UTF-8"?><xfdf xml:space="preserve" xmlns="http://ns.adobe.com/xfdf/">
+			<f href="Document.pdf"/>
+			<ids original="7A0631678ED475F0898815F0A818CFA1" modified="BEF7724317B311718E8675B677EF9B4E"/>
+			<fields>
+<field name="name">
+<value>Magie</value>
+</field>
+<field name="augenfarbe">
+<value>blau</value>
+</field>
+<field name="alter">
+<value>4. Efferd 1003 BF (21)</value>
+</field>
+<field name="geschlecht">
+<value>weiblich</value>
+</field>
+<field name="groesse">
+<value>93 Finger (186 cm)</value>
+</field>
+<field name="gewicht">
+<value>86 Stein</value>
+</field>
+<field name="haarfarbe">
+<value>blond</value>
+</field>
+<field name="stand">
+<value/>
+</field>
+<field name="titel">
+<value/>
+</field>
+<field name="rasse">
+<value>Mittelländerin</value>
+</field>
+<field name="kultur">
+<value>Horasreich</value>
+</field>
+<field name="Regeneration">
+<value>1W6+3</value>
+</field>
+<field name="wundschwelle">
+<value>5</value>
+</field>
+<field name="aussehen1">
+<value/>
+</field>
+<field name="notizen1">
+<value>Notizen</value>
+</field>
+<field name="profession">
+<value>Konzil der Elemente zu Drakonia - Luftelementarist (grau)</value>
+</field>
+<field name="AP_gesamt">
+<value>5.480</value>
+</field>
+<field name="AP_eingesetzt">
+<value>3.334</value>
+</field>
+<field name="AP_guthaben">
+<value>2.146</value>
+</field>
+<field name="gpbasis">
+<value>110</value>
+</field>
+<field name="GS_akt">
+<value>7</value>
+</field>
+<field name="GS_start">
+<value>7</value>
+</field>
+<field name="GS_mod">
+<value>0</value>
+</field>
+<field name="MU_akt">
+<value>13</value>
+</field>
+<field name="MU_start">
+<value>12</value>
+</field>
+<field name="MU_mod">
+<value>0</value>
+</field>
+<field name="KL_akt">
+<value>14</value>
+</field>
+<field name="KL_start">
+<value>13</value>
+</field>
+<field name="KL_mod">
+<value>0</value>
+</field>
+<field name="IN_akt">
+<value>12</value>
+</field>
+<field name="IN_start">
+<value>11</value>
+</field>
+<field name="IN_mod">
+<value>0</value>
+</field>
+<field name="CH_akt">
+<value>13</value>
+</field>
+<field name="CH_start">
+<value>12</value>
+</field>
+<field name="CH_mod">
+<value>0</value>
+</field>
+<field name="FF_akt">
+<value>12</value>
+</field>
+<field name="FF_start">
+<value>11</value>
+</field>
+<field name="FF_mod">
+<value>0</value>
+</field>
+<field name="GE_akt">
+<value>9</value>
+</field>
+<field name="GE_start">
+<value>8</value>
+</field>
+<field name="GE_mod">
+<value>0</value>
+</field>
+<field name="KO_akt">
+<value>9</value>
+</field>
+<field name="KO_start">
+<value>8</value>
+</field>
+<field name="KO_mod">
+<value>0</value>
+</field>
+<field name="KK_akt">
+<value>9</value>
+</field>
+<field name="KK_start">
+<value>8</value>
+</field>
+<field name="KK_mod">
+<value>0</value>
+</field>
+<field name="sozialstatus">
+<value>7</value>
+</field>
+<field name="ASP_akt">
+<value>48</value>
+</field>
+<field name="ASP_start">
+<value>19</value>
+</field>
+<field name="ASP_mod">
+<value>28</value>
+</field>
+<field name="ASP_zugek">
+<value>1</value>
+</field>
+<field name="ASP_max">
+<value>12</value>
+</field>
+<field name="Rechnung_AE_1">
+<value>19</value>
+</field>
+<field name="Rechnung_AE_mod">
+<value>18</value>
+</field>
+<field name="Rechnung_AE_VorNachteil">
+<value>10</value>
+</field>
+<field name="Rechnung_AE_SF">
+<value>0</value>
+</field>
+<field name="Rechnung_AE_Med">
+<value>0</value>
+</field>
+<field name="Rechnung_AE_Zukauf">
+<value>1</value>
+</field>
+<field name="Rechnung_AE_Max">
+<value>48</value>
+</field>
+<field name="Rechnung_AE_pASP">
+<value>0</value>
+</field>
+<field name="Rechnung_AE_aktuell">
+<value>48</value>
+</field>
+<field name="ASP_maximal">
+<value>48</value>
+</field>
+<field name="AT_akt">
+<value>6</value>
+</field>
+<field name="AT_start">
+<value>6</value>
+</field>
+<field name="AT_mod">
+<value>0</value>
+</field>
+<field name="AU_akt">
+<value>27</value>
+</field>
+<field name="AU_start">
+<value>14</value>
+</field>
+<field name="AU_mod">
+<value>10</value>
+</field>
+<field name="AU_zugek">
+<value>1</value>
+</field>
+<field name="AU_max">
+<value>8</value>
+</field>
+<field name="AU_maximal">
+<value>27</value>
+</field>
+<field name="AU_12">
+<value>14</value>
+</field>
+<field name="AU_13">
+<value>9</value>
+</field>
+<field name="AU_14">
+<value>7</value>
+</field>
+<field name="FK_akt">
+<value>7</value>
+</field>
+<field name="FK_start">
+<value>6</value>
+</field>
+<field name="FK_mod">
+<value>0</value>
+</field>
+<field name="INI_akt">
+<value>9</value>
+</field>
+<field name="INI_start">
+<value>9</value>
+</field>
+<field name="INI_mod">
+<value>0</value>
+</field>
+<field name="LE_akt">
+<value>25</value>
+</field>
+<field name="LE_start">
+<value>12</value>
+</field>
+<field name="LE_mod">
+<value>10</value>
+</field>
+<field name="LE_zugek">
+<value>1</value>
+</field>
+<field name="LE_max">
+<value>4</value>
+</field>
+<field name="LE_maximal">
+<value>25</value>
+</field>
+<field name="LE_12">
+<value>13</value>
+</field>
+<field name="LE_13">
+<value>8</value>
+</field>
+<field name="LE_14">
+<value>6</value>
+</field>
+<field name="MR_akt">
+<value>6</value>
+</field>
+<field name="MR_start">
+<value>7</value>
+</field>
+<field name="MR_mod">
+<value>-2</value>
+</field>
+<field name="MR_zugek">
+<value>1</value>
+</field>
+<field name="MR_max">
+<value>6</value>
+</field>
+<field name="Rechnung_MR_1">
+<value>7</value>
+</field>
+<field name="Rechnung_MR_mod">
+<value>-2 + 1</value>
+</field>
+<field name="Rechnung_MR_VorNachteil">
+<value/>
+</field>
+<field name="Rechnung_MR_SF">
+<value/>
+</field>
+<field name="Rechnung_MR_aktuell">
+<value>6</value>
+</field>
+<field name="PA_akt">
+<value>6</value>
+</field>
+<field name="PA_start">
+<value>5</value>
+</field>
+<field name="PA_mod">
+<value>0</value>
+</field>
+<field name="Vorteil2">
+<value>Affinität zu Elementaren</value>
+</field>
+<field name="Vorteil3">
+<value>Magiegespür</value>
+</field>
+<field name="Vorteil4">
+<value>Schwer zu verzaubern</value>
+</field>
+<field name="Nachteil2">
+<value>Prinzipientreue: 8 (Kommentar)</value>
+</field>
+<field name="Nachteil3">
+<value>Schulden: 500 (Kommentar)</value>
+</field>
+<field name="Nachteil4">
+<value>Unfähigkeit für [Talentgruppe] Gesellschaft</value>
+</field>
+<field name="SchlechteEigenschaft1">
+<value>Neugier (Kommentar)</value>
+</field>
+<field name="SchlechteEigenschaft_akt1">
+<value>7</value>
+</field>
+<field name="SchlechteEigenschaft2">
+<value>Weltfremd (Kommentar)</value>
+</field>
+<field name="SchlechteEigenschaft_akt2">
+<value>12</value>
+</field>
+<field name="Begabungen">
+<value>Heilung</value>
+</field>
+<field name="Unfaehigkeiten">
+<value>Antimagie</value>
+</field>
+<field name="MagVorteileNachteile_2">
+<value>Akademische Ausbildung (Magier) (Kommentar), Astrale Regeneration: 3, Astralmacht: 3, Ausdauernder</value>
+</field>
+<field name="MagVorteileNachteile_3">
+<value>Zauberer, Begabung für [Zauber] (Analys Arkanstruktur, Balsam Salabunde), Feste Matrix, Verhüllte</value>
+</field>
+<field name="MagVorteileNachteile_4">
+<value>Aura, Vollzauberer (Kommentar), Zauberhaar, Lästige Mindergeister (Kommentar)</value>
+</field>
+<field name="Ritual_1">
+<value>Bannschwert</value>
+</field>
+<field name="Ritual_1_probe">
+<value/>
+</field>
+<field name="Ritual_1_dauer">
+<value/>
+</field>
+<field name="Ritual_1_kosten">
+<value/>
+</field>
+<field name="Ritual_1_notiz">
+<value/>
+</field>
+<field name="Ritual_2">
+<value>Kugelzauber: Bindung</value>
+</field>
+<field name="Ritual_2_probe">
+<value/>
+</field>
+<field name="Ritual_2_dauer">
+<value/>
+</field>
+<field name="Ritual_2_kosten">
+<value/>
+</field>
+<field name="Ritual_2_notiz">
+<value/>
+</field>
+<field name="Ritual_3">
+<value>Kugelzauber: Brennglas und Prisma</value>
+</field>
+<field name="Ritual_3_probe">
+<value/>
+</field>
+<field name="Ritual_3_dauer">
+<value/>
+</field>
+<field name="Ritual_3_kosten">
+<value/>
+</field>
+<field name="Ritual_3_notiz">
+<value/>
+</field>
+<field name="Ritual_4">
+<value>Stabzauber: Bindung</value>
+</field>
+<field name="Ritual_4_probe">
+<value>KL CH FF+3</value>
+</field>
+<field name="Ritual_4_dauer">
+<value>Dauer</value>
+</field>
+<field name="Ritual_4_kosten">
+<value>22+1 pASP</value>
+</field>
+<field name="Ritual_4_notiz">
+<value>Wirk (Kommentar)</value>
+</field>
+<field name="MagSonderfertigkeiten_2">
+<value>Astrale Meditation (Kommentar), Große Meditation (Kommentar)</value>
+</field>
+<field name="Merkmale">
+<value>Elementar (Luft), Hellsicht</value>
+</field>
+<field name="Repraesentationen">
+<value>Magier</value>
+</field>
+<field name="Sonderfertigkeit1">
+<value>Kulturkunde (Horasreich) (Kommentar)</value>
+</field>
+<field name="NK_Sonderfertigkeiten_2">
+<value/>
+</field>
+<field name="FK_Sonderfertigkeiten_2">
+<value/>
+</field>
+<field name="Waffenlos_Sonderfertigkeiten_2">
+<value/>
+</field>
+<field name="Gaben_1">
+<value>Magiegespür</value>
+</field>
+<field name="Gaben_1_probe">
+<value>MU IN IN</value>
+</field>
+<field name="Gaben_1_TAW_1">
+<value>3</value>
+</field>
+<field name="Gaben_1_BE">
+<value/>
+</field>
+<field name="Gaben_1_komp">
+<value>F</value>
+</field>
+<field name="Gaben_1_AT">
+<value/>
+</field>
+<field name="Gaben_1_PA">
+<value>-</value>
+</field>
+<field name="Kampf_1">
+<value>Armbrust</value>
+</field>
+<field name="Kampf_1_probe">
+<value>GE FF KK</value>
+</field>
+<field name="Kampf_1_TAW_1">
+<value>1</value>
+</field>
+<field name="Kampf_1_BE">
+<value>BE-5</value>
+</field>
+<field name="Kampf_1_komp">
+<value>C</value>
+</field>
+<field name="Kampf_1_AT">
+<value>8</value>
+</field>
+<field name="Kampf_1_PA">
+<value>-</value>
+</field>
+<field name="Kampf_2">
+<value>Fechtwaffen</value>
+</field>
+<field name="Kampf_2_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Kampf_2_TAW_1">
+<value>1</value>
+</field>
+<field name="Kampf_2_BE">
+<value>BE-1</value>
+</field>
+<field name="Kampf_2_komp">
+<value>E</value>
+</field>
+<field name="Kampf_2_AT">
+<value>7</value>
+</field>
+<field name="Kampf_2_PA">
+<value>6</value>
+</field>
+<field name="Kampf_3">
+<value>Infanteriewaffen</value>
+</field>
+<field name="Kampf_3_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Kampf_3_TAW_1">
+<value>1</value>
+</field>
+<field name="Kampf_3_BE">
+<value>BE-3</value>
+</field>
+<field name="Kampf_3_komp">
+<value>D</value>
+</field>
+<field name="Kampf_3_AT">
+<value>7</value>
+</field>
+<field name="Kampf_3_PA">
+<value>6</value>
+</field>
+<field name="Kampf_4">
+<value>Stäbe (Magierstab als Stab)</value>
+</field>
+<field name="Kampf_4_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Kampf_4_TAW_1">
+<value>8</value>
+</field>
+<field name="Kampf_4_BE">
+<value>BE-2</value>
+</field>
+<field name="Kampf_4_komp">
+<value>D</value>
+</field>
+<field name="Kampf_4_AT">
+<value>11</value>
+</field>
+<field name="Kampf_4_PA">
+<value>9</value>
+</field>
+<field name="Koerper_1">
+<value>Fliegen</value>
+</field>
+<field name="Koerper_1_probe">
+<value>MU IN GE</value>
+</field>
+<field name="Koerper_1_TAW_1">
+<value>2</value>
+</field>
+<field name="Koerper_1_BE">
+<value>BE</value>
+</field>
+<field name="Koerper_1_komp">
+<value>D</value>
+</field>
+<field name="Koerper_1_AT">
+<value/>
+</field>
+<field name="Koerper_1_PA">
+<value>-</value>
+</field>
+<field name="Gesellschaft_1">
+<value>Betören</value>
+</field>
+<field name="Gesellschaft_1_probe">
+<value>IN CH CH</value>
+</field>
+<field name="Gesellschaft_1_TAW_1">
+<value>1</value>
+</field>
+<field name="Gesellschaft_1_BE">
+<value/>
+</field>
+<field name="Gesellschaft_1_komp">
+<value>C</value>
+</field>
+<field name="Gesellschaft_1_AT">
+<value/>
+</field>
+<field name="Gesellschaft_1_PA">
+<value>-</value>
+</field>
+<field name="Gesellschaft_2">
+<value>Etikette</value>
+</field>
+<field name="Gesellschaft_2_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Gesellschaft_2_TAW_1">
+<value>3</value>
+</field>
+<field name="Gesellschaft_2_BE">
+<value/>
+</field>
+<field name="Gesellschaft_2_komp">
+<value>C</value>
+</field>
+<field name="Gesellschaft_2_AT">
+<value/>
+</field>
+<field name="Gesellschaft_2_PA">
+<value>-</value>
+</field>
+<field name="Gesellschaft_3">
+<value>Gassenwissen</value>
+</field>
+<field name="Gesellschaft_3_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Gesellschaft_3_TAW_1">
+<value>2</value>
+</field>
+<field name="Gesellschaft_3_BE">
+<value/>
+</field>
+<field name="Gesellschaft_3_komp">
+<value>C</value>
+</field>
+<field name="Gesellschaft_3_AT">
+<value/>
+</field>
+<field name="Gesellschaft_3_PA">
+<value>-</value>
+</field>
+<field name="Gesellschaft_4">
+<value>Lehren</value>
+</field>
+<field name="Gesellschaft_4_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Gesellschaft_4_TAW_1">
+<value>2</value>
+</field>
+<field name="Gesellschaft_4_BE">
+<value/>
+</field>
+<field name="Gesellschaft_4_komp">
+<value>C</value>
+</field>
+<field name="Gesellschaft_4_AT">
+<value/>
+</field>
+<field name="Gesellschaft_4_PA">
+<value>-</value>
+</field>
+<field name="Natur_1">
+<value>Wettervorhersage</value>
+</field>
+<field name="Natur_1_probe">
+<value>KL IN IN</value>
+</field>
+<field name="Natur_1_TAW_1">
+<value>5</value>
+</field>
+<field name="Natur_1_BE">
+<value/>
+</field>
+<field name="Natur_1_komp">
+<value>B</value>
+</field>
+<field name="Natur_1_AT">
+<value/>
+</field>
+<field name="Natur_1_PA">
+<value>-</value>
+</field>
+<field name="Wissen_1">
+<value>Brett-/Kartenspiel</value>
+</field>
+<field name="Wissen_1_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Wissen_1_TAW_1">
+<value>2</value>
+</field>
+<field name="Wissen_1_BE">
+<value/>
+</field>
+<field name="Wissen_1_komp">
+<value>B</value>
+</field>
+<field name="Wissen_1_AT">
+<value/>
+</field>
+<field name="Wissen_1_PA">
+<value>-</value>
+</field>
+<field name="Wissen_2">
+<value>Geschichtswissen</value>
+</field>
+<field name="Wissen_2_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Wissen_2_TAW_1">
+<value>6</value>
+</field>
+<field name="Wissen_2_BE">
+<value/>
+</field>
+<field name="Wissen_2_komp">
+<value>B</value>
+</field>
+<field name="Wissen_2_AT">
+<value/>
+</field>
+<field name="Wissen_2_PA">
+<value>-</value>
+</field>
+<field name="Wissen_3">
+<value>Magiekunde (Elementarismus)</value>
+</field>
+<field name="Wissen_3_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Wissen_3_TAW_1">
+<value>6</value>
+</field>
+<field name="Wissen_3_BE">
+<value/>
+</field>
+<field name="Wissen_3_komp">
+<value>B</value>
+</field>
+<field name="Wissen_3_AT">
+<value/>
+</field>
+<field name="Wissen_3_PA">
+<value>-</value>
+</field>
+<field name="Wissen_4">
+<value>Mechanik</value>
+</field>
+<field name="Wissen_4_probe">
+<value>KL KL FF</value>
+</field>
+<field name="Wissen_4_TAW_1">
+<value>1</value>
+</field>
+<field name="Wissen_4_BE">
+<value/>
+</field>
+<field name="Wissen_4_komp">
+<value>B</value>
+</field>
+<field name="Wissen_4_AT">
+<value/>
+</field>
+<field name="Wissen_4_PA">
+<value>-</value>
+</field>
+<field name="Wissen_5">
+<value>Pflanzenkunde</value>
+</field>
+<field name="Wissen_5_probe">
+<value>KL IN FF</value>
+</field>
+<field name="Wissen_5_TAW_1">
+<value>2</value>
+</field>
+<field name="Wissen_5_BE">
+<value/>
+</field>
+<field name="Wissen_5_komp">
+<value>B</value>
+</field>
+<field name="Wissen_5_AT">
+<value/>
+</field>
+<field name="Wissen_5_PA">
+<value>-</value>
+</field>
+<field name="Wissen_6">
+<value>Rechtskunde</value>
+</field>
+<field name="Wissen_6_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Wissen_6_TAW_1">
+<value>3</value>
+</field>
+<field name="Wissen_6_BE">
+<value/>
+</field>
+<field name="Wissen_6_komp">
+<value>B</value>
+</field>
+<field name="Wissen_6_AT">
+<value/>
+</field>
+<field name="Wissen_6_PA">
+<value>-</value>
+</field>
+<field name="Wissen_7">
+<value>Sternkunde</value>
+</field>
+<field name="Wissen_7_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Wissen_7_TAW_1">
+<value>3</value>
+</field>
+<field name="Wissen_7_BE">
+<value/>
+</field>
+<field name="Wissen_7_komp">
+<value>B</value>
+</field>
+<field name="Wissen_7_AT">
+<value/>
+</field>
+<field name="Wissen_7_PA">
+<value>-</value>
+</field>
+<field name="Wissen_8">
+<value>Tierkunde</value>
+</field>
+<field name="Wissen_8_probe">
+<value>MU KL IN</value>
+</field>
+<field name="Wissen_8_TAW_1">
+<value>1</value>
+</field>
+<field name="Wissen_8_BE">
+<value/>
+</field>
+<field name="Wissen_8_komp">
+<value>B</value>
+</field>
+<field name="Wissen_8_AT">
+<value/>
+</field>
+<field name="Wissen_8_PA">
+<value>-</value>
+</field>
+<field name="Handwerk_1">
+<value>Alchimie</value>
+</field>
+<field name="Handwerk_1_probe">
+<value>MU KL FF</value>
+</field>
+<field name="Handwerk_1_TAW_1">
+<value>4</value>
+</field>
+<field name="Handwerk_1_BE">
+<value/>
+</field>
+<field name="Handwerk_1_komp">
+<value>B</value>
+</field>
+<field name="Handwerk_1_AT">
+<value/>
+</field>
+<field name="Handwerk_1_PA">
+<value>-</value>
+</field>
+<field name="Handwerk_2">
+<value>Hauswirtschaft</value>
+</field>
+<field name="Handwerk_2_probe">
+<value>IN CH FF</value>
+</field>
+<field name="Handwerk_2_TAW_1">
+<value>1</value>
+</field>
+<field name="Handwerk_2_BE">
+<value/>
+</field>
+<field name="Handwerk_2_komp">
+<value>B</value>
+</field>
+<field name="Handwerk_2_AT">
+<value/>
+</field>
+<field name="Handwerk_2_PA">
+<value>-</value>
+</field>
+<field name="Muttersprache_1">
+<value>Garethi</value>
+</field>
+<field name="Muttersprache_1_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Muttersprache_1_TAW_1">
+<value>13</value>
+</field>
+<field name="Muttersprache_1_BE">
+<value/>
+</field>
+<field name="Muttersprache_1_komp">
+<value>18/A</value>
+</field>
+<field name="Muttersprache_1_AT">
+<value/>
+</field>
+<field name="Muttersprache_1_PA">
+<value>-</value>
+</field>
+<field name="Sprache_1">
+<value>Bosparano</value>
+</field>
+<field name="Sprache_1_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Sprache_1_TAW_1">
+<value>4</value>
+</field>
+<field name="Sprache_1_BE">
+<value/>
+</field>
+<field name="Sprache_1_komp">
+<value>21/A</value>
+</field>
+<field name="Sprache_1_AT">
+<value/>
+</field>
+<field name="Sprache_1_PA">
+<value>-</value>
+</field>
+<field name="Sprache_2">
+<value>Ferkina</value>
+</field>
+<field name="Sprache_2_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Sprache_2_TAW_1">
+<value>2</value>
+</field>
+<field name="Sprache_2_BE">
+<value/>
+</field>
+<field name="Sprache_2_komp">
+<value>16/B</value>
+</field>
+<field name="Sprache_2_AT">
+<value/>
+</field>
+<field name="Sprache_2_PA">
+<value>-</value>
+</field>
+<field name="Sprache_3">
+<value>Tulamidya</value>
+</field>
+<field name="Sprache_3_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Sprache_3_TAW_1">
+<value>14</value>
+</field>
+<field name="Sprache_3_BE">
+<value/>
+</field>
+<field name="Sprache_3_komp">
+<value>18/A</value>
+</field>
+<field name="Sprache_3_AT">
+<value/>
+</field>
+<field name="Sprache_3_PA">
+<value>-</value>
+</field>
+<field name="Sprache_4">
+<value>Urtulamidya</value>
+</field>
+<field name="Sprache_4_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Sprache_4_TAW_1">
+<value>4</value>
+</field>
+<field name="Sprache_4_BE">
+<value/>
+</field>
+<field name="Sprache_4_komp">
+<value>21/B</value>
+</field>
+<field name="Sprache_4_AT">
+<value/>
+</field>
+<field name="Sprache_4_PA">
+<value>-</value>
+</field>
+<field name="Sprache_5">
+<value>L/S Kusliker Zeichen</value>
+</field>
+<field name="Sprache_5_probe">
+<value>KL KL FF</value>
+</field>
+<field name="Sprache_5_TAW_1">
+<value>7</value>
+</field>
+<field name="Sprache_5_BE">
+<value/>
+</field>
+<field name="Sprache_5_komp">
+<value>10/A</value>
+</field>
+<field name="Sprache_5_AT">
+<value/>
+</field>
+<field name="Sprache_5_PA">
+<value>-</value>
+</field>
+<field name="Sprache_6">
+<value>L/S Tulamidya</value>
+</field>
+<field name="Sprache_6_probe">
+<value>KL KL FF</value>
+</field>
+<field name="Sprache_6_TAW_1">
+<value>8</value>
+</field>
+<field name="Sprache_6_BE">
+<value/>
+</field>
+<field name="Sprache_6_komp">
+<value>14/B</value>
+</field>
+<field name="Sprache_6_AT">
+<value/>
+</field>
+<field name="Sprache_6_PA">
+<value>-</value>
+</field>
+<field name="Sprache_7">
+<value>L/S Urtulamidya</value>
+</field>
+<field name="Sprache_7_probe">
+<value>KL KL FF</value>
+</field>
+<field name="Sprache_7_TAW_1">
+<value>6</value>
+</field>
+<field name="Sprache_7_BE">
+<value/>
+</field>
+<field name="Sprache_7_komp">
+<value>16/B</value>
+</field>
+<field name="Sprache_7_AT">
+<value/>
+</field>
+<field name="Sprache_7_PA">
+<value>-</value>
+</field>
+<field name="Dolche">
+<value>Dolche (B)</value>
+</field>
+<field name="Dolche_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Dolche_TAW_1">
+<value>1</value>
+</field>
+<field name="Dolche_BE">
+<value>BE-1</value>
+</field>
+<field name="Dolche_komp">
+<value>D</value>
+</field>
+<field name="Dolche_AT">
+<value>7</value>
+</field>
+<field name="Dolche_PA">
+<value>6</value>
+</field>
+<field name="Dolche_spez">
+<value/>
+</field>
+<field name="Hiebwaffen">
+<value>Hiebwaffen (B)</value>
+</field>
+<field name="Hiebwaffen_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Hiebwaffen_TAW_1">
+<value>0</value>
+</field>
+<field name="Hiebwaffen_BE">
+<value>BE-4</value>
+</field>
+<field name="Hiebwaffen_komp">
+<value>D</value>
+</field>
+<field name="Hiebwaffen_AT">
+<value>6</value>
+</field>
+<field name="Hiebwaffen_PA">
+<value>6</value>
+</field>
+<field name="Hiebwaffen_spez">
+<value/>
+</field>
+<field name="Raufen">
+<value>Raufen (B)</value>
+</field>
+<field name="Raufen_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Raufen_TAW_1">
+<value>1</value>
+</field>
+<field name="Raufen_BE">
+<value>BE</value>
+</field>
+<field name="Raufen_komp">
+<value>C</value>
+</field>
+<field name="Raufen_AT">
+<value>7</value>
+</field>
+<field name="Raufen_PA">
+<value>6</value>
+</field>
+<field name="Raufen_spez">
+<value/>
+</field>
+<field name="Ringen">
+<value>Ringen (B)</value>
+</field>
+<field name="Ringen_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Ringen_TAW_1">
+<value>0</value>
+</field>
+<field name="Ringen_BE">
+<value>BE</value>
+</field>
+<field name="Ringen_komp">
+<value>D</value>
+</field>
+<field name="Ringen_AT">
+<value>6</value>
+</field>
+<field name="Ringen_PA">
+<value>6</value>
+</field>
+<field name="Ringen_spez">
+<value/>
+</field>
+<field name="Saebel">
+<value>Säbel (B)</value>
+</field>
+<field name="Saebel_probe">
+<value>GE GE KK</value>
+</field>
+<field name="Saebel_TAW_1">
+<value>0</value>
+</field>
+<field name="Saebel_BE">
+<value>BE-2</value>
+</field>
+<field name="Saebel_komp">
+<value>D</value>
+</field>
+<field name="Saebel_AT">
+<value>6</value>
+</field>
+<field name="Saebel_PA">
+<value>6</value>
+</field>
+<field name="Saebel_spez">
+<value/>
+</field>
+<field name="Wurfmesser">
+<value>Wurfmesser (B)</value>
+</field>
+<field name="Wurfmesser_probe">
+<value>GE FF KK</value>
+</field>
+<field name="Wurfmesser_TAW_1">
+<value>0</value>
+</field>
+<field name="Wurfmesser_BE">
+<value>BE-3</value>
+</field>
+<field name="Wurfmesser_komp">
+<value>C</value>
+</field>
+<field name="Wurfmesser_AT">
+<value>7</value>
+</field>
+<field name="Wurfmesser_PA">
+<value>-</value>
+</field>
+<field name="Wurfmesser_spez">
+<value/>
+</field>
+<field name="Athletik">
+<value>Athletik (B)</value>
+</field>
+<field name="Athletik_probe">
+<value>GE KO KK</value>
+</field>
+<field name="Athletik_TAW_1">
+<value>0</value>
+</field>
+<field name="Athletik_BE">
+<value>BEx2</value>
+</field>
+<field name="Athletik_komp">
+<value>D</value>
+</field>
+<field name="Athletik_AT">
+<value/>
+</field>
+<field name="Athletik_PA">
+<value>-</value>
+</field>
+<field name="Athletik_spez">
+<value/>
+</field>
+<field name="Klettern">
+<value>Klettern (B)</value>
+</field>
+<field name="Klettern_probe">
+<value>MU GE KK</value>
+</field>
+<field name="Klettern_TAW_1">
+<value>3</value>
+</field>
+<field name="Klettern_BE">
+<value>BEx2</value>
+</field>
+<field name="Klettern_komp">
+<value>D</value>
+</field>
+<field name="Klettern_AT">
+<value/>
+</field>
+<field name="Klettern_PA">
+<value>-</value>
+</field>
+<field name="Klettern_spez">
+<value/>
+</field>
+<field name="Koerperbeherrschung">
+<value>Körperbeherrschung (B)</value>
+</field>
+<field name="Koerperbeherrschung_probe">
+<value>MU IN GE</value>
+</field>
+<field name="Koerperbeherrschung_TAW_1">
+<value>2</value>
+</field>
+<field name="Koerperbeherrschung_BE">
+<value>BEx2</value>
+</field>
+<field name="Koerperbeherrschung_komp">
+<value>D</value>
+</field>
+<field name="Koerperbeherrschung_AT">
+<value/>
+</field>
+<field name="Koerperbeherrschung_PA">
+<value>-</value>
+</field>
+<field name="Koerperbeherrschung_spez">
+<value/>
+</field>
+<field name="Schleichen">
+<value>Schleichen (B)</value>
+</field>
+<field name="Schleichen_probe">
+<value>MU IN GE</value>
+</field>
+<field name="Schleichen_TAW_1">
+<value>0</value>
+</field>
+<field name="Schleichen_BE">
+<value>BE</value>
+</field>
+<field name="Schleichen_komp">
+<value>D</value>
+</field>
+<field name="Schleichen_AT">
+<value/>
+</field>
+<field name="Schleichen_PA">
+<value>-</value>
+</field>
+<field name="Schleichen_spez">
+<value/>
+</field>
+<field name="Schwimmen">
+<value>Schwimmen (B)</value>
+</field>
+<field name="Schwimmen_probe">
+<value>GE KO KK</value>
+</field>
+<field name="Schwimmen_TAW_1">
+<value>1</value>
+</field>
+<field name="Schwimmen_BE">
+<value>BEx2</value>
+</field>
+<field name="Schwimmen_komp">
+<value>D</value>
+</field>
+<field name="Schwimmen_AT">
+<value/>
+</field>
+<field name="Schwimmen_PA">
+<value>-</value>
+</field>
+<field name="Schwimmen_spez">
+<value/>
+</field>
+<field name="Selbstbeherrschung">
+<value>Selbstbeherrschung (B)</value>
+</field>
+<field name="Selbstbeherrschung_probe">
+<value>MU KO KK</value>
+</field>
+<field name="Selbstbeherrschung_TAW_1">
+<value>2</value>
+</field>
+<field name="Selbstbeherrschung_BE">
+<value/>
+</field>
+<field name="Selbstbeherrschung_komp">
+<value>D</value>
+</field>
+<field name="Selbstbeherrschung_AT">
+<value/>
+</field>
+<field name="Selbstbeherrschung_PA">
+<value>-</value>
+</field>
+<field name="Selbstbeherrschung_spez">
+<value/>
+</field>
+<field name="SichVerstecken">
+<value>Sich verstecken (B)</value>
+</field>
+<field name="SichVerstecken_probe">
+<value>MU IN GE</value>
+</field>
+<field name="SichVerstecken_TAW_1">
+<value>0</value>
+</field>
+<field name="SichVerstecken_BE">
+<value>BE-2</value>
+</field>
+<field name="SichVerstecken_komp">
+<value>D</value>
+</field>
+<field name="SichVerstecken_AT">
+<value/>
+</field>
+<field name="SichVerstecken_PA">
+<value>-</value>
+</field>
+<field name="SichVerstecken_spez">
+<value/>
+</field>
+<field name="Singen">
+<value>Singen (B)</value>
+</field>
+<field name="Singen_probe">
+<value>IN CH CH</value>
+</field>
+<field name="Singen_TAW_1">
+<value>0</value>
+</field>
+<field name="Singen_BE">
+<value>BE-3</value>
+</field>
+<field name="Singen_komp">
+<value>D</value>
+</field>
+<field name="Singen_AT">
+<value/>
+</field>
+<field name="Singen_PA">
+<value>-</value>
+</field>
+<field name="Singen_spez">
+<value/>
+</field>
+<field name="Sinnenschaerfe">
+<value>Sinnenschärfe (B)</value>
+</field>
+<field name="Sinnenschaerfe_probe">
+<value>KL IN IN</value>
+</field>
+<field name="Sinnenschaerfe_TAW_1">
+<value>3</value>
+</field>
+<field name="Sinnenschaerfe_BE">
+<value>0-&gt;BE</value>
+</field>
+<field name="Sinnenschaerfe_komp">
+<value>D</value>
+</field>
+<field name="Sinnenschaerfe_AT">
+<value/>
+</field>
+<field name="Sinnenschaerfe_PA">
+<value>-</value>
+</field>
+<field name="Sinnenschaerfe_spez">
+<value/>
+</field>
+<field name="Tanzen">
+<value>Tanzen (B)</value>
+</field>
+<field name="Tanzen_probe">
+<value>CH GE GE</value>
+</field>
+<field name="Tanzen_TAW_1">
+<value>1</value>
+</field>
+<field name="Tanzen_BE">
+<value>BEx2</value>
+</field>
+<field name="Tanzen_komp">
+<value>D</value>
+</field>
+<field name="Tanzen_AT">
+<value/>
+</field>
+<field name="Tanzen_PA">
+<value>-</value>
+</field>
+<field name="Tanzen_spez">
+<value/>
+</field>
+<field name="Zechen">
+<value>Zechen (B)</value>
+</field>
+<field name="Zechen_probe">
+<value>IN KO KK</value>
+</field>
+<field name="Zechen_TAW_1">
+<value>0</value>
+</field>
+<field name="Zechen_BE">
+<value/>
+</field>
+<field name="Zechen_komp">
+<value>D</value>
+</field>
+<field name="Zechen_AT">
+<value/>
+</field>
+<field name="Zechen_PA">
+<value>-</value>
+</field>
+<field name="Zechen_spez">
+<value/>
+</field>
+<field name="Menschenkenntnis">
+<value>Menschenkenntnis (B)</value>
+</field>
+<field name="Menschenkenntnis_probe">
+<value>KL IN CH</value>
+</field>
+<field name="Menschenkenntnis_TAW_1">
+<value>1</value>
+</field>
+<field name="Menschenkenntnis_BE">
+<value/>
+</field>
+<field name="Menschenkenntnis_komp">
+<value>C</value>
+</field>
+<field name="Menschenkenntnis_AT">
+<value/>
+</field>
+<field name="Menschenkenntnis_PA">
+<value>-</value>
+</field>
+<field name="Menschenkenntnis_spez">
+<value/>
+</field>
+<field name="Ueberreden">
+<value>Überreden (B)</value>
+</field>
+<field name="Ueberreden_probe">
+<value>MU IN CH</value>
+</field>
+<field name="Ueberreden_TAW_1">
+<value>1</value>
+</field>
+<field name="Ueberreden_BE">
+<value/>
+</field>
+<field name="Ueberreden_komp">
+<value>C</value>
+</field>
+<field name="Ueberreden_AT">
+<value/>
+</field>
+<field name="Ueberreden_PA">
+<value>-</value>
+</field>
+<field name="Ueberreden_spez">
+<value/>
+</field>
+<field name="Faehrtensuchen">
+<value>Fährtensuchen (B)</value>
+</field>
+<field name="Faehrtensuchen_probe">
+<value>KL IN KO</value>
+</field>
+<field name="Faehrtensuchen_TAW_1">
+<value>0</value>
+</field>
+<field name="Faehrtensuchen_BE">
+<value/>
+</field>
+<field name="Faehrtensuchen_komp">
+<value>B</value>
+</field>
+<field name="Faehrtensuchen_AT">
+<value/>
+</field>
+<field name="Faehrtensuchen_PA">
+<value>-</value>
+</field>
+<field name="Faehrtensuchen_spez">
+<value/>
+</field>
+<field name="Orientierung">
+<value>Orientierung (B)</value>
+</field>
+<field name="Orientierung_probe">
+<value>KL IN IN</value>
+</field>
+<field name="Orientierung_TAW_1">
+<value>0</value>
+</field>
+<field name="Orientierung_BE">
+<value/>
+</field>
+<field name="Orientierung_komp">
+<value>B</value>
+</field>
+<field name="Orientierung_AT">
+<value/>
+</field>
+<field name="Orientierung_PA">
+<value>-</value>
+</field>
+<field name="Orientierung_spez">
+<value/>
+</field>
+<field name="Wildnisleben">
+<value>Wildnisleben (B)</value>
+</field>
+<field name="Wildnisleben_probe">
+<value>IN GE KO</value>
+</field>
+<field name="Wildnisleben_TAW_1">
+<value>1</value>
+</field>
+<field name="Wildnisleben_BE">
+<value/>
+</field>
+<field name="Wildnisleben_komp">
+<value>B</value>
+</field>
+<field name="Wildnisleben_AT">
+<value/>
+</field>
+<field name="Wildnisleben_PA">
+<value>-</value>
+</field>
+<field name="Wildnisleben_spez">
+<value/>
+</field>
+<field name="GoetterKulte">
+<value>Götter und Kulte (B)</value>
+</field>
+<field name="GoetterKulte_probe">
+<value>KL KL IN</value>
+</field>
+<field name="GoetterKulte_TAW_1">
+<value>3</value>
+</field>
+<field name="GoetterKulte_BE">
+<value/>
+</field>
+<field name="GoetterKulte_komp">
+<value>B</value>
+</field>
+<field name="GoetterKulte_AT">
+<value/>
+</field>
+<field name="GoetterKulte_PA">
+<value>-</value>
+</field>
+<field name="GoetterKulte_spez">
+<value/>
+</field>
+<field name="Rechnen">
+<value>Rechnen (B)</value>
+</field>
+<field name="Rechnen_probe">
+<value>KL KL IN</value>
+</field>
+<field name="Rechnen_TAW_1">
+<value>6</value>
+</field>
+<field name="Rechnen_BE">
+<value/>
+</field>
+<field name="Rechnen_komp">
+<value>B</value>
+</field>
+<field name="Rechnen_AT">
+<value/>
+</field>
+<field name="Rechnen_PA">
+<value>-</value>
+</field>
+<field name="Rechnen_spez">
+<value/>
+</field>
+<field name="SagenLegenden">
+<value>Sagen und Legenden (B)</value>
+</field>
+<field name="SagenLegenden_probe">
+<value>KL IN CH</value>
+</field>
+<field name="SagenLegenden_TAW_1">
+<value>5</value>
+</field>
+<field name="SagenLegenden_BE">
+<value/>
+</field>
+<field name="SagenLegenden_komp">
+<value>B</value>
+</field>
+<field name="SagenLegenden_AT">
+<value/>
+</field>
+<field name="SagenLegenden_PA">
+<value>-</value>
+</field>
+<field name="SagenLegenden_spez">
+<value/>
+</field>
+<field name="HeilkundeWunden">
+<value>Heilkunde: Wunden (B)</value>
+</field>
+<field name="HeilkundeWunden_probe">
+<value>KL CH FF</value>
+</field>
+<field name="HeilkundeWunden_TAW_1">
+<value>0</value>
+</field>
+<field name="HeilkundeWunden_BE">
+<value/>
+</field>
+<field name="HeilkundeWunden_komp">
+<value>B</value>
+</field>
+<field name="HeilkundeWunden_AT">
+<value/>
+</field>
+<field name="HeilkundeWunden_PA">
+<value>-</value>
+</field>
+<field name="HeilkundeWunden_spez">
+<value/>
+</field>
+<field name="Holzbearbeitung">
+<value>Holzbearbeitung (B)</value>
+</field>
+<field name="Holzbearbeitung_probe">
+<value>KL FF KK</value>
+</field>
+<field name="Holzbearbeitung_TAW_1">
+<value>0</value>
+</field>
+<field name="Holzbearbeitung_BE">
+<value/>
+</field>
+<field name="Holzbearbeitung_komp">
+<value>B</value>
+</field>
+<field name="Holzbearbeitung_AT">
+<value/>
+</field>
+<field name="Holzbearbeitung_PA">
+<value>-</value>
+</field>
+<field name="Holzbearbeitung_spez">
+<value/>
+</field>
+<field name="Kochen">
+<value>Kochen (B)</value>
+</field>
+<field name="Kochen_probe">
+<value>KL IN FF</value>
+</field>
+<field name="Kochen_TAW_1">
+<value>0</value>
+</field>
+<field name="Kochen_BE">
+<value/>
+</field>
+<field name="Kochen_komp">
+<value>B</value>
+</field>
+<field name="Kochen_AT">
+<value/>
+</field>
+<field name="Kochen_PA">
+<value>-</value>
+</field>
+<field name="Kochen_spez">
+<value/>
+</field>
+<field name="Lederarbeiten">
+<value>Lederarbeiten (B)</value>
+</field>
+<field name="Lederarbeiten_probe">
+<value>KL FF FF</value>
+</field>
+<field name="Lederarbeiten_TAW_1">
+<value>0</value>
+</field>
+<field name="Lederarbeiten_BE">
+<value/>
+</field>
+<field name="Lederarbeiten_komp">
+<value>B</value>
+</field>
+<field name="Lederarbeiten_AT">
+<value/>
+</field>
+<field name="Lederarbeiten_PA">
+<value>-</value>
+</field>
+<field name="Lederarbeiten_spez">
+<value/>
+</field>
+<field name="MalenZeichnen">
+<value>Malen/Zeichnen (B)</value>
+</field>
+<field name="MalenZeichnen_probe">
+<value>KL IN FF</value>
+</field>
+<field name="MalenZeichnen_TAW_1">
+<value>3</value>
+</field>
+<field name="MalenZeichnen_BE">
+<value/>
+</field>
+<field name="MalenZeichnen_komp">
+<value>B</value>
+</field>
+<field name="MalenZeichnen_AT">
+<value/>
+</field>
+<field name="MalenZeichnen_PA">
+<value>-</value>
+</field>
+<field name="MalenZeichnen_spez">
+<value/>
+</field>
+<field name="Schneidern">
+<value>Schneidern (B)</value>
+</field>
+<field name="Schneidern_probe">
+<value>KL FF FF</value>
+</field>
+<field name="Schneidern_TAW_1">
+<value>0</value>
+</field>
+<field name="Schneidern_BE">
+<value/>
+</field>
+<field name="Schneidern_komp">
+<value>B</value>
+</field>
+<field name="Schneidern_AT">
+<value/>
+</field>
+<field name="Schneidern_PA">
+<value>-</value>
+</field>
+<field name="Schneidern_spez">
+<value/>
+</field>
+<field name="RK_1">
+<value>Gildenmagie</value>
+</field>
+<field name="RK_1_TAW_1">
+<value>3</value>
+</field>
+<field name="MU_z1">
+<value>13</value>
+</field>
+<field name="MU_z2">
+<value>13</value>
+</field>
+<field name="KL_z1">
+<value>14</value>
+</field>
+<field name="KL_z2">
+<value>14</value>
+</field>
+<field name="IN_z1">
+<value>12</value>
+</field>
+<field name="IN_z2">
+<value>12</value>
+</field>
+<field name="CH_z1">
+<value>13</value>
+</field>
+<field name="CH_z2">
+<value>13</value>
+</field>
+<field name="FF_z1">
+<value>12</value>
+</field>
+<field name="FF_z2">
+<value>12</value>
+</field>
+<field name="GE_z1">
+<value>9</value>
+</field>
+<field name="GE_z2">
+<value>9</value>
+</field>
+<field name="KO_z1">
+<value>9</value>
+</field>
+<field name="KO_z2">
+<value>9</value>
+</field>
+<field name="KK_z1">
+<value>9</value>
+</field>
+<field name="KK_z2">
+<value>9</value>
+</field>
+<field name="MR_z1">
+<value>6</value>
+</field>
+<field name="MR_z2">
+<value>6</value>
+</field>
+<field name="1_name">
+<value>Abvenenum reine Speise</value>
+</field>
+<field name="1_probe">
+<value>KL/KL/FF+Mod</value>
+</field>
+<field name="1_zfw_1">
+<value>0</value>
+</field>
+<field name="1_zd">
+<value>15</value>
+</field>
+<field name="1_k">
+<value>je 4</value>
+</field>
+<field name="1_rw">
+<value>1</value>
+</field>
+<field name="1_wd">
+<value>augenbl.</value>
+</field>
+<field name="1_notiz">
+<value>11  +Mod</value>
+</field>
+<field name="1_komp">
+<value>C</value>
+</field>
+<field name="1_rep">
+<value>Magier</value>
+</field>
+<field name="1_mm">
+<value>Objk</value>
+</field>
+<field name="1_haus">
+<value/>
+</field>
+<field name="1_lern">
+<value>C</value>
+</field>
+<field name="2_name">
+<value>Aeolitus Windgebraus</value>
+</field>
+<field name="2_probe">
+<value>KL/CH/KO</value>
+</field>
+<field name="2_zfw_1">
+<value>7</value>
+</field>
+<field name="2_zd">
+<value/>
+</field>
+<field name="2_k">
+<value/>
+</field>
+<field name="2_rw">
+<value/>
+</field>
+<field name="2_wd">
+<value/>
+</field>
+<field name="2_notiz">
+<value>18 Langer Atem </value>
+</field>
+<field name="2_komp">
+<value>B</value>
+</field>
+<field name="2_rep">
+<value>Magier</value>
+</field>
+<field name="2_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="2_haus">
+<value>x</value>
+</field>
+<field name="2_lern">
+<value>A+</value>
+</field>
+<field name="3_name">
+<value>Aerofugo Vakuum</value>
+</field>
+<field name="3_probe">
+<value>MU/KO/KK</value>
+</field>
+<field name="3_zfw_1">
+<value>2</value>
+</field>
+<field name="3_zd">
+<value/>
+</field>
+<field name="3_k">
+<value/>
+</field>
+<field name="3_rw">
+<value/>
+</field>
+<field name="3_wd">
+<value/>
+</field>
+<field name="3_notiz">
+<value>19  </value>
+</field>
+<field name="3_komp">
+<value>D</value>
+</field>
+<field name="3_rep">
+<value>Magier</value>
+</field>
+<field name="3_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="3_haus">
+<value/>
+</field>
+<field name="3_lern">
+<value>C</value>
+</field>
+<field name="4_name">
+<value>Aerogelo Atemqual</value>
+</field>
+<field name="4_probe">
+<value>MU/IN/KO</value>
+</field>
+<field name="4_zfw_1">
+<value>1</value>
+</field>
+<field name="4_zd">
+<value/>
+</field>
+<field name="4_k">
+<value/>
+</field>
+<field name="4_rw">
+<value/>
+</field>
+<field name="4_wd">
+<value/>
+</field>
+<field name="4_notiz">
+<value>20  </value>
+</field>
+<field name="4_komp">
+<value>D</value>
+</field>
+<field name="4_rep">
+<value>Magier</value>
+</field>
+<field name="4_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="4_haus">
+<value/>
+</field>
+<field name="4_lern">
+<value>C</value>
+</field>
+<field name="5_name">
+<value>Analys Arkanstruktur</value>
+</field>
+<field name="5_probe">
+<value>KL/KL/IN+Mod</value>
+</field>
+<field name="5_zfw_1">
+<value>3</value>
+</field>
+<field name="5_zd">
+<value>1+SR</value>
+</field>
+<field name="5_k">
+<value>6+3 je 1/2h</value>
+</field>
+<field name="5_rw">
+<value>1</value>
+</field>
+<field name="5_wd">
+<value>=ZD</value>
+</field>
+<field name="5_notiz">
+<value>22  +Mod</value>
+</field>
+<field name="5_komp">
+<value>D</value>
+</field>
+<field name="5_rep">
+<value>Magier</value>
+</field>
+<field name="5_mm">
+<value>Hell, Meta</value>
+</field>
+<field name="5_haus">
+<value/>
+</field>
+<field name="5_lern">
+<value>B</value>
+</field>
+<field name="6_name">
+<value>Applicatus Zauberspeicher</value>
+</field>
+<field name="6_probe">
+<value>KL/FF/FF</value>
+</field>
+<field name="6_zfw_1">
+<value>0</value>
+</field>
+<field name="6_zd">
+<value/>
+</field>
+<field name="6_k">
+<value/>
+</field>
+<field name="6_rw">
+<value/>
+</field>
+<field name="6_wd">
+<value/>
+</field>
+<field name="6_notiz">
+<value>25  </value>
+</field>
+<field name="6_komp">
+<value>C</value>
+</field>
+<field name="6_rep">
+<value>Magier</value>
+</field>
+<field name="6_mm">
+<value>Meta, Objk</value>
+</field>
+<field name="6_haus">
+<value/>
+</field>
+<field name="6_lern">
+<value>C</value>
+</field>
+<field name="7_name">
+<value>Armatrutz</value>
+</field>
+<field name="7_probe">
+<value>IN/GE/KO</value>
+</field>
+<field name="7_zfw_1">
+<value>0</value>
+</field>
+<field name="7_zd">
+<value>3</value>
+</field>
+<field name="7_k">
+<value>min 4</value>
+</field>
+<field name="7_rw">
+<value>S</value>
+</field>
+<field name="7_wd">
+<value>1 SR(A)</value>
+</field>
+<field name="7_notiz">
+<value>28  </value>
+</field>
+<field name="7_komp">
+<value>B</value>
+</field>
+<field name="7_rep">
+<value>Magier</value>
+</field>
+<field name="7_mm">
+<value>Eign, Elem (Erz)</value>
+</field>
+<field name="7_haus">
+<value/>
+</field>
+<field name="7_lern">
+<value>C</value>
+</field>
+<field name="8_name">
+<value>Attributo</value>
+</field>
+<field name="8_probe">
+<value>KL/CH/**</value>
+</field>
+<field name="8_zfw_1">
+<value>3</value>
+</field>
+<field name="8_zd">
+<value/>
+</field>
+<field name="8_k">
+<value/>
+</field>
+<field name="8_rw">
+<value/>
+</field>
+<field name="8_wd">
+<value/>
+</field>
+<field name="8_notiz">
+<value>30  </value>
+</field>
+<field name="8_komp">
+<value>B</value>
+</field>
+<field name="8_rep">
+<value>Magier</value>
+</field>
+<field name="8_mm">
+<value>Eign</value>
+</field>
+<field name="8_haus">
+<value/>
+</field>
+<field name="8_lern">
+<value>B</value>
+</field>
+<field name="9_name">
+<value>Auris Nasus Oculus</value>
+</field>
+<field name="9_probe">
+<value>KL/CH/FF</value>
+</field>
+<field name="9_zfw_1">
+<value>0</value>
+</field>
+<field name="9_zd">
+<value/>
+</field>
+<field name="9_k">
+<value/>
+</field>
+<field name="9_rw">
+<value/>
+</field>
+<field name="9_wd">
+<value/>
+</field>
+<field name="9_notiz">
+<value>35  </value>
+</field>
+<field name="9_komp">
+<value>D</value>
+</field>
+<field name="9_rep">
+<value>Magier</value>
+</field>
+<field name="9_mm">
+<value>Illu</value>
+</field>
+<field name="9_haus">
+<value/>
+</field>
+<field name="9_lern">
+<value>D</value>
+</field>
+<field name="10_name">
+<value>Axxeleratus Blitzgeschwind</value>
+</field>
+<field name="10_probe">
+<value>KL/GE/KO</value>
+</field>
+<field name="10_zfw_1">
+<value>0</value>
+</field>
+<field name="10_zd">
+<value/>
+</field>
+<field name="10_k">
+<value/>
+</field>
+<field name="10_rw">
+<value/>
+</field>
+<field name="10_wd">
+<value/>
+</field>
+<field name="10_notiz">
+<value>36  </value>
+</field>
+<field name="10_komp">
+<value>C</value>
+</field>
+<field name="10_rep">
+<value>Magier</value>
+</field>
+<field name="10_mm">
+<value>Eign</value>
+</field>
+<field name="10_haus">
+<value/>
+</field>
+<field name="10_lern">
+<value>C</value>
+</field>
+<field name="11_name">
+<value>Balsam Salabunde</value>
+</field>
+<field name="11_probe">
+<value>KL/IN/CH+Mod</value>
+</field>
+<field name="11_zfw_1">
+<value>4</value>
+</field>
+<field name="11_zd">
+<value>1 SR</value>
+</field>
+<field name="11_k">
+<value>1/LeP min 5</value>
+</field>
+<field name="11_rw">
+<value>S, B</value>
+</field>
+<field name="11_wd">
+<value>augenbl.</value>
+</field>
+<field name="11_notiz">
+<value>37  +Mod</value>
+</field>
+<field name="11_komp">
+<value>C</value>
+</field>
+<field name="11_rep">
+<value>Magier</value>
+</field>
+<field name="11_mm">
+<value>Form, Heil</value>
+</field>
+<field name="11_haus">
+<value/>
+</field>
+<field name="11_lern">
+<value>A</value>
+</field>
+<field name="12_name">
+<value>Bannbaladin</value>
+</field>
+<field name="12_probe">
+<value>IN/CH/CH+MR</value>
+</field>
+<field name="12_zfw_1">
+<value>0</value>
+</field>
+<field name="12_zd">
+<value>5</value>
+</field>
+<field name="12_k">
+<value>7</value>
+</field>
+<field name="12_rw">
+<value>3</value>
+</field>
+<field name="12_wd">
+<value>ZfP* SR</value>
+</field>
+<field name="12_notiz">
+<value>39  +MR</value>
+</field>
+<field name="12_komp">
+<value>B</value>
+</field>
+<field name="12_rep">
+<value>Magier</value>
+</field>
+<field name="12_mm">
+<value>Einfl</value>
+</field>
+<field name="12_haus">
+<value/>
+</field>
+<field name="12_lern">
+<value>B</value>
+</field>
+<field name="13_name">
+<value>Blitz dich find</value>
+</field>
+<field name="13_probe">
+<value>KL/IN/GE+MR</value>
+</field>
+<field name="13_zfw_1">
+<value>0</value>
+</field>
+<field name="13_zd">
+<value/>
+</field>
+<field name="13_k">
+<value/>
+</field>
+<field name="13_rw">
+<value/>
+</field>
+<field name="13_wd">
+<value/>
+</field>
+<field name="13_notiz">
+<value>49  </value>
+</field>
+<field name="13_komp">
+<value>B</value>
+</field>
+<field name="13_rep">
+<value>Magier</value>
+</field>
+<field name="13_mm">
+<value>Einfl</value>
+</field>
+<field name="13_haus">
+<value/>
+</field>
+<field name="13_lern">
+<value>B</value>
+</field>
+<field name="14_name">
+<value>Dschinnenruf</value>
+</field>
+<field name="14_probe">
+<value>MU/KL/CH+Mod</value>
+</field>
+<field name="14_zfw_1">
+<value>8</value>
+</field>
+<field name="14_zd">
+<value/>
+</field>
+<field name="14_k">
+<value/>
+</field>
+<field name="14_rw">
+<value/>
+</field>
+<field name="14_wd">
+<value/>
+</field>
+<field name="14_notiz">
+<value>68 Kosten </value>
+</field>
+<field name="14_komp">
+<value>E</value>
+</field>
+<field name="14_rep">
+<value>Magier</value>
+</field>
+<field name="14_mm">
+<value>Elem, Rufe</value>
+</field>
+<field name="14_haus">
+<value>x</value>
+</field>
+<field name="14_lern">
+<value>D</value>
+</field>
+<field name="15_name">
+<value>Duplicatus Doppelbild</value>
+</field>
+<field name="15_probe">
+<value>KL/CH/GE+Mod</value>
+</field>
+<field name="15_zfw_1">
+<value>0</value>
+</field>
+<field name="15_zd">
+<value/>
+</field>
+<field name="15_k">
+<value/>
+</field>
+<field name="15_rw">
+<value/>
+</field>
+<field name="15_wd">
+<value/>
+</field>
+<field name="15_notiz">
+<value>70  </value>
+</field>
+<field name="15_komp">
+<value>C</value>
+</field>
+<field name="15_rep">
+<value>Magier</value>
+</field>
+<field name="15_mm">
+<value>Illu</value>
+</field>
+<field name="15_haus">
+<value/>
+</field>
+<field name="15_lern">
+<value>C</value>
+</field>
+<field name="16_name">
+<value>Elementarer Diener</value>
+</field>
+<field name="16_probe">
+<value>MU/KL/CH+Mod</value>
+</field>
+<field name="16_zfw_1">
+<value>5</value>
+</field>
+<field name="16_zd">
+<value/>
+</field>
+<field name="16_k">
+<value/>
+</field>
+<field name="16_rw">
+<value/>
+</field>
+<field name="16_wd">
+<value/>
+</field>
+<field name="16_notiz">
+<value>80  </value>
+</field>
+<field name="16_komp">
+<value>D</value>
+</field>
+<field name="16_rep">
+<value>Magier</value>
+</field>
+<field name="16_mm">
+<value>Elem, Rufe</value>
+</field>
+<field name="16_haus">
+<value>x</value>
+</field>
+<field name="16_lern">
+<value>C</value>
+</field>
+<field name="17_name">
+<value>Favilludo Funkentanz</value>
+</field>
+<field name="17_probe">
+<value>IN/CH/FF</value>
+</field>
+<field name="17_zfw_1">
+<value>0</value>
+</field>
+<field name="17_zd">
+<value/>
+</field>
+<field name="17_k">
+<value/>
+</field>
+<field name="17_rw">
+<value/>
+</field>
+<field name="17_wd">
+<value/>
+</field>
+<field name="17_notiz">
+<value>85  </value>
+</field>
+<field name="17_komp">
+<value>A</value>
+</field>
+<field name="17_rep">
+<value>Magier</value>
+</field>
+<field name="17_mm">
+<value>Illu</value>
+</field>
+<field name="17_haus">
+<value/>
+</field>
+<field name="17_lern">
+<value>A</value>
+</field>
+<field name="18_name">
+<value>Flim Flam Funkel</value>
+</field>
+<field name="18_probe">
+<value>KL/KL/FF</value>
+</field>
+<field name="18_zfw_1">
+<value>5</value>
+</field>
+<field name="18_zd">
+<value>2</value>
+</field>
+<field name="18_k">
+<value>1/SR</value>
+</field>
+<field name="18_rw">
+<value>ZfW</value>
+</field>
+<field name="18_wd">
+<value>variabel</value>
+</field>
+<field name="18_notiz">
+<value>87  </value>
+</field>
+<field name="18_komp">
+<value>A</value>
+</field>
+<field name="18_rep">
+<value>Magier</value>
+</field>
+<field name="18_mm">
+<value>Umwt</value>
+</field>
+<field name="18_haus">
+<value/>
+</field>
+<field name="18_lern">
+<value>A</value>
+</field>
+<field name="19_name">
+<value>Foramen Foraminor</value>
+</field>
+<field name="19_probe">
+<value>KL/KL/FF+Mod</value>
+</field>
+<field name="19_zfw_1">
+<value>1</value>
+</field>
+<field name="19_zd">
+<value/>
+</field>
+<field name="19_k">
+<value/>
+</field>
+<field name="19_rw">
+<value/>
+</field>
+<field name="19_wd">
+<value/>
+</field>
+<field name="19_notiz">
+<value>89  </value>
+</field>
+<field name="19_komp">
+<value>C</value>
+</field>
+<field name="19_rep">
+<value>Magier</value>
+</field>
+<field name="19_mm">
+<value>Hell, Tele</value>
+</field>
+<field name="19_haus">
+<value/>
+</field>
+<field name="19_lern">
+<value>B</value>
+</field>
+<field name="20_name">
+<value>Fortifex arkane Wand</value>
+</field>
+<field name="20_probe">
+<value>IN/KO/KK</value>
+</field>
+<field name="20_zfw_1">
+<value>0</value>
+</field>
+<field name="20_zd">
+<value>10</value>
+</field>
+<field name="20_k">
+<value>11</value>
+</field>
+<field name="20_rw">
+<value>3</value>
+</field>
+<field name="20_wd">
+<value>ZfP* x 10 KR</value>
+</field>
+<field name="20_notiz">
+<value>90  </value>
+</field>
+<field name="20_komp">
+<value>D</value>
+</field>
+<field name="20_rep">
+<value>Magier</value>
+</field>
+<field name="20_mm">
+<value>Elem (Erz), Umwt</value>
+</field>
+<field name="20_haus">
+<value/>
+</field>
+<field name="20_lern">
+<value>E</value>
+</field>
+<field name="21_name">
+<value>Gardianum Zauberschild</value>
+</field>
+<field name="21_probe">
+<value>KL/IN/KO</value>
+</field>
+<field name="21_zfw_1">
+<value>1</value>
+</field>
+<field name="21_zd">
+<value>2</value>
+</field>
+<field name="21_k">
+<value>min 3</value>
+</field>
+<field name="21_rw">
+<value>3</value>
+</field>
+<field name="21_wd">
+<value>1 SR</value>
+</field>
+<field name="21_notiz">
+<value>92  </value>
+</field>
+<field name="21_komp">
+<value>D</value>
+</field>
+<field name="21_rep">
+<value>Magier</value>
+</field>
+<field name="21_mm">
+<value>Anti, Krft, Meta</value>
+</field>
+<field name="21_haus">
+<value/>
+</field>
+<field name="21_lern">
+<value>E</value>
+</field>
+<field name="22_name">
+<value>Manifesto Element</value>
+</field>
+<field name="22_probe">
+<value>KL/IN/CH+Mod</value>
+</field>
+<field name="22_zfw_1">
+<value>7</value>
+</field>
+<field name="22_zd">
+<value>10</value>
+</field>
+<field name="22_k">
+<value>3</value>
+</field>
+<field name="22_rw">
+<value>max 1</value>
+</field>
+<field name="22_wd">
+<value>1 Min-ZfP* SR</value>
+</field>
+<field name="22_notiz">
+<value>173  +Mod</value>
+</field>
+<field name="22_komp">
+<value>A</value>
+</field>
+<field name="22_rep">
+<value>Magier</value>
+</field>
+<field name="22_mm">
+<value>Elem</value>
+</field>
+<field name="22_haus">
+<value>x</value>
+</field>
+<field name="22_lern">
+<value>A+</value>
+</field>
+<field name="23_name">
+<value>Meister der Elemente</value>
+</field>
+<field name="23_probe">
+<value>MU/KL/CH+Mod</value>
+</field>
+<field name="23_zfw_1">
+<value>2</value>
+</field>
+<field name="23_zd">
+<value/>
+</field>
+<field name="23_k">
+<value/>
+</field>
+<field name="23_rw">
+<value/>
+</field>
+<field name="23_wd">
+<value/>
+</field>
+<field name="23_notiz">
+<value>174  </value>
+</field>
+<field name="23_komp">
+<value>F</value>
+</field>
+<field name="23_rep">
+<value>Magier</value>
+</field>
+<field name="23_mm">
+<value>Elem, Rufe</value>
+</field>
+<field name="23_haus">
+<value/>
+</field>
+<field name="23_lern">
+<value>F</value>
+</field>
+<field name="24_name">
+<value>Motoricus</value>
+</field>
+<field name="24_probe">
+<value>KL/FF/KK+Mod</value>
+</field>
+<field name="24_zfw_1">
+<value>3</value>
+</field>
+<field name="24_zd">
+<value>5</value>
+</field>
+<field name="24_k">
+<value>min 3</value>
+</field>
+<field name="24_rw">
+<value>7</value>
+</field>
+<field name="24_wd">
+<value>1 SR (A)</value>
+</field>
+<field name="24_notiz">
+<value>181  +Mod</value>
+</field>
+<field name="24_komp">
+<value>C</value>
+</field>
+<field name="24_rep">
+<value>Magier</value>
+</field>
+<field name="24_mm">
+<value>Tele</value>
+</field>
+<field name="24_haus">
+<value/>
+</field>
+<field name="24_lern">
+<value>C</value>
+</field>
+<field name="25_name">
+<value>Nebelwand und Morgendunst</value>
+</field>
+<field name="25_probe">
+<value>KL/FF/KO</value>
+</field>
+<field name="25_zfw_1">
+<value>2</value>
+</field>
+<field name="25_zd">
+<value/>
+</field>
+<field name="25_k">
+<value/>
+</field>
+<field name="25_rw">
+<value/>
+</field>
+<field name="25_wd">
+<value/>
+</field>
+<field name="25_notiz">
+<value>187  </value>
+</field>
+<field name="25_komp">
+<value>C</value>
+</field>
+<field name="25_rep">
+<value>Magier</value>
+</field>
+<field name="25_mm">
+<value>Elem (Luf), Elem (Was), Umwt</value>
+</field>
+<field name="25_haus">
+<value/>
+</field>
+<field name="25_lern">
+<value>B</value>
+</field>
+<field name="26_name">
+<value>Nihilogravo Schwerelos</value>
+</field>
+<field name="26_probe">
+<value>KL/KO/KK</value>
+</field>
+<field name="26_zfw_1">
+<value>2</value>
+</field>
+<field name="26_zd">
+<value/>
+</field>
+<field name="26_k">
+<value/>
+</field>
+<field name="26_rw">
+<value/>
+</field>
+<field name="26_wd">
+<value/>
+</field>
+<field name="26_notiz">
+<value>189  </value>
+</field>
+<field name="26_komp">
+<value>E</value>
+</field>
+<field name="26_rep">
+<value>Magier</value>
+</field>
+<field name="26_mm">
+<value>Umwt</value>
+</field>
+<field name="26_haus">
+<value/>
+</field>
+<field name="26_lern">
+<value>E</value>
+</field>
+<field name="27_name">
+<value>Oculus Astralis</value>
+</field>
+<field name="27_probe">
+<value>KL/IN/CH</value>
+</field>
+<field name="27_zfw_1">
+<value>0</value>
+</field>
+<field name="27_zd">
+<value>15</value>
+</field>
+<field name="27_k">
+<value>11 +3 je SR</value>
+</field>
+<field name="27_rw">
+<value>S</value>
+</field>
+<field name="27_wd">
+<value>x SR (A)</value>
+</field>
+<field name="27_notiz">
+<value>196  </value>
+</field>
+<field name="27_komp">
+<value>E</value>
+</field>
+<field name="27_rep">
+<value>Magier</value>
+</field>
+<field name="27_mm">
+<value>Hell, Krft, Meta, Limb</value>
+</field>
+<field name="27_haus">
+<value/>
+</field>
+<field name="27_lern">
+<value>D</value>
+</field>
+<field name="28_name">
+<value>Odem Arcanum</value>
+</field>
+<field name="28_probe">
+<value>KL/IN/IN+Mod</value>
+</field>
+<field name="28_zfw_1">
+<value>4</value>
+</field>
+<field name="28_zd">
+<value>4</value>
+</field>
+<field name="28_k">
+<value>4</value>
+</field>
+<field name="28_rw">
+<value>ZfW</value>
+</field>
+<field name="28_wd">
+<value>2 KR</value>
+</field>
+<field name="28_notiz">
+<value>197  </value>
+</field>
+<field name="28_komp">
+<value>A</value>
+</field>
+<field name="28_rep">
+<value>Magier</value>
+</field>
+<field name="28_mm">
+<value>Hell, Krft</value>
+</field>
+<field name="28_haus">
+<value/>
+</field>
+<field name="28_lern">
+<value>A+</value>
+</field>
+<field name="29_name">
+<value>Orcanofaxius Luftstrahl</value>
+</field>
+<field name="29_probe">
+<value>KL/FF/KO</value>
+</field>
+<field name="29_zfw_1">
+<value>5</value>
+</field>
+<field name="29_zd">
+<value/>
+</field>
+<field name="29_k">
+<value/>
+</field>
+<field name="29_rw">
+<value/>
+</field>
+<field name="29_wd">
+<value/>
+</field>
+<field name="29_notiz">
+<value>122  </value>
+</field>
+<field name="29_komp">
+<value>C</value>
+</field>
+<field name="29_rep">
+<value>Magier</value>
+</field>
+<field name="29_mm">
+<value>Elem (Luf), Scha</value>
+</field>
+<field name="29_haus">
+<value>x</value>
+</field>
+<field name="29_lern">
+<value>A</value>
+</field>
+<field name="30_name">
+<value>Orcanosphaero Orkanball</value>
+</field>
+<field name="30_probe">
+<value>MU/IN/KO</value>
+</field>
+<field name="30_zfw_1">
+<value>2</value>
+</field>
+<field name="30_zd">
+<value/>
+</field>
+<field name="30_k">
+<value/>
+</field>
+<field name="30_rw">
+<value/>
+</field>
+<field name="30_wd">
+<value/>
+</field>
+<field name="30_notiz">
+<value>124  </value>
+</field>
+<field name="30_komp">
+<value>D</value>
+</field>
+<field name="30_rep">
+<value>Magier</value>
+</field>
+<field name="30_mm">
+<value>Elem (Luf), Scha, Tele</value>
+</field>
+<field name="30_haus">
+<value/>
+</field>
+<field name="30_lern">
+<value>C</value>
+</field>
+<field name="31_name">
+<value>Orkanwand</value>
+</field>
+<field name="31_probe">
+<value>MU/KL/CH</value>
+</field>
+<field name="31_zfw_1">
+<value>7</value>
+</field>
+<field name="31_zd">
+<value/>
+</field>
+<field name="31_k">
+<value/>
+</field>
+<field name="31_rw">
+<value/>
+</field>
+<field name="31_wd">
+<value/>
+</field>
+<field name="31_notiz">
+<value>275  </value>
+</field>
+<field name="31_komp">
+<value>D</value>
+</field>
+<field name="31_rep">
+<value>Magier</value>
+</field>
+<field name="31_mm">
+<value>Elem (Luf)</value>
+</field>
+<field name="31_haus">
+<value>x</value>
+</field>
+<field name="31_lern">
+<value>B</value>
+</field>
+<field name="32_name">
+<value>Sapefacta Zauberschwamm</value>
+</field>
+<field name="32_probe">
+<value>KL/CH/FF</value>
+</field>
+<field name="32_zfw_1">
+<value>0</value>
+</field>
+<field name="32_zd">
+<value>50</value>
+</field>
+<field name="32_k">
+<value>5</value>
+</field>
+<field name="32_rw">
+<value>S</value>
+</field>
+<field name="32_wd">
+<value>augenbl.</value>
+</field>
+<field name="32_notiz">
+<value>223  </value>
+</field>
+<field name="32_komp">
+<value>C</value>
+</field>
+<field name="32_rep">
+<value>Magier</value>
+</field>
+<field name="32_mm">
+<value>Elem (Luf), Elem (Was), Tele</value>
+</field>
+<field name="32_haus">
+<value/>
+</field>
+<field name="32_lern">
+<value>B</value>
+</field>
+<field name="33_name">
+<value>Silentium</value>
+</field>
+<field name="33_probe">
+<value>KL/IN/CH</value>
+</field>
+<field name="33_zfw_1">
+<value>0</value>
+</field>
+<field name="33_zd">
+<value/>
+</field>
+<field name="33_k">
+<value/>
+</field>
+<field name="33_rw">
+<value/>
+</field>
+<field name="33_wd">
+<value/>
+</field>
+<field name="33_notiz">
+<value>241  </value>
+</field>
+<field name="33_komp">
+<value>B</value>
+</field>
+<field name="33_rep">
+<value>Magier</value>
+</field>
+<field name="33_mm">
+<value>Umwt</value>
+</field>
+<field name="33_haus">
+<value/>
+</field>
+<field name="33_lern">
+<value>B</value>
+</field>
+<field name="34_name">
+<value>Unitatio Geistesbund</value>
+</field>
+<field name="34_probe">
+<value>IN/CH/KO</value>
+</field>
+<field name="34_zfw_1">
+<value>2</value>
+</field>
+<field name="34_zd">
+<value>30</value>
+</field>
+<field name="34_k">
+<value>speziell</value>
+</field>
+<field name="34_rw">
+<value>B</value>
+</field>
+<field name="34_wd">
+<value>speziell</value>
+</field>
+<field name="34_notiz">
+<value>265  </value>
+</field>
+<field name="34_komp">
+<value>B</value>
+</field>
+<field name="34_rep">
+<value>Magier</value>
+</field>
+<field name="34_mm">
+<value>Krft, Vers</value>
+</field>
+<field name="34_haus">
+<value/>
+</field>
+<field name="34_lern">
+<value>B</value>
+</field>
+<field name="35_name">
+<value>Wettermeisterschaft</value>
+</field>
+<field name="35_probe">
+<value>MU/CH/GE+Mod</value>
+</field>
+<field name="35_zfw_1">
+<value>4</value>
+</field>
+<field name="35_zd">
+<value/>
+</field>
+<field name="35_k">
+<value/>
+</field>
+<field name="35_rw">
+<value/>
+</field>
+<field name="35_wd">
+<value/>
+</field>
+<field name="35_notiz">
+<value>283  </value>
+</field>
+<field name="35_komp">
+<value>E</value>
+</field>
+<field name="35_rep">
+<value>Magier</value>
+</field>
+<field name="35_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="35_haus">
+<value/>
+</field>
+<field name="35_lern">
+<value>D</value>
+</field>
+<field name="36_name">
+<value>Windhose</value>
+</field>
+<field name="36_probe">
+<value>MU/IN/KK</value>
+</field>
+<field name="36_zfw_1">
+<value>4</value>
+</field>
+<field name="36_zd">
+<value/>
+</field>
+<field name="36_k">
+<value/>
+</field>
+<field name="36_rw">
+<value/>
+</field>
+<field name="36_wd">
+<value/>
+</field>
+<field name="36_notiz">
+<value>286  </value>
+</field>
+<field name="36_komp">
+<value>D</value>
+</field>
+<field name="36_rep">
+<value>Magier</value>
+</field>
+<field name="36_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="36_haus">
+<value/>
+</field>
+<field name="36_lern">
+<value>C</value>
+</field>
+<field name="37_name">
+<value>Windstille</value>
+</field>
+<field name="37_probe">
+<value>KL/CH/KK+Mod</value>
+</field>
+<field name="37_zfw_1">
+<value>6</value>
+</field>
+<field name="37_zd">
+<value/>
+</field>
+<field name="37_k">
+<value/>
+</field>
+<field name="37_rw">
+<value/>
+</field>
+<field name="37_wd">
+<value/>
+</field>
+<field name="37_notiz">
+<value>287  </value>
+</field>
+<field name="37_komp">
+<value>C</value>
+</field>
+<field name="37_rep">
+<value>Magier</value>
+</field>
+<field name="37_mm">
+<value>Elem (Luf), Umwt</value>
+</field>
+<field name="37_haus">
+<value>x</value>
+</field>
+<field name="37_lern">
+<value>A</value>
+</field>
+<field name="Ausruestung_1">
+<value>10 Bolzen</value>
+</field>
+<field name="Ausruestung_1_gewicht">
+<value>3.0</value>
+</field>
+<field name="Ausruestung_2">
+<value>1 Tagebuch, Papier</value>
+</field>
+<field name="Ausruestung_2_gewicht">
+<value>20.0</value>
+</field>
+<field name="Raufen_AT_Kampf">
+<value>7</value>
+</field>
+<field name="Raufen_PA_Kampf">
+<value>6</value>
+</field>
+<field name="Raufen_TP_Kampf">
+<value>1W+0</value>
+</field>
+<field name="Ringen_AT_Kampf">
+<value>6</value>
+</field>
+<field name="Ringen_PA_Kampf">
+<value>6</value>
+</field>
+<field name="Ringen_TP_Kampf">
+<value>1W+0</value>
+</field>
+<field name="RS_KO">
+<value>0</value>
+</field>
+<field name="RS_BR">
+<value>0</value>
+</field>
+<field name="RS_RUE">
+<value>0</value>
+</field>
+<field name="RS_BA">
+<value>0</value>
+</field>
+<field name="RS_LA">
+<value>0</value>
+</field>
+<field name="RS_RA">
+<value>0</value>
+</field>
+<field name="RS_LB">
+<value>0</value>
+</field>
+<field name="RS_RB">
+<value>0</value>
+</field>
+<field name="RS_BE">
+<value>0</value>
+</field>
+<field name="Ruestung_Summe_RS">
+<value>0 -- 0 / 0 / 0 / 0 / 0 / 0 / 0 / 0</value>
+</field>
+<field name="Ruestung_Summe_BE">
+<value>0</value>
+</field>
+<field name="NK_1">
+<value>Dolch</value>
+</field>
+<field name="NK_1_typ">
+<value>Do/BE-1</value>
+</field>
+<field name="NK_1_DK">
+<value>H</value>
+</field>
+<field name="NK_1_TP">
+<value>1W+1</value>
+</field>
+<field name="NK_1_TPKK">
+<value>12 / 5</value>
+</field>
+<field name="NK_1_INI">
+<value>0</value>
+</field>
+<field name="NK_1_WM">
+<value>0 /-1</value>
+</field>
+<field name="NK_1_AT">
+<value>7</value>
+</field>
+<field name="NK_1_PA">
+<value>5</value>
+</field>
+<field name="NK_1_TPeff">
+<value>1W+1</value>
+</field>
+<field name="NK_1_BF_1">
+<value>2</value>
+</field>
+<field name="NK_2">
+<value>Magierstab als Stab</value>
+</field>
+<field name="NK_2_typ">
+<value>St/BE-2</value>
+</field>
+<field name="NK_2_DK">
+<value>NS</value>
+</field>
+<field name="NK_2_TP">
+<value>1W+1</value>
+</field>
+<field name="NK_2_TPKK">
+<value>11 / 5</value>
+</field>
+<field name="NK_2_INI">
+<value>0</value>
+</field>
+<field name="NK_2_WM">
+<value>-1/-1</value>
+</field>
+<field name="NK_2_AT">
+<value>11</value>
+</field>
+<field name="NK_2_PA">
+<value>9</value>
+</field>
+<field name="NK_2_TPeff">
+<value>1W+1</value>
+</field>
+<field name="NK_2_BF_1">
+<value>-9</value>
+</field>
+<field name="FK_1">
+<value>Leichte Armbrust</value>
+</field>
+<field name="FK_1_typ">
+<value>Ar/BE-5</value>
+</field>
+<field name="FK_1_Entfernung">
+<value>10/15/25/40/60</value>
+</field>
+<field name="FK_1_TP">
+<value>1W+6</value>
+</field>
+<field name="FK_1_TPEntfernung">
+<value>1/1/0/0/-1</value>
+</field>
+<field name="FK_1_FK">
+<value>8</value>
+</field>
+<field name="Rechnung_PA_basis">
+<value>6</value>
+</field>
+<field name="Rechnung_PA_BE">
+<value>0</value>
+</field>
+<field name="Rechnung_PA_summe">
+<value>6</value>
+</field>
+<field name="Rechnung_INI">
+<value>9</value>
+</field>
+<field name="Rechnung_INI_BE">
+<value>0</value>
+</field>
+<field name="Rechnung_INI_summe">
+<value>9 (inkl. SF Mod.)</value>
+</field>
+</fields>
+		</xfdf>

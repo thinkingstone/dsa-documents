@@ -5,6 +5,9 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.4" date="TODO" description="Metatalente">
+			<action type="update" dev="mb">Metatalente können korrekt aktiviert/deaktiviert werden. Die Metatalente werden von der Helden-Software berechnet und als Natur-Talent eingefügt. Da der Platz für optionale Natur-Talente oft nicht ausreicht, kann es sein, dass Natur-Talente unvollständig sind.</action>
+		</release>
 		<release version="1.0.3" date="05.01.2014" description="PDF: Schriftkorrektur">
 			<action type="update" dev="mb">PDF: Die Änderung der Schrifttype führte zu leichten Layoutverschiebungen. Diese sind jetzt korrigiert.</action>
 		</release>

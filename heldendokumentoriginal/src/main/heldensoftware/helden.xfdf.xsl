@@ -1236,14 +1236,14 @@
 			<xsl:with-param name="SECTION" select="'Gesellschaftliche Talente'" />
 			<xsl:with-param name="POSPLUS" select="2" />
 		</xsl:apply-templates>
-		<xsl:if test="$includeMetatalente ='true' and not($workaroundMetatalente = 'true')">
-			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur']" mode="talenteWeitere">
+		<xsl:if test="not($includeMetatalente = 'true')">
+			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur' and metatalent = 'false']" mode="talenteWeitere">
 				<xsl:with-param name="SECTION" select="'Natur-Talente'" />
 				<xsl:with-param name="POSPLUS" select="3" />
 			</xsl:apply-templates>
 		</xsl:if>
-		<xsl:if test="$includeMetatalente ='true' and $workaroundMetatalente = 'true'">
-			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur' and metatalent = 'false']" mode="talenteWeitere">
+		<xsl:if test="$includeMetatalente = 'true'">
+			<xsl:apply-templates select="talent[basis = 'false' and bereich = 'Natur']" mode="talenteWeitere">
 				<xsl:with-param name="SECTION" select="'Natur-Talente'" />
 				<xsl:with-param name="POSPLUS" select="3" />
 			</xsl:apply-templates>

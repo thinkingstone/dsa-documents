@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BaseTransformation {
 
@@ -39,14 +41,24 @@ public class BaseTransformation {
 	}
 
 	protected void testTransformation(final String inputFilename) {
+		final Map<String, Object> parameterMap = new HashMap<String, Object>();
 		testTransformation(inputFilename, getXslPath() + "helden.xfdf.xsl",
 				getTesttargetPath() + inputFilename, getExpectedPath()
-						+ inputFilename);
+						+ inputFilename, parameterMap);
+	}
+
+	protected void testTransformation(final String inputFilename,
+			final String expectedFilename,
+			final Map<String, Object> parameterMap) {
+		testTransformation(inputFilename, getXslPath() + "helden.xfdf.xsl",
+				getTesttargetPath() + expectedFilename, getExpectedPath()
+						+ expectedFilename, parameterMap);
 	}
 
 	protected void testTransformation(final String inputFilename,
 			final String xsltFilename, final String outputfilename,
-			final String expectedFilename) {
+			final String expectedFilename,
+			final Map<String, Object> parameterMap) {
 
 		try {
 			final InputStream inputFileInputStream = Thread.currentThread()
@@ -60,7 +72,7 @@ public class BaseTransformation {
 
 			try {
 				TransformationUtils.transform(inputFileInputStream,
-						xsltInputStream, resultOutputStream);
+						xsltInputStream, resultOutputStream, parameterMap);
 			} finally {
 				inputFileInputStream.close();
 				xsltInputStream.close();

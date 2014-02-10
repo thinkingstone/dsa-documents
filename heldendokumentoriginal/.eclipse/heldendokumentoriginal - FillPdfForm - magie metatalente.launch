@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/pdftoolkit/src/main/java/de/thinkingstone/pdftoolkit/FillPdfForm.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="de.thinkingstone.pdftoolkit.FillPdfForm"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--template ${workspace_loc:heldendokumentoriginal}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf -xfdf ${workspace_loc:heldendokumentoriginal}/target/main/heldensoftware/daten.magie.metatalente.xml --result ${workspace_loc:heldendokumentoriginal}/target/main/heldensoftware/magie.metatalente.Heldendokument.pdf"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="pdftoolkit"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+</launchConfiguration>
