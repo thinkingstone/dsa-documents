@@ -2141,6 +2141,9 @@
 <field name="Ausweichen (Summe)">
 <value>14</value>
 </field>
+<field name="Ausweichen (Summe)a">
+<value>14</value>
+</field>
 <field name="Initiative (Basis)">
 <value/>
 </field>

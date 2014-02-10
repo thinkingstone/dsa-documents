@@ -3716,6 +3716,9 @@
 <field name="Ausweichen (Summe)">
 <value>6</value>
 </field>
+<field name="Ausweichen (Summe)a">
+<value>6</value>
+</field>
 <field name="Initiative (Basis)">
 <value/>
 </field>
