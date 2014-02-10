@@ -20,4 +20,9 @@ public class CopyTransformation extends BaseTransformation {
 	public void testMagie() throws Exception {
 		testCopy("daten.magie.xml");
 	}
+
+	@Test
+	public void testMagie_Metatalente() throws Exception {
+		testCopy("daten.magie.metatalente.xml");
+	}
 }

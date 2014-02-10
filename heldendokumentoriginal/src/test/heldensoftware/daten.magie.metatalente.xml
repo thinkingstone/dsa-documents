@@ -686,28 +686,28 @@
 <field name="Gesellschaftliche Talente (PA) 6">
 <value/>
 </field>
-<field name="Natur-Talente 1">
+<field name="Natur-Talente 4">
 <value>Wettervorhersage (KL IN IN)</value>
 </field>
-<field name="Natur-Talente (TaW) 1.1">
+<field name="Natur-Talente (TaW) 4.1">
 <value>5</value>
 </field>
-<field name="Natur-Talente TaW 1.1">
+<field name="Natur-Talente TaW 4.1">
 <value>5</value>
 </field>
-<field name="Natur-Talente (BE) 1">
+<field name="Natur-Talente (BE) 4">
 <value/>
 </field>
-<field name="Natur-Talente (Kosten) 1">
+<field name="Natur-Talente (Kosten) 4">
 <value>B</value>
 </field>
-<field name="Natur-Talente (Komp.) 1">
+<field name="Natur-Talente (Komp.) 4">
 <value>B</value>
 </field>
-<field name="Natur-Talente (AT) 1">
+<field name="Natur-Talente (AT) 4">
 <value/>
 </field>
-<field name="Natur-Talente (PA) 1">
+<field name="Natur-Talente (PA) 4">
 <value/>
 </field>
 <field name="Wissenstalente 4">
