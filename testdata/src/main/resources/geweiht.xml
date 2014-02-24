@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.3.1">
+<helden Version="5.3.3">
 	<held key="1325171725653" name="Geweiht" stand="1371299078905">
 		<basis>
 			<geschlecht name="weiblich" />
@@ -140,8 +140,8 @@
 			<talent lernmethode="Gegenseitiges Lehren" name="Hiebwaffen" probe=" (GE/GE/KK)" value="1" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Raufen" probe=" (GE/GE/KK)" value="2" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Ringen" probe=" (GE/GE/KK)" value="1" />
-			<talent lernmethode="Gegenseitiges Lehren" name="Stäbe" probe=" (GE/GE/KK)" value="1" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Säbel" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Stäbe" probe=" (GE/GE/KK)" value="1" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Wurfmesser" probe=" (GE/FF/KK)" value="0" />
 			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Athletik" probe=" (GE/KO/KK)" value="0" />
 			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Klettern" probe=" (MU/GE/KK)" value="0" />
@@ -217,13 +217,13 @@
 				<attacke value="6" />
 				<parade value="8" />
 			</kampfwerte>
-			<kampfwerte name="Stäbe">
-				<attacke value="6" />
-				<parade value="8" />
-			</kampfwerte>
 			<kampfwerte name="Säbel">
 				<attacke value="6" />
 				<parade value="7" />
+			</kampfwerte>
+			<kampfwerte name="Stäbe">
+				<attacke value="6" />
+				<parade value="8" />
 			</kampfwerte>
 		</kampf>
 		<gegenstände>
@@ -476,10 +476,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>+MhyRToKN164w1UJPmQo430CMHM=</DigestValue>
+				<DigestValue>I7z49GFXQaoEqtsS9u35sePDDYc=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>Iyl2xI7PuiqC0P4CYLmEiI0tzeh/nC6/tBGg03srvivbxhOTUDV7VA==</SignatureValue>
+		<SignatureValue>XshekDS3yvzx+d2xVr34xobYfn8Z1FH4EfkCTWXgpn/YWA+MIgPR9w==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

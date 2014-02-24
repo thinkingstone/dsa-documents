@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>08.12.2013</datum>
-		<uhrzeit>17:07</uhrzeit>
+		<datum>24.02.2014</datum>
+		<uhrzeit>19:31</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050301</heldenversion>
+		<heldenversion>050303</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -1252,27 +1252,6 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
-			<name>Schwerter</name>
-			<meisterhandwerk>false</meisterhandwerk>
-			<leittalent>false</leittalent>
-			<basis>false</basis>
-			<nameausfuehrlich>Schwerter</nameausfuehrlich>
-			<wert>4</wert>
-			<probe>GE/GE/KK</probe>
-			<probenwerte>13/13/13</probenwerte>
-			<nameausfuehrlichmitprobe>Schwerter (GE/GE/KK)</nameausfuehrlichmitprobe>
-			<at>10</at>
-			<pa>10</pa>
-			<behinderung>BE-2</behinderung>
-			<mirakelplus>false</mirakelplus>
-			<mirakelminus>false</mirakelminus>
-			<metatalent>false</metatalent>
-			<bereich>Kampf</bereich>
-			<komplexität>E</komplexität>
-			<lernkomplexität>E</lernkomplexität>
-			<spezialisierungen />
-		</talent>
-		<talent>
 			<name>Säbel</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
@@ -1291,6 +1270,27 @@
 			<bereich>Kampf</bereich>
 			<komplexität>D</komplexität>
 			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Schwerter</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Schwerter</nameausfuehrlich>
+			<wert>4</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>13/13/13</probenwerte>
+			<nameausfuehrlichmitprobe>Schwerter (GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>10</at>
+			<pa>10</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>E</komplexität>
+			<lernkomplexität>E</lernkomplexität>
 			<spezialisierungen />
 		</talent>
 		<talent>

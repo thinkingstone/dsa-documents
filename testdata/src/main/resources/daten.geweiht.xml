@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>11.12.2013</datum>
-		<uhrzeit>19:04</uhrzeit>
+		<datum>24.02.2014</datum>
+		<uhrzeit>19:30</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050301</heldenversion>
+		<heldenversion>050303</heldenversion>
 		<wundschwelle>6</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -708,27 +708,6 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
-			<name>Stäbe</name>
-			<meisterhandwerk>false</meisterhandwerk>
-			<leittalent>false</leittalent>
-			<basis>false</basis>
-			<nameausfuehrlich>Stäbe</nameausfuehrlich>
-			<wert>1</wert>
-			<probe>GE/GE/KK</probe>
-			<probenwerte>11/11/10</probenwerte>
-			<nameausfuehrlichmitprobe>Stäbe (GE/GE/KK)</nameausfuehrlichmitprobe>
-			<at>6</at>
-			<pa>8</pa>
-			<behinderung>BE-2</behinderung>
-			<mirakelplus>false</mirakelplus>
-			<mirakelminus>false</mirakelminus>
-			<metatalent>false</metatalent>
-			<bereich>Kampf</bereich>
-			<komplexität>D</komplexität>
-			<lernkomplexität>D</lernkomplexität>
-			<spezialisierungen />
-		</talent>
-		<talent>
 			<name>Säbel</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
@@ -740,6 +719,27 @@
 			<nameausfuehrlichmitprobe>Säbel (B)(GE/GE/KK)</nameausfuehrlichmitprobe>
 			<at>6</at>
 			<pa>7</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Stäbe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Stäbe</nameausfuehrlich>
+			<wert>1</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>11/11/10</probenwerte>
+			<nameausfuehrlichmitprobe>Stäbe (GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>6</at>
+			<pa>8</pa>
 			<behinderung>BE-2</behinderung>
 			<mirakelplus>false</mirakelplus>
 			<mirakelminus>false</mirakelminus>
@@ -1860,7 +1860,6 @@
 			<details>
 				<tier>
 					<eigenschaften>
-						<astralenergie>null</astralenergie>
 						<ausdauer>45</ausdauer>
 						<charisma>9</charisma>
 						<fingerfertigkeit>4</fingerfertigkeit>

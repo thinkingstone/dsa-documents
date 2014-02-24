@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>13.12.2013</datum>
-		<uhrzeit>16:19</uhrzeit>
+		<datum>24.02.2014</datum>
+		<uhrzeit>19:31</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -87,7 +87,7 @@
 		<kultur>Horasreich</kultur>
 		<aspregeneration>1W6+3</aspregeneration>
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050301</heldenversion>
+		<heldenversion>050303</heldenversion>
 		<wundschwelle>5</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -880,27 +880,6 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
-			<name>Stäbe</name>
-			<meisterhandwerk>false</meisterhandwerk>
-			<leittalent>false</leittalent>
-			<basis>false</basis>
-			<nameausfuehrlich>Stäbe (Magierstab als Stab)</nameausfuehrlich>
-			<wert>8</wert>
-			<probe>GE/GE/KK</probe>
-			<probenwerte>9/9/9</probenwerte>
-			<nameausfuehrlichmitprobe>Stäbe (Magierstab als Stab)(GE/GE/KK)</nameausfuehrlichmitprobe>
-			<at>11</at>
-			<pa>9</pa>
-			<behinderung>BE-2</behinderung>
-			<mirakelplus>false</mirakelplus>
-			<mirakelminus>false</mirakelminus>
-			<metatalent>false</metatalent>
-			<bereich>Kampf</bereich>
-			<komplexität>D</komplexität>
-			<lernkomplexität>D</lernkomplexität>
-			<spezialisierungen>Magierstab als Stab</spezialisierungen>
-		</talent>
-		<talent>
 			<name>Säbel</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
@@ -920,6 +899,27 @@
 			<komplexität>D</komplexität>
 			<lernkomplexität>D</lernkomplexität>
 			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Stäbe</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Stäbe (Magierstab als Stab)</nameausfuehrlich>
+			<wert>8</wert>
+			<probe>GE/GE/KK</probe>
+			<probenwerte>9/9/9</probenwerte>
+			<nameausfuehrlichmitprobe>Stäbe (Magierstab als Stab)(GE/GE/KK)</nameausfuehrlichmitprobe>
+			<at>11</at>
+			<pa>9</pa>
+			<behinderung>BE-2</behinderung>
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>false</metatalent>
+			<bereich>Kampf</bereich>
+			<komplexität>D</komplexität>
+			<lernkomplexität>D</lernkomplexität>
+			<spezialisierungen>Magierstab als Stab</spezialisierungen>
 		</talent>
 		<talent>
 			<name>Wurfmesser</name>

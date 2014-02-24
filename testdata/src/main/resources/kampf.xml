@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.3.1">
+<helden Version="5.3.3">
 	<held key="1324972419780" name="Kampf" stand="1371299096813">
 		<basis>
 			<geschlecht name="männlich" />
@@ -241,8 +241,8 @@
 			<talent lernmethode="Gegenseitiges Lehren" name="Infanteriewaffen" probe=" (GE/GE/KK)" value="1" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Raufen" probe=" (GE/GE/KK)" value="5" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Ringen" probe=" (GE/GE/KK)" value="3" />
-			<talent lernmethode="Gegenseitiges Lehren" name="Schwerter" probe=" (GE/GE/KK)" value="4" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Säbel" probe=" (GE/GE/KK)" value="0" />
+			<talent lernmethode="Gegenseitiges Lehren" name="Schwerter" probe=" (GE/GE/KK)" value="4" />
 			<talent lernmethode="Gegenseitiges Lehren" name="Wurfmesser" probe=" (GE/FF/KK)" value="0" />
 			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Athletik" probe=" (GE/KO/KK)" value="3" />
 			<talent be="BEx2" lernmethode="Gegenseitiges Lehren" name="Klettern" probe=" (MU/GE/KK)" value="1" />
@@ -313,13 +313,13 @@
 				<attacke value="10" />
 				<parade value="9" />
 			</kampfwerte>
-			<kampfwerte name="Schwerter">
-				<attacke value="10" />
-				<parade value="10" />
-			</kampfwerte>
 			<kampfwerte name="Säbel">
 				<attacke value="8" />
 				<parade value="8" />
+			</kampfwerte>
+			<kampfwerte name="Schwerter">
+				<attacke value="10" />
+				<parade value="10" />
 			</kampfwerte>
 		</kampf>
 		<gegenstände>
@@ -366,16 +366,16 @@
 			<kommentar key="Eisenarm" kommentar="Kommentar" />
 			<kommentar key="Steppenkundig" kommentar="Kommentar" />
 			<kommentar key="Talentspezialisierung Dolche (Langdolch)" kommentar="Kommentar" />
-			<kommentar key="Gebirgskundig" kommentar="Kommentar" />
 			<kommentar key="Adlige Abstammung" kommentar="Kommentar" />
+			<kommentar key="Gebirgskundig" kommentar="Kommentar" />
 			<kommentar key="Eitelkeit" kommentar="Kommentar" />
 			<kommentar key="Waldkundig" kommentar="Kommentar" />
 			<kommentar key="Aufmerksamkeit" kommentar="Kommentar" />
 			<kommentar key="Ausweichen II" kommentar="Kommentar" />
-			<kommentar key="Doppelschlag" kommentar="Kommentar" />
 			<kommentar key="Auspendeln" kommentar="Kommentar" />
-			<kommentar key="Dschungelkundig" kommentar="Kommentar" />
+			<kommentar key="Doppelschlag" kommentar="Kommentar" />
 			<kommentar key="Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)" kommentar="Kommentar" />
+			<kommentar key="Dschungelkundig" kommentar="Kommentar" />
 			<kommentar key="Meereskundig" kommentar="Kommentar" />
 			<kommentar key="Fußfeger" kommentar="Kommentar" />
 			<kommentar key="Schnellladen (Armbrust)" kommentar="Kommentar" />
@@ -402,13 +402,13 @@
 			<kommentar key="Talentspezialisierung Ackerbau (G'Rolmur-Biotope)" kommentar="Kommentar" />
 			<kommentar key="Sumpfkundig" kommentar="Kommentar" />
 			<kommentar key="Finte" kommentar="Kommentar" />
-			<kommentar key="Höhlenkundig" kommentar="Kommentar" />
 			<kommentar key="Parierwaffen I" kommentar="Kommentar" />
+			<kommentar key="Höhlenkundig" kommentar="Kommentar" />
 			<kommentar key="Eiskundig" kommentar="Kommentar" />
-			<kommentar key="Meisterschütze (Armbrust)" kommentar="Kommentar" />
 			<kommentar key="Scharfschütze (Armbrust)" kommentar="Kommentar" />
-			<kommentar key="Wüstenkundig" kommentar="Kommentar" />
+			<kommentar key="Meisterschütze (Armbrust)" kommentar="Kommentar" />
 			<kommentar key="Griff" kommentar="Kommentar" />
+			<kommentar key="Wüstenkundig" kommentar="Kommentar" />
 		</kommentare>
 		<ausrüstungen>
 			<heldenausruestung bezeichner="" bfakt="2" bfmin="2" hand="rechts" name="nkwaffe1" schild="0" set="0" slot="0" talent="Dolche" waffenname="Dolch" />
@@ -442,10 +442,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>WYtm0sfsPYEx8yKR03pz/ASeS6s=</DigestValue>
+				<DigestValue>9s8tXxRcbA0CyOBrR4pDF4wqGh8=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>ghhgQ07dlSUw+2Uff31YlmKIxdCCRPr4qeJfmEUfKOVBk6/+8NWS9A==</SignatureValue>
+		<SignatureValue>Hc2GYht+FISPKK+iX6Mnb8HoUKUsLh4qRkc9YQvEB7QVWb6XnPgtSQ==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
