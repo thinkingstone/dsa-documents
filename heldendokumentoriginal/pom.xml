@@ -4,10 +4,10 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.3-SNAPSHOT</version>
+		<version>1.0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>heldendokumentoriginal</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>DSA Heldendokument Original Erweiterung</name>
 	<description>Die Helden-Software (http://www.helden-software.de/) ist ein wunderbares Hilfsmittel um die Das Schwarze Auge (http://www.dasschwarzeauge.de/) Charaktere zu erstellen und zu verwalten. Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DSA Heldendokument Erweiterung möglich.</description>
@@ -22,13 +22,13 @@
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testutils</artifactId>
-			<version>1.0.3-SNAPSHOT</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testdata</artifactId>
-			<version>1.0.3-SNAPSHOT</version>
+			<version>1.0.2-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -110,7 +110,7 @@
 						<phase>integration-test</phase>
 						<configuration>
 							<tasks>
-								<copy file="${project.basedir}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf" todir="${user.home}/helden/plugins/heldenboegen/heldendokumentoriginal" />
+								<copy file="${project.basedir}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf" todir="${user.home}/helden/plugins/heldenboegen/heldendokumentoriginal"/>
 							</tasks>
 						</configuration>
 						<goals>

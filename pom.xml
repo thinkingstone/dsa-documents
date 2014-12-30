@@ -6,7 +6,7 @@
 	</prerequisites>
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>dsa-documents</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>http://thinkingstone.github.io/dsa-documents/</url>
 	<name>DSA Dokumente</name>
@@ -234,7 +234,7 @@
 							<phase>integration-test</phase>
 							<configuration>
 								<tasks>
-									<unzip src="${project.basedir}/target/${project.build.finalName}.zip" dest="${user.home}/helden/plugins/heldenboegen" />
+									<unzip src="${project.basedir}/target/${project.build.finalName}.zip" dest="${user.home}/helden/plugins/heldenboegen"/>
 								</tasks>
 							</configuration>
 							<goals>
