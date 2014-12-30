@@ -1638,10 +1638,10 @@
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende">
 		<xsl:if test="$includeGegenstaende = 'true'">
-			<xsl:apply-templates select="gegenstand[angelegt = 'false' and arten != 'Tier']" />
+			<xsl:apply-templates select="gegenstand[angelegt = 'false' and arten != 'Wesen']" />
 		</xsl:if>
 		<xsl:if test="$includeTier = 'true'">
-			<xsl:apply-templates select="gegenstand[arten = 'Tier']" />
+			<xsl:apply-templates select="gegenstand[arten = 'Wesen']" />
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand">
@@ -1661,7 +1661,7 @@
 			</value>
 		</field>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand[arten = 'Tier']">
+	<xsl:template match="/daten/gegenstaende/gegenstand[arten = 'Wesen']">
 		<xsl:variable name="POS" select="position()" />
 		<field name="Tier_{$POS}_name">
 			<value>
@@ -1670,62 +1670,62 @@
 		</field>
 		<field name="Tier_{$POS}_art">
 			<value>
-				<xsl:value-of select="details/tier/familie" />
+				<xsl:value-of select="details/wesen/familie" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_INI">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/intuition" />
+				<xsl:value-of select="details/wesen/eigenschaften/intuition" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_AT">
 			<value>
-				<xsl:value-of select="details/tier/angriffe/angriff/@at" />
+				<xsl:value-of select="details/wesen/angriffe/angriff/@at" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_PA">
 			<value>
-				<xsl:value-of select="details/tier/angriffe/angriff/@pa" />
+				<xsl:value-of select="details/wesen/angriffe/angriff/@pa" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_TP">
 			<value>
-				<xsl:value-of select="details/tier/angriffe/angriff/@tp" />
+				<xsl:value-of select="details/wesen/angriffe/angriff/@tp" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_LE">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/lebensenergie" />
+				<xsl:value-of select="details/wesen/eigenschaften/lebensenergie" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_RS">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/ruestungsschutz" />
+				<xsl:value-of select="details/wesen/eigenschaften/ruestungsschutz" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_KO">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/konstitution" />
+				<xsl:value-of select="details/wesen/eigenschaften/konstitution" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_GS">
 			<value>
-				<xsl:value-of select="format-number(details/tier/eigenschaften/geschwindigkeit, '#.##0,0', 'de')" />
+				<xsl:value-of select="format-number(details/wesen/eigenschaften/geschwindigkeit, '#.##0,0', 'de')" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_AU">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/ausdauer" />
+				<xsl:value-of select="details/wesen/eigenschaften/ausdauer" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_MR">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/magieresistenz" />
+				<xsl:value-of select="details/wesen/eigenschaften/magieresistenz" />
 			</value>
 		</field>
 		<field name="Tier_{$POS}_LO">
 			<value>
-				<xsl:value-of select="details/tier/eigenschaften/loyalitaet" />
+				<xsl:value-of select="details/wesen/eigenschaften/loyalitaet" />
 			</value>
 		</field>
 		<!--

@@ -687,7 +687,7 @@
 <value/>
 </field>
 <field name="Natur-Talente 4">
-<value>Ansitzjagd + Waffe (MU IN GE)</value>
+<value>Ansitzjagd incl Waffe (MU IN GE)</value>
 </field>
 <field name="Natur-Talente (TaW) 4.1">
 <value>0</value>
@@ -759,7 +759,7 @@
 <value/>
 </field>
 <field name="Natur-Talente 7">
-<value>Pirschjagd + Waffe (MU IN GE)</value>
+<value>Pirschjagd incl Waffe (MU IN GE)</value>
 </field>
 <field name="Natur-Talente (TaW) 7.1">
 <value>0</value>
@@ -783,13 +783,13 @@
 <value/>
 </field>
 <field name="Natur-Talente 8">
-<value>Wettervorhersage (KL IN IN)</value>
+<value>Wachehalten (MU IN FF)</value>
 </field>
 <field name="Natur-Talente (TaW) 8.1">
-<value>5</value>
+<value>3</value>
 </field>
 <field name="Natur-Talente TaW 8.1">
-<value>5</value>
+<value>3</value>
 </field>
 <field name="Natur-Talente (BE) 8">
 <value/>
@@ -804,6 +804,30 @@
 <value/>
 </field>
 <field name="Natur-Talente (PA) 8">
+<value/>
+</field>
+<field name="Natur-Talente 9">
+<value>Wettervorhersage (KL IN IN)</value>
+</field>
+<field name="Natur-Talente (TaW) 9.1">
+<value>5</value>
+</field>
+<field name="Natur-Talente TaW 9.1">
+<value>5</value>
+</field>
+<field name="Natur-Talente (BE) 9">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 9">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 9">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 9">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 9">
 <value/>
 </field>
 <field name="Wissenstalente 4">
@@ -2373,16 +2397,16 @@
 <value>3</value>
 </field>
 <field name="Zauberdauer 1.7">
-<value/>
+<value>30</value>
 </field>
 <field name="Kosten 1.7">
-<value/>
+<value>7</value>
 </field>
 <field name="Reichweite 1.7">
-<value/>
+<value>B</value>
 </field>
 <field name="Wirkungsdauer 1.7">
-<value/>
+<value>1 Std.</value>
 </field>
 <field name="Anmerkung 1.7">
 <value>30  </value>
@@ -2412,16 +2436,16 @@
 <value>0</value>
 </field>
 <field name="Zauberdauer 1.8">
-<value/>
+<value>je 5</value>
 </field>
 <field name="Kosten 1.8">
-<value/>
+<value>je 4</value>
 </field>
 <field name="Reichweite 1.8">
-<value/>
+<value>ZfW x 3</value>
 </field>
 <field name="Wirkungsdauer 1.8">
-<value/>
+<value>ZfP*/2 SR</value>
 </field>
 <field name="Anmerkung 1.8">
 <value>35  </value>
@@ -2646,16 +2670,16 @@
 <value>0</value>
 </field>
 <field name="Zauberdauer 1.14">
-<value/>
+<value>5</value>
 </field>
 <field name="Kosten 1.14">
-<value/>
+<value>6(+3)</value>
 </field>
 <field name="Reichweite 1.14">
-<value/>
+<value>S, B</value>
 </field>
 <field name="Wirkungsdauer 1.14">
-<value/>
+<value>ZfP* x 2 KR</value>
 </field>
 <field name="Anmerkung 1.14">
 <value>70  </value>

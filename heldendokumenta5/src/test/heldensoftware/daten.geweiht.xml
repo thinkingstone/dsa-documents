@@ -1005,13 +1005,13 @@
 <value>-</value>
 </field>
 <field name="Natur_1">
-<value>Wettervorhersage</value>
+<value>Wachehalten</value>
 </field>
 <field name="Natur_1_probe">
-<value>KL IN IN</value>
+<value>MU IN FF</value>
 </field>
 <field name="Natur_1_TAW_1">
-<value>1</value>
+<value>0</value>
 </field>
 <field name="Natur_1_BE">
 <value/>
@@ -1023,6 +1023,27 @@
 <value/>
 </field>
 <field name="Natur_1_PA">
+<value>-</value>
+</field>
+<field name="Natur_2">
+<value>Wettervorhersage</value>
+</field>
+<field name="Natur_2_probe">
+<value>KL IN IN</value>
+</field>
+<field name="Natur_2_TAW_1">
+<value>1</value>
+</field>
+<field name="Natur_2_BE">
+<value/>
+</field>
+<field name="Natur_2_komp">
+<value>B</value>
+</field>
+<field name="Natur_2_AT">
+<value/>
+</field>
+<field name="Natur_2_PA">
 <value>-</value>
 </field>
 <field name="Wissen_1">

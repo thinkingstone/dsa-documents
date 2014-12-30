@@ -572,6 +572,27 @@
 <field name="Gesellschaft_4_PA">
 <value>-</value>
 </field>
+<field name="Natur_1">
+<value>Wachehalten</value>
+</field>
+<field name="Natur_1_probe">
+<value>MU IN FF</value>
+</field>
+<field name="Natur_1_TAW_1">
+<value>3</value>
+</field>
+<field name="Natur_1_BE">
+<value/>
+</field>
+<field name="Natur_1_komp">
+<value>B</value>
+</field>
+<field name="Natur_1_AT">
+<value/>
+</field>
+<field name="Natur_1_PA">
+<value>-</value>
+</field>
 <field name="Wissen_1">
 <value>Geografie</value>
 </field>

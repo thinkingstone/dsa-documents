@@ -27,7 +27,7 @@
 				<xsl:apply-templates select="gegenstand[name=$selectedName]" />
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:apply-templates select="gegenstand[arten = 'Tier'][1]" />
+				<xsl:apply-templates select="gegenstand[arten = 'Wesen'][1]" />
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -62,7 +62,7 @@
 			<xsl:with-param name="TPOS" select="$TPOS" />
 		</xsl:apply-templates>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen">
 		<xsl:param name="TPOS" />
 		<field name="Tier_{$TPOS}_familie">
 			<value>
@@ -98,7 +98,7 @@
 			<xsl:with-param name="TPOS" select="$TPOS" />
 		</xsl:apply-templates>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/eigenschaften">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/eigenschaften">
 		<xsl:param name="TPOS" />
 		<field name="Tier_{$TPOS}_MU">
 			<value>
@@ -236,7 +236,7 @@
 			<xsl:with-param name="TPOS" select="$TPOS" />
 		</xsl:apply-templates>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/sonderfertigkeiten">
 		<xsl:param name="TPOS" />
 		<xsl:variable name="Sonderfertigkeiten">
 			<xsl:apply-templates select="sonderfertigkeit" />
@@ -249,7 +249,7 @@
 			<xsl:with-param name="indexmax" select="7" />
 		</xsl:call-template>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/sonderfertigkeiten/sonderfertigkeit">
 		<xsl:value-of select="bezeichner" />
 		<xsl:if test="count(auswahlen/auswahl) > 0">
 			<xsl:apply-templates select="auswahlen" />
@@ -264,7 +264,7 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/sonderfertigkeiten/sonderfertigkeit/auswahlen">
 		<xsl:text> </xsl:text>
 		<xsl:text>(</xsl:text>
 		<xsl:apply-templates select="auswahl">
@@ -272,13 +272,13 @@
 		</xsl:apply-templates>
 		<xsl:text>)</xsl:text>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/sonderfertigkeiten/sonderfertigkeit/auswahlen/auswahl">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/sonderfertigkeiten/sonderfertigkeit/auswahlen/auswahl">
 		<xsl:value-of select="name" />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile">
 		<xsl:param name="TPOS" />
 		<xsl:variable name="Vorteile">
 			<xsl:apply-templates select="vorteil">
@@ -293,7 +293,7 @@
 			<xsl:with-param name="indexmax" select="5" />
 		</xsl:call-template>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile/vorteil">
 		<xsl:value-of select="normalize-space(bezeichner)" />
 		<xsl:if test="count(auswahlen/auswahl) > 0">
 			<xsl:apply-templates select="auswahlen" />
@@ -312,23 +312,23 @@
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile/vorteil/auswahlen">
 		<xsl:text> </xsl:text>
 		<xsl:apply-templates select="auswahl" />
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/vorteile/vorteil/auswahlen/auswahl">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile/vorteil/auswahlen/auswahl">
 		<xsl:value-of select="." />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/angriffe">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/angriffe">
 		<xsl:param name="TPOS" />
 		<xsl:apply-templates select="angriff">
 			<xsl:with-param name="TPOS" select="$TPOS" />
 		</xsl:apply-templates>
 	</xsl:template>
-	<xsl:template match="/daten/gegenstaende/gegenstand/details/tier/angriffe/angriff">
+	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/angriffe/angriff">
 		<xsl:param name="TPOS" />
 		<xsl:variable name="POS" select="position()" />
 		<field name="Tier_{$TPOS}_angriff_{$POS}_name">

@@ -590,6 +590,30 @@
 <field name="Gesellschaftliche Talente (PA) 6">
 <value/>
 </field>
+<field name="Natur-Talente 4">
+<value>Wachehalten (MU IN FF)</value>
+</field>
+<field name="Natur-Talente (TaW) 4.1">
+<value>3</value>
+</field>
+<field name="Natur-Talente TaW 4.1">
+<value>3</value>
+</field>
+<field name="Natur-Talente (BE) 4">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 4">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 4">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 4">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 4">
+<value/>
+</field>
 <field name="Wissenstalente 4">
 <value>Geografie (KL KL IN)</value>
 </field>

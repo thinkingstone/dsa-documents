@@ -2277,16 +2277,16 @@
 <value>3</value>
 </field>
 <field name="Zauberdauer 1.7">
-<value/>
+<value>30</value>
 </field>
 <field name="Kosten 1.7">
-<value/>
+<value>7</value>
 </field>
 <field name="Reichweite 1.7">
-<value/>
+<value>B</value>
 </field>
 <field name="Wirkungsdauer 1.7">
-<value/>
+<value>1 Std.</value>
 </field>
 <field name="Anmerkung 1.7">
 <value>30  </value>
@@ -2316,16 +2316,16 @@
 <value>0</value>
 </field>
 <field name="Zauberdauer 1.8">
-<value/>
+<value>je 5</value>
 </field>
 <field name="Kosten 1.8">
-<value/>
+<value>je 4</value>
 </field>
 <field name="Reichweite 1.8">
-<value/>
+<value>ZfW x 3</value>
 </field>
 <field name="Wirkungsdauer 1.8">
-<value/>
+<value>ZfP*/2 SR</value>
 </field>
 <field name="Anmerkung 1.8">
 <value>35  </value>
@@ -2550,16 +2550,16 @@
 <value>0</value>
 </field>
 <field name="Zauberdauer 1.14">
-<value/>
+<value>5</value>
 </field>
 <field name="Kosten 1.14">
-<value/>
+<value>6(+3)</value>
 </field>
 <field name="Reichweite 1.14">
-<value/>
+<value>S, B</value>
 </field>
 <field name="Wirkungsdauer 1.14">
-<value/>
+<value>ZfP* x 2 KR</value>
 </field>
 <field name="Anmerkung 1.14">
 <value>70  </value>

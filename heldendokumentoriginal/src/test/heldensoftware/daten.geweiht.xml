@@ -618,13 +618,13 @@
 <value/>
 </field>
 <field name="Natur-Talente 4">
-<value>Wettervorhersage (KL IN IN)</value>
+<value>Wachehalten (MU IN FF)</value>
 </field>
 <field name="Natur-Talente (TaW) 4.1">
-<value>1</value>
+<value>0</value>
 </field>
 <field name="Natur-Talente TaW 4.1">
-<value>1</value>
+<value>0</value>
 </field>
 <field name="Natur-Talente (BE) 4">
 <value/>
@@ -639,6 +639,30 @@
 <value/>
 </field>
 <field name="Natur-Talente (PA) 4">
+<value/>
+</field>
+<field name="Natur-Talente 5">
+<value>Wettervorhersage (KL IN IN)</value>
+</field>
+<field name="Natur-Talente (TaW) 5.1">
+<value>1</value>
+</field>
+<field name="Natur-Talente TaW 5.1">
+<value>1</value>
+</field>
+<field name="Natur-Talente (BE) 5">
+<value/>
+</field>
+<field name="Natur-Talente (Kosten) 5">
+<value>B</value>
+</field>
+<field name="Natur-Talente (Komp.) 5">
+<value>B</value>
+</field>
+<field name="Natur-Talente (AT) 5">
+<value/>
+</field>
+<field name="Natur-Talente (PA) 5">
 <value/>
 </field>
 <field name="Wissenstalente 4">

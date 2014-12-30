@@ -648,7 +648,7 @@
 <value>-</value>
 </field>
 <field name="Natur_1">
-<value>Ansitzjagd + Waffe</value>
+<value>Ansitzjagd incl Waffe</value>
 </field>
 <field name="Natur_1_probe">
 <value>MU IN GE</value>
@@ -711,7 +711,7 @@
 <value>-</value>
 </field>
 <field name="Natur_4">
-<value>Pirschjagd + Waffe</value>
+<value>Pirschjagd incl Waffe</value>
 </field>
 <field name="Natur_4_probe">
 <value>MU IN GE</value>
@@ -732,13 +732,13 @@
 <value>-</value>
 </field>
 <field name="Natur_5">
-<value>Wettervorhersage</value>
+<value>Wachehalten</value>
 </field>
 <field name="Natur_5_probe">
-<value>KL IN IN</value>
+<value>MU IN FF</value>
 </field>
 <field name="Natur_5_TAW_1">
-<value>5</value>
+<value>3</value>
 </field>
 <field name="Natur_5_BE">
 <value/>
@@ -750,6 +750,27 @@
 <value/>
 </field>
 <field name="Natur_5_PA">
+<value>-</value>
+</field>
+<field name="Natur_6">
+<value>Wettervorhersage</value>
+</field>
+<field name="Natur_6_probe">
+<value>KL IN IN</value>
+</field>
+<field name="Natur_6_TAW_1">
+<value>5</value>
+</field>
+<field name="Natur_6_BE">
+<value/>
+</field>
+<field name="Natur_6_komp">
+<value>B</value>
+</field>
+<field name="Natur_6_AT">
+<value/>
+</field>
+<field name="Natur_6_PA">
 <value>-</value>
 </field>
 <field name="Wissen_1">
@@ -2217,16 +2238,16 @@
 <value>3</value>
 </field>
 <field name="8_zd">
-<value/>
+<value>30</value>
 </field>
 <field name="8_k">
-<value/>
+<value>7</value>
 </field>
 <field name="8_rw">
-<value/>
+<value>B</value>
 </field>
 <field name="8_wd">
-<value/>
+<value>1 Std.</value>
 </field>
 <field name="8_notiz">
 <value>30  </value>
@@ -2256,16 +2277,16 @@
 <value>0</value>
 </field>
 <field name="9_zd">
-<value/>
+<value>je 5</value>
 </field>
 <field name="9_k">
-<value/>
+<value>je 4</value>
 </field>
 <field name="9_rw">
-<value/>
+<value>ZfW x 3</value>
 </field>
 <field name="9_wd">
-<value/>
+<value>ZfP*/2 SR</value>
 </field>
 <field name="9_notiz">
 <value>35  </value>
@@ -2490,16 +2511,16 @@
 <value>0</value>
 </field>
 <field name="15_zd">
-<value/>
+<value>5</value>
 </field>
 <field name="15_k">
-<value/>
+<value>6(+3)</value>
 </field>
 <field name="15_rw">
-<value/>
+<value>S, B</value>
 </field>
 <field name="15_wd">
-<value/>
+<value>ZfP* x 2 KR</value>
 </field>
 <field name="15_notiz">
 <value>70  </value>
