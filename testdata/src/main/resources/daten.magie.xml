@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>24.02.2014</datum>
-		<uhrzeit>19:31</uhrzeit>
+		<datum>30.12.2014</datum>
+		<uhrzeit>11:27</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -55,6 +55,7 @@
 		<profession>
 			<text>Konzil der Elemente zu Drakonia - Luftelementarist</text>
 			<textkurz>Konzil der Elemente zu Drakonia - Luftelementarist</textkurz>
+			<tarnidentitaet />
 		</profession>
 		<ap>
 			<gesamt>5480</gesamt>
@@ -87,7 +88,7 @@
 		<kultur>Horasreich</kultur>
 		<aspregeneration>1W6+3</aspregeneration>
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050303</heldenversion>
+		<heldenversion>050400</heldenversion>
 		<wundschwelle>5</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -327,6 +328,7 @@
 			<istvorteil>true</istvorteil>
 			<istnachteil>false</istnachteil>
 			<wert>3</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Magisch</bereich>
 		</vorteil>
 		<vorteil>
@@ -337,6 +339,7 @@
 			<istvorteil>true</istvorteil>
 			<istnachteil>false</istnachteil>
 			<wert>3</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Magisch</bereich>
 		</vorteil>
 		<vorteil>
@@ -449,8 +452,8 @@
 			<namemitkommentar>Neugier: 7 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>7</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -460,8 +463,8 @@
 			<namemitkommentar>Prinzipientreue: 8 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<wert>8</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -471,8 +474,8 @@
 			<namemitkommentar>Schulden: 500 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<wert>500</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -510,8 +513,8 @@
 			<namemitkommentar>Weltfremd: 12 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>12</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 	</vorteile>
@@ -1285,15 +1288,15 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
-			<name>Ansitzjagd + Waffe</name>
+			<name>Ansitzjagd incl Waffe</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
 			<basis>false</basis>
-			<nameausfuehrlich>Ansitzjagd + Waffe</nameausfuehrlich>
+			<nameausfuehrlich>Ansitzjagd incl Waffe</nameausfuehrlich>
 			<wert>0</wert>
 			<probe>MU/IN/GE</probe>
 			<probenwerte>13/12/9</probenwerte>
-			<nameausfuehrlichmitprobe>Ansitzjagd + Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<nameausfuehrlichmitprobe>Ansitzjagd incl Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
 			<behinderung />
 			<mirakelplus>false</mirakelplus>
 			<mirakelminus>false</mirakelminus>
@@ -1380,15 +1383,34 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
-			<name>Pirschjagd + Waffe</name>
+			<name>Pirschjagd incl Waffe</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
 			<basis>false</basis>
-			<nameausfuehrlich>Pirschjagd + Waffe</nameausfuehrlich>
+			<nameausfuehrlich>Pirschjagd incl Waffe</nameausfuehrlich>
 			<wert>0</wert>
 			<probe>MU/IN/GE</probe>
 			<probenwerte>13/12/9</probenwerte>
-			<nameausfuehrlichmitprobe>Pirschjagd + Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<nameausfuehrlichmitprobe>Pirschjagd incl Waffe (MU/IN/GE)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wachehalten</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Wachehalten</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>MU/IN/FF</probe>
+			<probenwerte>13/12/12</probenwerte>
+			<nameausfuehrlichmitprobe>Wachehalten (MU/IN/FF)</nameausfuehrlichmitprobe>
 			<behinderung />
 			<mirakelplus>false</mirakelplus>
 			<mirakelminus>false</mirakelminus>
@@ -2205,10 +2227,10 @@
 			</hauszauberformatiert>
 			<repräsentation>Magier</repräsentation>
 			<merkmale>Eign</merkmale>
-			<zauberdauer />
-			<kosten />
-			<reichweite />
-			<wirkungsdauer />
+			<zauberdauer>30</zauberdauer>
+			<kosten>7</kosten>
+			<reichweite>B</reichweite>
+			<wirkungsdauer>1 Std.</wirkungsdauer>
 			<anmerkung />
 			<quelle buch="LCD" seite="30">LCD: 30</quelle>
 			<kontrollwert />
@@ -2232,10 +2254,10 @@
 			</hauszauberformatiert>
 			<repräsentation>Magier</repräsentation>
 			<merkmale>Illu</merkmale>
-			<zauberdauer />
-			<kosten />
-			<reichweite />
-			<wirkungsdauer />
+			<zauberdauer>je 5</zauberdauer>
+			<kosten>je 4</kosten>
+			<reichweite>ZfW x 3</reichweite>
+			<wirkungsdauer>ZfP*/2 SR</wirkungsdauer>
 			<anmerkung />
 			<quelle buch="LCD" seite="35">LCD: 35</quelle>
 			<kontrollwert />
@@ -2393,10 +2415,10 @@
 			</hauszauberformatiert>
 			<repräsentation>Magier</repräsentation>
 			<merkmale>Illu</merkmale>
-			<zauberdauer />
-			<kosten />
-			<reichweite />
-			<wirkungsdauer />
+			<zauberdauer>5</zauberdauer>
+			<kosten>6(+3)</kosten>
+			<reichweite>S, B</reichweite>
+			<wirkungsdauer>ZfP* x 2 KR</wirkungsdauer>
 			<anmerkung />
 			<quelle buch="LCD" seite="70">LCD: 70</quelle>
 			<kontrollwert />

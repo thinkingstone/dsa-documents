@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.3.3">
+<helden Version="5.4.0">
 	<held key="1324972419780" name="Kampf" stand="1371299096813">
 		<basis>
 			<geschlecht name="männlich" />
@@ -7,8 +7,9 @@
 			<mods />
 			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländer">
 				<groesse gewicht="68" value="168" />
-				<aussehen alter="19" augenfarbe="braun" aussehentext0="Aussehen 0123" aussehentext1="Aussehen 0123" aussehentext2="Aussehen 0123" aussehentext3="Aussehen 0123" familietext0="Familie 012345678901234567" familietext1="Familie 012345678901234567" familietext2="Familie 012345678901234567" familietext3="Familie 012345678901234567" familietext4="Familie 012345678901234567" familietext5="Familie 012345678901234567" gbjahr="1003" gbmonat="1" gbtag="12" gprest="0" gpstart="110" haarfarbe="braun"
-					kalender="Bosparans Fall" stand="Mein Stand" titel="Mein langer Titel" />
+				<aussehen alter="19" augenfarbe="braun" aussehentext0="Aussehen 0123" aussehentext1="Aussehen 0123" aussehentext2="Aussehen 0123" aussehentext3="Aussehen 0123" familietext0="Familie 012345678901234567"
+					familietext1="Familie 012345678901234567" familietext2="Familie 012345678901234567" familietext3="Familie 012345678901234567" familietext4="Familie 012345678901234567" familietext5="Familie 012345678901234567"
+					gbjahr="1003" gbmonat="1" gbtag="12" gprest="0" gpstart="110" haarfarbe="braun" kalender="Bosparans Fall" stand="Mein Stand" titel="Mein langer Titel" />
 			</rasse>
 			<kultur name="helden.model.kultur.Garetien" string="Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte">
 				<variante name="Städte mit wichtigem Tempel/Pilgerstätte" />
@@ -355,60 +356,60 @@
 		</gegenstände>
 		<BoniWaffenlos />
 		<kommentare>
-			<kommentar key="Meisterparade" kommentar="Kommentar" />
-			<kommentar key="Schmetterschlag" kommentar="Kommentar" />
-			<kommentar key="Versteckte Klinge" kommentar="Kommentar" />
-			<kommentar key="Schwinger" kommentar="Kommentar" />
 			<kommentar key="Gerade" kommentar="Kommentar" />
-			<kommentar key="Prinzipientreue" kommentar="Kommentar" />
-			<kommentar key="Kampfreflexe" kommentar="Kommentar" />
-			<kommentar key="Kulturkunde (Almada, Mittelreich, Andergast/Nostria)" kommentar="Kommentar" />
-			<kommentar key="Eisenarm" kommentar="Kommentar" />
-			<kommentar key="Steppenkundig" kommentar="Kommentar" />
-			<kommentar key="Talentspezialisierung Dolche (Langdolch)" kommentar="Kommentar" />
-			<kommentar key="Adlige Abstammung" kommentar="Kommentar" />
-			<kommentar key="Gebirgskundig" kommentar="Kommentar" />
-			<kommentar key="Eitelkeit" kommentar="Kommentar" />
-			<kommentar key="Waldkundig" kommentar="Kommentar" />
-			<kommentar key="Aufmerksamkeit" kommentar="Kommentar" />
-			<kommentar key="Ausweichen II" kommentar="Kommentar" />
-			<kommentar key="Auspendeln" kommentar="Kommentar" />
-			<kommentar key="Doppelschlag" kommentar="Kommentar" />
-			<kommentar key="Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)" kommentar="Kommentar" />
-			<kommentar key="Dschungelkundig" kommentar="Kommentar" />
-			<kommentar key="Meereskundig" kommentar="Kommentar" />
-			<kommentar key="Fußfeger" kommentar="Kommentar" />
-			<kommentar key="Schnellladen (Armbrust)" kommentar="Kommentar" />
-			<kommentar key="Rüstungsgewöhnung I (Leichte Platte, Amazonenrüstung (kompl))" kommentar="Kommentar" />
-			<kommentar key="Maraskankundig" kommentar="Kommentar" />
-			<kommentar key="Schildkampf I" kommentar="Kommentar" />
-			<kommentar key="Biss" kommentar="Kommentar" />
-			<kommentar key="Schulden" kommentar="Kommentar" />
-			<kommentar key="Kopfstoß" kommentar="Kommentar" />
-			<kommentar key="Würgegriff" kommentar="Kommentar" />
-			<kommentar key="Wuchtschlag" kommentar="Kommentar" />
-			<kommentar key="Halten" kommentar="Kommentar" />
-			<kommentar key="Ausweichen I" kommentar="Kommentar" />
-			<kommentar key="Beinarbeit" kommentar="Kommentar" />
-			<kommentar key="Knaufschlag" kommentar="Kommentar" />
-			<kommentar key="Rüstungsgewöhnung II" kommentar="Kommentar" />
 			<kommentar key="Ortskenntnis (Strecke 1, Örtlichkeit 1, Stadtteil/Kleinstadt)" kommentar="Kommentar" />
-			<kommentar key="Talentspezialisierung Anderthalbhänder (Anderthalbhänder)" kommentar="Kommentar" />
-			<kommentar key="Knie" kommentar="Kommentar" />
-			<kommentar key="Sprung" kommentar="Kommentar" />
-			<kommentar key="Block" kommentar="Kommentar" />
-			<kommentar key="Arroganz" kommentar="Kommentar" />
-			<kommentar key="Linkhand" kommentar="Kommentar" />
-			<kommentar key="Talentspezialisierung Ackerbau (G'Rolmur-Biotope)" kommentar="Kommentar" />
+			<kommentar key="Doppelschlag" kommentar="Kommentar" />
+			<kommentar key="Knaufschlag" kommentar="Kommentar" />
 			<kommentar key="Sumpfkundig" kommentar="Kommentar" />
+			<kommentar key="Beinarbeit" kommentar="Kommentar" />
+			<kommentar key="Maraskankundig" kommentar="Kommentar" />
 			<kommentar key="Finte" kommentar="Kommentar" />
-			<kommentar key="Parierwaffen I" kommentar="Kommentar" />
-			<kommentar key="Höhlenkundig" kommentar="Kommentar" />
-			<kommentar key="Eiskundig" kommentar="Kommentar" />
-			<kommentar key="Scharfschütze (Armbrust)" kommentar="Kommentar" />
-			<kommentar key="Meisterschütze (Armbrust)" kommentar="Kommentar" />
-			<kommentar key="Griff" kommentar="Kommentar" />
+			<kommentar key="Biss" kommentar="Kommentar" />
+			<kommentar key="Linkhand" kommentar="Kommentar" />
+			<kommentar key="Gebirgskundig" kommentar="Kommentar" />
+			<kommentar key="Ausweichen II" kommentar="Kommentar" />
+			<kommentar key="Talentspezialisierung Dolche (Langdolch)" kommentar="Kommentar" />
+			<kommentar key="Würgegriff" kommentar="Kommentar" />
+			<kommentar key="Schwinger" kommentar="Kommentar" />
+			<kommentar key="Waldkundig" kommentar="Kommentar" />
+			<kommentar key="Halten" kommentar="Kommentar" />
+			<kommentar key="Prinzipientreue" kommentar="Kommentar" />
+			<kommentar key="Aufmerksamkeit" kommentar="Kommentar" />
+			<kommentar key="Dschungelkundig" kommentar="Kommentar" />
 			<kommentar key="Wüstenkundig" kommentar="Kommentar" />
+			<kommentar key="Höhlenkundig" kommentar="Kommentar" />
+			<kommentar key="Scharfschütze (Armbrust)" kommentar="Kommentar" />
+			<kommentar key="Auspendeln" kommentar="Kommentar" />
+			<kommentar key="Block" kommentar="Kommentar" />
+			<kommentar key="Schulden" kommentar="Kommentar" />
+			<kommentar key="Sprung" kommentar="Kommentar" />
+			<kommentar key="Versteckte Klinge" kommentar="Kommentar" />
+			<kommentar key="Eitelkeit" kommentar="Kommentar" />
+			<kommentar key="Fußfeger" kommentar="Kommentar" />
+			<kommentar key="Wuchtschlag" kommentar="Kommentar" />
+			<kommentar key="Parierwaffen I" kommentar="Kommentar" />
+			<kommentar key="Meereskundig" kommentar="Kommentar" />
+			<kommentar key="Schildkampf I" kommentar="Kommentar" />
+			<kommentar key="Talentspezialisierung Ackerbau (G'Rolmur-Biotope)" kommentar="Kommentar" />
+			<kommentar key="Kopfstoß" kommentar="Kommentar" />
+			<kommentar key="Ausweichen I" kommentar="Kommentar" />
+			<kommentar key="Eiskundig" kommentar="Kommentar" />
+			<kommentar key="Eisenarm" kommentar="Kommentar" />
+			<kommentar key="Griff" kommentar="Kommentar" />
+			<kommentar key="Adlige Abstammung" kommentar="Kommentar" />
+			<kommentar key="Rüstungsgewöhnung II" kommentar="Kommentar" />
+			<kommentar key="Rüstungsgewöhnung I (Leichte Platte, Amazonenrüstung (kompl))" kommentar="Kommentar" />
+			<kommentar key="Steppenkundig" kommentar="Kommentar" />
+			<kommentar key="Arroganz" kommentar="Kommentar" />
+			<kommentar key="Meisterparade" kommentar="Kommentar" />
+			<kommentar key="Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)" kommentar="Kommentar" />
+			<kommentar key="Meisterschütze (Armbrust)" kommentar="Kommentar" />
+			<kommentar key="Talentspezialisierung Anderthalbhänder (Anderthalbhänder)" kommentar="Kommentar" />
+			<kommentar key="Kampfreflexe" kommentar="Kommentar" />
+			<kommentar key="Knie" kommentar="Kommentar" />
+			<kommentar key="Kulturkunde (Almada, Mittelreich, Andergast/Nostria)" kommentar="Kommentar" />
+			<kommentar key="Schnellladen (Armbrust)" kommentar="Kommentar" />
+			<kommentar key="Schmetterschlag" kommentar="Kommentar" />
 		</kommentare>
 		<ausrüstungen>
 			<heldenausruestung bezeichner="" bfakt="2" bfmin="2" hand="rechts" name="nkwaffe1" schild="0" set="0" slot="0" talent="Dolche" waffenname="Dolch" />
@@ -442,17 +443,20 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>9s8tXxRcbA0CyOBrR4pDF4wqGh8=</DigestValue>
+				<DigestValue>VKDdRBvlAzzJXMaqXwwXfwEupew=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>Hc2GYht+FISPKK+iX6Mnb8HoUKUsLh4qRkc9YQvEB7QVWb6XnPgtSQ==</SignatureValue>
+		<SignatureValue>QtjpPrgRDfdCghoJlkLgLT0LVvspv5xbNk9lKpV62557J6KGrA5l7A==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+						xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+						QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+						iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>

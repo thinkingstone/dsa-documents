@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.3.3">
-	<held key="1324993253645" name="Magie" stand="1386947959547">
+<helden Version="5.4.0">
+	<held key="1324993253645" name="Magie" stand="1419935103695">
 		<basis>
 			<geschlecht name="weiblich" />
 			<settings name="DSA4.1" />
 			<mods />
 			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländerin">
 				<groesse gewicht="86" value="186" />
-				<aussehen alter="21" augenfarbe="blau" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4="" familietext5="" gbjahr="1003" gbmonat="3" gbtag="4" gprest="1" gpstart="110" haarfarbe="blond" kalender="Bosparans Fall" stand="" titel="" />
+				<aussehen alter="21" augenfarbe="blau" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4=""
+					familietext5="" gbjahr="1003" gbmonat="3" gbtag="4" gprest="1" gpstart="110" haarfarbe="blond" kalender="Bosparans Fall" stand="" titel="" />
 			</rasse>
 			<kultur name="helden.model.kultur.Horasreich" string="Horasreich" />
 			<ausbildungen>
@@ -244,43 +245,80 @@
 			<talent lernmethode="Gegenseitiges Lehren" name="Ritualkenntnis: Gildenmagie" probe=" (--/--/--)" value="3" />
 		</talentliste>
 		<zauberliste>
-			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="je 4" lernmethode="Gegenseitiges Lehren" name="Abvenenum reine Speise" probe=" (KL/KL/FF)" reichweite="1" repraesentation="Magier" value="0" variante="" wirkungsdauer="augenbl." zauberdauer="15" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="true" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Aeolitus Windgebraus" probe=" (KL/CH/KO)" reichweite="" repraesentation="Magier" value="7" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerofugo Vakuum" probe=" (MU/KO/KK)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerogelo Atemqual" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="1" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="+Mod" hauszauber="false" k="D" kosten="6+3 je 1/2h" lernmethode="Gegenseitiges Lehren" name="Analys Arkanstruktur" probe=" (KL/KL/IN)" reichweite="1" repraesentation="Magier" value="3" variante="" wirkungsdauer="=ZD" zauberdauer="1+SR" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Applicatus Zauberspeicher" probe=" (KL/FF/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="B" kosten="min 4" lernmethode="Gegenseitiges Lehren" name="Armatrutz" probe=" (IN/GE/KO)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="1 SR(A)" zauberdauer="3" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Attributo" probe=" (KL/CH/**)" reichweite="" repraesentation="Magier" value="3" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Auris Nasus Oculus" probe=" (KL/CH/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Axxeleratus Blitzgeschwind" probe=" (KL/GE/KO)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="1/LeP min 5" lernmethode="Gegenseitiges Lehren" name="Balsam Salabunde" probe=" (KL/IN/CH)" reichweite="S, B" repraesentation="Magier" value="4" variante="" wirkungsdauer="augenbl." zauberdauer="1 SR" zauberkommentar="Allgemein wirkender Heizauber, bringt verlorene LeP zurück" />
-			<zauber anmerkungen="+MR" hauszauber="false" k="B" kosten="7" lernmethode="Gegenseitiges Lehren" name="Bannbaladin" probe=" (IN/CH/CH)" reichweite="3" repraesentation="Magier" value="0" variante="" wirkungsdauer="ZfP* SR" zauberdauer="5" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Blitz dich find" probe=" (KL/IN/GE)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="true" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Dschinnenruf" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="8" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Duplicatus Doppelbild" probe=" (KL/CH/GE)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Elementarer Diener" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="5" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="A" kosten="" lernmethode="Gegenseitiges Lehren" name="Favilludo Funkentanz" probe=" (IN/CH/FF)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="A" kosten="1/SR" lernmethode="Gegenseitiges Lehren" name="Flim Flam Funkel" probe=" (KL/KL/FF)" reichweite="ZfW" repraesentation="Magier" value="5" variante="" wirkungsdauer="variabel" zauberdauer="2" zauberkommentar="Erzeugt eine kalt leuchtende Kugel" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Foramen Foraminor" probe=" (KL/KL/FF)" reichweite="" repraesentation="Magier" value="1" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="11" lernmethode="Gegenseitiges Lehren" name="Fortifex arkane Wand" probe=" (IN/KO/KK)" reichweite="3" repraesentation="Magier" value="0" variante="" wirkungsdauer="ZfP* x 10 KR" zauberdauer="10" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Gardianum Zauberschild" probe=" (KL/IN/KO)" reichweite="3" repraesentation="Magier" value="1" variante="" wirkungsdauer="1 SR" zauberdauer="2" zauberkommentar="" />
-			<zauber anmerkungen="+Mod" hauszauber="true" k="A" kosten="3" lernmethode="Gegenseitiges Lehren" name="Manifesto Element" probe=" (KL/IN/CH)" reichweite="max 1" repraesentation="Magier" value="7" variante="" wirkungsdauer="1 Min-ZfP* SR" zauberdauer="10" zauberkommentar="Anwender kann kleinere elementare Effekte hervorrufen" />
-			<zauber anmerkungen="" hauszauber="false" k="F" kosten="" lernmethode="Gegenseitiges Lehren" name="Meister der Elemente" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Motoricus" probe=" (KL/FF/KK)" reichweite="7" repraesentation="Magier" value="3" variante="" wirkungsdauer="1 SR (A)" zauberdauer="5" zauberkommentar="Kernformel der Telekinese; ermöglicht das berührungslose Heben und Bewegen von unbelebten Gegenständen" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Nebelwand und Morgendunst" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Nihilogravo Schwerelos" probe=" (KL/KO/KK)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="E" kosten="11 +3 je SR" lernmethode="Gegenseitiges Lehren" name="Oculus Astralis" probe=" (KL/IN/CH)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="x SR (A)" zauberdauer="15" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="A" kosten="4" lernmethode="Gegenseitiges Lehren" name="Odem Arcanum" probe=" (KL/IN/IN)" reichweite="ZfW" repraesentation="Magier" value="4" variante="" wirkungsdauer="2 KR" zauberdauer="4" zauberkommentar="Der Anwender kann magische Auren sehen" />
-			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanofaxius Luftstrahl" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier" value="5" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanosphaero Orkanball" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orkanwand" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="7" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="C" kosten="5" lernmethode="Gegenseitiges Lehren" name="Sapefacta Zauberschwamm" probe=" (KL/CH/FF)" reichweite="S" repraesentation="Magier" value="0" variante="" wirkungsdauer="augenbl." zauberdauer="50" zauberkommentar="Kleidung des Zauberer wird von Schmutz befreit" />
-			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Silentium" probe=" (KL/IN/CH)" reichweite="" repraesentation="Magier" value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="B" kosten="speziell" lernmethode="Gegenseitiges Lehren" name="Unitatio Geistesbund" probe=" (IN/CH/KO)" reichweite="B" repraesentation="Magier" value="2" variante="" wirkungsdauer="speziell" zauberdauer="30" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Wettermeisterschaft" probe=" (MU/CH/GE)" reichweite="" repraesentation="Magier" value="4" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Windhose" probe=" (MU/IN/KK)" reichweite="" repraesentation="Magier" value="4" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
-			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Windstille" probe=" (KL/CH/KK)" reichweite="" repraesentation="Magier" value="6" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="je 4" lernmethode="Gegenseitiges Lehren" name="Abvenenum reine Speise" probe=" (KL/KL/FF)" reichweite="1" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="augenbl." zauberdauer="15" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Aeolitus Windgebraus" probe=" (KL/CH/KO)" reichweite="" repraesentation="Magier" value="7"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerofugo Vakuum" probe=" (MU/KO/KK)" reichweite="" repraesentation="Magier" value="2"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Aerogelo Atemqual" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="1"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="D" kosten="6+3 je 1/2h" lernmethode="Gegenseitiges Lehren" name="Analys Arkanstruktur" probe=" (KL/KL/IN)" reichweite="1" repraesentation="Magier"
+				value="3" variante="" wirkungsdauer="=ZD" zauberdauer="1+SR" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Applicatus Zauberspeicher" probe=" (KL/FF/FF)" reichweite="" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="min 4" lernmethode="Gegenseitiges Lehren" name="Armatrutz" probe=" (IN/GE/KO)" reichweite="S" repraesentation="Magier" value="0"
+				variante="" wirkungsdauer="1 SR(A)" zauberdauer="3" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="7" lernmethode="Gegenseitiges Lehren" name="Attributo" probe=" (KL/CH/**)" reichweite="B" repraesentation="Magier" value="3" variante=""
+				wirkungsdauer="1 Std." zauberdauer="30" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="je 4" lernmethode="Gegenseitiges Lehren" name="Auris Nasus Oculus" probe=" (KL/CH/FF)" reichweite="ZfW x 3" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="ZfP*/2 SR" zauberdauer="je 5" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Axxeleratus Blitzgeschwind" probe=" (KL/GE/KO)" reichweite="" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="1/LeP min 5" lernmethode="Gegenseitiges Lehren" name="Balsam Salabunde" probe=" (KL/IN/CH)" reichweite="S, B" repraesentation="Magier"
+				value="4" variante="" wirkungsdauer="augenbl." zauberdauer="1 SR" zauberkommentar="Allgemein wirkender Heizauber, bringt verlorene LeP zurück" />
+			<zauber anmerkungen="+MR" hauszauber="false" k="B" kosten="7" lernmethode="Gegenseitiges Lehren" name="Bannbaladin" probe=" (IN/CH/CH)" reichweite="3" repraesentation="Magier" value="0"
+				variante="" wirkungsdauer="ZfP* SR" zauberdauer="5" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Blitz dich find" probe=" (KL/IN/GE)" reichweite="" repraesentation="Magier" value="0"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Dschinnenruf" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="8" variante=""
+				wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="6(+3)" lernmethode="Gegenseitiges Lehren" name="Duplicatus Doppelbild" probe=" (KL/CH/GE)" reichweite="S, B" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="ZfP* x 2 KR" zauberdauer="5" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Elementarer Diener" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="5"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="" lernmethode="Gegenseitiges Lehren" name="Favilludo Funkentanz" probe=" (IN/CH/FF)" reichweite="" repraesentation="Magier" value="0"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="1/SR" lernmethode="Gegenseitiges Lehren" name="Flim Flam Funkel" probe=" (KL/KL/FF)" reichweite="ZfW" repraesentation="Magier" value="5"
+				variante="" wirkungsdauer="variabel" zauberdauer="2" zauberkommentar="Erzeugt eine kalt leuchtende Kugel" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Foramen Foraminor" probe=" (KL/KL/FF)" reichweite="" repraesentation="Magier" value="1"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="11" lernmethode="Gegenseitiges Lehren" name="Fortifex arkane Wand" probe=" (IN/KO/KK)" reichweite="3" repraesentation="Magier" value="0"
+				variante="" wirkungsdauer="ZfP* x 10 KR" zauberdauer="10" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Gardianum Zauberschild" probe=" (KL/IN/KO)" reichweite="3" repraesentation="Magier"
+				value="1" variante="" wirkungsdauer="1 SR" zauberdauer="2" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="true" k="A" kosten="3" lernmethode="Gegenseitiges Lehren" name="Manifesto Element" probe=" (KL/IN/CH)" reichweite="max 1" repraesentation="Magier"
+				value="7" variante="" wirkungsdauer="1 Min-ZfP* SR" zauberdauer="10" zauberkommentar="Anwender kann kleinere elementare Effekte hervorrufen" />
+			<zauber anmerkungen="" hauszauber="false" k="F" kosten="" lernmethode="Gegenseitiges Lehren" name="Meister der Elemente" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="2"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="+Mod" hauszauber="false" k="C" kosten="min 3" lernmethode="Gegenseitiges Lehren" name="Motoricus" probe=" (KL/FF/KK)" reichweite="7" repraesentation="Magier" value="3"
+				variante="" wirkungsdauer="1 SR (A)" zauberdauer="5" zauberkommentar="Kernformel der Telekinese; ermöglicht das berührungslose Heben und Bewegen von unbelebten Gegenständen" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Nebelwand und Morgendunst" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier"
+				value="2" variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Nihilogravo Schwerelos" probe=" (KL/KO/KK)" reichweite="" repraesentation="Magier" value="2"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="11 +3 je SR" lernmethode="Gegenseitiges Lehren" name="Oculus Astralis" probe=" (KL/IN/CH)" reichweite="S" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="x SR (A)" zauberdauer="15" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="A" kosten="4" lernmethode="Gegenseitiges Lehren" name="Odem Arcanum" probe=" (KL/IN/IN)" reichweite="ZfW" repraesentation="Magier" value="4"
+				variante="" wirkungsdauer="2 KR" zauberdauer="4" zauberkommentar="Der Anwender kann magische Auren sehen" />
+			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanofaxius Luftstrahl" probe=" (KL/FF/KO)" reichweite="" repraesentation="Magier" value="5"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orcanosphaero Orkanball" probe=" (MU/IN/KO)" reichweite="" repraesentation="Magier" value="2"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Orkanwand" probe=" (MU/KL/CH)" reichweite="" repraesentation="Magier" value="7" variante=""
+				wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="C" kosten="5" lernmethode="Gegenseitiges Lehren" name="Sapefacta Zauberschwamm" probe=" (KL/CH/FF)" reichweite="S" repraesentation="Magier"
+				value="0" variante="" wirkungsdauer="augenbl." zauberdauer="50" zauberkommentar="Kleidung des Zauberer wird von Schmutz befreit" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="" lernmethode="Gegenseitiges Lehren" name="Silentium" probe=" (KL/IN/CH)" reichweite="" repraesentation="Magier" value="0" variante=""
+				wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="B" kosten="speziell" lernmethode="Gegenseitiges Lehren" name="Unitatio Geistesbund" probe=" (IN/CH/KO)" reichweite="B" repraesentation="Magier"
+				value="2" variante="" wirkungsdauer="speziell" zauberdauer="30" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="E" kosten="" lernmethode="Gegenseitiges Lehren" name="Wettermeisterschaft" probe=" (MU/CH/GE)" reichweite="" repraesentation="Magier" value="4"
+				variante="" wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="false" k="D" kosten="" lernmethode="Gegenseitiges Lehren" name="Windhose" probe=" (MU/IN/KK)" reichweite="" repraesentation="Magier" value="4" variante=""
+				wirkungsdauer="" zauberdauer="" zauberkommentar="" />
+			<zauber anmerkungen="" hauszauber="true" k="C" kosten="" lernmethode="Gegenseitiges Lehren" name="Windstille" probe=" (KL/CH/KK)" reichweite="" repraesentation="Magier" value="6" variante=""
+				wirkungsdauer="" zauberdauer="" zauberkommentar="" />
 		</zauberliste>
 		<kampf>
 			<kampfwerte name="Dolche">
@@ -333,25 +371,25 @@
 		</gegenstände>
 		<BoniWaffenlos />
 		<kommentare>
+			<kommentar key="Repräsentation: Magier" kommentar="Kommentar" />
+			<kommentar key="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)" kommentar="Kommentar" />
+			<kommentar key="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)" kommentar="Kommentar" />
+			<kommentar key="Affinität zu " kommentar="Kommentar" />
+			<kommentar key="Merkmalskenntnis: Elementar (Luft)" kommentar="Kommentar" />
+			<kommentar key="Weltfremd" kommentar="Kommentar" />
+			<kommentar key="Unfähigkeit für [Talentgruppe]" kommentar="Kommentar" />
+			<kommentar key="Große Meditation" kommentar="Kommentar" />
+			<kommentar key="Astrale Meditation" kommentar="Kommentar" />
+			<kommentar key="Stabzauber: Bindung" kommentar="Kommentar" />
+			<kommentar key="Akademische Ausbildung (Magier)" kommentar="Kommentar" />
+			<kommentar key="Prinzipientreue" kommentar="Kommentar" />
+			<kommentar key="Neugier" kommentar="Kommentar" />
+			<kommentar key="Kulturkunde (Horasreich)" kommentar="Kommentar" />
+			<kommentar key="Talentspezialisierung Magiekunde (Elementarismus)" kommentar="Kommentar" />
+			<kommentar key="Lästige Mindergeister" kommentar="Kommentar" />
 			<kommentar key="Schulden" kommentar="Kommentar" />
 			<kommentar key="Vollzauberer" kommentar="Kommentar" />
-			<kommentar key="Stabzauber: Bindung" kommentar="Kommentar" />
-			<kommentar key="Große Meditation" kommentar="Kommentar" />
 			<kommentar key="Ritualkenntnis: Gildenmagie" kommentar="Kommentar" />
-			<kommentar key="Lästige Mindergeister" kommentar="Kommentar" />
-			<kommentar key="Kulturkunde (Horasreich)" kommentar="Kommentar" />
-			<kommentar key="Prinzipientreue" kommentar="Kommentar" />
-			<kommentar key="Repräsentation: Magier" kommentar="Kommentar" />
-			<kommentar key="Unfähigkeit für [Talentgruppe]" kommentar="Kommentar" />
-			<kommentar key="Affinität zu " kommentar="Kommentar" />
-			<kommentar key="Akademische Ausbildung (Magier)" kommentar="Kommentar" />
-			<kommentar key="Neugier" kommentar="Kommentar" />
-			<kommentar key="Merkmalskenntnis: Elementar (Luft)" kommentar="Kommentar" />
-			<kommentar key="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)" kommentar="Kommentar" />
-			<kommentar key="Talentspezialisierung Magiekunde (Elementarismus)" kommentar="Kommentar" />
-			<kommentar key="Weltfremd" kommentar="Kommentar" />
-			<kommentar key="Astrale Meditation" kommentar="Kommentar" />
-			<kommentar key="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)" kommentar="Kommentar" />
 			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Bannschwert" wirkung="" />
 			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Kugelzauber: Bindung" wirkung="" />
 			<sfInfos dauer="" kosten="" probe="" sf="" sfname="Kugelzauber: Brennglas und Prisma" wirkung="" />
@@ -381,17 +419,20 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>I42w/1zo5n4Ci3XqF1j/AuRbxrY=</DigestValue>
+				<DigestValue>3KaC67UjzlXJqakICI4UlloeGmc=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>JSGz88+AwDW9rQtMnCwXm4V/jihajXHdu99cZzY2sesSaQ6yENgsKA==</SignatureValue>
+		<SignatureValue>RDS5U56OlfmZL+6Cu8iWgs1f5k103tTdpDKgiXHfzJ+gqn9u9mMqwQ==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+						xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+						QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+						iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>

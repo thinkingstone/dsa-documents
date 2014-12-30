@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>24.02.2014</datum>
-		<uhrzeit>19:30</uhrzeit>
+		<datum>30.12.2014</datum>
+		<uhrzeit>11:52</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -55,6 +55,7 @@
 		<profession>
 			<text>Geweihte: Hesinde, Satori</text>
 			<textkurz>Geweihte</textkurz>
+			<tarnidentitaet />
 		</profession>
 		<ap>
 			<gesamt>5540</gesamt>
@@ -87,7 +88,7 @@
 		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050303</heldenversion>
+		<heldenversion>050400</heldenversion>
 		<wundschwelle>6</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -291,8 +292,8 @@
 			<namemitkommentar>Meeresangst: 5</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>5</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -311,8 +312,8 @@
 			<namemitkommentar>Neugier: 7</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>7</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -1132,6 +1133,25 @@
 			<spezialisierungen />
 		</talent>
 		<talent>
+			<name>Wachehalten</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Wachehalten</nameausfuehrlich>
+			<wert>0</wert>
+			<probe>MU/IN/FF</probe>
+			<probenwerte>11/15/11</probenwerte>
+			<nameausfuehrlichmitprobe>Wachehalten (MU/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
 			<name>Wettervorhersage</name>
 			<meisterhandwerk>false</meisterhandwerk>
 			<leittalent>false</leittalent>
@@ -1858,8 +1878,9 @@
 			<gesamtpreis>0</gesamtpreis>
 			<quelle buch="ZooBot" seite="118">ZooBot: 118</quelle>
 			<details>
-				<tier>
+				<wesen>
 					<eigenschaften>
+						<astralenergie>null</astralenergie>
 						<ausdauer>45</ausdauer>
 						<charisma>9</charisma>
 						<fingerfertigkeit>4</fingerfertigkeit>
@@ -1991,8 +2012,8 @@
 							<namemitkommentar>Spieltrieb: 4</namemitkommentar>
 							<istvorteil>false</istvorteil>
 							<istnachteil>true</istnachteil>
-							<istschlechteeigenschaft>true</istschlechteeigenschaft>
 							<wert>4</wert>
+							<istschlechteeigenschaft>true</istschlechteeigenschaft>
 							<bereich>Sonst</bereich>
 						</vorteil>
 					</vorteile>
@@ -2299,9 +2320,9 @@
 						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W3+4" />
 						<angriff at="10" dk="HNSP" name="Fiktiv" pa="11" tp="1W2+4" />
 					</angriffe>
-				</tier>
+				</wesen>
 			</details>
-			<arten>Tier</arten>
+			<arten>Wesen</arten>
 		</gegenstand>
 		<gegenstand>
 			<name>Pferd</name>
@@ -2316,7 +2337,7 @@
 			<gesamtpreis>0</gesamtpreis>
 			<quelle buch="ZooBot" seite="151">ZooBot: 151</quelle>
 			<details>
-				<tier>
+				<wesen>
 					<eigenschaften>
 						<astralenergie>4</astralenergie>
 						<ausdauer>4</ausdauer>
@@ -2399,8 +2420,8 @@
 							<namemitkommentar>Höhenangst: 6</namemitkommentar>
 							<istvorteil>false</istvorteil>
 							<istnachteil>true</istnachteil>
-							<istschlechteeigenschaft>true</istschlechteeigenschaft>
 							<wert>6</wert>
+							<istschlechteeigenschaft>true</istschlechteeigenschaft>
 							<bereich>Sonst</bereich>
 						</vorteil>
 						<vorteil>
@@ -2507,9 +2528,9 @@
 						<angriff at="11" dk="H" name="Biss" pa="8" tp="1W+1" />
 						<angriff at="11" dk="N" name="Tritt" pa="8" tp="1W+2" />
 					</angriffe>
-				</tier>
+				</wesen>
 			</details>
-			<arten>Tier</arten>
+			<arten>Wesen</arten>
 		</gegenstand>
 	</gegenstaende>
 	<verbindungen />

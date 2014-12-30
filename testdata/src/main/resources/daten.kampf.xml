@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>24.02.2014</datum>
-		<uhrzeit>19:31</uhrzeit>
+		<datum>30.12.2014</datum>
+		<uhrzeit>11:55</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -55,6 +55,7 @@
 		<profession>
 			<text>Schwertgeselle nach Adersin</text>
 			<textkurz>Schwertgeselle nach Adersin</textkurz>
+			<tarnidentitaet />
 		</profession>
 		<ap>
 			<gesamt>10402</gesamt>
@@ -87,7 +88,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050303</heldenversion>
+		<heldenversion>050400</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -321,8 +322,8 @@
 			<namemitkommentar>Arroganz: 5 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>5</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -332,8 +333,8 @@
 			<namemitkommentar>Eitelkeit: 5 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<wert>5</wert>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -343,8 +344,8 @@
 			<namemitkommentar>Prinzipientreue: 10 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<wert>10</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 		<vorteil>
@@ -354,8 +355,8 @@
 			<namemitkommentar>Schulden: 1500 (Kommentar)</namemitkommentar>
 			<istvorteil>false</istvorteil>
 			<istnachteil>true</istnachteil>
-			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<wert>1500</wert>
+			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
 		</vorteil>
 	</vorteile>
@@ -1689,6 +1690,25 @@
 			<mirakelplus>false</mirakelplus>
 			<mirakelminus>false</mirakelminus>
 			<metatalent>false</metatalent>
+			<bereich>Natur</bereich>
+			<komplexität>B</komplexität>
+			<lernkomplexität>B</lernkomplexität>
+			<spezialisierungen />
+		</talent>
+		<talent>
+			<name>Wachehalten</name>
+			<meisterhandwerk>false</meisterhandwerk>
+			<leittalent>false</leittalent>
+			<basis>false</basis>
+			<nameausfuehrlich>Wachehalten</nameausfuehrlich>
+			<wert>3</wert>
+			<probe>MU/IN/FF</probe>
+			<probenwerte>13/13/9</probenwerte>
+			<nameausfuehrlichmitprobe>Wachehalten (MU/IN/FF)</nameausfuehrlichmitprobe>
+			<behinderung />
+			<mirakelplus>false</mirakelplus>
+			<mirakelminus>false</mirakelminus>
+			<metatalent>true</metatalent>
 			<bereich>Natur</bereich>
 			<komplexität>B</komplexität>
 			<lernkomplexität>B</lernkomplexität>

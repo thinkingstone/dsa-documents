@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.3.3">
+<helden Version="5.4.0">
 	<held key="1325171725653" name="Geweiht" stand="1371299078905">
 		<basis>
 			<geschlecht name="weiblich" />
@@ -7,7 +7,8 @@
 			<mods />
 			<rasse name="helden.model.rasse.Tulamide" string="Tulamidin">
 				<groesse gewicht="83" value="188" />
-				<aussehen alter="20" augenfarbe="dunkelbraun" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4="" familietext5="" gbjahr="1003" gbmonat="1" gbtag="24" gprest="0" gpstart="110" haarfarbe="schwarz" kalender="Bosparans Fall" stand="" titel="" />
+				<aussehen alter="20" augenfarbe="dunkelbraun" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3=""
+					familietext4="" familietext5="" gbjahr="1003" gbmonat="1" gbtag="24" gprest="0" gpstart="110" haarfarbe="schwarz" kalender="Bosparans Fall" stand="" titel="" />
 			</rasse>
 			<kultur name="helden.model.kultur.Mhanadistan" schrift="Lesen/Schreiben Tulamidya" string="Mhanadistan/An wichtigen Handelsrouten" zweitsprache="Sprachen kennen Garethi">
 				<variante name="An wichtigen Handelsrouten" />
@@ -238,7 +239,7 @@
 					<preis value="0" />
 					<name value="Katze" />
 				</modallgemein>
-				<Tier>
+				<Wesen>
 					<eigenschaften>
 						<eigenschaft name="Ausdauer" value="45" />
 						<eigenschaft name="Charisma" value="9" />
@@ -313,6 +314,8 @@
 						</sonderfertigkeit>
 						<sonderfertigkeit name="Verbeißen" />
 					</sonderfertigkeiten>
+					<talente />
+					<zauber />
 					<ini mul="1" sum="13" w="6" />
 					<groesse value="50" />
 					<angriffe>
@@ -361,7 +364,8 @@
 					</angriffe>
 					<gattung value="Al'Anfaner" />
 					<familie value="Katze" />
-				</Tier>
+					<wesensart value="Tier" />
+				</Wesen>
 			</gegenstand>
 			<gegenstand anzahl="1" name="Pferd: Shadif" slot="0">
 				<modallgemein>
@@ -369,7 +373,7 @@
 					<preis value="0" />
 					<name value="Pferd" />
 				</modallgemein>
-				<Tier>
+				<Wesen>
 					<eigenschaften>
 						<eigenschaft name="Astralenergie" value="4" />
 						<eigenschaft name="Ausdauer" value="4" />
@@ -417,6 +421,8 @@
 							<auswahl name="Spucken" />
 						</sonderfertigkeit>
 					</sonderfertigkeiten>
+					<talente />
+					<zauber />
 					<ini mul="1" sum="9" w="6" />
 					<groesse value="154" />
 					<angriffe>
@@ -435,7 +441,8 @@
 					</angriffe>
 					<gattung value="Shadif" />
 					<familie value="Pferd" />
-				</Tier>
+					<wesensart value="Tier" />
+				</Wesen>
 			</gegenstand>
 		</gegenstände>
 		<BoniWaffenlos />
@@ -476,17 +483,20 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>I7z49GFXQaoEqtsS9u35sePDDYc=</DigestValue>
+				<DigestValue>dhTgNBsqj0QXEYz7FY+6EWO12VA=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>XshekDS3yvzx+d2xVr34xobYfn8Z1FH4EfkCTWXgpn/YWA+MIgPR9w==</SignatureValue>
+		<SignatureValue>DakJUVqFPJEz8soFbP7hqK/AINMaousAWiKF+xya5+4gH1M7oNQtEg==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
-					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9 xD7nN1kuFw==</P>
+					<P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+						xD7nN1kuFw==</P>
 					<Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q>
-					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps QW5QvnlMpA==</G>
-					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO iExM4RWtJA==</Y>
+					<G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+						QW5QvnlMpA==</G>
+					<Y>uVrvWkzIbUdL7E80AiD0PJDX3Ck0beY5StXp1wDAA1/ePpemd6rTBNd8YoCzOovNrX016YMcTSiO
+						iExM4RWtJA==</Y>
 				</DSAKeyValue>
 			</KeyValue>
 		</KeyInfo>
