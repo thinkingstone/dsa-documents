@@ -5,8 +5,9 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
-		<release version="1.0.3" date="TODO" description="Helden-Software 5.3.3">
-			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.3</action>
+		<release version="1.0.3" date="TODO" description="Helden-Software 5.4.0">
+			<action type="add" dev="mb">Getestet mit Helden-Software 5.4.0; nicht voll kompatibel zu früheren Versionen</action>
+			<action type="update" dev="mb">Korrektur für Tiere: Grund sind Änderungen der Schnittstelle in der Helden-Software 5.4.0</action>
 		</release>
 		<release version="1.0.2" date="05.01.2014" description="Helden-Software 5.3.1 und Zeilentrennung">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.3.1</action>
