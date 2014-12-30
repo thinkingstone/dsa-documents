@@ -110,7 +110,7 @@
 						<phase>integration-test</phase>
 						<configuration>
 							<tasks>
-								<copy file="${project.basedir}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf" todir="${user.home}/helden/plugins/heldenboegen/heldendokumentoriginal"/>
+								<copy failonerror="false" file="${project.basedir}/src/intermediate/document/Wege-der-Helden_Heldendokument-edit_20b4.pdf" todir="${user.home}/helden/plugins/heldenboegen/heldendokumentoriginal"/>
 							</tasks>
 						</configuration>
 						<goals>
