@@ -14,7 +14,7 @@
 	<modules>
 		<module>heldendokumenta5</module>
 		<module>heldendokumentoriginal</module>
-		<module>initiative</module>
+		<!-- <module>initiative</module> -->
 		<module>tierdokumenta4</module>
 		<module>tierdokumenta5</module>
 		<module>copyxml</module>
