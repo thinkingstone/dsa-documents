@@ -101,6 +101,15 @@
 					<fromFile>download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf</fromFile>
 					<toDir>src/intermediate/document</toDir>
 				</configuration>
+				<executions>
+					<execution>
+						<id>copy-pdf-to-helden-software</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>download-single</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
