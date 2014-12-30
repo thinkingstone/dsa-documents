@@ -6,7 +6,7 @@
 	</prerequisites>
 	<groupId>de.thinkingstone.dsa</groupId>
 	<artifactId>dsa-documents</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>pom</packaging>
 	<url>http://thinkingstone.github.io/dsa-documents/</url>
 	<name>DSA Dokumente</name>
@@ -45,7 +45,7 @@
 		<url>https://github.com/thinkingstone/dsa-documents</url>
 		<connection>scm:git:https://github.com/thinkingstone/dsa-documents.git</connection>
 		<developerConnection>scm:git:git@github.com:thinkingstone/dsa-documents.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>dsa-documents-1.0.2</tag>
 	</scm>
 	<issueManagement>
 		<url>https://github.com/thinkingstone/dsa-documents/issues</url>
@@ -234,7 +234,7 @@
 							<phase>integration-test</phase>
 							<configuration>
 								<tasks>
-									<unzip src="${project.basedir}/target/${project.build.finalName}.zip" dest="${user.home}/helden/plugins/heldenboegen"/>
+									<unzip src="${project.basedir}/target/${project.build.finalName}.zip" dest="${user.home}/helden/plugins/heldenboegen" />
 								</tasks>
 							</configuration>
 							<goals>
