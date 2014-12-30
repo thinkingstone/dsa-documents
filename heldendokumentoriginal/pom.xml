@@ -103,7 +103,7 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>download-pdf</id>
+						<id>copy-pdf-to-helden-software</id>
 						<phase>integration-test</phase>
 						<goals>
 							<goal>download-single</goal>
