@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.4.0">
+<helden Version="5.4.1">
 	<held key="1324993253645" name="Magie" stand="1419935103695">
+		<mods />
 		<basis>
 			<geschlecht name="weiblich" />
 			<settings name="DSA4.1" />
-			<mods />
 			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländerin">
 				<groesse gewicht="86" value="186" />
 				<aussehen alter="21" augenfarbe="blau" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3="" familietext4=""
@@ -409,6 +409,7 @@
 			<muenze anzahl="4" name="Kreuzer" waehrung="Mittelreich" />
 			<muenze anzahl="2" name="Silbertaler" waehrung="Mittelreich" />
 		</geldboerse>
+		<plugindata />
 	</held>
 	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<SignedInfo>
@@ -419,10 +420,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>3KaC67UjzlXJqakICI4UlloeGmc=</DigestValue>
+				<DigestValue>f6c5BZtU89Qyg2qjD7P9sX9YDsU=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>RDS5U56OlfmZL+6Cu8iWgs1f5k103tTdpDKgiXHfzJ+gqn9u9mMqwQ==</SignatureValue>
+		<SignatureValue>V9oONswuKdMj3p/ULZ9EU8BvlFBvzJBvbaqhBt5nmFm5gn0e2B9Jdg==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

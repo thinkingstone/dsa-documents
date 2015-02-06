@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>30.12.2014</datum>
-		<uhrzeit>11:55</uhrzeit>
+		<datum>06.02.2015</datum>
+		<uhrzeit>15:55</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050400</heldenversion>
+		<heldenversion>050401</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -309,10 +309,14 @@
 			<istnachteil>false</istnachteil>
 			<bereich>Magisch</bereich>
 			<auswahlen>
-				<auswahl>Körperkraft</auswahl>
-				<kommentar />
-				<auswahl>Ackerbau</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Körperkraft</name>
+					<kommentar />
+				</auswahl>
+				<auswahl>
+					<name>Ackerbau</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>
@@ -2449,7 +2453,7 @@
 			<reichweite>5 / 15 / 25 / 40 / 60</reichweite>
 			<tp>1W+4</tp>
 			<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
-			<at>3</at>
+			<at>2</at>
 			<ladezeit>2</ladezeit>
 			<kampftalent>Bogen</kampftalent>
 		</fernkampfwaffe>
@@ -2666,7 +2670,7 @@
 				<reichweite>5 / 15 / 25 / 40 / 60</reichweite>
 				<tp>1W+4</tp>
 				<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
-				<at>3</at>
+				<at>2</at>
 				<ladezeit>2</ladezeit>
 				<kampftalent>Bogen</kampftalent>
 			</fernkampfwaffe>
@@ -2961,7 +2965,7 @@
 					<reichweite>5 / 15 / 25 / 40 / 60</reichweite>
 					<tp>1W+4</tp>
 					<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
-					<at>3</at>
+					<at>2</at>
 					<ladezeit>2</ladezeit>
 					<kampftalent>Bogen</kampftalent>
 				</fernkampfwaffe>
@@ -3165,7 +3169,7 @@
 					<reichweite>5 / 15 / 25 / 40 / 60</reichweite>
 					<tp>1W+4</tp>
 					<tpmod>1 / 1 / 0 / 0 / -1</tpmod>
-					<at>3</at>
+					<at>2</at>
 					<ladezeit>2</ladezeit>
 					<kampftalent>Bogen</kampftalent>
 				</fernkampfwaffe>

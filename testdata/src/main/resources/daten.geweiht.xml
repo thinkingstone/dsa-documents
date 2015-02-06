@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>30.12.2014</datum>
-		<uhrzeit>11:52</uhrzeit>
+		<datum>06.02.2015</datum>
+		<uhrzeit>15:54</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050400</heldenversion>
+		<heldenversion>050401</heldenversion>
 		<wundschwelle>6</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -1880,7 +1880,6 @@
 			<details>
 				<wesen>
 					<eigenschaften>
-						<astralenergie>null</astralenergie>
 						<ausdauer>45</ausdauer>
 						<charisma>9</charisma>
 						<fingerfertigkeit>4</fingerfertigkeit>
@@ -1992,8 +1991,10 @@
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
 							<auswahlen>
-								<auswahl>erhöht</auswahl>
-								<kommentar />
+								<auswahl>
+									<name>erhöht</name>
+									<kommentar />
+								</auswahl>
 							</auswahlen>
 						</vorteil>
 						<vorteil>
@@ -2369,8 +2370,10 @@
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
 							<auswahlen>
-								<auswahl>Trab</auswahl>
-								<kommentar />
+								<auswahl>
+									<name>Trab</name>
+									<kommentar />
+								</auswahl>
 							</auswahlen>
 						</vorteil>
 						<vorteil>
@@ -2409,8 +2412,10 @@
 							<istnachteil>false</istnachteil>
 							<bereich>Sonst</bereich>
 							<auswahlen>
-								<auswahl>erhöht</auswahl>
-								<kommentar />
+								<auswahl>
+									<name>erhöht</name>
+									<kommentar />
+								</auswahl>
 							</auswahlen>
 						</vorteil>
 						<vorteil>

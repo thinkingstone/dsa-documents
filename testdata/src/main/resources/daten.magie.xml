@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>30.12.2014</datum>
-		<uhrzeit>11:27</uhrzeit>
+		<datum>06.02.2015</datum>
+		<uhrzeit>15:55</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Horasreich</kultur>
 		<aspregeneration>1W6+3</aspregeneration>
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050400</heldenversion>
+		<heldenversion>050401</heldenversion>
 		<wundschwelle>5</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -307,8 +307,10 @@
 			<istnachteil>false</istnachteil>
 			<bereich>Sonst</bereich>
 			<auswahlen>
-				<auswahl>Elementaren</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Elementaren</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>
@@ -361,8 +363,10 @@
 			<bereich>Magisch</bereich>
 			<bereich>BEGABUNGMERKMAL</bereich>
 			<auswahlen>
-				<auswahl>Heilung</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Heilung</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>
@@ -375,10 +379,14 @@
 			<bereich>Magisch</bereich>
 			<bereich>,BEGABUNGFUERZAUBER</bereich>
 			<auswahlen>
-				<auswahl>Analys Arkanstruktur</auswahl>
-				<kommentar />
-				<auswahl>Balsam Salabunde</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Analys Arkanstruktur</name>
+					<kommentar />
+				</auswahl>
+				<auswahl>
+					<name>Balsam Salabunde</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>
@@ -488,8 +496,10 @@
 			<bereich>Magisch</bereich>
 			<bereich>UNFÄHIGKEITMERKMAL</bereich>
 			<auswahlen>
-				<auswahl>Antimagie</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Antimagie</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>
@@ -502,8 +512,10 @@
 			<bereich>Sonst</bereich>
 			<bereich>UNFÄHIGKEITTALENTGRUPPE</bereich>
 			<auswahlen>
-				<auswahl>Gesellschaft</auswahl>
-				<kommentar />
+				<auswahl>
+					<name>Gesellschaft</name>
+					<kommentar />
+				</auswahl>
 			</auswahlen>
 		</vorteil>
 		<vorteil>

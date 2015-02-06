@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.4.0">
+<helden Version="5.4.1">
 	<held key="1324972419780" name="Kampf" stand="1371299096813">
+		<mods />
 		<basis>
 			<geschlecht name="männlich" />
 			<settings name="DSA4.1" />
-			<mods />
 			<rasse name="helden.model.rasse.Mittellaender" string="Mittelländer">
 				<groesse gewicht="68" value="168" />
 				<aussehen alter="19" augenfarbe="braun" aussehentext0="Aussehen 0123" aussehentext1="Aussehen 0123" aussehentext2="Aussehen 0123" aussehentext3="Aussehen 0123" familietext0="Familie 012345678901234567"
@@ -433,6 +433,7 @@
 			<muenze anzahl="4" name="Kreuzer" waehrung="Mittelreich" />
 			<muenze anzahl="2" name="Silbertaler" waehrung="Mittelreich" />
 		</geldboerse>
+		<plugindata />
 	</held>
 	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<SignedInfo>
@@ -443,10 +444,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>VKDdRBvlAzzJXMaqXwwXfwEupew=</DigestValue>
+				<DigestValue>lqBTPt1Oj6hg0ErM5BsVhel70VU=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>QtjpPrgRDfdCghoJlkLgLT0LVvspv5xbNk9lKpV62557J6KGrA5l7A==</SignatureValue>
+		<SignatureValue>jjOVnkVKKNxjduB/ulXGNVM0RRhj++pbMU62VojBFoCvlydRIeNdiA==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

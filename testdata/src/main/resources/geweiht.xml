@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.4.0">
+<helden Version="5.4.1">
 	<held key="1325171725653" name="Geweiht" stand="1371299078905">
+		<mods />
 		<basis>
 			<geschlecht name="weiblich" />
 			<settings name="DSA4.1" />
-			<mods />
 			<rasse name="helden.model.rasse.Tulamide" string="Tulamidin">
 				<groesse gewicht="83" value="188" />
 				<aussehen alter="20" augenfarbe="dunkelbraun" aussehentext0="" aussehentext1="" aussehentext2="" aussehentext3="" familietext0="" familietext1="" familietext2="" familietext3=""
@@ -473,6 +473,7 @@
 		<verbindungen />
 		<extention />
 		<geldboerse />
+		<plugindata />
 	</held>
 	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<SignedInfo>
@@ -483,10 +484,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>dhTgNBsqj0QXEYz7FY+6EWO12VA=</DigestValue>
+				<DigestValue>QtBUtUY1/U/C1EQ/HXRubfaO4yg=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>DakJUVqFPJEz8soFbP7hqK/AINMaousAWiKF+xya5+4gH1M7oNQtEg==</SignatureValue>
+		<SignatureValue>PsYOINFuwC7jAf5gh8vo5vpzXvJ6RfMV3ixCszgsfNvPr50MVA7W1A==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
