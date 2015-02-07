@@ -3,9 +3,9 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.3</version>
+		<version>1.0.4-SNAPSHOT</version>
 	</parent>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<artifactId>testdata</artifactId>
 	<name>Testdaten für DSA Dokumente</name>
 	<description>Das Projekt enthält Testdaten aus der Helden-Software. Enthalten sind Beispielhelden, die möglichst viele verschiedene Soinderfälle abdecken sollen. Außerdem sind Beispielcharakterbilder enthalten.</description>
