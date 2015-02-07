@@ -309,11 +309,13 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile/vorteil/auswahlen">
-		<xsl:text> </xsl:text>
-		<xsl:apply-templates select="auswahl" />
+		<xsl:apply-templates select="auswahl">
+			<xsl:sort select="name" order="ascending" />
+		</xsl:apply-templates>
 	</xsl:template>
 	<xsl:template match="/daten/gegenstaende/gegenstand/details/wesen/vorteile/vorteil/auswahlen/auswahl">
-		<xsl:value-of select="." />
+		<xsl:text> </xsl:text>
+		<xsl:value-of select="name" />
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>

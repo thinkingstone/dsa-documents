@@ -1938,7 +1938,7 @@
 <value>1 / 1 / 0 / 0 / -1</value>
 </field>
 <field name="Fernkampfwaffe (FK) 1">
-<value>3</value>
+<value>2</value>
 </field>
 <field name="Fernkampfwaffe 1a">
 <value>Kurzbogen</value>
@@ -1956,7 +1956,7 @@
 <value>1 / 1 / 0 / 0 / -1</value>
 </field>
 <field name="Fernkampfwaffe (FK) 1a">
-<value>3</value>
+<value>2</value>
 </field>
 <field name="Fernkampfwaffe 2">
 <value>Leichte Armbrust</value>

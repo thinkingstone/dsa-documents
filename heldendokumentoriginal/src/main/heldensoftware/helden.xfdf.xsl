@@ -906,24 +906,13 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil" mode="begabung">
-		<xsl:apply-templates select="auswahlen" mode="begabung" />
+		<xsl:apply-templates select="auswahlen" />
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 			<xsl:text> </xsl:text>
 			<xsl:text>(</xsl:text>
 			<xsl:value-of select="kommentar" />
 			<xsl:text>)</xsl:text>
 		</xsl:if>
-	</xsl:template>
-	<xsl:template match="/daten/vorteile/vorteil/auswahlen" mode="begabung">
-		<xsl:apply-templates select="auswahl" mode="begabung">
-			<xsl:sort select="name" order="ascending" />
-		</xsl:apply-templates>
-		<xsl:if test="not(position() = last())">
-			<xsl:text>, </xsl:text>
-		</xsl:if>
-	</xsl:template>
-	<xsl:template match="/daten/vorteile/vorteil/auswahlen/auswahl" mode="begabung">
-		<xsl:value-of select="." />
 	</xsl:template>
 	<xsl:template match="auswahlen">
 		<xsl:apply-templates select="auswahl">
