@@ -3,10 +3,10 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.3-SNAPSHOT</version>
+		<version>1.0.3</version>
 	</parent>
 	<artifactId>testutils</artifactId>
-	<version>1.0.3-SNAPSHOT</version>
+	<version>1.0.3</version>
 	<name>Testwerkzeuge für DSA Dokumente</name>
 	<description>Das Projekt enthält Java Klassen die als Basis für die Tests der einzelnen Heldendokumente dienen. </description>
 	<build>
