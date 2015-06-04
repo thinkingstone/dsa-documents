@@ -1034,6 +1034,12 @@
 	</xsl:template>
 	<xsl:template match="auswahlen/auswahl">
 		<xsl:value-of select="name" />
+		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
+			<xsl:text> </xsl:text>
+			<xsl:text>(</xsl:text>
+			<xsl:value-of select="kommentar" />
+			<xsl:text>)</xsl:text>
+		</xsl:if>
 		<xsl:if test="not(position() = last())">
 			<xsl:text>, </xsl:text>
 		</xsl:if>

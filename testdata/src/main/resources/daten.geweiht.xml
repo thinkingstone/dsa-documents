@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>06.02.2015</datum>
-		<uhrzeit>15:54</uhrzeit>
+		<datum>04.06.2015</datum>
+		<uhrzeit>11:07</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Mhanadistan/An wichtigen Handelsrouten</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050401</heldenversion>
+		<heldenversion>050500</heldenversion>
 		<wundschwelle>6</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -344,17 +344,17 @@
 			<nameausfuehrlich>Kulturkunde (Tulamidenlande)</nameausfuehrlich>
 			<name>Kulturkunde (Tulamidenlande)</name>
 			<bezeichner>Kulturkunde</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Tulamidenlande</name>
 					<feld feldname="1" nr="1">Tulamidenlande</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar />
 			<namemitkommentar>Kulturkunde (Tulamidenlande)</namemitkommentar>
 			<bereich>Sonst</bereich>
 		</sonderfertigkeit>
@@ -2023,17 +2023,17 @@
 							<nameausfuehrlich>Anspringen (Tier) (0)</nameausfuehrlich>
 							<name>Anspringen (Tier) (0)</name>
 							<bezeichner>Anspringen (Tier)</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>0</name>
 									<feld feldname="1" nr="1">0</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Anspringen (Tier) (0)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2065,17 +2065,17 @@
 							<nameausfuehrlich>Ausbildung (Geschult)</nameausfuehrlich>
 							<name>Ausbildung (Geschult)</name>
 							<bezeichner>Ausbildung</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Geschult</name>
 									<feld feldname="1" nr="1">Geschult</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Ausbildung (Geschult)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2107,21 +2107,26 @@
 							<nameausfuehrlich>Gelände (Baum, Dschungel)</nameausfuehrlich>
 							<name>Gelände (Baum, Dschungel)</name>
 							<bezeichner>Gelände</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Baum</name>
 									<feld feldname="1" nr="1">Baum</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 								<auswahl>
 									<name>Dschungel</name>
 									<feld feldname="1" nr="1">Dschungel</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Gelände (Baum, Dschungel)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2165,21 +2170,26 @@
 							<nameausfuehrlich>Hinterhalt (0, 12)</nameausfuehrlich>
 							<name>Hinterhalt (0, 12)</name>
 							<bezeichner>Hinterhalt</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>0</name>
 									<feld feldname="1" nr="1">0</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 								<auswahl>
 									<name>12</name>
 									<feld feldname="1" nr="1">12</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Hinterhalt (0, 12)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2211,17 +2221,17 @@
 							<nameausfuehrlich>Sehr kleiner Gegner (AT+2 / PA+4)</nameausfuehrlich>
 							<name>Sehr kleiner Gegner (AT+2 / PA+4)</name>
 							<bezeichner>Sehr kleiner Gegner</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>AT+2 / PA+4</name>
 									<feld feldname="1" nr="1">AT+2 / PA+4</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Sehr kleiner Gegner (AT+2 / PA+4)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2265,17 +2275,17 @@
 							<nameausfuehrlich>Trick (Unwiederstehlicher Blick)</nameausfuehrlich>
 							<name>Trick (Unwiederstehlicher Blick)</name>
 							<bezeichner>Trick</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Unwiederstehlicher Blick</name>
 									<feld feldname="" nr="1">Unwiederstehlicher Blick</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Trick (Unwiederstehlicher Blick)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2283,17 +2293,17 @@
 							<nameausfuehrlich>Unarten (Knabbern)</nameausfuehrlich>
 							<name>Unarten (Knabbern)</name>
 							<bezeichner>Unarten</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Knabbern</name>
 									<feld feldname="1" nr="1">Knabbern</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Unarten (Knabbern)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2444,17 +2454,17 @@
 							<nameausfuehrlich>Ausbildung (Adelsross)</nameausfuehrlich>
 							<name>Ausbildung (Adelsross)</name>
 							<bezeichner>Ausbildung</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Adelsross</name>
 									<feld feldname="1" nr="1">Adelsross</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Ausbildung (Adelsross)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2474,17 +2484,17 @@
 							<nameausfuehrlich>Niederwerfen (Tier) (6)</nameausfuehrlich>
 							<name>Niederwerfen (Tier) (6)</name>
 							<bezeichner>Niederwerfen (Tier)</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>6</name>
 									<feld feldname="1" nr="1">6</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Niederwerfen (Tier) (6)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2492,17 +2502,17 @@
 							<nameausfuehrlich>Trick (Macht Männchen)</nameausfuehrlich>
 							<name>Trick (Macht Männchen)</name>
 							<bezeichner>Trick</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Macht Männchen</name>
 									<feld feldname="" nr="1">Macht Männchen</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Trick (Macht Männchen)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>
@@ -2510,17 +2520,17 @@
 							<nameausfuehrlich>Unarten (Spucken)</nameausfuehrlich>
 							<name>Unarten (Spucken)</name>
 							<bezeichner>Unarten</bezeichner>
-							<wirkung />
-							<dauer />
-							<kosten />
-							<probe />
 							<auswahlen>
 								<auswahl>
 									<name>Spucken</name>
 									<feld feldname="1" nr="1">Spucken</feld>
+									<kommentar />
+									<wirkung />
+									<dauer />
+									<kosten />
+									<probe />
 								</auswahl>
 							</auswahlen>
-							<kommentar />
 							<namemitkommentar>Unarten (Spucken)</namemitkommentar>
 							<bereich>Sonst</bereich>
 						</sonderfertigkeit>

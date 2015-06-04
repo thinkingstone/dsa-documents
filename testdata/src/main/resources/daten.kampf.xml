@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>06.02.2015</datum>
-		<uhrzeit>15:55</uhrzeit>
+		<datum>04.06.2015</datum>
+		<uhrzeit>11:08</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050401</heldenversion>
+		<heldenversion>050500</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -434,20 +434,20 @@
 			<nameausfuehrlich>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)</nameausfuehrlich>
 			<name>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)</name>
 			<bezeichner>Berufsgeheimnis</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Abrichten; Ackerbau; HGFHGG</name>
 					<feld feldname="Haupttalent" nr="1">Abrichten</feld>
 					<feld feldname="Hilfestalent" nr="2">Ackerbau</feld>
 					<feld feldname="Beschreibung" nr="3">HGFHGG</feld>
+					<kommentar>Kommentar</kommentar>
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar>Kommentar</kommentar>
-			<namemitkommentar>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar)</namemitkommentar>
+			<namemitkommentar>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG)</namemitkommentar>
 			<bereich>Sonst</bereich>
 		</sonderfertigkeit>
 		<sonderfertigkeit>
@@ -675,25 +675,35 @@
 			<nameausfuehrlich>Kulturkunde (Almada, Andergast/Nostria, Mittelreich)</nameausfuehrlich>
 			<name>Kulturkunde (Almada, Andergast/Nostria, Mittelreich)</name>
 			<bezeichner>Kulturkunde</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Almada</name>
 					<feld feldname="1" nr="1">Almada</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 				<auswahl>
 					<name>Andergast/Nostria</name>
 					<feld feldname="1" nr="1">Andergast/Nostria</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 				<auswahl>
 					<name>Mittelreich</name>
 					<feld feldname="1" nr="1">Mittelreich</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar />
 			<namemitkommentar>Kulturkunde (Almada, Andergast/Nostria, Mittelreich)</namemitkommentar>
 			<bereich>Sonst</bereich>
 		</sonderfertigkeit>
@@ -753,18 +763,18 @@
 			<nameausfuehrlich>Meisterschütze (Armbrust)</nameausfuehrlich>
 			<name>Meisterschütze (Armbrust)</name>
 			<bezeichner>Meisterschütze</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Armbrust</name>
 					<feld feldname="1" nr="1">Armbrust</feld>
+					<kommentar>Kommentar</kommentar>
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar>Kommentar</kommentar>
-			<namemitkommentar>Meisterschütze (Armbrust) (Kommentar)</namemitkommentar>
+			<namemitkommentar>Meisterschütze (Armbrust)</namemitkommentar>
 			<bereich>Fernkampf</bereich>
 			<bereich>Kampf</bereich>
 		</sonderfertigkeit>
@@ -772,25 +782,35 @@
 			<nameausfuehrlich>Ortskenntnis (Örtlichkeit 1, Stadtteil/Kleinstadt, Strecke 1)</nameausfuehrlich>
 			<name>Ortskenntnis (Örtlichkeit 1, Stadtteil/Kleinstadt, Strecke 1)</name>
 			<bezeichner>Ortskenntnis</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
-				<auswahl>
-					<name>Örtlichkeit 1</name>
-					<feld feldname="1" nr="1">Örtlichkeit 1</feld>
-				</auswahl>
 				<auswahl>
 					<name>Stadtteil/Kleinstadt</name>
 					<feld feldname="1" nr="1">Stadtteil/Kleinstadt</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 				<auswahl>
 					<name>Strecke 1</name>
 					<feld feldname="1" nr="1">Strecke 1</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
+				</auswahl>
+				<auswahl>
+					<name>Örtlichkeit 1</name>
+					<feld feldname="1" nr="1">Örtlichkeit 1</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar />
 			<namemitkommentar>Ortskenntnis (Örtlichkeit 1, Stadtteil/Kleinstadt, Strecke 1)</namemitkommentar>
 			<bereich>Sonst</bereich>
 		</sonderfertigkeit>
@@ -811,21 +831,26 @@
 			<nameausfuehrlich>Rüstungsgewöhnung I (Amazonenrüstung (kompl), Leichte Platte)</nameausfuehrlich>
 			<name>Rüstungsgewöhnung I (Amazonenrüstung (kompl), Leichte Platte)</name>
 			<bezeichner>Rüstungsgewöhnung I</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Amazonenrüstung (kompl)</name>
 					<feld feldname="1" nr="1">Amazonenrüstung (kompl)</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 				<auswahl>
 					<name>Leichte Platte</name>
 					<feld feldname="1" nr="1">Leichte Platte</feld>
+					<kommentar />
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar />
 			<namemitkommentar>Rüstungsgewöhnung I (Amazonenrüstung (kompl), Leichte Platte)</namemitkommentar>
 			<bereich>Nahkampf</bereich>
 			<bereich>Kampf</bereich>
@@ -847,18 +872,18 @@
 			<nameausfuehrlich>Scharfschütze (Armbrust)</nameausfuehrlich>
 			<name>Scharfschütze (Armbrust)</name>
 			<bezeichner>Scharfschütze</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Armbrust</name>
 					<feld feldname="1" nr="1">Armbrust</feld>
+					<kommentar>Kommentar</kommentar>
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar>Kommentar</kommentar>
-			<namemitkommentar>Scharfschütze (Armbrust) (Kommentar)</namemitkommentar>
+			<namemitkommentar>Scharfschütze (Armbrust)</namemitkommentar>
 			<bereich>Fernkampf</bereich>
 			<bereich>Kampf</bereich>
 		</sonderfertigkeit>
@@ -892,18 +917,18 @@
 			<nameausfuehrlich>Schnellladen (Armbrust)</nameausfuehrlich>
 			<name>Schnellladen (Armbrust)</name>
 			<bezeichner>Schnellladen</bezeichner>
-			<wirkung />
-			<dauer />
-			<kosten />
-			<probe />
 			<auswahlen>
 				<auswahl>
 					<name>Armbrust</name>
 					<feld feldname="1" nr="1">Armbrust</feld>
+					<kommentar>Kommentar</kommentar>
+					<wirkung />
+					<dauer />
+					<kosten />
+					<probe />
 				</auswahl>
 			</auswahlen>
-			<kommentar>Kommentar</kommentar>
-			<namemitkommentar>Schnellladen (Armbrust) (Kommentar)</namemitkommentar>
+			<namemitkommentar>Schnellladen (Armbrust)</namemitkommentar>
 			<bereich>Fernkampf</bereich>
 			<bereich>Kampf</bereich>
 		</sonderfertigkeit>
@@ -2475,6 +2500,7 @@
 			<name>Lederschild</name>
 			<ini>0</ini>
 			<mod>-1/ 3</mod>
+			<at>0</at>
 			<pa>14</pa>
 			<bfmin>5</bfmin>
 			<bfakt>5</bfakt>
@@ -2486,6 +2512,7 @@
 			<name>Linkhand</name>
 			<ini>1</ini>
 			<mod>0 / 2</mod>
+			<at>0</at>
 			<pa>0</pa>
 			<bfmin>0</bfmin>
 			<bfakt>0</bfakt>
@@ -2692,6 +2719,7 @@
 				<name>Lederschild</name>
 				<ini>0</ini>
 				<mod>-1/ 3</mod>
+				<at>0</at>
 				<pa>14</pa>
 				<bfmin>5</bfmin>
 				<bfakt>5</bfakt>
@@ -2703,6 +2731,7 @@
 				<name>Linkhand</name>
 				<ini>1</ini>
 				<mod>0 / 2</mod>
+				<at>0</at>
 				<pa>0</pa>
 				<bfmin>0</bfmin>
 				<bfakt>0</bfakt>
@@ -2987,6 +3016,7 @@
 					<name>Lederschild</name>
 					<ini>0</ini>
 					<mod>-1/ 3</mod>
+					<at>0</at>
 					<pa>14</pa>
 					<bfmin>5</bfmin>
 					<bfakt>5</bfakt>
@@ -2998,6 +3028,7 @@
 					<name>Linkhand</name>
 					<ini>1</ini>
 					<mod>0 / 2</mod>
+					<at>0</at>
 					<pa>0</pa>
 					<bfmin>0</bfmin>
 					<bfakt>0</bfakt>
@@ -3191,6 +3222,7 @@
 					<name>Lederschild</name>
 					<ini>0</ini>
 					<mod>-1/ 3</mod>
+					<at>0</at>
 					<pa>14</pa>
 					<bfmin>5</bfmin>
 					<bfakt>5</bfakt>
@@ -3202,6 +3234,7 @@
 					<name>Linkhand</name>
 					<ini>1</ini>
 					<mod>0 / 2</mod>
+					<at>0</at>
 					<pa>0</pa>
 					<bfmin>0</bfmin>
 					<bfakt>0</bfakt>

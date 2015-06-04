@@ -303,7 +303,7 @@
 <value>Meisterhandwerk (Körperkraft, Ackerbau)</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 1">
-<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar),</value>
+<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG (Kommentar)),</value>
 </field>
 <field name="Sonderfertigkeiten (ausser Kampf) 2">
 <value>Dschungelkundig (Kommentar), Eiskundig (Kommentar),</value>
@@ -339,10 +339,10 @@
 <value>I (Amazonenrüstung (kompl), Leichte Platte), Wuchtschlag (Kommentar)</value>
 </field>
 <field name="Fernkampf (Sonderfertigkeiten) 1">
-<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Kommentar), Schnellladen</value>
+<value>Meisterschütze (Armbrust (Kommentar)), Scharfschütze (Armbrust (Kommentar)), Schnellladen</value>
 </field>
 <field name="Fernkampf (Sonderfertigkeiten) 2">
-<value>(Armbrust) (Kommentar) </value>
+<value>(Armbrust (Kommentar)) </value>
 </field>
 <field name="Waffenloser Kampf (Sonderfertigkeiten) 2">
 <value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), Block (Kommentar),</value>

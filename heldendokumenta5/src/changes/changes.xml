@@ -5,6 +5,10 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.6" date="04.06.2015" description="Helden-Software 5.5.0">
+			<action type="update" dev="mb">Getestet mit Helden-Software 5.5.0. Die Schnittstelle der Helden-Software hat sich geändert. Daher ist diese Version nicht voll kompatibel zu früheren Versionen der Helden-Software.</action>
+			<action type="update" dev="mb">Anpassungen bei den Kommentaren für Sonderfertigkeiten, Vorteilen, etc</action>
+		</release>
 		<release version="1.0.5" date="07.02.2015" description="Helden-Software 5.4.1">
 			<action type="update" dev="mb">Getestet mit Helden-Software 5.4.1. Die Schnittstelle der Helden-Software hat sich geändert. Daher ist diese Version nicht voll kompatibel zu früheren Versionen der Helden-Software.</action>
 			<action type="update" dev="mb">Anpassungen bei den Auswahlen der Vorteile, Nachteile, etc</action>

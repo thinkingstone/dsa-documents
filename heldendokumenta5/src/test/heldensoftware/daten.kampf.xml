@@ -321,7 +321,7 @@
 <value/>
 </field>
 <field name="Sonderfertigkeit1">
-<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG) (Kommentar), Dschungelkundig (Kommentar),</value>
+<value>Berufsgeheimnis (Abrichten; Ackerbau; HGFHGG (Kommentar)), Dschungelkundig (Kommentar),</value>
 </field>
 <field name="Sonderfertigkeit2">
 <value>Eiskundig (Kommentar), Gebirgskundig (Kommentar), Höhlenkundig (Kommentar), Kulturkunde</value>
@@ -339,10 +339,10 @@
 <value>Aufmerksamkeit (Kommentar), Finte (Kommentar), Meisterparade (Kommentar), Wuchtschlag (Kommentar)</value>
 </field>
 <field name="FK_Sonderfertigkeiten_2">
-<value>Meisterschütze (Armbrust) (Kommentar), Scharfschütze (Armbrust) (Kommentar), Schnellladen</value>
+<value>Meisterschütze (Armbrust (Kommentar)), Scharfschütze (Armbrust (Kommentar)), Schnellladen</value>
 </field>
 <field name="FK_Sonderfertigkeiten_3">
-<value>(Armbrust) (Kommentar)</value>
+<value>(Armbrust (Kommentar))</value>
 </field>
 <field name="Waffenlos_Sonderfertigkeiten_2">
 <value>Auspendeln (Kommentar), Beinarbeit (Kommentar), Biss (Kommentar), Block (Kommentar), Doppelschlag</value>
