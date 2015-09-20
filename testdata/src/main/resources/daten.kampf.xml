@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>04.06.2015</datum>
-		<uhrzeit>11:08</uhrzeit>
+		<datum>20.09.2015</datum>
+		<uhrzeit>08:57</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Mittelländische Städte/Städte mit wichtigem Tempel/Pilgerstätte</kultur>
 		<aspregeneration />
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050500</heldenversion>
+		<heldenversion>050501</heldenversion>
 		<wundschwelle>7</wundschwelle>
 		<rsgesamt deprecated="true">2</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -2432,6 +2432,7 @@
 		<nahkampfwaffe>
 			<nummer>1</nummer>
 			<möglich>true</möglich>
+			<bh>false</bh>
 			<name>Dolch</name>
 			<spalte2>Do/BE-1</spalte2>
 			<dk>H </dk>
@@ -2452,6 +2453,7 @@
 		<nahkampfwaffe>
 			<nummer>2</nummer>
 			<möglich>true</möglich>
+			<bh>false</bh>
 			<name>Rapier</name>
 			<spalte2>Fe/BE-1</spalte2>
 			<dk>N </dk>
@@ -2651,6 +2653,7 @@
 			<nahkampfwaffe>
 				<nummer>1</nummer>
 				<möglich>true</möglich>
+				<bh>false</bh>
 				<name>Dolch</name>
 				<spalte2>Do/BE-1</spalte2>
 				<dk>H </dk>
@@ -2671,6 +2674,7 @@
 			<nahkampfwaffe>
 				<nummer>2</nummer>
 				<möglich>true</möglich>
+				<bh>false</bh>
 				<name>Rapier</name>
 				<spalte2>Fe/BE-1</spalte2>
 				<dk>N </dk>
@@ -2948,6 +2952,7 @@
 				<nahkampfwaffe>
 					<nummer>1</nummer>
 					<möglich>true</möglich>
+					<bh>false</bh>
 					<name>Dolch</name>
 					<spalte2>Do/BE-1</spalte2>
 					<dk>H </dk>
@@ -2968,6 +2973,7 @@
 				<nahkampfwaffe>
 					<nummer>2</nummer>
 					<möglich>true</möglich>
+					<bh>false</bh>
 					<name>Rapier</name>
 					<spalte2>Fe/BE-1</spalte2>
 					<dk>N </dk>
@@ -3154,6 +3160,7 @@
 				<nahkampfwaffe>
 					<nummer>1</nummer>
 					<möglich>true</möglich>
+					<bh>false</bh>
 					<name>Dolch</name>
 					<spalte2>Do/BE-1</spalte2>
 					<dk>H </dk>
@@ -3174,6 +3181,7 @@
 				<nahkampfwaffe>
 					<nummer>2</nummer>
 					<möglich>true</möglich>
+					<bh>false</bh>
 					<name>Rapier</name>
 					<spalte2>Fe/BE-1</spalte2>
 					<dk>N </dk>

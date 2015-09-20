@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.5.0">
+<helden Version="5.5.1">
 	<held key="1324972419780" name="Kampf" stand="1371299096813">
 		<mods />
 		<basis>
@@ -444,10 +444,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>biQfeimlgsZqUpbQ/Pu2CZ4WNyc=</DigestValue>
+				<DigestValue>TY2AYrYkSVJPH3INpSoj/6aEivU=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>DOkrX+wspjmPyzgXEZR5OQp6YkYj1mF4PSBmlo6grtGSPeiBTn1Q/A==</SignatureValue>
+		<SignatureValue>FJc4OQlRm1ILst8e1E9MSYRPySqPXfQWwLWdH3r4mgN/m4sAGBlOzw==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

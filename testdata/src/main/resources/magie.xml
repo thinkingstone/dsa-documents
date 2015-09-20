@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.5.0">
+<helden Version="5.5.1">
 	<held key="1324993253645" name="Magie" stand="1419935103695">
 		<mods />
 		<basis>
@@ -420,10 +420,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>+hxfcVeBmbf7KHBBBwR63NOo1C0=</DigestValue>
+				<DigestValue>obVt+EPUZpSd4cn/RIYFfTMKcJE=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>CTRJI/SBjRdBT4dLEqZ+oToiceNakwTaZuyyC6A9AvH369rsQhY5Wg==</SignatureValue>
+		<SignatureValue>P2SvuVXke30rncYp/288xp2FWD1lQGCKqoqwBW9Kwp3yqG95Nuzcfw==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
