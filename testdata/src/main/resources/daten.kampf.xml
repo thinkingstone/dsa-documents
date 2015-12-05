@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>20.09.2015</datum>
-		<uhrzeit>08:57</uhrzeit>
+		<datum>05.12.2015</datum>
+		<uhrzeit>13:35</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -362,6 +362,33 @@
 			<wert>1500</wert>
 			<istschlechteeigenschaft>false</istschlechteeigenschaft>
 			<bereich>Sonst</bereich>
+		</vorteil>
+		<vorteil>
+			<bezeichner>Weltfremd bzgl.</bezeichner>
+			<name>Weltfremd bzgl. (Feudalsystem 1, Lehensherrschaft 2, Städtisches Leben 3)</name>
+			<kommentar>Kommentar, Kommentar, Kommentar</kommentar>
+			<namemitkommentar>Weltfremd bzgl. (Feudalsystem 1, Lehensherrschaft 2, Städtisches Leben 3) (Kommentar, Kommentar, Kommentar)</namemitkommentar>
+			<istvorteil>false</istvorteil>
+			<istnachteil>true</istnachteil>
+			<istschlechteeigenschaft>true</istschlechteeigenschaft>
+			<bereich>Sonst</bereich>
+			<auswahlen>
+				<auswahl>
+					<name>Feudalsystem</name>
+					<wert>1</wert>
+					<kommentar>Kommentar</kommentar>
+				</auswahl>
+				<auswahl>
+					<name>Lehensherrschaft</name>
+					<wert>2</wert>
+					<kommentar>Kommentar</kommentar>
+				</auswahl>
+				<auswahl>
+					<name>Städtisches Leben</name>
+					<wert>3</wert>
+					<kommentar>Kommentar</kommentar>
+				</auswahl>
+			</auswahlen>
 		</vorteil>
 	</vorteile>
 	<sonderfertigkeiten>
