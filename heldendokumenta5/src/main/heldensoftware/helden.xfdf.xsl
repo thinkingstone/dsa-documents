@@ -843,7 +843,7 @@
 			<xsl:with-param name="indexmax" select="9" />
 		</xsl:call-template>
 	</xsl:template>
-	<xsl:template match="/daten/vorteile/vorteil" mode="schlechteeigenschaft">
+	<xsl:template match="/daten/vorteile/vorteil[count(auswahlen/auswahl) = 0]" mode="schlechteeigenschaft">
 		<xsl:variable name="POS" select="position()" />
 		<field name="SchlechteEigenschaft{$POS}">
 			<value>
@@ -862,16 +862,41 @@
 			</value>
 		</field>
 	</xsl:template>
+	<xsl:template match="/daten/vorteile/vorteil[count(auswahlen/auswahl) > 0]" mode="schlechteeigenschaft">
+		<xsl:variable name="POS" select="position()" />
+		<field name="SchlechteEigenschaft{$POS}">
+			<value>
+				<xsl:value-of select="normalize-space(bezeichner)" />
+				<xsl:if test="count(auswahlen/auswahl) > 0">
+					<xsl:text> </xsl:text>
+					<xsl:apply-templates select="auswahlen" />
+				</xsl:if>
+			</value>
+		</field>
+		<field name="SchlechteEigenschaft_akt{$POS}">
+			<value>
+				<xsl:value-of select="wert" />
+			</value>
+		</field>
+	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil" mode="vorteil">
 		<xsl:variable name="POS" select="position() + 1" />
 		<field name="Vorteil{$POS}">
 			<value>
-				<xsl:value-of select="normalize-space(name)" />
+				<xsl:value-of select="normalize-space(bezeichner)" />
+				<xsl:if test="string-length(wert) > 0">
+					<xsl:text>: </xsl:text>
+					<xsl:value-of select="wert" />
+				</xsl:if>
 				<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 					<xsl:text> </xsl:text>
 					<xsl:text>(</xsl:text>
 					<xsl:value-of select="kommentar" />
 					<xsl:text>)</xsl:text>
+				</xsl:if>
+				<xsl:if test="count(auswahlen/auswahl) > 0">
+					<xsl:text> </xsl:text>
+					<xsl:apply-templates select="auswahlen" />
 				</xsl:if>
 			</value>
 		</field>
@@ -880,12 +905,20 @@
 		<xsl:variable name="POS" select="position() + 1" />
 		<field name="Nachteil{$POS}">
 			<value>
-				<xsl:value-of select="normalize-space(name)" />
+				<xsl:value-of select="normalize-space(bezeichner)" />
+				<xsl:if test="string-length(wert) > 0">
+					<xsl:text>: </xsl:text>
+					<xsl:value-of select="wert" />
+				</xsl:if>
 				<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 					<xsl:text> </xsl:text>
 					<xsl:text>(</xsl:text>
 					<xsl:value-of select="kommentar" />
 					<xsl:text>)</xsl:text>
+				</xsl:if>
+				<xsl:if test="count(auswahlen/auswahl) > 0">
+					<xsl:text> </xsl:text>
+					<xsl:apply-templates select="auswahlen" />
 				</xsl:if>
 			</value>
 		</field>
@@ -900,7 +933,15 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="/daten/vorteile/vorteil">
-		<xsl:value-of select="normalize-space(name)" />
+		<xsl:value-of select="normalize-space(bezeichner)" />
+		<xsl:if test="string-length(wert) > 0">
+			<xsl:text>: </xsl:text>
+			<xsl:value-of select="wert" />
+		</xsl:if>
+		<xsl:if test="count(auswahlen/auswahl) > 0">
+			<xsl:text> </xsl:text>
+			<xsl:apply-templates select="auswahlen" />
+		</xsl:if>
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 			<xsl:text> </xsl:text>
 			<xsl:text>(</xsl:text>
@@ -1034,6 +1075,10 @@
 	</xsl:template>
 	<xsl:template match="auswahlen/auswahl">
 		<xsl:value-of select="name" />
+		<xsl:if test="string-length(wert) > 0">
+			<xsl:text>: </xsl:text>
+			<xsl:value-of select="wert" />
+		</xsl:if>
 		<xsl:if test="$includeKommentare = 'true' and string-length(kommentar) > 0">
 			<xsl:text> </xsl:text>
 			<xsl:text>(</xsl:text>

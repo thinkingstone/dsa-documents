@@ -302,6 +302,12 @@
 <field name="SchlechteEigenschaft_akt2">
 <value>5</value>
 </field>
+<field name="SchlechteEigenschaft3">
+<value>Weltfremd bzgl. Feudalsystem: 1 (Kommentar), Lehensherrschaft: 2 (Kommentar), Städtisches Leben: 3 (Kommentar)</value>
+</field>
+<field name="SchlechteEigenschaft_akt3">
+<value/>
+</field>
 <field name="Begabungen">
 <value/>
 </field>
@@ -309,7 +315,7 @@
 <value/>
 </field>
 <field name="MagVorteileNachteile_2">
-<value>Meisterhandwerk (Körperkraft, Ackerbau)</value>
+<value>Meisterhandwerk Ackerbau, Körperkraft</value>
 </field>
 <field name="MagSonderfertigkeiten_2">
 <value/>
