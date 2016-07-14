@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.5.1">
+<helden Version="5.5.2">
 	<held key="1324993253645" name="Magie" stand="1419935103695">
 		<mods />
 		<basis>
@@ -88,11 +88,11 @@
 				<talent name="Stäbe" />
 				<spezialisierung name="Magierstab als Stab" />
 			</sonderfertigkeit>
-			<sonderfertigkeit name="Zauberspezialisierung Aeolitus Windgebraus [Magier] [Magier] (Langer Atem)">
+			<sonderfertigkeit name="Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)">
 				<zauber name="Aeolitus Windgebraus" repraesentation="Magier" variante="" />
 				<spezialisierung name="Langer Atem" />
 			</sonderfertigkeit>
-			<sonderfertigkeit name="Zauberspezialisierung Dschinnenruf [Magier] [Magier] (Kosten)">
+			<sonderfertigkeit name="Zauberspezialisierung Dschinnenruf [Magier] (Kosten)">
 				<zauber name="Dschinnenruf" repraesentation="Magier" variante="" />
 				<spezialisierung name="Kosten" />
 			</sonderfertigkeit>
@@ -420,10 +420,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>obVt+EPUZpSd4cn/RIYFfTMKcJE=</DigestValue>
+				<DigestValue>wecdAIm4yemcgCJWcL/dAgnIiNw=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>P2SvuVXke30rncYp/288xp2FWD1lQGCKqoqwBW9Kwp3yqG95Nuzcfw==</SignatureValue>
+		<SignatureValue>bctVWYReHxFyaDvaP+0Jv9XNSVSPX2WmsT3ux/xC1srUkQjzPUvvFA==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>

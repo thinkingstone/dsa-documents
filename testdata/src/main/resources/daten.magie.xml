@@ -2,8 +2,8 @@
 <daten>
 	<config>
 		<rsmodell>zone</rsmodell>
-		<datum>20.09.2015</datum>
-		<uhrzeit>08:58</uhrzeit>
+		<datum>14.07.2016</datum>
+		<uhrzeit>18:22</uhrzeit>
 		<geldkreise>false</geldkreise>
 		<metatalente>true</metatalente>
 		<zauberquellen>true</zauberquellen>
@@ -88,7 +88,7 @@
 		<kultur>Horasreich</kultur>
 		<aspregeneration>1W6+3</aspregeneration>
 		<leregeneration>1W6</leregeneration>
-		<heldenversion>050501</heldenversion>
+		<heldenversion>050502</heldenversion>
 		<wundschwelle>5</wundschwelle>
 		<rsgesamt deprecated="true">0</rsgesamt>
 		<rsbe deprecated="true">0</rsbe>
@@ -704,29 +704,29 @@
 			<bereich>Talentspezialisierung</bereich>
 		</sonderfertigkeit>
 		<sonderfertigkeit>
-			<nameausfuehrlich>Zauberspezialisierung Aeolitus Windgebraus [Magier] [Magier] (Langer Atem)</nameausfuehrlich>
-			<name>Zauberspezialisierung Aeolitus Windgebraus [Magier] [Magier] (Langer Atem)</name>
-			<bezeichner>Zauberspezialisierung Aeolitus Windgebraus [Magier] [Magier] (Langer Atem)</bezeichner>
+			<nameausfuehrlich>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</nameausfuehrlich>
+			<name>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</name>
+			<bezeichner>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem)</bezeichner>
 			<wirkung />
 			<dauer />
 			<kosten />
 			<probe />
-			<kommentar />
-			<namemitkommentar>Zauberspezialisierung Aeolitus Windgebraus [Magier] [Magier] (Langer Atem)</namemitkommentar>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Zauberspezialisierung Aeolitus Windgebraus [Magier] (Langer Atem) (Kommentar)</namemitkommentar>
 			<bereich>Talentspezialisierung</bereich>
 			<bereich>Magisch</bereich>
 			<bereich>SonstMagisch</bereich>
 		</sonderfertigkeit>
 		<sonderfertigkeit>
-			<nameausfuehrlich>Zauberspezialisierung Dschinnenruf [Magier] [Magier] (Kosten)</nameausfuehrlich>
-			<name>Zauberspezialisierung Dschinnenruf [Magier] [Magier] (Kosten)</name>
-			<bezeichner>Zauberspezialisierung Dschinnenruf [Magier] [Magier] (Kosten)</bezeichner>
+			<nameausfuehrlich>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</nameausfuehrlich>
+			<name>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</name>
+			<bezeichner>Zauberspezialisierung Dschinnenruf [Magier] (Kosten)</bezeichner>
 			<wirkung />
 			<dauer />
 			<kosten />
 			<probe />
-			<kommentar />
-			<namemitkommentar>Zauberspezialisierung Dschinnenruf [Magier] [Magier] (Kosten)</namemitkommentar>
+			<kommentar>Kommentar</kommentar>
+			<namemitkommentar>Zauberspezialisierung Dschinnenruf [Magier] (Kosten) (Kommentar)</namemitkommentar>
 			<bereich>Talentspezialisierung</bereich>
 			<bereich>Magisch</bereich>
 			<bereich>SonstMagisch</bereich>

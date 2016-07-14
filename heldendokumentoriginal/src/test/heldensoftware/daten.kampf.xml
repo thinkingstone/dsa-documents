@@ -291,7 +291,10 @@
 <value>Adlige Abstammung (Kommentar), Arroganz: 5 (Kommentar), Eitelkeit: 5 (Kommentar), Prinzipientreue: 10</value>
 </field>
 <field name="Vorteile &amp; Nachteile 2">
-<value>(Kommentar), Schulden: 1500 (Kommentar)</value>
+<value>(Kommentar), Schulden: 1500 (Kommentar), Weltfremd bzgl. (Feudalsystem 1, Lehensherrschaft 2, Städtisches</value>
+</field>
+<field name="Vorteile &amp; Nachteile 3">
+<value>Leben 3) (Kommentar, Kommentar, Kommentar)</value>
 </field>
 <field name="Begabungen">
 <value/>

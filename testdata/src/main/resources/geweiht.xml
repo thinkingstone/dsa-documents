@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-stylesheet type="text/xsl" href="helden.xsl"?>
-<helden Version="5.5.1">
+<helden Version="5.5.2">
 	<held key="1325171725653" name="Geweiht" stand="1371299078905">
 		<mods />
 		<basis>
@@ -484,10 +484,10 @@
 					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
 				</Transforms>
 				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-				<DigestValue>Ht6CJwx0qUV+2odoaGUFO6Vuqec=</DigestValue>
+				<DigestValue>bfsAid+JHuOG1SG7DPd1EgTV3iA=</DigestValue>
 			</Reference>
 		</SignedInfo>
-		<SignatureValue>iXDseMLo4zCVtn2b8U+pndYbb5VpqSI/ocjnoRbw308xnQ0f6mFuNg==</SignatureValue>
+		<SignatureValue>kPKtwMlP5ileGPHZOeMAn/oqVhqBPkcqhdjhgj/ySYE4z5Ab1lltmw==</SignatureValue>
 		<KeyInfo>
 			<KeyValue>
 				<DSAKeyValue>
