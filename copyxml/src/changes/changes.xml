@@ -5,6 +5,9 @@
 		<author>Michael Binder</author>
 	</properties>
 	<body>
+		<release version="1.0.4" date="16.07.2016" description="Helden-Software 5.5.2">
+			<action type="add" dev="mb">Getestet mit Helden-Software 5.5.2</action>
+		</release>
 		<release version="1.0.3" date="07.02.2015" description="Helden-Software 5.4.1">
 			<action type="add" dev="mb">Getestet mit Helden-Software 5.4.1</action>
 		</release>
