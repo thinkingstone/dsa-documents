@@ -3,10 +3,10 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.4-SNAPSHOT</version>
+		<version>1.0.4</version>
 	</parent>
 	<artifactId>copyxml</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.4</version>
 	<packaging>jar</packaging>
 	<name>CopyXML Heldenbogen-Erweiterung für die Helden-Software</name>
 	<description>CopyXML ist eine Erweiterung für das Heldenbogen-Plugin (http://wiki.helden-software.de/wiki/Erweiterungen/Heldenbogen) der  Helden-Software (http://www.helden-software.de/). Diese Erweiterung ermöglicht es das im Heldenbogen-Plugin genutzte Heldendaten XML-Format zu speichern.</description>
@@ -69,13 +69,13 @@
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testutils</artifactId>
-			<version>1.0.4-SNAPSHOT</version>
+			<version>1.0.4</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testdata</artifactId>
-			<version>1.0.4-SNAPSHOT</version>
+			<version>1.0.4</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
