@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.4-SNAPSHOT</version>
+		<version>1.0.5-SNAPSHOT</version>
 	</parent>
 	<artifactId>tierdokumenta4</artifactId>
 	<version>1.0.6-SNAPSHOT</version>
@@ -86,19 +86,19 @@
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testutils</artifactId>
-			<version>1.0.4-SNAPSHOT</version>
+			<version>1.0.5-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.dsa</groupId>
 			<artifactId>testdata</artifactId>
-			<version>1.0.4-SNAPSHOT</version>
+			<version>1.0.5-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.thinkingstone.pdf</groupId>
 			<artifactId>pdftoolkit</artifactId>
-			<version>1.0.4-SNAPSHOT</version>
+			<version>1.0.5-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
