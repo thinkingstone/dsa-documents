@@ -3,11 +3,11 @@
 	<parent>
 		<groupId>de.thinkingstone.dsa</groupId>
 		<artifactId>dsa-documents</artifactId>
-		<version>1.0.4</version>
+		<version>1.0.5-SNAPSHOT</version>
 	</parent>
 	<groupId>de.thinkingstone.pdf</groupId>
 	<artifactId>pdftoolkit</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5-SNAPSHOT</version>
 	<name>PDF Werkzeuge für DSA Dokumente</name>
 	<description>Das PDF Toolkit dient als Werkzeugkasten für die Bearbeitung und Erstellung von PDFs. </description>
 	<build>
