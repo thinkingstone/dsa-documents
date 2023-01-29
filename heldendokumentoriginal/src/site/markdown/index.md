@@ -1,6 +1,6 @@
 # Übersicht
 
-Die [Helden-Software](http://www.helden-software.de/) ist ein wunderbares Hilfsmittel um [Das Schwarze Auge](http://www.dasschwarzeauge.de/) Charaktere zu erstellen und zu verwalten. 
+Die [Helden-Software](https://www.helden-software.de/) ist ein wunderbares Hilfsmittel um [Das Schwarze Auge](https://ulisses-spiele.de/game-system/das-schwarze-auge/) Charaktere zu erstellen und zu verwalten. 
 Eine Übertragung in das offizielle Heldendokument ist jetzt mit der Original DSA Heldendokument Erweiterung möglich.
 
 ## Funktionen 

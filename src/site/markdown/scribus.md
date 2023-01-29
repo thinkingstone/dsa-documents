@@ -13,7 +13,7 @@ Dies schlägt bei OpenType Schriften fehl, da ein erneutes Öffnen des PDFs zu d
 Genutzte Schriftarten:
 
 * Mason Regular & Bold
-* Linux Libertine Regular & Bold: [Linux Libertine Webseite](http://www.linuxlibertine.org)
+* Linux Libertine Regular & Bold: [Linux Libertine Webseite](https://www.linuxlibertine.org)
 
 ### Skripte
 

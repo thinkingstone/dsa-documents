@@ -6,7 +6,7 @@ Michael Binder <mb@thinkingstone.de>
 Diese Aventurien-Karte wurde von mir unter der folgenden Lizenz der Firma Ulisses-Spiele GmbH erstellt. Wenn ihr mit der Karte arbeitet, so achtet auf die Bedingungen dieser Lizenz mit der Ulisses uns Fans dankenswerter Weise den Zugang zu diesem Kartenmaterial ermöglicht hat!
 Thorsten Most aka Salaza Lautenspieler, 20.09.2011
 -------
-[Ulisses Medien und Spiel Distribution GmbH Lizenz zu Fan- und Kartenpaket](http://www.ulisses-spiele.de/sortiment/rollenspiele/das-schwarze-auge/informationen-zu-das-schwarze-auge/fan-und-kartenpaket/gebrauchsanleitung/)
+[Ulisses Medien und Spiel Distribution GmbH Lizenz zu Fan- und Kartenpaket](https://de.wiki-aventurica.de/wiki/Kartenpaket/Lizenz)
 
 # Lizenzvereinbarung
 

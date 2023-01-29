@@ -4,13 +4,13 @@
 
 Folgende Werkzeuge werden zur Entwicklung benötigt:
 
-* [Scribus](http://www.scribus.net/) 1.4.3 
+* [Scribus](https://www.scribus.net/) 1.4.3 
 * thinkingstone.de [PdfToolkit](https://github.com/thinkingstone/dsa-documents/tree/master/pdftoolkit)
-* [Eclipse](http://www.eclipse.org) 4.3.1
+* [Eclipse](https://www.eclipse.org) 4.3.1
 * [Maven](https://maven.apache.org/) 3.0.4
-* [Git](http://git-scm.com/) 1.7.9.5
-* [Imagemagick](http://www.imagemagick.org) 6.6.9 für die Thumbnails
-* [XFDF Format Spec](http://partners.adobe.com/public/developer/en/xml/XFDF_Spec_3.0.pdf)
+* [Git](https://git-scm.com/) 1.7.9.5
+* [Imagemagick](https://www.imagemagick.org) 6.6.9 für die Thumbnails
+* [XFDF Format Spec](https://partners.adobe.com/public/developer/en/xml/XFDF_Spec_3.0.pdf)
 
 
 ---

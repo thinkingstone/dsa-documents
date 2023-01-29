@@ -15,4 +15,4 @@ Wenn Aktionen umgewandelt werden, dann können diese ebenfalls markiert werden.
 
 ## Download
 
-Auf der [Webseite](http://thinkingstone.github.io/dsa-documents/initiative/) stehen die aktuellen Versionen zum [Download](http://thinkingstone.github.io/dsa-documents/initiative/download.html) bereit. 
+Auf der [Webseite](https://thinkingstone.github.io/dsa-documents/initiative/) stehen die aktuellen Versionen zum [Download](https://thinkingstone.github.io/dsa-documents/initiative/download.html) bereit. 

@@ -97,8 +97,8 @@
 				<artifactId>wagon-maven-plugin</artifactId>
 				<version>1.0-beta-3</version>
 				<configuration>
-					<url>http://www.ulisses-spiele.de</url>
-					<fromFile>download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf</fromFile>
+					<url>https://ulisses-spiele.de</url>
+					<fromFile>assets/document/F9/Wege-der-Helden_Heldendokument-edit_20b4.pdf</fromFile>
 					<toDir>src/intermediate/document</toDir>
 				</configuration>
 				<executions>

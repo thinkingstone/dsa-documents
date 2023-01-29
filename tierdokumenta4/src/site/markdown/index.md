@@ -1,8 +1,8 @@
 # Übersicht
 
-Das Vertrauten- und Begleiter-Dokument ist ein ausfüllbares PDF im A4 Format für [Das Schwarze Auge](http://www.dasschwarzeauge.de/). 
+Das Vertrauten- und Begleiter-Dokument ist ein ausfüllbares PDF im A4 Format für [Das Schwarze Auge](https://ulisses-spiele.de/game-system/das-schwarze-auge/). 
 In dem Dokument können die Daten eines Vertrauten und Begleiters eingetragen werden. 
-Außerdem können die Daten eines Tieres aus der [Helden-Software](http://www.helden-software.de/) exportiert werden. 
+Außerdem können die Daten eines Tieres aus der [Helden-Software](https://www.helden-software.de/) exportiert werden. 
 
 ## Funktionen 
 

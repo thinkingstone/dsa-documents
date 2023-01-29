@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <seiten debug="false" style="FormularPDFviaXSLT">
 	<neededfiles filename="Wege-der-Helden_Heldendokument-edit_20b4.pdf"
-		url="http://www.ulisses-spiele.de/download/559/Wege-der-Helden_Heldendokument-edit_20b4.pdf" />
+		url="https://ulisses-spiele.de/assets/document/F9/Wege-der-Helden_Heldendokument-edit_20b4.pdf" />
 	<options>
 		<option type="boolean" name="includeGegenstaende" label="Gegenstände einfügen" defaultvalue="true"/>
 		<option type="boolean" name="includeGegenstandAnzahl" label="Gegenstände Anzahl einfügen" defaultvalue="true"/>
