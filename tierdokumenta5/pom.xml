@@ -10,13 +10,6 @@
 	<packaging>jar</packaging>
 	<name>DSA Tierdokument A5</name>
 	<description>Das Vertrauten- und Begleiter-Dokument ist ein ausfüllbares PDF im A5 Format für Das Schwarze Auge (http://www.dasschwarzeauge.de/). In dem Dokument können die Daten eines Vertrauten und Begleiters eingetragen werden. Außerdem können die Daten eines Tieres aus der Helden-Software (http://www.helden-software.de/) exportiert werden.</description>
-	<distributionManagement>
-		<site>
-			<id>github-pages-site</id>
-			<name>Deployment through GitHub's site deployment plugin</name>
-			<url>${project.artifactId}</url>
-		</site>
-	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>

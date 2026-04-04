@@ -55,7 +55,7 @@
 		<site>
 			<id>github-pages-site</id>
 			<name>Deployment through GitHub's site deployment plugin</name>
-			<url />
+			<url>https://thinkingstone.github.io/dsa-documents/</url>
 		</site>
 	</distributionManagement>
 	<properties>
