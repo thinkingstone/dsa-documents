@@ -16,4 +16,4 @@ Die [Projekt Webseiten](https://thinkingstone.github.io/dsa-documents/index.html
 Download Releases
 =================
 
-Die Releases stehen auf [Bintray](https://bintray.com/thinkingstone/dsa-documents) zum Download bereit.
+Die Releases stehen auf [Orkenspalter](https://www.orkenspalter.de/) zum Download bereit.

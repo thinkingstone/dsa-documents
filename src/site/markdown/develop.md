@@ -39,15 +39,6 @@ Releases werden mit Maven durchgeführt.
 ### einmalige Vorbereitung
 
 1. Die SCM developer connection benutzt das SSH Protokoll. Auf Github muss daher der SSH Key eingerichtet sein.
-2. In die settings.xml müssen die bintray credentials eingetragen werden. Die Bintray REST API benötigt API keys!:
-
-```xml
-<server>
-  <id>bintray</id>
-  <username>(bintray-user)</username>
-  <password>(bintray-api-key)</password>
-</server>
-```
 
 ### Release durchführen
 
@@ -70,6 +61,3 @@ Es muss eine lokale Maven Installation genutzt werden. Das Eclipse embedded Mave
     ```
     mvn release:perform
     ```
-
-5. Bintray: Publish der neuen Version: 
-   Auf Bintray einloggen und im "dsa-documents" Repository die Dateien freigeben.

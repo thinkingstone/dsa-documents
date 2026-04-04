@@ -52,11 +52,6 @@
 		<system>GitHub</system>
 	</issueManagement>
 	<distributionManagement>
-		<repository>
-			<id>bintray</id>
-			<name>Bintray</name>
-			<url>https://api.bintray.com/maven/thinkingstone/dsa-documents/${project.artifactId}</url>
-		</repository>
 		<site>
 			<id>github-pages-site</id>
 			<name>Deployment through GitHub's site deployment plugin</name>
@@ -115,7 +110,7 @@
 						<releaseDateFormat>dd.MM.yyyy</releaseDateFormat>
 						<template>announcement.vm</template>
 						<templateDirectory>announcements</templateDirectory>
-						<urlDownload>http://dl.bintray.com/thinkingstone/dsa-documents/de/thinkingstone/dsa/${project.artifactId}/${project.version}/${project.build.finalName}.zip</urlDownload>
+						<urlDownload></urlDownload>
 					</configuration>
 					<executions>
 						<execution>

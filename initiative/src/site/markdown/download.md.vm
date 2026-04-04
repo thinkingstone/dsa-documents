@@ -5,16 +5,14 @@
 
 $h1 Download
 
-Alle Downloads liegen auf [Bintray](https://bintray.com/thinkingstone/dsa-documents/${project.artifactId}).
+Alle Downloads liegen auf [Orkenspalter](https://www.orkenspalter.de/filebase/index.php?file/72-dsa-initiative-rundenz%C3%A4hler/).
 
 $h2 Aktuelle Version
 
-Aktuelle Version ist ${project.version}.
-
-<a class="btn btn-primary" href="https://dl.bintray.com/thinkingstone/dsa-documents/de/thinkingstone/dsa/${project.artifactId}/${project.version}/${project.build.finalName}.zip">Download Version ${project.version}</a>
+<a class="btn btn-primary" href="https://www.orkenspalter.de/filebase/index.php?file/72-dsa-initiative-rundenz%C3%A4hler/">Download</a>
 
 ---
 
 $h2 Ältere Versionen
 
-[Ältere Versionen](https://bintray.com/thinkingstone/dsa-documents/${project.artifactId}) können auf [Bintray](https://bintray.com/thinkingstone/dsa-documents/${project.artifactId}) heruntergeladen werden. 
+Ältere Versionen können auf [Orkenspalter](https://www.orkenspalter.de/filebase/index.php?file/72-dsa-initiative-rundenz%C3%A4hler/) heruntergeladen werden.
